@@ -124,6 +124,8 @@ const nextConfig: NextConfig = {
             value:
               "public, max-age=3600, s-maxage=86400, stale-while-revalidate=3600",
           },
+          // Explicit MIME type — prevents any proxy/CDN from guessing
+          { key: "Content-Type", value: "text/plain; charset=utf-8" },
         ],
       },
       {
