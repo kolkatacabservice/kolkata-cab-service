@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:cf": "node scripts/split-routes.js && next build && opennextjs-cloudflare build",
+    "build:cf": "node scripts/split-routes.js && next build && opennextjs-cloudflare build && node scripts/copy-cache.js",
+
+
+
     "start": "next start",
     "lint": "eslint",
     "routes:split": "node scripts/split-routes.js",
@@ -16,9 +19,9 @@
   "dependencies": {
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.7.0",
-    "next": "16.2.1",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "next": "15",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
     "@opennextjs/cloudflare": "latest",

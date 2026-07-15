@@ -1,11 +1,8 @@
 import type { OpenNextConfig } from "@opennextjs/cloudflare";
+import staticAssetsIncrementalCache from "@opennextjs/cloudflare/overrides/incremental-cache/static-assets-incremental-cache";
 
 /**
  * open-next.config.ts — Required configuration for @opennextjs/cloudflare.
- *
- * All fields below are required by the OpenNext Cloudflare validator.
- * Using "dummy" caches means no KV setup needed — Cloudflare's HTTP cache
- * (configured via s-maxage headers + Cache Rules) handles edge caching instead.
  */
 const config: OpenNextConfig = {
   default: {
@@ -13,7 +10,7 @@ const config: OpenNextConfig = {
       wrapper: "cloudflare-node",
       converter: "edge",
       proxyExternalRequest: "fetch",
-      incrementalCache: "dummy",
+      incrementalCache: () => staticAssetsIncrementalCache,
       tagCache: "dummy",
       queue: "dummy",
     },
@@ -28,7 +25,7 @@ const config: OpenNextConfig = {
       wrapper: "cloudflare-edge",
       converter: "edge",
       proxyExternalRequest: "fetch",
-      incrementalCache: "dummy",
+      incrementalCache: () => staticAssetsIncrementalCache,
       tagCache: "dummy",
       queue: "dummy",
     },
@@ -36,3 +33,4 @@ const config: OpenNextConfig = {
 };
 
 export default config;
+

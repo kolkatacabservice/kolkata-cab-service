@@ -14,10 +14,10 @@ import { getRoute } from '@/lib/routeData';
 import { getStaticVehicleRouteSlugs } from '@/lib/routeDataStatic';
 import { generateVehicleRouteMetadata, generateVehicleRouteSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
-// true = ALL route/vehicle combos work (generates on first request via CF Workers edge SSR)
+// true = ALL route/vehicle combos work (SSR on first request via CF Workers)
 export const dynamicParams = true;
-// Rely on Cloudflare Cache Rules for caching — not Vercel ISR
-export const revalidate = false;
+// force-dynamic: skip ISR, avoid NoFallbackError with dummy cache
+export const dynamic = 'force-dynamic';
 
 // Pre-build only the top 20 hub route × vehicle combos at build time.
 // 20 routes × 4 vehicles = 80 files — well within the CF Pages limit.

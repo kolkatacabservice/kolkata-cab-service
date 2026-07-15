@@ -1,14 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  reactCompiler: true,
-  // OpenNext for Cloudflare handles the Workers output — no "output: export" needed.
-  // The @opennextjs/cloudflare build command transforms next build output automatically.
-
   // Ensure consistent URLs — no trailing slashes
   trailingSlash: false,
 
-  // ── Image optimization ──
+
   // `sharp` is NOT supported in Cloudflare Workers runtime.
   // Use unoptimized: true so Next.js skips server-side image processing.
   // Images are served as static assets; use Cloudflare Images for on-the-fly transforms.

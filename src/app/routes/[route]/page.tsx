@@ -18,11 +18,11 @@ import { generateRouteMetadata, generateFaqSchema, generateBreadcrumbSchema, gen
 import { generateRoutePageContent } from '@/lib/routeContent';
 import { formatBoldText, parseParagraphsWithBold } from '@/lib/textHelper';
 
-// true = ALL route slugs work (generates on first request via CF Workers edge SSR)
+// true = ALL route slugs work (SSR on first request via CF Workers)
 export const dynamicParams = true;
-// Do NOT use Vercel ISR here — rely on Cloudflare Cache Rules (s-maxage=2592000)
-// set in next.config.ts headers for /routes/* paths.
-export const revalidate = false;
+// force-dynamic: skip ISR entirely — no NoFallbackError with dummy cache.
+// Cloudflare Cache-Control headers (s-maxage=2592000) handle edge caching.
+export const dynamic = 'force-dynamic';
 
 // Pre-build the top 200 most critical hub routes at build time.
 // ALL other 13,600+ routes render on first request via Cloudflare Workers edge SSR
