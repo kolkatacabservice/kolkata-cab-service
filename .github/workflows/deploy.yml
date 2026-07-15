@@ -1,9 +1,12 @@
 name: Deploy to Cloudflare Workers
 
 on:
-  push:
-    branches: [main]
-  workflow_dispatch: # Allow manual triggers
+  # Auto-deploy disabled until CF_API_TOKEN secret is configured in GitHub repo settings.
+  # To enable: add CF_API_TOKEN (Cloudflare API token) and CF_ACCOUNT_ID to GitHub Secrets,
+  # then uncomment the push trigger below.
+  # push:
+  #   branches: [main]
+  workflow_dispatch: # Only manual trigger for now
 
 jobs:
   deploy:
