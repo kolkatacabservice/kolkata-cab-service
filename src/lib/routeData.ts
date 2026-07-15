@@ -143,45 +143,46 @@ export async function getHighPriorityRoutes(): Promise<Route[]> {
 
 
 
-export async function getLinkedRouteSlugs(): Promise<string[]> {
-  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
-  const seen = new Set<string>();
+// ─── Pre-computed linked slugs (computed ONCE at module load) ─────────────────
+// Sitemaps 5 & 6 call these — pre-computing avoids O(n) timeout on cold fetch.
+const _hubSlugsLinked = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
+const _seenLinked = new Set<string>();
 
-  ALL_ROUTES.forEach(r => {
-    if (r.distance <= 250 || hubSlugs.has(r.from) || hubSlugs.has(r.to)) {
-      seen.add(r.slug);
-    }
-  });
-
-  const routesByCity = new Map<string, Route[]>();
-  for (const route of ALL_ROUTES) {
-    const list = routesByCity.get(route.from) ?? [];
-    list.push(route);
-    routesByCity.set(route.from, list);
+// Pass 1: hub routes and short-distance routes
+for (const r of ALL_ROUTES) {
+  if (r.distance <= 250 || _hubSlugsLinked.has(r.from) || _hubSlugsLinked.has(r.to)) {
+    _seenLinked.add(r.slug);
   }
-  for (const [, cityRoutes] of routesByCity) {
-    cityRoutes.slice(0, 20).forEach(r => seen.add(r.slug));
-    cityRoutes
-      .filter(r => r.distance <= 250 && r.distance > 0)
-      .sort((a, b) => a.distance - b.distance)
-      .slice(0, 12)
-      .forEach(r => seen.add(r.slug));
-  }
-
-  const finalSlugs = new Set<string>(seen);
-  for (const slug of seen) {
-    const parts = slug.split('-to-');
-    if (parts.length === 2) {
-      const reverseSlug = `${parts[1]}-to-${parts[0]}`;
-      if (ROUTE_MAP.has(reverseSlug)) finalSlugs.add(reverseSlug);
-    }
-  }
-  return Array.from(finalSlugs);
 }
 
+// Pass 2: top routes per city (already in ROUTES_FROM_IDX — reuse it!)
+for (const [, cityRoutes] of ROUTES_FROM_IDX) {
+  cityRoutes.slice(0, 20).forEach(r => _seenLinked.add(r.slug));
+}
+for (const [, cityRoutes] of LOCAL_ROUTES_IDX) {
+  cityRoutes.slice(0, 12).forEach(r => _seenLinked.add(r.slug));
+}
+
+// Pass 3: add reverse routes
+const _finalLinked = new Set<string>(_seenLinked);
+for (const slug of _seenLinked) {
+  const parts = slug.split('-to-');
+  if (parts.length === 2) {
+    const rev = `${parts[1]}-to-${parts[0]}`;
+    if (ROUTE_MAP.has(rev)) _finalLinked.add(rev);
+  }
+}
+const _LINKED_ROUTE_SLUGS: string[] = Array.from(_finalLinked);
+const _LINKED_VEHICLE_SLUGS: string[] = _LINKED_ROUTE_SLUGS.filter(isHubRoute);
+
+/** O(1) — pre-computed at startup */
+export async function getLinkedRouteSlugs(): Promise<string[]> {
+  return _LINKED_ROUTE_SLUGS;
+}
+
+/** O(1) — pre-computed at startup */
 export async function getLinkedVehicleRouteSlugs(): Promise<string[]> {
-  const linked = await getLinkedRouteSlugs();
-  return linked.filter(isHubRoute);
+  return _LINKED_VEHICLE_SLUGS;
 }
 
 // ─── Pure synchronous helpers (no route data access needed) ───────────────────
@@ -194,5 +195,6 @@ export function isHubRoute(slug: string): boolean {
   }
   return false;
 }
+
 
 
