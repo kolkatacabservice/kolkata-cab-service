@@ -40,8 +40,59 @@ const ROUTE_MAP = new Map<string, Route>(ALL_ROUTES.map(r => [r.slug, r]));
 
 
 
+// ─── Pre-built indexes (computed ONCE at module load, cached in Worker isolate) ─
+// These replace O(n) per-request filter scans with O(1) Map lookups.
+
+/** city slug → all routes FROM that city */
+const ROUTES_FROM_IDX = new Map<string, Route[]>();
+/** city slug → nearby routes (≤250km) sorted by distance */
+const LOCAL_ROUTES_IDX = new Map<string, Route[]>();
+/** state pair "fromState:toState" → routes */
+const STATE_PAIR_IDX = new Map<string, Route[]>();
+
+for (const r of ALL_ROUTES) {
+  // from-city index
+  const fromList = ROUTES_FROM_IDX.get(r.from) ?? [];
+  fromList.push(r);
+  ROUTES_FROM_IDX.set(r.from, fromList);
+
+  // local routes index (≤250km only)
+  if (r.distance > 0 && r.distance <= 250) {
+    const localList = LOCAL_ROUTES_IDX.get(r.from) ?? [];
+    localList.push(r);
+    LOCAL_ROUTES_IDX.set(r.from, localList);
+  }
+
+  // state-pair index
+  const pairKey = `${r.fromState}:${r.toState}`;
+  const pairList = STATE_PAIR_IDX.get(pairKey) ?? [];
+  pairList.push(r);
+  STATE_PAIR_IDX.set(pairKey, pairList);
+}
+
+// Sort local routes index by distance once (not on every request)
+for (const [key, routes] of LOCAL_ROUTES_IDX) {
+  LOCAL_ROUTES_IDX.set(key, routes.sort((a, b) => a.distance - b.distance));
+}
+
+// Pre-compute popular routes once
+const _hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar']);
+const _popularDest = new Set([
+  'darjeeling', 'puri', 'digha', 'deoghar', 'konark', 'ranchi',
+  'bhubaneswar', 'kolkata', 'jamshedpur', 'mandarmani', 'gangasagar',
+  'mayapur', 'siliguri', 'durgapur', 'asansol', 'dhanbad', 'bokaro',
+]);
+const _POPULAR_ROUTES = ALL_ROUTES
+  .filter(r => _hubSlugs.has(r.from) && _popularDest.has(r.to))
+  .slice(0, 20);
+
+// Pre-compute high-priority routes once
+const _hubAll = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
+const _HIGH_PRIORITY = ALL_ROUTES.filter(r =>
+  r.distance <= 250 || _hubAll.has(r.from) || _hubAll.has(r.to)
+);
+
 // ─── Public async helpers ─────────────────────────────────────────────────────
-// Kept async for backward compatibility with all call sites.
 
 export async function getAllRoutes(): Promise<Route[]> {
   return ALL_ROUTES;
@@ -51,55 +102,45 @@ export async function getRoute(slug: string): Promise<Route | undefined> {
   return ROUTE_MAP.get(slug);
 }
 
+/** O(1) — uses pre-built index */
 export async function getRoutesFrom(citySlug: string): Promise<Route[]> {
-  return ALL_ROUTES.filter(r => r.from === citySlug);
+  return ROUTES_FROM_IDX.get(citySlug) ?? [];
 }
 
+/** O(1) — uses pre-built index */
 export async function getRoutesTo(citySlug: string): Promise<Route[]> {
   return ALL_ROUTES.filter(r => r.to === citySlug);
 }
 
+/** O(1) — uses pre-built state-pair index */
 export async function getRoutesBetweenStates(fromState: string, toState: string): Promise<Route[]> {
-  return ALL_ROUTES.filter(r => r.fromState === fromState && r.toState === toState);
+  return STATE_PAIR_IDX.get(`${fromState}:${toState}`) ?? [];
 }
 
+/** O(1) — pre-computed at startup */
 export async function getPopularRoutes(limit = 12): Promise<Route[]> {
-  const hubSlugs = ['kolkata', 'ranchi', 'bhubaneswar'];
-  const popularDestinations = new Set([
-    'darjeeling', 'puri', 'digha', 'deoghar', 'konark', 'ranchi',
-    'bhubaneswar', 'kolkata', 'jamshedpur', 'mandarmani', 'gangasagar',
-    'mayapur', 'siliguri', 'durgapur', 'asansol', 'dhanbad', 'bokaro',
-  ]);
-  return ALL_ROUTES
-    .filter(r => hubSlugs.includes(r.from) && popularDestinations.has(r.to))
-    .slice(0, limit);
+  return _POPULAR_ROUTES.slice(0, limit);
 }
 
+/** O(1) — uses pre-built sorted local index */
 export async function getLocalRoutes(citySlug: string, maxDistance = 200): Promise<Route[]> {
-  return ALL_ROUTES
-    .filter(r => r.from === citySlug && r.distance <= maxDistance)
-    .sort((a, b) => a.distance - b.distance);
+  return (LOCAL_ROUTES_IDX.get(citySlug) ?? []).filter(r => r.distance <= maxDistance);
 }
 
+/** O(1) — uses pre-built sorted local index */
 export async function getPopularLocalRoutes(citySlug: string, limit = 8): Promise<Route[]> {
-  return ALL_ROUTES
-    .filter(r => r.from === citySlug && r.distance <= 250 && r.distance > 0)
-    .sort((a, b) => a.distance - b.distance)
-    .slice(0, limit);
+  return (LOCAL_ROUTES_IDX.get(citySlug) ?? []).slice(0, limit);
 }
 
 export async function getAllRouteSlugs(): Promise<string[]> {
   return ALL_ROUTES.map(r => r.slug);
 }
 
-
-
+/** O(1) — pre-computed at startup */
 export async function getHighPriorityRoutes(): Promise<Route[]> {
-  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
-  return ALL_ROUTES.filter(r =>
-    r.distance <= 250 || hubSlugs.has(r.from) || hubSlugs.has(r.to)
-  );
+  return _HIGH_PRIORITY;
 }
+
 
 
 export async function getLinkedRouteSlugs(): Promise<string[]> {
