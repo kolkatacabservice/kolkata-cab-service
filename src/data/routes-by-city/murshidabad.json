@@ -1,0 +1,2046 @@
+[
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 233,
+    "duration": "4-6",
+    "slug": "murshidabad-to-kolkata",
+    "via": [],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 410,
+    "duration": "8-10",
+    "slug": "murshidabad-to-ranchi",
+    "via": [],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 650,
+    "duration": "13-14",
+    "slug": "murshidabad-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 8700,
+    "priceSuv": 11100,
+    "priceTempo": 14700
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "murshidabad-to-malda",
+    "via": [],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 10,
+    "duration": "0-1",
+    "slug": "murshidabad-to-baharampur",
+    "via": [],
+    "priceSaloon": 1600,
+    "priceSuv": 2100,
+    "priceTempo": 3200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 8,
+    "duration": "0.5-1",
+    "slug": "murshidabad-to-lalbagh",
+    "via": [
+      "Local"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 30,
+    "duration": "0.5-1",
+    "slug": "murshidabad-to-beldanga",
+    "via": [
+      "NH 12"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1.5-2",
+    "slug": "murshidabad-to-krishnanagar",
+    "via": [
+      "NH 12"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1.5-2",
+    "slug": "murshidabad-to-nabadwip",
+    "via": [
+      "NH 12",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "murshidabad-to-siliguri",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "murshidabad-to-darjeeling",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "murshidabad-to-durgapur",
+    "via": [],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "murshidabad-to-asansol",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "murshidabad-to-howrah",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "murshidabad-to-kharagpur",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "murshidabad-to-bardhaman",
+    "via": [],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "murshidabad-to-cooch-behar",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "murshidabad-to-jalpaiguri",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "murshidabad-to-bankura",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 285,
+    "duration": "5-6",
+    "slug": "murshidabad-to-purulia",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 4000,
+    "priceSuv": 5100,
+    "priceTempo": 6800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "murshidabad-to-midnapore",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "murshidabad-to-digha",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "murshidabad-to-sundarbans",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "murshidabad-to-bishnupur",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "murshidabad-to-bolpur-shantiniketan",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "murshidabad-to-dooars",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "murshidabad-to-mandarmani",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "murshidabad-to-bakkhali",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "murshidabad-to-gangasagar",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "murshidabad-to-mayapur",
+    "via": [],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "murshidabad-to-diamond-harbour",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "murshidabad-to-haldia",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "murshidabad-to-contai",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "murshidabad-to-tamluk",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "murshidabad-to-alipurduar",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "murshidabad-to-raiganj",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "murshidabad-to-balurghat",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 195,
+    "duration": "3-5",
+    "slug": "murshidabad-to-hooghly",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4700
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "murshidabad-to-kolkata-airport",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "murshidabad-to-salt-lake-kolkata",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "murshidabad-to-new-town-kolkata",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "murshidabad-to-satragachhi",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "murshidabad-to-uluberia",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "murshidabad-to-serampore",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "murshidabad-to-chandannagar",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "murshidabad-to-tarkeshwar",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "murshidabad-to-kolaghat",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "murshidabad-to-bagnan",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "murshidabad-to-arambagh",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "murshidabad-to-barasat",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "murshidabad-to-kalyani",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "murshidabad-to-bongaon",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "murshidabad-to-ranaghat",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "murshidabad-to-basirhat",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "murshidabad-to-barrackpore",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "murshidabad-to-dum-dum",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "murshidabad-to-habra",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "murshidabad-to-naihati",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "murshidabad-to-kakdwip",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "murshidabad-to-jhargram",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "murshidabad-to-raniganj",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "murshidabad-to-kalna",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "murshidabad-to-katwa",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "murshidabad-to-chakdah",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "murshidabad-to-islampur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "murshidabad-to-dalkhola",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 65,
+    "duration": "1-2",
+    "slug": "murshidabad-to-karimpur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "murshidabad-to-puri",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "murshidabad-to-cuttack",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "murshidabad-to-rourkela",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "murshidabad-to-sambalpur",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "murshidabad-to-berhampur",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "murshidabad-to-balasore",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "murshidabad-to-konark",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "murshidabad-to-chilika",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "murshidabad-to-dhenkanal",
+    "via": [
+      "Kharagpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 980,
+    "duration": "18-20",
+    "slug": "murshidabad-to-koraput",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 13700,
+    "priceSuv": 17600,
+    "priceTempo": 23500
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 885,
+    "duration": "17-18",
+    "slug": "murshidabad-to-rayagada",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 12400,
+    "priceSuv": 15900,
+    "priceTempo": 21200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "murshidabad-to-angul",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "murshidabad-to-jharsuguda",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "murshidabad-to-baripada",
+    "via": [
+      "Bardhaman",
+      "Kharagpur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 985,
+    "duration": "18-20",
+    "slug": "murshidabad-to-jeypore",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 13800,
+    "priceSuv": 17700,
+    "priceTempo": 23600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "murshidabad-to-gopalpur",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "murshidabad-to-jamshedpur",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "murshidabad-to-dhanbad",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "murshidabad-to-bokaro",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "murshidabad-to-hazaribagh",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "murshidabad-to-deoghar",
+    "via": [],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "murshidabad-to-giridih",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "murshidabad-to-ramgarh",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "murshidabad-to-palamu",
+    "via": [
+      "Hazaribagh",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "murshidabad-to-netarhat",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "murshidabad-to-betla",
+    "via": [
+      "Hazaribagh",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "murshidabad-to-dumka",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "murshidabad-to-chaibasa",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "murshidabad-to-sahebganj",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "murshidabad-to-godda",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "murshidabad-to-latehar",
+    "via": [
+      "Hazaribagh",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "murshidabad-to-tatanagar",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "murshidabad-to-adityapur",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "murshidabad-to-khunti",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "murshidabad-to-gumla",
+    "via": [
+      "Ranchi",
+      "Asansol"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "murshidabad-to-simdega",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "murshidabad-to-chatra",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "murshidabad-to-lohardaga",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 95,
+    "duration": "1-3",
+    "slug": "murshidabad-to-pakur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "murshidabad-to-jamtara",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "murshidabad-to-koderma",
+    "via": [
+      "Deoghar",
+      "Dhanbad"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "murshidabad-to-seraikela",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "murshidabad-to-patna",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "murshidabad-to-gaya",
+    "via": [
+      "Deoghar",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "murshidabad-to-bodh-gaya",
+    "via": [
+      "Deoghar",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "murshidabad-to-nalanda",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "murshidabad-to-rajgir",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "murshidabad-to-muzaffarpur",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "murshidabad-to-varanasi",
+    "via": [
+      "Deoghar",
+      "Gaya"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "murshidabad",
+    "fromName": "Murshidabad",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "murshidabad-to-prayagraj",
+    "via": [
+      "Deoghar",
+      "Gaya"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  }
+]

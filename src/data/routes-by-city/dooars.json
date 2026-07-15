@@ -1,0 +1,2086 @@
+[
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 613,
+    "duration": "12-14",
+    "slug": "dooars-to-kolkata",
+    "via": [],
+    "priceSaloon": 8200,
+    "priceSuv": 10600,
+    "priceTempo": 14000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 721,
+    "duration": "14-16",
+    "slug": "dooars-to-ranchi",
+    "via": [],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 1040,
+    "duration": "20-22",
+    "slug": "dooars-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 12900,
+    "priceSuv": 16600,
+    "priceTempo": 21700
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 95,
+    "duration": "2-3",
+    "slug": "dooars-to-siliguri",
+    "via": [
+      "Malbazar"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3300,
+    "priceTempo": 4700
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "dooars-to-darjeeling",
+    "via": [
+      "NH 31C",
+      "Siliguri"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 55,
+    "duration": "1-1.5",
+    "slug": "dooars-to-jalpaiguri",
+    "via": [
+      "NH 27"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 30,
+    "duration": "0.5-1",
+    "slug": "dooars-to-alipurduar",
+    "via": [
+      "Forest Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "dooars-to-durgapur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "dooars-to-asansol",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "dooars-to-howrah",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "dooars-to-kharagpur",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "dooars-to-bardhaman",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "dooars-to-malda",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "dooars-to-murshidabad",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 65,
+    "duration": "1-2",
+    "slug": "dooars-to-cooch-behar",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "dooars-to-bankura",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "dooars-to-purulia",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "dooars-to-midnapore",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "dooars-to-digha",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "dooars-to-sundarbans",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "dooars-to-bishnupur",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "dooars-to-bolpur-shantiniketan",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "dooars-to-mandarmani",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "dooars-to-bakkhali",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "dooars-to-gangasagar",
+    "via": [
+      "Krishnanagar",
+      "Kolkata"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "dooars-to-mayapur",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "dooars-to-nabadwip",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "dooars-to-krishnanagar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "dooars-to-diamond-harbour",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "dooars-to-haldia",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "dooars-to-contai",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "dooars-to-tamluk",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "dooars-to-raiganj",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "dooars-to-balurghat",
+    "via": [],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "dooars-to-baharampur",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "dooars-to-hooghly",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "dooars-to-kolkata-airport",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "dooars-to-salt-lake-kolkata",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "dooars-to-new-town-kolkata",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "dooars-to-satragachhi",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "dooars-to-uluberia",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "dooars-to-serampore",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "dooars-to-chandannagar",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "dooars-to-tarkeshwar",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "dooars-to-kolaghat",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "dooars-to-bagnan",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "dooars-to-arambagh",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "dooars-to-barasat",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "dooars-to-kalyani",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "dooars-to-bongaon",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "dooars-to-ranaghat",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "dooars-to-basirhat",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "dooars-to-barrackpore",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "dooars-to-dum-dum",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "dooars-to-habra",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "dooars-to-naihati",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "dooars-to-kakdwip",
+    "via": [
+      "Kolkata",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "dooars-to-jhargram",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "dooars-to-raniganj",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "dooars-to-kalna",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "dooars-to-katwa",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "dooars-to-chakdah",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "dooars-to-islampur",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "dooars-to-dalkhola",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "dooars-to-lalbagh",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "dooars-to-beldanga",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "dooars-to-karimpur",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 1000,
+    "duration": "19-20",
+    "slug": "dooars-to-puri",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 14000,
+    "priceSuv": 18000,
+    "priceTempo": 24000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 920,
+    "duration": "17-19",
+    "slug": "dooars-to-cuttack",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 12900,
+    "priceSuv": 16600,
+    "priceTempo": 22100
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 795,
+    "duration": "15-16",
+    "slug": "dooars-to-rourkela",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14300,
+    "priceTempo": 19100
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 945,
+    "duration": "18-19",
+    "slug": "dooars-to-sambalpur",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 13200,
+    "priceSuv": 17000,
+    "priceTempo": 22700
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 1115,
+    "duration": "21-22",
+    "slug": "dooars-to-berhampur",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 15600,
+    "priceSuv": 20100,
+    "priceTempo": 26800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "dooars-to-balasore",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 980,
+    "duration": "18-20",
+    "slug": "dooars-to-konark",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 13700,
+    "priceSuv": 17600,
+    "priceTempo": 23500
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 1040,
+    "duration": "20-21",
+    "slug": "dooars-to-chilika",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 14600,
+    "priceSuv": 18700,
+    "priceTempo": 25000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "dooars-to-dhenkanal",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 1310,
+    "duration": "25-26",
+    "slug": "dooars-to-koraput",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 18300,
+    "priceSuv": 23600,
+    "priceTempo": 31400
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 1225,
+    "duration": "23-25",
+    "slug": "dooars-to-rayagada",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 17200,
+    "priceSuv": 22100,
+    "priceTempo": 29400
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 925,
+    "duration": "17-19",
+    "slug": "dooars-to-angul",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 13000,
+    "priceSuv": 16700,
+    "priceTempo": 22200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 905,
+    "duration": "17-18",
+    "slug": "dooars-to-jharsuguda",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16300,
+    "priceTempo": 21700
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "dooars-to-baripada",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 1320,
+    "duration": "25-26",
+    "slug": "dooars-to-jeypore",
+    "via": [
+      "Dhanbad",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 18500,
+    "priceSuv": 23800,
+    "priceTempo": 31700
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 1115,
+    "duration": "21-22",
+    "slug": "dooars-to-gopalpur",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 15600,
+    "priceSuv": 20100,
+    "priceTempo": 26800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 660,
+    "duration": "12-14",
+    "slug": "dooars-to-jamshedpur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11900,
+    "priceTempo": 15800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "dooars-to-dhanbad",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "dooars-to-bokaro",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "dooars-to-hazaribagh",
+    "via": [
+      "Deoghar",
+      "Siliguri"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "dooars-to-deoghar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "dooars-to-giridih",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "dooars-to-ramgarh",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 735,
+    "duration": "14-15",
+    "slug": "dooars-to-palamu",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10300,
+    "priceSuv": 13200,
+    "priceTempo": 17600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "dooars-to-netarhat",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "dooars-to-betla",
+    "via": [
+      "Gaya",
+      "Siliguri"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "dooars-to-dumka",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "dooars-to-chaibasa",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "dooars-to-sahebganj",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "dooars-to-godda",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "dooars-to-latehar",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 660,
+    "duration": "12-14",
+    "slug": "dooars-to-tatanagar",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11900,
+    "priceTempo": 15800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "dooars-to-adityapur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "dooars-to-khunti",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 750,
+    "duration": "14-15",
+    "slug": "dooars-to-gumla",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10500,
+    "priceSuv": 13500,
+    "priceTempo": 18000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "dooars-to-simdega",
+    "via": [
+      "Ranchi",
+      "Deoghar"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "dooars-to-chatra",
+    "via": [
+      "Siliguri",
+      "Deoghar"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "dooars-to-lohardaga",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "dooars-to-pakur",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "dooars-to-jamtara",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "dooars-to-koderma",
+    "via": [
+      "Siliguri",
+      "Deoghar"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "dooars-to-seraikela",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "dooars-to-patna",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "dooars-to-gaya",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "dooars-to-bodh-gaya",
+    "via": [
+      "Siliguri",
+      "Deoghar"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "dooars-to-nalanda",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "dooars-to-rajgir",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "dooars-to-muzaffarpur",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "dooars-to-varanasi",
+    "via": [
+      "Patna",
+      "Siliguri"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  },
+  {
+    "from": "dooars",
+    "fromName": "Dooars",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 900,
+    "duration": "17-18",
+    "slug": "dooars-to-prayagraj",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 12600,
+    "priceSuv": 16200,
+    "priceTempo": 21600
+  }
+]

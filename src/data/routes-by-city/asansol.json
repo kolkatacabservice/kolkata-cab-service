@@ -1,0 +1,2064 @@
+[
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "asansol-to-kolkata",
+    "via": [
+      "Durgapur",
+      "NH 19"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 4900,
+    "priceTempo": 6800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 225,
+    "duration": "4-6",
+    "slug": "asansol-to-ranchi",
+    "via": [],
+    "priceSaloon": 4000,
+    "priceSuv": 5200,
+    "priceTempo": 7100
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 514,
+    "duration": "10-12",
+    "slug": "asansol-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 7200,
+    "priceSuv": 9200,
+    "priceTempo": 12300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 50,
+    "duration": "1-2",
+    "slug": "asansol-to-durgapur",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 60,
+    "duration": "1-2",
+    "slug": "asansol-to-dhanbad",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 4100
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 100,
+    "duration": "2-3",
+    "slug": "asansol-to-bardhaman",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3400,
+    "priceTempo": 4800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 14,
+    "duration": "0.5-1",
+    "slug": "asansol-to-raniganj",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 100,
+    "duration": "1.5-2",
+    "slug": "asansol-to-purulia",
+    "via": [
+      "Barabazar"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1.5-2",
+    "slug": "asansol-to-bankura",
+    "via": [
+      "Saltora"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "asansol-to-siliguri",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "asansol-to-darjeeling",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "asansol-to-howrah",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "asansol-to-kharagpur",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "asansol-to-malda",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "asansol-to-murshidabad",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "asansol-to-cooch-behar",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "asansol-to-jalpaiguri",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "asansol-to-midnapore",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "asansol-to-digha",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "asansol-to-sundarbans",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 110,
+    "duration": "2-3",
+    "slug": "asansol-to-bishnupur",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "asansol-to-bolpur-shantiniketan",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "asansol-to-dooars",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "asansol-to-mandarmani",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "asansol-to-bakkhali",
+    "via": [
+      "Durgapur",
+      "Midnapore"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "asansol-to-gangasagar",
+    "via": [
+      "Midnapore",
+      "Durgapur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "asansol-to-mayapur",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "asansol-to-nabadwip",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "asansol-to-krishnanagar",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "asansol-to-diamond-harbour",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 280,
+    "duration": "5-6",
+    "slug": "asansol-to-haldia",
+    "via": [
+      "Durgapur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6700
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "asansol-to-contai",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "asansol-to-tamluk",
+    "via": [
+      "Durgapur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "asansol-to-alipurduar",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "asansol-to-raiganj",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "asansol-to-balurghat",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "asansol-to-baharampur",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "asansol-to-hooghly",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "asansol-to-kolkata-airport",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "asansol-to-salt-lake-kolkata",
+    "via": [
+      "Durgapur",
+      "Howrah"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "asansol-to-new-town-kolkata",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "asansol-to-satragachhi",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "asansol-to-uluberia",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "asansol-to-serampore",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "asansol-to-chandannagar",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "asansol-to-tarkeshwar",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "asansol-to-kolaghat",
+    "via": [
+      "Durgapur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "asansol-to-bagnan",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "asansol-to-arambagh",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "asansol-to-barasat",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "asansol-to-kalyani",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 270,
+    "duration": "5-6",
+    "slug": "asansol-to-bongaon",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 4900,
+    "priceTempo": 6500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "asansol-to-ranaghat",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "asansol-to-basirhat",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "asansol-to-barrackpore",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "asansol-to-dum-dum",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "asansol-to-habra",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "asansol-to-naihati",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "asansol-to-kakdwip",
+    "via": [
+      "Durgapur",
+      "Midnapore"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "asansol-to-jhargram",
+    "via": [
+      "Durgapur",
+      "Kharagpur"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "asansol-to-kalna",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "asansol-to-katwa",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "asansol-to-chakdah",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "asansol-to-islampur",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "asansol-to-dalkhola",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "asansol-to-lalbagh",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "asansol-to-beldanga",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "asansol-to-karimpur",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "asansol-to-puri",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "asansol-to-cuttack",
+    "via": [
+      "Jamshedpur",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "asansol-to-rourkela",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "asansol-to-sambalpur",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "asansol-to-berhampur",
+    "via": [
+      "Jamshedpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "asansol-to-balasore",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "asansol-to-konark",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "asansol-to-chilika",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "asansol-to-dhenkanal",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "asansol-to-koraput",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 735,
+    "duration": "14-15",
+    "slug": "asansol-to-rayagada",
+    "via": [
+      "Jamshedpur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10300,
+    "priceSuv": 13200,
+    "priceTempo": 17600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "asansol-to-angul",
+    "via": [
+      "Jamshedpur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "asansol-to-jharsuguda",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "asansol-to-baripada",
+    "via": [
+      "Kharagpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "asansol-to-jeypore",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "asansol-to-gopalpur",
+    "via": [
+      "Jamshedpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "asansol-to-jamshedpur",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "asansol-to-bokaro",
+    "via": [
+      "Dhanbad"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "asansol-to-hazaribagh",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "asansol-to-deoghar",
+    "via": [],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "asansol-to-giridih",
+    "via": [
+      "Dhanbad"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "asansol-to-ramgarh",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "asansol-to-palamu",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "asansol-to-netarhat",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "asansol-to-betla",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 100,
+    "duration": "1-3",
+    "slug": "asansol-to-dumka",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "asansol-to-chaibasa",
+    "via": [
+      "Jamshedpur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "asansol-to-sahebganj",
+    "via": [
+      "Deoghar",
+      "Durgapur"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "asansol-to-godda",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "asansol-to-latehar",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "asansol-to-tatanagar",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "asansol-to-adityapur",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "asansol-to-khunti",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "asansol-to-gumla",
+    "via": [
+      "Ranchi",
+      "Bokaro"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "asansol-to-simdega",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "asansol-to-chatra",
+    "via": [
+      "Dhanbad",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "asansol-to-lohardaga",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "asansol-to-pakur",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 55,
+    "duration": "1-2",
+    "slug": "asansol-to-jamtara",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "asansol-to-koderma",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "asansol-to-seraikela",
+    "via": [
+      "Jamshedpur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "asansol-to-patna",
+    "via": [
+      "Deoghar",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "asansol-to-gaya",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "asansol-to-bodh-gaya",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "asansol-to-nalanda",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 285,
+    "duration": "5-6",
+    "slug": "asansol-to-rajgir",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 4000,
+    "priceSuv": 5100,
+    "priceTempo": 6800
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "asansol-to-muzaffarpur",
+    "via": [
+      "Deoghar",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "asansol-to-varanasi",
+    "via": [
+      "Dhanbad",
+      "Gaya"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "asansol",
+    "fromName": "Asansol",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "asansol-to-prayagraj",
+    "via": [
+      "Dhanbad",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  }
+]

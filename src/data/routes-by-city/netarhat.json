@@ -1,0 +1,2047 @@
+[
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 561,
+    "duration": "11-13",
+    "slug": "netarhat-to-kolkata",
+    "via": [],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 155,
+    "duration": "3-4",
+    "slug": "netarhat-to-ranchi",
+    "via": [
+      "Lohardaga"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4200,
+    "priceTempo": 5800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 506,
+    "duration": "10-12",
+    "slug": "netarhat-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 75,
+    "duration": "2-3",
+    "slug": "netarhat-to-palamu",
+    "via": [],
+    "priceSaloon": 2300,
+    "priceSuv": 3100,
+    "priceTempo": 4400
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 60,
+    "duration": "1-2",
+    "slug": "netarhat-to-latehar",
+    "via": [],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 4100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "netarhat-to-siliguri",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "netarhat-to-darjeeling",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "netarhat-to-durgapur",
+    "via": [
+      "Ranchi",
+      "Bokaro"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "netarhat-to-asansol",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "netarhat-to-howrah",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "netarhat-to-kharagpur",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "netarhat-to-bardhaman",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "netarhat-to-malda",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "netarhat-to-murshidabad",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "netarhat-to-cooch-behar",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "netarhat-to-jalpaiguri",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "netarhat-to-bankura",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 285,
+    "duration": "5-6",
+    "slug": "netarhat-to-purulia",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 4000,
+    "priceSuv": 5100,
+    "priceTempo": 6800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "netarhat-to-midnapore",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "netarhat-to-digha",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "netarhat-to-sundarbans",
+    "via": [
+      "Midnapore",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "netarhat-to-bishnupur",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "netarhat-to-bolpur-shantiniketan",
+    "via": [
+      "Bokaro",
+      "Asansol"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "netarhat-to-dooars",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "netarhat-to-mandarmani",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "netarhat-to-bakkhali",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "netarhat-to-gangasagar",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "netarhat-to-mayapur",
+    "via": [
+      "Ranchi",
+      "Durgapur"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "netarhat-to-nabadwip",
+    "via": [
+      "Ranchi",
+      "Durgapur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "netarhat-to-krishnanagar",
+    "via": [
+      "Ranchi",
+      "Durgapur"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "netarhat-to-diamond-harbour",
+    "via": [
+      "Midnapore",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "netarhat-to-haldia",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "netarhat-to-contai",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "netarhat-to-tamluk",
+    "via": [
+      "Jamshedpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "netarhat-to-alipurduar",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "netarhat-to-raiganj",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "netarhat-to-balurghat",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "netarhat-to-baharampur",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "netarhat-to-hooghly",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "netarhat-to-kolkata-airport",
+    "via": [
+      "Howrah",
+      "Ranchi"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "netarhat-to-salt-lake-kolkata",
+    "via": [
+      "Ranchi",
+      "Howrah"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "netarhat-to-new-town-kolkata",
+    "via": [
+      "Ranchi",
+      "Howrah"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "netarhat-to-satragachhi",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "netarhat-to-uluberia",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "netarhat-to-serampore",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "netarhat-to-chandannagar",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "netarhat-to-tarkeshwar",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "netarhat-to-kolaghat",
+    "via": [
+      "Midnapore",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "netarhat-to-bagnan",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "netarhat-to-arambagh",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "netarhat-to-barasat",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "netarhat-to-kalyani",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "netarhat-to-bongaon",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "netarhat-to-ranaghat",
+    "via": [
+      "Ranchi",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "netarhat-to-basirhat",
+    "via": [
+      "Ranchi",
+      "Barasat"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "netarhat-to-barrackpore",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "netarhat-to-dum-dum",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "netarhat-to-habra",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "netarhat-to-naihati",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "netarhat-to-kakdwip",
+    "via": [
+      "Jamshedpur",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "netarhat-to-jhargram",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "netarhat-to-raniganj",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "netarhat-to-kalna",
+    "via": [
+      "Ranchi",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "netarhat-to-katwa",
+    "via": [
+      "Bokaro",
+      "Asansol"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "netarhat-to-chakdah",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "netarhat-to-islampur",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "netarhat-to-dalkhola",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "netarhat-to-lalbagh",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "netarhat-to-beldanga",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "netarhat-to-karimpur",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "netarhat-to-puri",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "netarhat-to-cuttack",
+    "via": [
+      "Ranchi",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "netarhat-to-rourkela",
+    "via": [],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "netarhat-to-sambalpur",
+    "via": [],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "netarhat-to-berhampur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "netarhat-to-balasore",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "netarhat-to-konark",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "netarhat-to-chilika",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "netarhat-to-dhenkanal",
+    "via": [
+      "Cuttack",
+      "Ranchi"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "netarhat-to-koraput",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "netarhat-to-rayagada",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "netarhat-to-angul",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "netarhat-to-jharsuguda",
+    "via": [],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "netarhat-to-baripada",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "netarhat-to-jeypore",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "netarhat-to-gopalpur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 280,
+    "duration": "5-6",
+    "slug": "netarhat-to-jamshedpur",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "netarhat-to-dhanbad",
+    "via": [
+      "Ranchi",
+      "Bokaro"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "netarhat-to-bokaro",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "netarhat-to-hazaribagh",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "netarhat-to-deoghar",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "netarhat-to-giridih",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "netarhat-to-ramgarh",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "netarhat-to-betla",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "netarhat-to-dumka",
+    "via": [
+      "Hazaribagh",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "netarhat-to-chaibasa",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "netarhat-to-sahebganj",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "netarhat-to-godda",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 280,
+    "duration": "5-6",
+    "slug": "netarhat-to-tatanagar",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "netarhat-to-adityapur",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "netarhat-to-khunti",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 85,
+    "duration": "1-3",
+    "slug": "netarhat-to-gumla",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "netarhat-to-simdega",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "netarhat-to-chatra",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 65,
+    "duration": "1-2",
+    "slug": "netarhat-to-lohardaga",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "netarhat-to-pakur",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "netarhat-to-jamtara",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "netarhat-to-koderma",
+    "via": [
+      "Hazaribagh"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "netarhat-to-seraikela",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "netarhat-to-patna",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "netarhat-to-gaya",
+    "via": [],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "netarhat-to-bodh-gaya",
+    "via": [],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "netarhat-to-nalanda",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "netarhat-to-rajgir",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "netarhat-to-muzaffarpur",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "netarhat-to-varanasi",
+    "via": [],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "netarhat",
+    "fromName": "Netarhat",
+    "fromState": "jharkhand",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "netarhat-to-prayagraj",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  }
+]

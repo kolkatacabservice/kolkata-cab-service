@@ -1,0 +1,2081 @@
+[
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "patna-to-kolkata",
+    "via": [
+      "Hazaribagh",
+      "Dhanbad",
+      "NH 19"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "patna-to-gaya",
+    "via": [
+      "NH 83"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 95,
+    "duration": "2-3",
+    "slug": "patna-to-nalanda",
+    "via": [
+      "NH 20"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3300,
+    "priceTempo": 4700
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 295,
+    "duration": "5-6",
+    "slug": "patna-to-varanasi",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 328,
+    "duration": "6-8",
+    "slug": "patna-to-ranchi",
+    "via": [
+      "NH 139"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 9000
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 370,
+    "duration": "7-9",
+    "slug": "patna-to-jamshedpur",
+    "via": [
+      "Hazaribagh",
+      "NH 33"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9700
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 100,
+    "duration": "1.5-2",
+    "slug": "patna-to-rajgir",
+    "via": [
+      "Nalanda",
+      "Bihar Sharif"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 72,
+    "duration": "1.5-2",
+    "slug": "patna-to-muzaffarpur",
+    "via": [
+      "NH 57"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "patna-to-bodh-gaya",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 300,
+    "duration": "5-6",
+    "slug": "patna-to-prayagraj",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5100,
+    "priceTempo": 6900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "patna-to-siliguri",
+    "via": [],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "patna-to-darjeeling",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "patna-to-durgapur",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "patna-to-asansol",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "patna-to-howrah",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "patna-to-kharagpur",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "patna-to-bardhaman",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "patna-to-malda",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "patna-to-murshidabad",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "patna-to-cooch-behar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "patna-to-jalpaiguri",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "patna-to-bankura",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "patna-to-purulia",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "patna-to-midnapore",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "patna-to-digha",
+    "via": [
+      "Bokaro",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "patna-to-sundarbans",
+    "via": [
+      "Howrah",
+      "Durgapur"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "patna-to-bishnupur",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "patna-to-bolpur-shantiniketan",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "patna-to-dooars",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "patna-to-mandarmani",
+    "via": [
+      "Dhanbad",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "patna-to-bakkhali",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "patna-to-gangasagar",
+    "via": [
+      "Midnapore",
+      "Dhanbad"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "patna-to-mayapur",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "patna-to-nabadwip",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "patna-to-krishnanagar",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "patna-to-diamond-harbour",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "patna-to-haldia",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "patna-to-contai",
+    "via": [
+      "Dhanbad",
+      "Midnapore"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "patna-to-tamluk",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "patna-to-alipurduar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "patna-to-raiganj",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "patna-to-balurghat",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "patna-to-baharampur",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "patna-to-hooghly",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "patna-to-kolkata-airport",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "patna-to-salt-lake-kolkata",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "patna-to-new-town-kolkata",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "patna-to-satragachhi",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "patna-to-uluberia",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "patna-to-serampore",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "patna-to-chandannagar",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "patna-to-tarkeshwar",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "patna-to-kolaghat",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "patna-to-bagnan",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "patna-to-arambagh",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "patna-to-barasat",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "patna-to-kalyani",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "patna-to-bongaon",
+    "via": [
+      "Krishnanagar",
+      "Deoghar"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "patna-to-ranaghat",
+    "via": [
+      "Krishnanagar",
+      "Deoghar"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "patna-to-basirhat",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "patna-to-barrackpore",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "patna-to-dum-dum",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "patna-to-habra",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "patna-to-naihati",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "patna-to-kakdwip",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "patna-to-jhargram",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "patna-to-raniganj",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "patna-to-kalna",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "patna-to-katwa",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "patna-to-chakdah",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "patna-to-islampur",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "patna-to-dalkhola",
+    "via": [],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "patna-to-lalbagh",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "patna-to-beldanga",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "patna-to-karimpur",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "patna-to-bhubaneswar",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "patna-to-puri",
+    "via": [
+      "Bhubaneswar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "patna-to-cuttack",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "patna-to-rourkela",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "patna-to-sambalpur",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "patna-to-berhampur",
+    "via": [
+      "Ranchi",
+      "Gaya"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "patna-to-balasore",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 760,
+    "duration": "14-16",
+    "slug": "patna-to-konark",
+    "via": [
+      "Cuttack",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13700,
+    "priceTempo": 18200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 770,
+    "duration": "14-16",
+    "slug": "patna-to-chilika",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 10800,
+    "priceSuv": 13900,
+    "priceTempo": 18500
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "patna-to-dhenkanal",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 935,
+    "duration": "17-19",
+    "slug": "patna-to-koraput",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 13100,
+    "priceSuv": 16800,
+    "priceTempo": 22400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "patna-to-rayagada",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "patna-to-angul",
+    "via": [
+      "Ranchi",
+      "Gaya"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "patna-to-jharsuguda",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "patna-to-baripada",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 935,
+    "duration": "17-19",
+    "slug": "patna-to-jeypore",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 13100,
+    "priceSuv": 16800,
+    "priceTempo": 22400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "patna-to-gopalpur",
+    "via": [
+      "Ranchi",
+      "Gaya"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "patna-to-dhanbad",
+    "via": [
+      "Gaya",
+      "Bokaro"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "patna-to-bokaro",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "patna-to-hazaribagh",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "patna-to-deoghar",
+    "via": [],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "patna-to-giridih",
+    "via": [
+      "Deoghar",
+      "Gaya"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "patna-to-ramgarh",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "patna-to-palamu",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "patna-to-netarhat",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 280,
+    "duration": "5-6",
+    "slug": "patna-to-betla",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6700
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "patna-to-dumka",
+    "via": [
+      "Gaya",
+      "Deoghar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "patna-to-chaibasa",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "patna-to-sahebganj",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "patna-to-godda",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 285,
+    "duration": "5-6",
+    "slug": "patna-to-latehar",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 4000,
+    "priceSuv": 5100,
+    "priceTempo": 6800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "patna-to-tatanagar",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "patna-to-adityapur",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "patna-to-khunti",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "patna-to-gumla",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "patna-to-simdega",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "patna-to-chatra",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "patna-to-lohardaga",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "patna-to-pakur",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "patna-to-jamtara",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "patna-to-koderma",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "patna-to-seraikela",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  }
+]

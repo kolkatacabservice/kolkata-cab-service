@@ -1,0 +1,2043 @@
+[
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 83,
+    "duration": "1.5-2",
+    "slug": "kalna-to-kolkata",
+    "via": [
+      "Hooghly",
+      "NH 2"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 45,
+    "duration": "1-1.5",
+    "slug": "kalna-to-bardhaman",
+    "via": [
+      "Hooghly Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 72,
+    "duration": "1.5-2",
+    "slug": "kalna-to-howrah",
+    "via": [
+      "Chandannagar",
+      "Hooghly"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 35,
+    "duration": "1-1.5",
+    "slug": "kalna-to-hooghly",
+    "via": [
+      "Riverside Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "kalna-to-siliguri",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "kalna-to-darjeeling",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "kalna-to-durgapur",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "kalna-to-asansol",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "kalna-to-kharagpur",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "kalna-to-malda",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "kalna-to-murshidabad",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "kalna-to-cooch-behar",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "kalna-to-jalpaiguri",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "kalna-to-bankura",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 270,
+    "duration": "5-6",
+    "slug": "kalna-to-purulia",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 4900,
+    "priceTempo": 6500
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "kalna-to-midnapore",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "kalna-to-digha",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "kalna-to-sundarbans",
+    "via": [
+      "Kolkata",
+      "Barasat"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "kalna-to-bishnupur",
+    "via": [
+      "Bardhaman"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "kalna-to-bolpur-shantiniketan",
+    "via": [
+      "Bardhaman"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "kalna-to-dooars",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "kalna-to-mandarmani",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "kalna-to-bakkhali",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "kalna-to-gangasagar",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 40,
+    "duration": "0-2",
+    "slug": "kalna-to-mayapur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 35,
+    "duration": "0-2",
+    "slug": "kalna-to-nabadwip",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 45,
+    "duration": "0-2",
+    "slug": "kalna-to-krishnanagar",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "kalna-to-diamond-harbour",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "kalna-to-haldia",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "kalna-to-contai",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "kalna-to-tamluk",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "kalna-to-alipurduar",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "kalna-to-raiganj",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "kalna-to-balurghat",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "kalna-to-baharampur",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "kalna-to-kolkata-airport",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 100,
+    "duration": "1-3",
+    "slug": "kalna-to-salt-lake-kolkata",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "kalna-to-new-town-kolkata",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "kalna-to-satragachhi",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "kalna-to-uluberia",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "kalna-to-serampore",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 60,
+    "duration": "1-2",
+    "slug": "kalna-to-chandannagar",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "kalna-to-tarkeshwar",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "kalna-to-kolaghat",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "kalna-to-bagnan",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "kalna-to-arambagh",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 85,
+    "duration": "1-3",
+    "slug": "kalna-to-barasat",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 45,
+    "duration": "0-2",
+    "slug": "kalna-to-kalyani",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "kalna-to-bongaon",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 35,
+    "duration": "0-2",
+    "slug": "kalna-to-ranaghat",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "kalna-to-basirhat",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "kalna-to-barrackpore",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "kalna-to-dum-dum",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "kalna-to-habra",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 55,
+    "duration": "1-2",
+    "slug": "kalna-to-naihati",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "kalna-to-kakdwip",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "kalna-to-jhargram",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "kalna-to-raniganj",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 85,
+    "duration": "1-3",
+    "slug": "kalna-to-katwa",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 35,
+    "duration": "0-2",
+    "slug": "kalna-to-chakdah",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "kalna-to-islampur",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "kalna-to-dalkhola",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "kalna-to-lalbagh",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "kalna-to-beldanga",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "kalna-to-karimpur",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "kalna-to-bhubaneswar",
+    "via": [
+      "Cuttack",
+      "Midnapore"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "kalna-to-puri",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "kalna-to-cuttack",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "kalna-to-rourkela",
+    "via": [
+      "Jamshedpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "kalna-to-sambalpur",
+    "via": [
+      "Bardhaman",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 695,
+    "duration": "13-14",
+    "slug": "kalna-to-berhampur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9700,
+    "priceSuv": 12500,
+    "priceTempo": 16700
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "kalna-to-balasore",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "kalna-to-konark",
+    "via": [
+      "Howrah",
+      "Midnapore"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "kalna-to-chilika",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "kalna-to-dhenkanal",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 900,
+    "duration": "17-18",
+    "slug": "kalna-to-koraput",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12600,
+    "priceSuv": 16200,
+    "priceTempo": 21600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 805,
+    "duration": "15-16",
+    "slug": "kalna-to-rayagada",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14500,
+    "priceTempo": 19300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "kalna-to-angul",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "kalna-to-jharsuguda",
+    "via": [
+      "Jamshedpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "kalna-to-baripada",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 910,
+    "duration": "17-18",
+    "slug": "kalna-to-jeypore",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16400,
+    "priceTempo": 21800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 695,
+    "duration": "13-14",
+    "slug": "kalna-to-gopalpur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9700,
+    "priceSuv": 12500,
+    "priceTempo": 16700
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "kalna-to-ranchi",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "kalna-to-jamshedpur",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "kalna-to-dhanbad",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "kalna-to-bokaro",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "kalna-to-hazaribagh",
+    "via": [
+      "Durgapur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "kalna-to-deoghar",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "kalna-to-giridih",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "kalna-to-ramgarh",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "kalna-to-palamu",
+    "via": [
+      "Bardhaman",
+      "Bokaro"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "kalna-to-netarhat",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "kalna-to-betla",
+    "via": [
+      "Bokaro",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "kalna-to-dumka",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "kalna-to-chaibasa",
+    "via": [
+      "Bardhaman",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "kalna-to-sahebganj",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 285,
+    "duration": "5-6",
+    "slug": "kalna-to-godda",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4000,
+    "priceSuv": 5100,
+    "priceTempo": 6800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "kalna-to-latehar",
+    "via": [
+      "Bardhaman",
+      "Bokaro"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "kalna-to-tatanagar",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "kalna-to-adityapur",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "kalna-to-khunti",
+    "via": [
+      "Bardhaman",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "kalna-to-gumla",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "kalna-to-simdega",
+    "via": [
+      "Jamshedpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "kalna-to-chatra",
+    "via": [
+      "Durgapur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "kalna-to-lohardaga",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "kalna-to-pakur",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "kalna-to-jamtara",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "kalna-to-koderma",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "kalna-to-seraikela",
+    "via": [
+      "Bardhaman",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "kalna-to-patna",
+    "via": [
+      "Deoghar",
+      "Durgapur"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "kalna-to-gaya",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "kalna-to-bodh-gaya",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "kalna-to-nalanda",
+    "via": [
+      "Deoghar",
+      "Durgapur"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "kalna-to-rajgir",
+    "via": [
+      "Deoghar",
+      "Durgapur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "kalna-to-muzaffarpur",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "kalna-to-varanasi",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "kalna",
+    "fromName": "Kalna",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "kalna-to-prayagraj",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  }
+]

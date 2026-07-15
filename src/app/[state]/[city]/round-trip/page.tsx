@@ -14,10 +14,13 @@ import { generateFaqSchema, generateBreadcrumbSchema, getCityGeoMeta, generateCi
 import { generateRoundTripServiceContent } from '@/lib/serviceContent';
 import { formatBoldText } from '@/lib/textHelper';
 
-// Cloudflare Workers edge SSR — renders on first request, cached 30 days by CF edge
-export const dynamicParams = true;
+// Pre-render ALL city pages at build time — eliminates SSR CPU limit errors on CF Free Tier
+export const dynamicParams = false;
 export const revalidate = false;
-export async function generateStaticParams() { return []; }
+export async function generateStaticParams() {
+  const cities = getAllCities();
+  return cities.map(c => ({ state: c.state, city: c.slug }));
+}
 
 
 export async function generateMetadata({ params }: { params: Promise<{ state: string; city: string }> }): Promise<Metadata> {

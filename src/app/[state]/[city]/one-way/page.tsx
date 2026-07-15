@@ -15,11 +15,14 @@ import { generateOneWayServiceContent } from '@/lib/serviceContent';
 import { formatBoldText } from '@/lib/textHelper';
 
 // Cloudflare Workers edge SSR — renders on first request, cached 30 days by CF edge
-export const dynamicParams = true;
+export const dynamicParams = false;
 export const revalidate = false;
 
 export async function generateStaticParams() {
-  return []; // All city pages via CF Workers edge SSR + CF Cache
+  // Pre-render ALL cities at build time — eliminates SSR cold starts on CF Free Tier
+  const { getAllCities } = await import('@/lib/data');
+  const cities = getAllCities();
+  return cities.map(c => ({ state: c.state, city: c.slug }));
 }
 
 

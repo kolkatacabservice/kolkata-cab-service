@@ -1,0 +1,2044 @@
+[
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 95,
+    "duration": "2-3",
+    "slug": "tamluk-to-kolkata",
+    "via": [
+      "NH 116"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3300,
+    "priceTempo": 4700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 383,
+    "duration": "7-9",
+    "slug": "tamluk-to-ranchi",
+    "via": [],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 397,
+    "duration": "7-9",
+    "slug": "tamluk-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "2-3",
+    "slug": "tamluk-to-howrah",
+    "via": [
+      "NH 116"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3300,
+    "priceTempo": 4600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1.5-2",
+    "slug": "tamluk-to-kharagpur",
+    "via": [
+      "Kolaghat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1.5-2",
+    "slug": "tamluk-to-midnapore",
+    "via": [
+      "Kolaghat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "tamluk-to-siliguri",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "tamluk-to-darjeeling",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "tamluk-to-durgapur",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "tamluk-to-asansol",
+    "via": [
+      "Midnapore",
+      "Durgapur"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "tamluk-to-bardhaman",
+    "via": [
+      "Howrah"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "tamluk-to-malda",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "tamluk-to-murshidabad",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "tamluk-to-cooch-behar",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "tamluk-to-jalpaiguri",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 195,
+    "duration": "3-5",
+    "slug": "tamluk-to-bankura",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "tamluk-to-purulia",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "tamluk-to-digha",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "tamluk-to-sundarbans",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "tamluk-to-bishnupur",
+    "via": [
+      "Midnapore"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "tamluk-to-bolpur-shantiniketan",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "tamluk-to-dooars",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 95,
+    "duration": "1-3",
+    "slug": "tamluk-to-mandarmani",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "tamluk-to-bakkhali",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 100,
+    "duration": "1-3",
+    "slug": "tamluk-to-gangasagar",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 195,
+    "duration": "3-5",
+    "slug": "tamluk-to-mayapur",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "tamluk-to-nabadwip",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "tamluk-to-krishnanagar",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 50,
+    "duration": "0-2",
+    "slug": "tamluk-to-diamond-harbour",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 40,
+    "duration": "0-2",
+    "slug": "tamluk-to-haldia",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "tamluk-to-contai",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "tamluk-to-alipurduar",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "tamluk-to-raiganj",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "tamluk-to-balurghat",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 280,
+    "duration": "5-6",
+    "slug": "tamluk-to-baharampur",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "tamluk-to-hooghly",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "tamluk-to-kolkata-airport",
+    "via": [
+      "Howrah"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 95,
+    "duration": "1-3",
+    "slug": "tamluk-to-salt-lake-kolkata",
+    "via": [
+      "Howrah"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 100,
+    "duration": "1-3",
+    "slug": "tamluk-to-new-town-kolkata",
+    "via": [
+      "Howrah"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "tamluk-to-satragachhi",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 50,
+    "duration": "0-2",
+    "slug": "tamluk-to-uluberia",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "tamluk-to-serampore",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "tamluk-to-chandannagar",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "tamluk-to-tarkeshwar",
+    "via": [
+      "Howrah"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 30,
+    "duration": "0-2",
+    "slug": "tamluk-to-kolaghat",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 50,
+    "duration": "0-2",
+    "slug": "tamluk-to-bagnan",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "tamluk-to-arambagh",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "tamluk-to-barasat",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "tamluk-to-kalyani",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "tamluk-to-bongaon",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "tamluk-to-ranaghat",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "tamluk-to-basirhat",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 110,
+    "duration": "2-3",
+    "slug": "tamluk-to-barrackpore",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 100,
+    "duration": "1-3",
+    "slug": "tamluk-to-dum-dum",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "tamluk-to-habra",
+    "via": [
+      "Kolkata",
+      "Barasat"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "tamluk-to-naihati",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 75,
+    "duration": "1-2",
+    "slug": "tamluk-to-kakdwip",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "tamluk-to-jhargram",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "tamluk-to-raniganj",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "tamluk-to-kalna",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "tamluk-to-katwa",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "tamluk-to-chakdah",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "tamluk-to-islampur",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "tamluk-to-dalkhola",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "tamluk-to-lalbagh",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "tamluk-to-beldanga",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "tamluk-to-karimpur",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "tamluk-to-puri",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "tamluk-to-cuttack",
+    "via": [
+      "Kharagpur",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "tamluk-to-rourkela",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "tamluk-to-sambalpur",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "tamluk-to-berhampur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "tamluk-to-balasore",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "tamluk-to-konark",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "tamluk-to-chilika",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "tamluk-to-dhenkanal",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 780,
+    "duration": "15-16",
+    "slug": "tamluk-to-koraput",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "tamluk-to-rayagada",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "tamluk-to-angul",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "tamluk-to-jharsuguda",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "tamluk-to-baripada",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "tamluk-to-jeypore",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "tamluk-to-gopalpur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "tamluk-to-jamshedpur",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "tamluk-to-dhanbad",
+    "via": [
+      "Midnapore",
+      "Asansol"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "tamluk-to-bokaro",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "tamluk-to-hazaribagh",
+    "via": [
+      "Bokaro",
+      "Midnapore"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "tamluk-to-deoghar",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "tamluk-to-giridih",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "tamluk-to-ramgarh",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "tamluk-to-palamu",
+    "via": [
+      "Ranchi",
+      "Midnapore"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "tamluk-to-netarhat",
+    "via": [
+      "Midnapore",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "tamluk-to-betla",
+    "via": [
+      "Ranchi",
+      "Midnapore"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "tamluk-to-dumka",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "tamluk-to-chaibasa",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "tamluk-to-sahebganj",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "tamluk-to-godda",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "tamluk-to-latehar",
+    "via": [
+      "Ranchi",
+      "Midnapore"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "tamluk-to-tatanagar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "tamluk-to-adityapur",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "tamluk-to-khunti",
+    "via": [
+      "Midnapore",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "tamluk-to-gumla",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "tamluk-to-simdega",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "tamluk-to-chatra",
+    "via": [
+      "Hazaribagh",
+      "Midnapore"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "tamluk-to-lohardaga",
+    "via": [
+      "Midnapore",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "tamluk-to-pakur",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "tamluk-to-jamtara",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "tamluk-to-koderma",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "tamluk-to-seraikela",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "tamluk-to-patna",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "tamluk-to-gaya",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "tamluk-to-bodh-gaya",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "tamluk-to-nalanda",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "tamluk-to-rajgir",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "tamluk-to-muzaffarpur",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "tamluk-to-varanasi",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "tamluk",
+    "fromName": "Tamluk",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 840,
+    "duration": "16-17",
+    "slug": "tamluk-to-prayagraj",
+    "via": [
+      "Midnapore",
+      "Ranchi"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15100,
+    "priceTempo": 20200
+  }
+]

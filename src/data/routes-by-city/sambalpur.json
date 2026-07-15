@@ -1,0 +1,2026 @@
+[
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 609,
+    "duration": "12-14",
+    "slug": "sambalpur-to-kolkata",
+    "via": [],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 325,
+    "duration": "6-8",
+    "slug": "sambalpur-to-ranchi",
+    "via": [],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 302,
+    "duration": "6-8",
+    "slug": "sambalpur-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 55,
+    "duration": "1-2",
+    "slug": "sambalpur-to-jharsuguda",
+    "via": [],
+    "priceSaloon": 2100,
+    "priceSuv": 2800,
+    "priceTempo": 4000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 155,
+    "duration": "3-4",
+    "slug": "sambalpur-to-rourkela",
+    "via": [],
+    "priceSaloon": 3200,
+    "priceSuv": 4200,
+    "priceTempo": 5800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 295,
+    "duration": "5-6",
+    "slug": "sambalpur-to-cuttack",
+    "via": [
+      "NH 53"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 5000,
+    "priceTempo": 6800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 145,
+    "duration": "2.5-3.5",
+    "slug": "sambalpur-to-angul",
+    "via": [
+      "NH 55"
+    ],
+    "priceSaloon": 1900,
+    "priceSuv": 2500,
+    "priceTempo": 3300
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 185,
+    "duration": "3-4",
+    "slug": "sambalpur-to-dhenkanal",
+    "via": [
+      "NH 55"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4300
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "sambalpur-to-siliguri",
+    "via": [
+      "Deoghar",
+      "Ranchi"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 895,
+    "duration": "17-18",
+    "slug": "sambalpur-to-darjeeling",
+    "via": [
+      "Deoghar",
+      "Ranchi"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16100,
+    "priceTempo": 21500
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "sambalpur-to-durgapur",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "sambalpur-to-asansol",
+    "via": [
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "sambalpur-to-howrah",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "sambalpur-to-kharagpur",
+    "via": [
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "sambalpur-to-bardhaman",
+    "via": [
+      "Midnapore",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "sambalpur-to-malda",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "sambalpur-to-murshidabad",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "sambalpur-to-cooch-behar",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "sambalpur-to-jalpaiguri",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "sambalpur-to-bankura",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "sambalpur-to-purulia",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "sambalpur-to-midnapore",
+    "via": [
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "sambalpur-to-digha",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "sambalpur-to-sundarbans",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "sambalpur-to-bishnupur",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "sambalpur-to-bolpur-shantiniketan",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 945,
+    "duration": "18-19",
+    "slug": "sambalpur-to-dooars",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 13200,
+    "priceSuv": 17000,
+    "priceTempo": 22700
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "sambalpur-to-mandarmani",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "sambalpur-to-bakkhali",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "sambalpur-to-gangasagar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "sambalpur-to-mayapur",
+    "via": [
+      "Jamshedpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "sambalpur-to-nabadwip",
+    "via": [
+      "Jamshedpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "sambalpur-to-krishnanagar",
+    "via": [
+      "Jamshedpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "sambalpur-to-diamond-harbour",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "sambalpur-to-haldia",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "sambalpur-to-contai",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "sambalpur-to-tamluk",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 935,
+    "duration": "17-19",
+    "slug": "sambalpur-to-alipurduar",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 13100,
+    "priceSuv": 16800,
+    "priceTempo": 22400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "sambalpur-to-raiganj",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 760,
+    "duration": "14-16",
+    "slug": "sambalpur-to-balurghat",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13700,
+    "priceTempo": 18200
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "sambalpur-to-baharampur",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "sambalpur-to-hooghly",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "sambalpur-to-kolkata-airport",
+    "via": [
+      "Howrah",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "sambalpur-to-salt-lake-kolkata",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "sambalpur-to-new-town-kolkata",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "sambalpur-to-satragachhi",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "sambalpur-to-uluberia",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "sambalpur-to-serampore",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "sambalpur-to-chandannagar",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "sambalpur-to-tarkeshwar",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "sambalpur-to-kolaghat",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "sambalpur-to-bagnan",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "sambalpur-to-arambagh",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "sambalpur-to-barasat",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "sambalpur-to-kalyani",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "sambalpur-to-bongaon",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "sambalpur-to-ranaghat",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "sambalpur-to-basirhat",
+    "via": [
+      "Kharagpur",
+      "Kolkata"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "sambalpur-to-barrackpore",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "sambalpur-to-dum-dum",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "sambalpur-to-habra",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "sambalpur-to-naihati",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "sambalpur-to-kakdwip",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "sambalpur-to-jhargram",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "sambalpur-to-raniganj",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "sambalpur-to-kalna",
+    "via": [
+      "Jamshedpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "sambalpur-to-katwa",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "sambalpur-to-chakdah",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "sambalpur-to-islampur",
+    "via": [
+      "Ranchi",
+      "Deoghar"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "sambalpur-to-dalkhola",
+    "via": [
+      "Ranchi",
+      "Deoghar"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "sambalpur-to-lalbagh",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "sambalpur-to-beldanga",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "sambalpur-to-karimpur",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "sambalpur-to-puri",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "sambalpur-to-berhampur",
+    "via": [],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "sambalpur-to-balasore",
+    "via": [
+      "Cuttack"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "sambalpur-to-konark",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "sambalpur-to-chilika",
+    "via": [],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "sambalpur-to-koraput",
+    "via": [],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "sambalpur-to-rayagada",
+    "via": [],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "sambalpur-to-baripada",
+    "via": [],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "sambalpur-to-jeypore",
+    "via": [],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "sambalpur-to-gopalpur",
+    "via": [],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "sambalpur-to-jamshedpur",
+    "via": [],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "sambalpur-to-dhanbad",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "sambalpur-to-bokaro",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "sambalpur-to-hazaribagh",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "sambalpur-to-deoghar",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "sambalpur-to-giridih",
+    "via": [
+      "Ranchi",
+      "Bokaro"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "sambalpur-to-ramgarh",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "sambalpur-to-palamu",
+    "via": [],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "sambalpur-to-netarhat",
+    "via": [],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "sambalpur-to-betla",
+    "via": [],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "sambalpur-to-dumka",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "sambalpur-to-chaibasa",
+    "via": [],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "sambalpur-to-sahebganj",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "sambalpur-to-godda",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "sambalpur-to-latehar",
+    "via": [],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "sambalpur-to-tatanagar",
+    "via": [],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "sambalpur-to-adityapur",
+    "via": [],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "sambalpur-to-khunti",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "sambalpur-to-gumla",
+    "via": [],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "sambalpur-to-simdega",
+    "via": [],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "sambalpur-to-chatra",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "sambalpur-to-lohardaga",
+    "via": [],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "sambalpur-to-pakur",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "sambalpur-to-jamtara",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "sambalpur-to-koderma",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "sambalpur-to-seraikela",
+    "via": [
+      "Jamshedpur"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "sambalpur-to-patna",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "sambalpur-to-gaya",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "sambalpur-to-bodh-gaya",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "sambalpur-to-nalanda",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "sambalpur-to-rajgir",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "sambalpur-to-muzaffarpur",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "sambalpur-to-varanasi",
+    "via": [],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "sambalpur",
+    "fromName": "Sambalpur",
+    "fromState": "odisha",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "sambalpur-to-prayagraj",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  }
+]

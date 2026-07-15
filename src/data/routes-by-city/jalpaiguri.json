@@ -1,0 +1,2081 @@
+[
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 576,
+    "duration": "11-13",
+    "slug": "jalpaiguri-to-kolkata",
+    "via": [],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 643,
+    "duration": "12-14",
+    "slug": "jalpaiguri-to-ranchi",
+    "via": [],
+    "priceSaloon": 8600,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 981,
+    "duration": "19-21",
+    "slug": "jalpaiguri-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 12300,
+    "priceSuv": 15700,
+    "priceTempo": 20700
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 45,
+    "duration": "1-2",
+    "slug": "jalpaiguri-to-siliguri",
+    "via": [
+      "NH 31"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1.5-2",
+    "slug": "jalpaiguri-to-darjeeling",
+    "via": [
+      "Siliguri",
+      "Hill Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 62,
+    "duration": "1.5-2",
+    "slug": "jalpaiguri-to-alipurduar",
+    "via": [
+      "NH 27"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 95,
+    "duration": "1.5-2",
+    "slug": "jalpaiguri-to-cooch-behar",
+    "via": [
+      "NH 27"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 55,
+    "duration": "1-1.5",
+    "slug": "jalpaiguri-to-dooars",
+    "via": [
+      "NH 27"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "jalpaiguri-to-durgapur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "jalpaiguri-to-asansol",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-howrah",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "jalpaiguri-to-kharagpur",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "jalpaiguri-to-bardhaman",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "jalpaiguri-to-malda",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "jalpaiguri-to-murshidabad",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-bankura",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-purulia",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "jalpaiguri-to-midnapore",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "jalpaiguri-to-digha",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "jalpaiguri-to-sundarbans",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-bishnupur",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "jalpaiguri-to-bolpur-shantiniketan",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "jalpaiguri-to-mandarmani",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "jalpaiguri-to-bakkhali",
+    "via": [
+      "Kolkata",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "jalpaiguri-to-gangasagar",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "jalpaiguri-to-mayapur",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "jalpaiguri-to-nabadwip",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "jalpaiguri-to-krishnanagar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "jalpaiguri-to-diamond-harbour",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "jalpaiguri-to-haldia",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "jalpaiguri-to-contai",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "jalpaiguri-to-tamluk",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "jalpaiguri-to-raiganj",
+    "via": [],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "jalpaiguri-to-balurghat",
+    "via": [],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "jalpaiguri-to-baharampur",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-hooghly",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-kolkata-airport",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-salt-lake-kolkata",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-new-town-kolkata",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-satragachhi",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "jalpaiguri-to-uluberia",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-serampore",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-chandannagar",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-tarkeshwar",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "jalpaiguri-to-kolaghat",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "jalpaiguri-to-bagnan",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-arambagh",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-barasat",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-kalyani",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-bongaon",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "jalpaiguri-to-ranaghat",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-basirhat",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-barrackpore",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-dum-dum",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-habra",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-naihati",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "jalpaiguri-to-kakdwip",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "jalpaiguri-to-jhargram",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "jalpaiguri-to-raniganj",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "jalpaiguri-to-kalna",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "jalpaiguri-to-katwa",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-chakdah",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "jalpaiguri-to-islampur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "jalpaiguri-to-dalkhola",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "jalpaiguri-to-lalbagh",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "jalpaiguri-to-beldanga",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "jalpaiguri-to-karimpur",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 950,
+    "duration": "18-19",
+    "slug": "jalpaiguri-to-puri",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 13300,
+    "priceSuv": 17100,
+    "priceTempo": 22800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "jalpaiguri-to-cuttack",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "jalpaiguri-to-rourkela",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "jalpaiguri-to-sambalpur",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 1060,
+    "duration": "20-21",
+    "slug": "jalpaiguri-to-berhampur",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 14800,
+    "priceSuv": 19100,
+    "priceTempo": 25400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "jalpaiguri-to-balasore",
+    "via": [
+      "Kharagpur",
+      "Malda"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 930,
+    "duration": "17-19",
+    "slug": "jalpaiguri-to-konark",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 13000,
+    "priceSuv": 16700,
+    "priceTempo": 22300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 985,
+    "duration": "18-20",
+    "slug": "jalpaiguri-to-chilika",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 13800,
+    "priceSuv": 17700,
+    "priceTempo": 23600
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 860,
+    "duration": "16-18",
+    "slug": "jalpaiguri-to-dhenkanal",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15500,
+    "priceTempo": 20600
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 1245,
+    "duration": "23-25",
+    "slug": "jalpaiguri-to-koraput",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 17400,
+    "priceSuv": 22400,
+    "priceTempo": 29900
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 1160,
+    "duration": "22-23",
+    "slug": "jalpaiguri-to-rayagada",
+    "via": [
+      "Dhanbad",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 16200,
+    "priceSuv": 20900,
+    "priceTempo": 27800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 865,
+    "duration": "16-18",
+    "slug": "jalpaiguri-to-angul",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 12100,
+    "priceSuv": 15600,
+    "priceTempo": 20800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 835,
+    "duration": "16-17",
+    "slug": "jalpaiguri-to-jharsuguda",
+    "via": [
+      "Deoghar",
+      "Ranchi"
+    ],
+    "priceSaloon": 11700,
+    "priceSuv": 15000,
+    "priceTempo": 20000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "jalpaiguri-to-baripada",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 1255,
+    "duration": "24-25",
+    "slug": "jalpaiguri-to-jeypore",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 17600,
+    "priceSuv": 22600,
+    "priceTempo": 30100
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 1060,
+    "duration": "20-21",
+    "slug": "jalpaiguri-to-gopalpur",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 14800,
+    "priceSuv": 19100,
+    "priceTempo": 25400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "jalpaiguri-to-jamshedpur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "jalpaiguri-to-dhanbad",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-bokaro",
+    "via": [
+      "Deoghar",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-hazaribagh",
+    "via": [
+      "Deoghar",
+      "Siliguri"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "jalpaiguri-to-deoghar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "jalpaiguri-to-giridih",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "jalpaiguri-to-ramgarh",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "jalpaiguri-to-palamu",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "jalpaiguri-to-netarhat",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "jalpaiguri-to-betla",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "jalpaiguri-to-dumka",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "jalpaiguri-to-chaibasa",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "jalpaiguri-to-sahebganj",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "jalpaiguri-to-godda",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "jalpaiguri-to-latehar",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "jalpaiguri-to-tatanagar",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "jalpaiguri-to-adityapur",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "jalpaiguri-to-khunti",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "jalpaiguri-to-gumla",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "jalpaiguri-to-simdega",
+    "via": [
+      "Ranchi",
+      "Deoghar"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "jalpaiguri-to-chatra",
+    "via": [
+      "Gaya",
+      "Siliguri"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "jalpaiguri-to-lohardaga",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "jalpaiguri-to-pakur",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "jalpaiguri-to-jamtara",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-koderma",
+    "via": [
+      "Siliguri",
+      "Deoghar"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "jalpaiguri-to-seraikela",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "jalpaiguri-to-patna",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "jalpaiguri-to-gaya",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "jalpaiguri-to-bodh-gaya",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "jalpaiguri-to-nalanda",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "jalpaiguri-to-rajgir",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "jalpaiguri-to-muzaffarpur",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "jalpaiguri-to-varanasi",
+    "via": [
+      "Patna",
+      "Siliguri"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "jalpaiguri",
+    "fromName": "Jalpaiguri",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "jalpaiguri-to-prayagraj",
+    "via": [
+      "Patna",
+      "Varanasi"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  }
+]

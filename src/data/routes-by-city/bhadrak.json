@@ -1,0 +1,19 @@
+[
+  {
+    "from": "bhadrak",
+    "fromName": "Bhadrak",
+    "fromState": "odisha",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 55,
+    "duration": "1-1.5",
+    "slug": "bhadrak-to-balasore",
+    "via": [
+      "NH 16"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  }
+]

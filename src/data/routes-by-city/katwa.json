@@ -1,0 +1,2047 @@
+[
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2.5-3.5",
+    "slug": "katwa-to-kolkata",
+    "via": [
+      "Bardhaman",
+      "NH 19"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 42,
+    "duration": "1-1.5",
+    "slug": "katwa-to-bardhaman",
+    "via": [
+      "Kalna Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "katwa-to-siliguri",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "katwa-to-darjeeling",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "katwa-to-durgapur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "katwa-to-asansol",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "katwa-to-howrah",
+    "via": [
+      "Barasat",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "katwa-to-kharagpur",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "katwa-to-malda",
+    "via": [],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "katwa-to-murshidabad",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "katwa-to-cooch-behar",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "katwa-to-jalpaiguri",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "katwa-to-bankura",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "katwa-to-purulia",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "katwa-to-midnapore",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "katwa-to-digha",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 270,
+    "duration": "5-6",
+    "slug": "katwa-to-sundarbans",
+    "via": [
+      "Kolkata",
+      "Barasat"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 4900,
+    "priceTempo": 6500
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "katwa-to-bishnupur",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 70,
+    "duration": "1-2",
+    "slug": "katwa-to-bolpur-shantiniketan",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "katwa-to-dooars",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "katwa-to-mandarmani",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "katwa-to-bakkhali",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "katwa-to-gangasagar",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 55,
+    "duration": "1-2",
+    "slug": "katwa-to-mayapur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 55,
+    "duration": "1-2",
+    "slug": "katwa-to-nabadwip",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 75,
+    "duration": "1-2",
+    "slug": "katwa-to-krishnanagar",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "katwa-to-diamond-harbour",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "katwa-to-haldia",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 280,
+    "duration": "5-6",
+    "slug": "katwa-to-contai",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6700
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "katwa-to-tamluk",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "katwa-to-alipurduar",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "katwa-to-raiganj",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "katwa-to-balurghat",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "katwa-to-baharampur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "katwa-to-hooghly",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "katwa-to-kolkata-airport",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "katwa-to-salt-lake-kolkata",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "katwa-to-new-town-kolkata",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "katwa-to-satragachhi",
+    "via": [
+      "Barasat",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "katwa-to-uluberia",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "katwa-to-serampore",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "katwa-to-chandannagar",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "katwa-to-tarkeshwar",
+    "via": [
+      "Bardhaman"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "katwa-to-kolaghat",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "katwa-to-bagnan",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "katwa-to-arambagh",
+    "via": [
+      "Bardhaman"
+    ],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "katwa-to-barasat",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "katwa-to-kalyani",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "katwa-to-bongaon",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 100,
+    "duration": "1-3",
+    "slug": "katwa-to-ranaghat",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "katwa-to-basirhat",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "katwa-to-barrackpore",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "katwa-to-dum-dum",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "katwa-to-habra",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "katwa-to-naihati",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "katwa-to-kakdwip",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "katwa-to-jhargram",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "katwa-to-raniganj",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 85,
+    "duration": "1-3",
+    "slug": "katwa-to-kalna",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 110,
+    "duration": "2-3",
+    "slug": "katwa-to-chakdah",
+    "via": [
+      "Krishnanagar"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "katwa-to-islampur",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "katwa-to-dalkhola",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "katwa-to-lalbagh",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 50,
+    "duration": "0-2",
+    "slug": "katwa-to-beldanga",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "katwa-to-karimpur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "katwa-to-bhubaneswar",
+    "via": [
+      "Kharagpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "katwa-to-puri",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "katwa-to-cuttack",
+    "via": [
+      "Kharagpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "katwa-to-rourkela",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "katwa-to-sambalpur",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "katwa-to-berhampur",
+    "via": [
+      "Bardhaman",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "katwa-to-balasore",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "katwa-to-konark",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 640,
+    "duration": "12-13",
+    "slug": "katwa-to-chilika",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11500,
+    "priceTempo": 15400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "katwa-to-dhenkanal",
+    "via": [
+      "Bardhaman",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "katwa-to-koraput",
+    "via": [
+      "Bardhaman",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "katwa-to-rayagada",
+    "via": [
+      "Bardhaman",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "katwa-to-angul",
+    "via": [
+      "Bardhaman",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "katwa-to-jharsuguda",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "katwa-to-baripada",
+    "via": [
+      "Bardhaman",
+      "Kharagpur"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 925,
+    "duration": "17-19",
+    "slug": "katwa-to-jeypore",
+    "via": [
+      "Bardhaman",
+      "Kharagpur"
+    ],
+    "priceSaloon": 13000,
+    "priceSuv": 16700,
+    "priceTempo": 22200
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "katwa-to-gopalpur",
+    "via": [
+      "Bardhaman",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "katwa-to-ranchi",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "katwa-to-jamshedpur",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "katwa-to-dhanbad",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "katwa-to-bokaro",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "katwa-to-hazaribagh",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "katwa-to-deoghar",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "katwa-to-giridih",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "katwa-to-ramgarh",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "katwa-to-palamu",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "katwa-to-netarhat",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "katwa-to-betla",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "katwa-to-dumka",
+    "via": [],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "katwa-to-chaibasa",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "katwa-to-sahebganj",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "katwa-to-godda",
+    "via": [],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "katwa-to-latehar",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "katwa-to-tatanagar",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "katwa-to-adityapur",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "katwa-to-khunti",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "katwa-to-gumla",
+    "via": [
+      "Durgapur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "katwa-to-simdega",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "katwa-to-chatra",
+    "via": [
+      "Dhanbad",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "katwa-to-lohardaga",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "katwa-to-pakur",
+    "via": [],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 195,
+    "duration": "3-5",
+    "slug": "katwa-to-jamtara",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4700
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "katwa-to-koderma",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "katwa-to-seraikela",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "katwa-to-patna",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "katwa-to-gaya",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "katwa-to-bodh-gaya",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "katwa-to-nalanda",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "katwa-to-rajgir",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "katwa-to-muzaffarpur",
+    "via": [
+      "Deoghar",
+      "Durgapur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "katwa-to-varanasi",
+    "via": [
+      "Gaya",
+      "Deoghar"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "katwa",
+    "fromName": "Katwa",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "katwa-to-prayagraj",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  }
+]

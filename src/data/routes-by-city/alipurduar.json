@@ -1,0 +1,2080 @@
+[
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-14",
+    "slug": "alipurduar-to-kolkata",
+    "via": [
+      "Siliguri",
+      "NH 12"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11100,
+    "priceTempo": 14700
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 716,
+    "duration": "14-16",
+    "slug": "alipurduar-to-ranchi",
+    "via": [],
+    "priceSaloon": 9400,
+    "priceSuv": 12000,
+    "priceTempo": 15900
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 1021,
+    "duration": "20-22",
+    "slug": "alipurduar-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 12700,
+    "priceSuv": 16300,
+    "priceTempo": 21400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "alipurduar-to-siliguri",
+    "via": [
+      "Jalpaiguri"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 6100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "alipurduar-to-darjeeling",
+    "via": [
+      "NH 31C",
+      "Siliguri"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 62,
+    "duration": "1.5-2",
+    "slug": "alipurduar-to-jalpaiguri",
+    "via": [
+      "NH 27"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 58,
+    "duration": "1-1.5",
+    "slug": "alipurduar-to-cooch-behar",
+    "via": [
+      "NH 27"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 30,
+    "duration": "0.5-1",
+    "slug": "alipurduar-to-dooars",
+    "via": [
+      "Forest Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "alipurduar-to-durgapur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "alipurduar-to-asansol",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "alipurduar-to-howrah",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "alipurduar-to-kharagpur",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "alipurduar-to-bardhaman",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 285,
+    "duration": "5-6",
+    "slug": "alipurduar-to-malda",
+    "via": [],
+    "priceSaloon": 4000,
+    "priceSuv": 5100,
+    "priceTempo": 6800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "alipurduar-to-murshidabad",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "alipurduar-to-bankura",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "alipurduar-to-purulia",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "alipurduar-to-midnapore",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "alipurduar-to-digha",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "alipurduar-to-sundarbans",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "alipurduar-to-bishnupur",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "alipurduar-to-bolpur-shantiniketan",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 690,
+    "duration": "13-14",
+    "slug": "alipurduar-to-mandarmani",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 9700,
+    "priceSuv": 12400,
+    "priceTempo": 16600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "alipurduar-to-bakkhali",
+    "via": [
+      "Kolkata",
+      "Barasat"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "alipurduar-to-gangasagar",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "alipurduar-to-mayapur",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "alipurduar-to-nabadwip",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "alipurduar-to-krishnanagar",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "alipurduar-to-diamond-harbour",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "alipurduar-to-haldia",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "alipurduar-to-contai",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "alipurduar-to-tamluk",
+    "via": [
+      "Howrah",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "alipurduar-to-raiganj",
+    "via": [],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "alipurduar-to-balurghat",
+    "via": [],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "alipurduar-to-baharampur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "alipurduar-to-hooghly",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "alipurduar-to-kolkata-airport",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "alipurduar-to-salt-lake-kolkata",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "alipurduar-to-new-town-kolkata",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "alipurduar-to-satragachhi",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "alipurduar-to-uluberia",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "alipurduar-to-serampore",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "alipurduar-to-chandannagar",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "alipurduar-to-tarkeshwar",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "alipurduar-to-kolaghat",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "alipurduar-to-bagnan",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "alipurduar-to-arambagh",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "alipurduar-to-barasat",
+    "via": [
+      "Krishnanagar",
+      "Kolkata"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "alipurduar-to-kalyani",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "alipurduar-to-bongaon",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "alipurduar-to-ranaghat",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "alipurduar-to-basirhat",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "alipurduar-to-barrackpore",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "alipurduar-to-dum-dum",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "alipurduar-to-habra",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "alipurduar-to-naihati",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "alipurduar-to-kakdwip",
+    "via": [
+      "Kolkata",
+      "Barasat"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "alipurduar-to-jhargram",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "alipurduar-to-raniganj",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "alipurduar-to-kalna",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "alipurduar-to-katwa",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "alipurduar-to-chakdah",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "alipurduar-to-islampur",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "alipurduar-to-dalkhola",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "alipurduar-to-lalbagh",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "alipurduar-to-beldanga",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "alipurduar-to-karimpur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 985,
+    "duration": "18-20",
+    "slug": "alipurduar-to-puri",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 13800,
+    "priceSuv": 17700,
+    "priceTempo": 23600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 905,
+    "duration": "17-18",
+    "slug": "alipurduar-to-cuttack",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16300,
+    "priceTempo": 21700
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "alipurduar-to-rourkela",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 935,
+    "duration": "17-19",
+    "slug": "alipurduar-to-sambalpur",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 13100,
+    "priceSuv": 16800,
+    "priceTempo": 22400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 1100,
+    "duration": "21-22",
+    "slug": "alipurduar-to-berhampur",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 15400,
+    "priceSuv": 19800,
+    "priceTempo": 26400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "alipurduar-to-balasore",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 960,
+    "duration": "18-19",
+    "slug": "alipurduar-to-konark",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17300,
+    "priceTempo": 23000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 1025,
+    "duration": "19-21",
+    "slug": "alipurduar-to-chilika",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 14400,
+    "priceSuv": 18500,
+    "priceTempo": 24600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 900,
+    "duration": "17-18",
+    "slug": "alipurduar-to-dhenkanal",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 12600,
+    "priceSuv": 16200,
+    "priceTempo": 21600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 1300,
+    "duration": "25-26",
+    "slug": "alipurduar-to-koraput",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 18200,
+    "priceSuv": 23400,
+    "priceTempo": 31200
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 1210,
+    "duration": "23-24",
+    "slug": "alipurduar-to-rayagada",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 16900,
+    "priceSuv": 21800,
+    "priceTempo": 29000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "alipurduar-to-angul",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 900,
+    "duration": "17-18",
+    "slug": "alipurduar-to-jharsuguda",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 12600,
+    "priceSuv": 16200,
+    "priceTempo": 21600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "alipurduar-to-baripada",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 1310,
+    "duration": "25-26",
+    "slug": "alipurduar-to-jeypore",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 18300,
+    "priceSuv": 23600,
+    "priceTempo": 31400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 1100,
+    "duration": "21-22",
+    "slug": "alipurduar-to-gopalpur",
+    "via": [
+      "Durgapur",
+      "Cuttack"
+    ],
+    "priceSaloon": 15400,
+    "priceSuv": 19800,
+    "priceTempo": 26400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "alipurduar-to-jamshedpur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "alipurduar-to-dhanbad",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "alipurduar-to-bokaro",
+    "via": [
+      "Dhanbad",
+      "Malda"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "alipurduar-to-hazaribagh",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "alipurduar-to-deoghar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "alipurduar-to-giridih",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "alipurduar-to-ramgarh",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "alipurduar-to-palamu",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "alipurduar-to-netarhat",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "alipurduar-to-betla",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "alipurduar-to-dumka",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "alipurduar-to-chaibasa",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "alipurduar-to-sahebganj",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "alipurduar-to-godda",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "alipurduar-to-latehar",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "alipurduar-to-tatanagar",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "alipurduar-to-adityapur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "alipurduar-to-khunti",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "alipurduar-to-gumla",
+    "via": [
+      "Deoghar",
+      "Ranchi"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "alipurduar-to-simdega",
+    "via": [
+      "Ranchi",
+      "Deoghar"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "alipurduar-to-chatra",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "alipurduar-to-lohardaga",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "alipurduar-to-pakur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "alipurduar-to-jamtara",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "alipurduar-to-koderma",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 690,
+    "duration": "13-14",
+    "slug": "alipurduar-to-seraikela",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 9700,
+    "priceSuv": 12400,
+    "priceTempo": 16600
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "alipurduar-to-patna",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "alipurduar-to-gaya",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "alipurduar-to-bodh-gaya",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "alipurduar-to-nalanda",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "alipurduar-to-rajgir",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "alipurduar-to-muzaffarpur",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "alipurduar-to-varanasi",
+    "via": [
+      "Patna",
+      "Siliguri"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "alipurduar",
+    "fromName": "Alipurduar",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "alipurduar-to-prayagraj",
+    "via": [
+      "Patna",
+      "Varanasi"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  }
+]

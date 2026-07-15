@@ -1,0 +1,2018 @@
+[
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 143,
+    "duration": "2-4",
+    "slug": "kharagpur-to-kolkata",
+    "via": [],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5600
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 306,
+    "duration": "6-8",
+    "slug": "kharagpur-to-ranchi",
+    "via": [],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 357,
+    "duration": "7-9",
+    "slug": "kharagpur-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 5400,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "kharagpur-to-digha",
+    "via": [
+      "NH 116B"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3700,
+    "priceTempo": 5200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 20,
+    "duration": "0-1",
+    "slug": "kharagpur-to-midnapore",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2300,
+    "priceTempo": 3400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 75,
+    "duration": "1-2",
+    "slug": "kharagpur-to-haldia",
+    "via": [
+      "Kolaghat"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3100,
+    "priceTempo": 4400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 40,
+    "duration": "1-1.5",
+    "slug": "kharagpur-to-jhargram",
+    "via": [
+      "NH 6"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 95,
+    "duration": "1.5-2",
+    "slug": "kharagpur-to-contai",
+    "via": [
+      "Midnapore Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1.5-2",
+    "slug": "kharagpur-to-tamluk",
+    "via": [
+      "Kolaghat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "kharagpur-to-mandarmani",
+    "via": [
+      "Contai Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "kharagpur-to-siliguri",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "kharagpur-to-darjeeling",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "kharagpur-to-durgapur",
+    "via": [],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "kharagpur-to-asansol",
+    "via": [
+      "Durgapur"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "kharagpur-to-howrah",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "kharagpur-to-bardhaman",
+    "via": [],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "kharagpur-to-malda",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "kharagpur-to-murshidabad",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "kharagpur-to-cooch-behar",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "kharagpur-to-jalpaiguri",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "kharagpur-to-bankura",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "kharagpur-to-purulia",
+    "via": [
+      "Jamshedpur"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "kharagpur-to-sundarbans",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "kharagpur-to-bishnupur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "kharagpur-to-bolpur-shantiniketan",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "kharagpur-to-dooars",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "kharagpur-to-bakkhali",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "kharagpur-to-gangasagar",
+    "via": [],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "kharagpur-to-mayapur",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "kharagpur-to-nabadwip",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "kharagpur-to-krishnanagar",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "kharagpur-to-diamond-harbour",
+    "via": [],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "kharagpur-to-alipurduar",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "kharagpur-to-raiganj",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "kharagpur-to-balurghat",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "kharagpur-to-baharampur",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "kharagpur-to-hooghly",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "kharagpur-to-kolkata-airport",
+    "via": [
+      "Howrah"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "kharagpur-to-salt-lake-kolkata",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "kharagpur-to-new-town-kolkata",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "kharagpur-to-satragachhi",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "kharagpur-to-uluberia",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "kharagpur-to-serampore",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "kharagpur-to-chandannagar",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "kharagpur-to-tarkeshwar",
+    "via": [],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "kharagpur-to-kolaghat",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 110,
+    "duration": "2-3",
+    "slug": "kharagpur-to-bagnan",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 110,
+    "duration": "2-3",
+    "slug": "kharagpur-to-arambagh",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "kharagpur-to-barasat",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "kharagpur-to-kalyani",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "kharagpur-to-bongaon",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "kharagpur-to-ranaghat",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "kharagpur-to-basirhat",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "kharagpur-to-barrackpore",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "kharagpur-to-dum-dum",
+    "via": [],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "kharagpur-to-habra",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "kharagpur-to-naihati",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "kharagpur-to-kakdwip",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "kharagpur-to-raniganj",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "kharagpur-to-kalna",
+    "via": [
+      "Bardhaman",
+      "Howrah"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "kharagpur-to-katwa",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "kharagpur-to-chakdah",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "kharagpur-to-islampur",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "kharagpur-to-dalkhola",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "kharagpur-to-lalbagh",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "kharagpur-to-beldanga",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "kharagpur-to-karimpur",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "kharagpur-to-puri",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "kharagpur-to-cuttack",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "kharagpur-to-rourkela",
+    "via": [
+      "Jamshedpur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "kharagpur-to-sambalpur",
+    "via": [
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "kharagpur-to-berhampur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "kharagpur-to-balasore",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "kharagpur-to-konark",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "kharagpur-to-chilika",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "kharagpur-to-dhenkanal",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "kharagpur-to-koraput",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "kharagpur-to-rayagada",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "kharagpur-to-angul",
+    "via": [
+      "Cuttack"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "kharagpur-to-jharsuguda",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 110,
+    "duration": "2-3",
+    "slug": "kharagpur-to-baripada",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "kharagpur-to-jeypore",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "kharagpur-to-gopalpur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "kharagpur-to-jamshedpur",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "kharagpur-to-dhanbad",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "kharagpur-to-bokaro",
+    "via": [
+      "Dhanbad",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "kharagpur-to-hazaribagh",
+    "via": [
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "kharagpur-to-deoghar",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "kharagpur-to-giridih",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "kharagpur-to-ramgarh",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "kharagpur-to-palamu",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "kharagpur-to-netarhat",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "kharagpur-to-betla",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 285,
+    "duration": "5-6",
+    "slug": "kharagpur-to-dumka",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 4000,
+    "priceSuv": 5100,
+    "priceTempo": 6800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "kharagpur-to-chaibasa",
+    "via": [
+      "Jamshedpur"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "kharagpur-to-sahebganj",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "kharagpur-to-godda",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "kharagpur-to-latehar",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "kharagpur-to-tatanagar",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "kharagpur-to-adityapur",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "kharagpur-to-khunti",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "kharagpur-to-gumla",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "kharagpur-to-simdega",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "kharagpur-to-chatra",
+    "via": [
+      "Hazaribagh",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "kharagpur-to-lohardaga",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "kharagpur-to-pakur",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "kharagpur-to-jamtara",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "kharagpur-to-koderma",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "kharagpur-to-seraikela",
+    "via": [
+      "Jamshedpur"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "kharagpur-to-patna",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "kharagpur-to-gaya",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "kharagpur-to-bodh-gaya",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "kharagpur-to-nalanda",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "kharagpur-to-rajgir",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "kharagpur-to-muzaffarpur",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "kharagpur-to-varanasi",
+    "via": [
+      "Hazaribagh",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "kharagpur",
+    "fromName": "Kharagpur",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "kharagpur-to-prayagraj",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  }
+]

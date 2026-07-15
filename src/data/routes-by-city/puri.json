@@ -1,0 +1,2091 @@
+[
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "8-9",
+    "slug": "puri-to-kolkata",
+    "via": [
+      "Bhubaneswar",
+      "NH 16"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "10-12",
+    "slug": "puri-to-ranchi",
+    "via": [],
+    "priceSaloon": 7200,
+    "priceSuv": 9200,
+    "priceTempo": 12300
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 60,
+    "duration": "1-2",
+    "slug": "puri-to-bhubaneswar",
+    "via": [
+      "NH 316"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 4100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 35,
+    "duration": "0-1",
+    "slug": "puri-to-konark",
+    "via": [
+      "Marine Drive"
+    ],
+    "priceSaloon": 1900,
+    "priceSuv": 2500,
+    "priceTempo": 3600
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 50,
+    "duration": "1-2",
+    "slug": "puri-to-chilika",
+    "via": [],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3900
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 85,
+    "duration": "1-2",
+    "slug": "puri-to-cuttack",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3200,
+    "priceTempo": 4500
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 960,
+    "duration": "18-19",
+    "slug": "puri-to-siliguri",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17300,
+    "priceTempo": 23000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 990,
+    "duration": "19-20",
+    "slug": "puri-to-darjeeling",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 13900,
+    "priceSuv": 17800,
+    "priceTempo": 23800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "puri-to-durgapur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "puri-to-asansol",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "puri-to-howrah",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "puri-to-kharagpur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "puri-to-bardhaman",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 735,
+    "duration": "14-15",
+    "slug": "puri-to-malda",
+    "via": [
+      "Kharagpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 10300,
+    "priceSuv": 13200,
+    "priceTempo": 17600
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "puri-to-murshidabad",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 960,
+    "duration": "18-19",
+    "slug": "puri-to-cooch-behar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17300,
+    "priceTempo": 23000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 950,
+    "duration": "18-19",
+    "slug": "puri-to-jalpaiguri",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 13300,
+    "priceSuv": 17100,
+    "priceTempo": 22800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "puri-to-bankura",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "puri-to-purulia",
+    "via": [
+      "Jamshedpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "puri-to-midnapore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "puri-to-digha",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "puri-to-sundarbans",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "puri-to-bishnupur",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "puri-to-bolpur-shantiniketan",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 1000,
+    "duration": "19-20",
+    "slug": "puri-to-dooars",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 14000,
+    "priceSuv": 18000,
+    "priceTempo": 24000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "puri-to-mandarmani",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "puri-to-bakkhali",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "puri-to-gangasagar",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "puri-to-mayapur",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "puri-to-nabadwip",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "puri-to-krishnanagar",
+    "via": [
+      "Midnapore",
+      "Howrah"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "puri-to-diamond-harbour",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "puri-to-haldia",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "puri-to-contai",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "puri-to-tamluk",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 985,
+    "duration": "18-20",
+    "slug": "puri-to-alipurduar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 13800,
+    "priceSuv": 17700,
+    "priceTempo": 23600
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "puri-to-raiganj",
+    "via": [
+      "Cuttack",
+      "Durgapur"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 795,
+    "duration": "15-16",
+    "slug": "puri-to-balurghat",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14300,
+    "priceTempo": 19100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "puri-to-baharampur",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "puri-to-hooghly",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "puri-to-kolkata-airport",
+    "via": [
+      "Bhubaneswar",
+      "Howrah"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "puri-to-salt-lake-kolkata",
+    "via": [
+      "Bhubaneswar",
+      "Howrah"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "puri-to-new-town-kolkata",
+    "via": [
+      "Bhubaneswar",
+      "Howrah"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "puri-to-satragachhi",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "puri-to-uluberia",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "puri-to-serampore",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "puri-to-chandannagar",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "puri-to-tarkeshwar",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "puri-to-kolaghat",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "puri-to-bagnan",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "puri-to-arambagh",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "puri-to-barasat",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "puri-to-kalyani",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "puri-to-bongaon",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "puri-to-ranaghat",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "puri-to-basirhat",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "puri-to-barrackpore",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "puri-to-dum-dum",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "puri-to-habra",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "puri-to-naihati",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "puri-to-kakdwip",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "puri-to-jhargram",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "puri-to-raniganj",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "puri-to-kalna",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "puri-to-katwa",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "puri-to-chakdah",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 895,
+    "duration": "17-18",
+    "slug": "puri-to-islampur",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16100,
+    "priceTempo": 21500
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "puri-to-dalkhola",
+    "via": [
+      "Cuttack",
+      "Asansol"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "puri-to-lalbagh",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "puri-to-beldanga",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "puri-to-karimpur",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "puri-to-rourkela",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "puri-to-sambalpur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "puri-to-berhampur",
+    "via": [],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "puri-to-balasore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "puri-to-dhenkanal",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "puri-to-koraput",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "puri-to-rayagada",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "puri-to-angul",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "puri-to-jharsuguda",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "puri-to-baripada",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "puri-to-jeypore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "puri-to-gopalpur",
+    "via": [],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "puri-to-jamshedpur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "puri-to-dhanbad",
+    "via": [
+      "Cuttack",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "puri-to-bokaro",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "puri-to-hazaribagh",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "puri-to-deoghar",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "puri-to-giridih",
+    "via": [
+      "Cuttack",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "puri-to-ramgarh",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "puri-to-palamu",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "puri-to-netarhat",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "puri-to-betla",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "puri-to-dumka",
+    "via": [
+      "Asansol",
+      "Cuttack"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "puri-to-chaibasa",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "puri-to-sahebganj",
+    "via": [
+      "Asansol",
+      "Cuttack"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "puri-to-godda",
+    "via": [
+      "Asansol",
+      "Cuttack"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "puri-to-latehar",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "puri-to-tatanagar",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "puri-to-adityapur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "puri-to-khunti",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "puri-to-gumla",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "puri-to-simdega",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "puri-to-chatra",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "puri-to-lohardaga",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "puri-to-pakur",
+    "via": [
+      "Durgapur",
+      "Cuttack"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "puri-to-jamtara",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "puri-to-koderma",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "puri-to-seraikela",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "puri-to-patna",
+    "via": [
+      "Hazaribagh",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "puri-to-gaya",
+    "via": [
+      "Ranchi",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "puri-to-bodh-gaya",
+    "via": [
+      "Ranchi",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "puri-to-nalanda",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "puri-to-rajgir",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "puri-to-muzaffarpur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 800,
+    "duration": "15-16",
+    "slug": "puri-to-varanasi",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11200,
+    "priceSuv": 14400,
+    "priceTempo": 19200
+  },
+  {
+    "from": "puri",
+    "fromName": "Puri",
+    "fromState": "odisha",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 880,
+    "duration": "16-18",
+    "slug": "puri-to-prayagraj",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21100
+  }
+]

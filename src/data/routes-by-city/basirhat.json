@@ -1,0 +1,2065 @@
+[
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1.5-2",
+    "slug": "basirhat-to-kolkata",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 50,
+    "duration": "1-1.5",
+    "slug": "basirhat-to-barasat",
+    "via": [
+      "Barasat-Basirhat Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "basirhat-to-siliguri",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "basirhat-to-darjeeling",
+    "via": [
+      "Krishnanagar",
+      "Siliguri"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "basirhat-to-durgapur",
+    "via": [
+      "Barasat",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "basirhat-to-asansol",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "basirhat-to-howrah",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "basirhat-to-kharagpur",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "basirhat-to-bardhaman",
+    "via": [
+      "Kolkata",
+      "Barasat"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "basirhat-to-malda",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "basirhat-to-murshidabad",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "basirhat-to-cooch-behar",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "basirhat-to-jalpaiguri",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "basirhat-to-bankura",
+    "via": [
+      "Bardhaman",
+      "Barasat"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "basirhat-to-purulia",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "basirhat-to-midnapore",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "basirhat-to-digha",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "basirhat-to-sundarbans",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "basirhat-to-bishnupur",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "basirhat-to-bolpur-shantiniketan",
+    "via": [
+      "Bardhaman",
+      "Barasat"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "basirhat-to-dooars",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "basirhat-to-mandarmani",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "basirhat-to-bakkhali",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 195,
+    "duration": "3-5",
+    "slug": "basirhat-to-gangasagar",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4700
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "basirhat-to-mayapur",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "basirhat-to-nabadwip",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "basirhat-to-krishnanagar",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "basirhat-to-diamond-harbour",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "basirhat-to-haldia",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "basirhat-to-contai",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "basirhat-to-tamluk",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "basirhat-to-alipurduar",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "basirhat-to-raiganj",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "basirhat-to-balurghat",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "basirhat-to-baharampur",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 85,
+    "duration": "1-3",
+    "slug": "basirhat-to-hooghly",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 65,
+    "duration": "1-2",
+    "slug": "basirhat-to-kolkata-airport",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 75,
+    "duration": "1-2",
+    "slug": "basirhat-to-salt-lake-kolkata",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 65,
+    "duration": "1-2",
+    "slug": "basirhat-to-new-town-kolkata",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 95,
+    "duration": "1-3",
+    "slug": "basirhat-to-satragachhi",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "basirhat-to-uluberia",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 85,
+    "duration": "1-3",
+    "slug": "basirhat-to-serampore",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "basirhat-to-chandannagar",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "basirhat-to-tarkeshwar",
+    "via": [
+      "Kolkata",
+      "Barasat"
+    ],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "basirhat-to-kolaghat",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "basirhat-to-bagnan",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "basirhat-to-arambagh",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "basirhat-to-kalyani",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 70,
+    "duration": "1-2",
+    "slug": "basirhat-to-bongaon",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 95,
+    "duration": "1-3",
+    "slug": "basirhat-to-ranaghat",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "basirhat-to-barrackpore",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 75,
+    "duration": "1-2",
+    "slug": "basirhat-to-dum-dum",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 50,
+    "duration": "0-2",
+    "slug": "basirhat-to-habra",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 80,
+    "duration": "1-3",
+    "slug": "basirhat-to-naihati",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "basirhat-to-kakdwip",
+    "via": [
+      "Kolkata",
+      "Barasat"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "basirhat-to-jhargram",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "basirhat-to-raniganj",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "basirhat-to-kalna",
+    "via": [
+      "Barasat"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "basirhat-to-katwa",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "basirhat-to-chakdah",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "basirhat-to-islampur",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "basirhat-to-dalkhola",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "basirhat-to-lalbagh",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "basirhat-to-beldanga",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "basirhat-to-karimpur",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "basirhat-to-bhubaneswar",
+    "via": [
+      "Cuttack",
+      "Kolkata"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "basirhat-to-puri",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "basirhat-to-cuttack",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "basirhat-to-rourkela",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "basirhat-to-sambalpur",
+    "via": [
+      "Kolkata",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "basirhat-to-berhampur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "basirhat-to-balasore",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "basirhat-to-konark",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "basirhat-to-chilika",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "basirhat-to-dhenkanal",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 910,
+    "duration": "17-18",
+    "slug": "basirhat-to-koraput",
+    "via": [
+      "Cuttack",
+      "Kolkata"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16400,
+    "priceTempo": 21800
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "basirhat-to-rayagada",
+    "via": [
+      "Cuttack",
+      "Kolkata"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "basirhat-to-angul",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "basirhat-to-jharsuguda",
+    "via": [
+      "Midnapore",
+      "Kolkata"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "basirhat-to-baripada",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 920,
+    "duration": "17-19",
+    "slug": "basirhat-to-jeypore",
+    "via": [
+      "Kolkata",
+      "Cuttack"
+    ],
+    "priceSaloon": 12900,
+    "priceSuv": 16600,
+    "priceTempo": 22100
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "basirhat-to-gopalpur",
+    "via": [
+      "Bhubaneswar",
+      "Puri"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "basirhat-to-ranchi",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "basirhat-to-jamshedpur",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "basirhat-to-dhanbad",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "basirhat-to-bokaro",
+    "via": [
+      "Barasat",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "basirhat-to-hazaribagh",
+    "via": [
+      "Bokaro",
+      "Barasat"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "basirhat-to-deoghar",
+    "via": [
+      "Bardhaman",
+      "Barasat"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "basirhat-to-giridih",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "basirhat-to-ramgarh",
+    "via": [
+      "Barasat",
+      "Bokaro"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "basirhat-to-palamu",
+    "via": [
+      "Barasat",
+      "Ranchi"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "basirhat-to-netarhat",
+    "via": [
+      "Barasat",
+      "Ranchi"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "basirhat-to-betla",
+    "via": [
+      "Barasat",
+      "Bokaro"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "basirhat-to-dumka",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "basirhat-to-chaibasa",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "basirhat-to-sahebganj",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "basirhat-to-godda",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "basirhat-to-latehar",
+    "via": [
+      "Barasat",
+      "Ranchi"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "basirhat-to-tatanagar",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "basirhat-to-adityapur",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "basirhat-to-khunti",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "basirhat-to-gumla",
+    "via": [
+      "Barasat",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "basirhat-to-simdega",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "basirhat-to-chatra",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "basirhat-to-lohardaga",
+    "via": [
+      "Barasat",
+      "Ranchi"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "basirhat-to-pakur",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "basirhat-to-jamtara",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "basirhat-to-koderma",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "basirhat-to-seraikela",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "basirhat-to-patna",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "basirhat-to-gaya",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "basirhat-to-bodh-gaya",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "basirhat-to-nalanda",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "basirhat-to-rajgir",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "basirhat-to-muzaffarpur",
+    "via": [
+      "Deoghar",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "basirhat-to-varanasi",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "basirhat",
+    "fromName": "Basirhat",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "basirhat-to-prayagraj",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  }
+]

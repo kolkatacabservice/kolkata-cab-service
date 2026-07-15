@@ -1,0 +1,2079 @@
+[
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 680,
+    "duration": "12-14",
+    "slug": "varanasi-to-kolkata",
+    "via": [
+      "Gaya",
+      "Dhanbad",
+      "NH 19"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 240,
+    "duration": "4-5",
+    "slug": "varanasi-to-gaya",
+    "via": [
+      "NH 2"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "varanasi-to-prayagraj",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 295,
+    "duration": "5-6",
+    "slug": "varanasi-to-patna",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 1140,
+    "duration": "20-22",
+    "slug": "varanasi-to-bhubaneswar",
+    "via": [
+      "Gaya",
+      "Kolkata",
+      "NH 16"
+    ],
+    "priceSaloon": 14200,
+    "priceSuv": 18200,
+    "priceTempo": 24000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 250,
+    "duration": "4-5",
+    "slug": "varanasi-to-bodh-gaya",
+    "via": [
+      "Gaya",
+      "NH 19"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 340,
+    "duration": "6-7",
+    "slug": "varanasi-to-muzaffarpur",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5800,
+    "priceTempo": 7800
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 690,
+    "duration": "13-14",
+    "slug": "varanasi-to-siliguri",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 9700,
+    "priceSuv": 12400,
+    "priceTempo": 16600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "varanasi-to-darjeeling",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "varanasi-to-durgapur",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "varanasi-to-asansol",
+    "via": [
+      "Gaya",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "varanasi-to-howrah",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "varanasi-to-kharagpur",
+    "via": [
+      "Jamshedpur",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "varanasi-to-bardhaman",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "varanasi-to-malda",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "varanasi-to-murshidabad",
+    "via": [
+      "Gaya",
+      "Deoghar"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "varanasi-to-cooch-behar",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "varanasi-to-jalpaiguri",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "varanasi-to-bankura",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "varanasi-to-purulia",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "varanasi-to-midnapore",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "varanasi-to-digha",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 835,
+    "duration": "16-17",
+    "slug": "varanasi-to-sundarbans",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11700,
+    "priceSuv": 15000,
+    "priceTempo": 20000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "varanasi-to-bishnupur",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "varanasi-to-bolpur-shantiniketan",
+    "via": [
+      "Asansol",
+      "Gaya"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "varanasi-to-dooars",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "varanasi-to-mandarmani",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 805,
+    "duration": "15-16",
+    "slug": "varanasi-to-bakkhali",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14500,
+    "priceTempo": 19300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 780,
+    "duration": "15-16",
+    "slug": "varanasi-to-gangasagar",
+    "via": [
+      "Jamshedpur",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18700
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "varanasi-to-mayapur",
+    "via": [
+      "Asansol",
+      "Gaya"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "varanasi-to-nabadwip",
+    "via": [
+      "Asansol",
+      "Gaya"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "varanasi-to-krishnanagar",
+    "via": [
+      "Asansol",
+      "Gaya"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 750,
+    "duration": "14-15",
+    "slug": "varanasi-to-diamond-harbour",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10500,
+    "priceSuv": 13500,
+    "priceTempo": 18000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "varanasi-to-haldia",
+    "via": [
+      "Midnapore",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "varanasi-to-contai",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "varanasi-to-tamluk",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "varanasi-to-alipurduar",
+    "via": [
+      "Siliguri",
+      "Patna"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "varanasi-to-raiganj",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "varanasi-to-balurghat",
+    "via": [
+      "Malda",
+      "Patna"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "varanasi-to-baharampur",
+    "via": [
+      "Gaya",
+      "Deoghar"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "varanasi-to-hooghly",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "varanasi-to-kolkata-airport",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "varanasi-to-salt-lake-kolkata",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 750,
+    "duration": "14-15",
+    "slug": "varanasi-to-new-town-kolkata",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 10500,
+    "priceSuv": 13500,
+    "priceTempo": 18000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "varanasi-to-satragachhi",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "varanasi-to-uluberia",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "varanasi-to-serampore",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "varanasi-to-chandannagar",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "varanasi-to-tarkeshwar",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "varanasi-to-kolaghat",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "varanasi-to-bagnan",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "varanasi-to-arambagh",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "varanasi-to-barasat",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "varanasi-to-kalyani",
+    "via": [
+      "Asansol",
+      "Bardhaman"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 760,
+    "duration": "14-16",
+    "slug": "varanasi-to-bongaon",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13700,
+    "priceTempo": 18200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "varanasi-to-ranaghat",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "varanasi-to-basirhat",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "varanasi-to-barrackpore",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "varanasi-to-dum-dum",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 755,
+    "duration": "14-16",
+    "slug": "varanasi-to-habra",
+    "via": [
+      "Dhanbad",
+      "Bardhaman"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13600,
+    "priceTempo": 18100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "varanasi-to-naihati",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 770,
+    "duration": "14-16",
+    "slug": "varanasi-to-kakdwip",
+    "via": [
+      "Hazaribagh",
+      "Midnapore"
+    ],
+    "priceSaloon": 10800,
+    "priceSuv": 13900,
+    "priceTempo": 18500
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "varanasi-to-jhargram",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "varanasi-to-raniganj",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "varanasi-to-kalna",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "varanasi-to-katwa",
+    "via": [
+      "Deoghar",
+      "Gaya"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "varanasi-to-chakdah",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "varanasi-to-islampur",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "varanasi-to-dalkhola",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "varanasi-to-lalbagh",
+    "via": [
+      "Gaya",
+      "Deoghar"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "varanasi-to-beldanga",
+    "via": [
+      "Deoghar",
+      "Gaya"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "varanasi-to-karimpur",
+    "via": [
+      "Gaya",
+      "Deoghar"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 800,
+    "duration": "15-16",
+    "slug": "varanasi-to-puri",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 11200,
+    "priceSuv": 14400,
+    "priceTempo": 19200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "varanasi-to-cuttack",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "varanasi-to-rourkela",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "varanasi-to-sambalpur",
+    "via": [],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "varanasi-to-berhampur",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "varanasi-to-balasore",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 805,
+    "duration": "15-16",
+    "slug": "varanasi-to-konark",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14500,
+    "priceTempo": 19300
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "varanasi-to-chilika",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "varanasi-to-dhenkanal",
+    "via": [
+      "Cuttack",
+      "Ranchi"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "varanasi-to-koraput",
+    "via": [
+      "Gaya",
+      "Ranchi"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "varanasi-to-rayagada",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "varanasi-to-angul",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "varanasi-to-jharsuguda",
+    "via": [],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "varanasi-to-baripada",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 850,
+    "duration": "16-17",
+    "slug": "varanasi-to-jeypore",
+    "via": [
+      "Gaya",
+      "Ranchi"
+    ],
+    "priceSaloon": 11900,
+    "priceSuv": 15300,
+    "priceTempo": 20400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "varanasi-to-gopalpur",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "varanasi-to-ranchi",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "varanasi-to-jamshedpur",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "varanasi-to-dhanbad",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "varanasi-to-bokaro",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "varanasi-to-hazaribagh",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "varanasi-to-deoghar",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "varanasi-to-giridih",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "varanasi-to-ramgarh",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "varanasi-to-palamu",
+    "via": [],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "varanasi-to-netarhat",
+    "via": [],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "varanasi-to-betla",
+    "via": [],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "varanasi-to-dumka",
+    "via": [
+      "Deoghar",
+      "Gaya"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "varanasi-to-chaibasa",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "varanasi-to-sahebganj",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "varanasi-to-godda",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "varanasi-to-latehar",
+    "via": [],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "varanasi-to-tatanagar",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "varanasi-to-adityapur",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "varanasi-to-khunti",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "varanasi-to-gumla",
+    "via": [],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "varanasi-to-simdega",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "varanasi-to-chatra",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "varanasi-to-lohardaga",
+    "via": [],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "varanasi-to-pakur",
+    "via": [
+      "Deoghar",
+      "Gaya"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "varanasi-to-jamtara",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "varanasi-to-koderma",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "varanasi-to-seraikela",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "varanasi-to-nalanda",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "varanasi-to-rajgir",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  }
+]

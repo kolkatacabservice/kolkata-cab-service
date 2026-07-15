@@ -1,0 +1,2055 @@
+[
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "raiganj-to-kolkata",
+    "via": [
+      "Malda",
+      "NH 12"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "raiganj-to-ranchi",
+    "via": [],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 828,
+    "duration": "16-18",
+    "slug": "raiganj-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 10600,
+    "priceSuv": 13600,
+    "priceTempo": 17900
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 90,
+    "duration": "2-3",
+    "slug": "raiganj-to-malda",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3300,
+    "priceTempo": 4600
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 164,
+    "duration": "3-5",
+    "slug": "raiganj-to-siliguri",
+    "via": [],
+    "priceSaloon": 3300,
+    "priceSuv": 4300,
+    "priceTempo": 6000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "raiganj-to-darjeeling",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "raiganj-to-durgapur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "raiganj-to-asansol",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "raiganj-to-howrah",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "raiganj-to-kharagpur",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "raiganj-to-bardhaman",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "raiganj-to-murshidabad",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "raiganj-to-cooch-behar",
+    "via": [],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "raiganj-to-jalpaiguri",
+    "via": [],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "raiganj-to-bankura",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "raiganj-to-purulia",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "raiganj-to-midnapore",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "raiganj-to-digha",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "raiganj-to-sundarbans",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "raiganj-to-bishnupur",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "raiganj-to-bolpur-shantiniketan",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "raiganj-to-dooars",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "raiganj-to-mandarmani",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "raiganj-to-bakkhali",
+    "via": [
+      "Howrah",
+      "Malda"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "raiganj-to-gangasagar",
+    "via": [
+      "Howrah",
+      "Malda"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "raiganj-to-mayapur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "raiganj-to-nabadwip",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "raiganj-to-krishnanagar",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "raiganj-to-diamond-harbour",
+    "via": [
+      "Howrah",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "raiganj-to-haldia",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "raiganj-to-contai",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "raiganj-to-tamluk",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "raiganj-to-alipurduar",
+    "via": [],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "raiganj-to-balurghat",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "raiganj-to-baharampur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "raiganj-to-hooghly",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "raiganj-to-kolkata-airport",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "raiganj-to-salt-lake-kolkata",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "raiganj-to-new-town-kolkata",
+    "via": [
+      "Malda",
+      "Barasat"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "raiganj-to-satragachhi",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "raiganj-to-uluberia",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "raiganj-to-serampore",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "raiganj-to-chandannagar",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "raiganj-to-tarkeshwar",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "raiganj-to-kolaghat",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "raiganj-to-bagnan",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "raiganj-to-arambagh",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "raiganj-to-barasat",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "raiganj-to-kalyani",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "raiganj-to-bongaon",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "raiganj-to-ranaghat",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "raiganj-to-basirhat",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "raiganj-to-barrackpore",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "raiganj-to-dum-dum",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "raiganj-to-habra",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "raiganj-to-naihati",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "raiganj-to-kakdwip",
+    "via": [
+      "Malda",
+      "Howrah"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "raiganj-to-jhargram",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "raiganj-to-raniganj",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "raiganj-to-kalna",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "raiganj-to-katwa",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "raiganj-to-chakdah",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "raiganj-to-islampur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 60,
+    "duration": "1-2",
+    "slug": "raiganj-to-dalkhola",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "raiganj-to-lalbagh",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "raiganj-to-beldanga",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "raiganj-to-karimpur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "raiganj-to-puri",
+    "via": [
+      "Durgapur",
+      "Cuttack"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "raiganj-to-cuttack",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "raiganj-to-rourkela",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "raiganj-to-sambalpur",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 920,
+    "duration": "17-19",
+    "slug": "raiganj-to-berhampur",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 12900,
+    "priceSuv": 16600,
+    "priceTempo": 22100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "raiganj-to-balasore",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "raiganj-to-konark",
+    "via": [
+      "Durgapur",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 845,
+    "duration": "16-17",
+    "slug": "raiganj-to-chilika",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15200,
+    "priceTempo": 20300
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "raiganj-to-dhenkanal",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 1110,
+    "duration": "21-22",
+    "slug": "raiganj-to-koraput",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 15500,
+    "priceSuv": 20000,
+    "priceTempo": 26600
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 1020,
+    "duration": "19-21",
+    "slug": "raiganj-to-rayagada",
+    "via": [
+      "Jamshedpur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 14300,
+    "priceSuv": 18400,
+    "priceTempo": 24500
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "raiganj-to-angul",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "raiganj-to-jharsuguda",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "raiganj-to-baripada",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 1115,
+    "duration": "21-22",
+    "slug": "raiganj-to-jeypore",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 15600,
+    "priceSuv": 20100,
+    "priceTempo": 26800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 920,
+    "duration": "17-19",
+    "slug": "raiganj-to-gopalpur",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 12900,
+    "priceSuv": 16600,
+    "priceTempo": 22100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "raiganj-to-jamshedpur",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "raiganj-to-dhanbad",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "raiganj-to-bokaro",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "raiganj-to-hazaribagh",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "raiganj-to-deoghar",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "raiganj-to-giridih",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "raiganj-to-ramgarh",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "raiganj-to-palamu",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "raiganj-to-netarhat",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "raiganj-to-betla",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 230,
+    "duration": "4-5",
+    "slug": "raiganj-to-dumka",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5500
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "raiganj-to-chaibasa",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 95,
+    "duration": "1-3",
+    "slug": "raiganj-to-sahebganj",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "raiganj-to-godda",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "raiganj-to-latehar",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "raiganj-to-tatanagar",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "raiganj-to-adityapur",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "raiganj-to-khunti",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "raiganj-to-gumla",
+    "via": [
+      "Deoghar",
+      "Ranchi"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "raiganj-to-simdega",
+    "via": [
+      "Deoghar",
+      "Ranchi"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "raiganj-to-chatra",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "raiganj-to-lohardaga",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "raiganj-to-pakur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "raiganj-to-jamtara",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "raiganj-to-koderma",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "raiganj-to-seraikela",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "raiganj-to-patna",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "raiganj-to-gaya",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "raiganj-to-bodh-gaya",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "raiganj-to-nalanda",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "raiganj-to-rajgir",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "raiganj-to-muzaffarpur",
+    "via": [],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "raiganj-to-varanasi",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "raiganj",
+    "fromName": "Raiganj",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "raiganj-to-prayagraj",
+    "via": [
+      "Patna",
+      "Varanasi"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  }
+]

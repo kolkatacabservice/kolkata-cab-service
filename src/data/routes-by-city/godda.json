@@ -1,0 +1,2048 @@
+[
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 360,
+    "duration": "7-9",
+    "slug": "godda-to-kolkata",
+    "via": [],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9500
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 331,
+    "duration": "6-8",
+    "slug": "godda-to-ranchi",
+    "via": [],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 9000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 682,
+    "duration": "13-15",
+    "slug": "godda-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 9000,
+    "priceSuv": 11500,
+    "priceTempo": 15300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 110,
+    "duration": "2-3",
+    "slug": "godda-to-deoghar",
+    "via": [
+      "Sahebganj Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "godda-to-siliguri",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "godda-to-darjeeling",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "godda-to-durgapur",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "godda-to-asansol",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "godda-to-howrah",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "godda-to-kharagpur",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "godda-to-bardhaman",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "godda-to-malda",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "godda-to-murshidabad",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "godda-to-cooch-behar",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "godda-to-jalpaiguri",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "godda-to-bankura",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "godda-to-purulia",
+    "via": [
+      "Deoghar",
+      "Dhanbad"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "godda-to-midnapore",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "godda-to-digha",
+    "via": [
+      "Midnapore",
+      "Durgapur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "godda-to-sundarbans",
+    "via": [
+      "Kolkata",
+      "Barasat"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "godda-to-bishnupur",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "godda-to-bolpur-shantiniketan",
+    "via": [],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "godda-to-dooars",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "godda-to-mandarmani",
+    "via": [
+      "Midnapore",
+      "Durgapur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "godda-to-bakkhali",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "godda-to-gangasagar",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "godda-to-mayapur",
+    "via": [
+      "Bardhaman"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "godda-to-nabadwip",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "godda-to-krishnanagar",
+    "via": [
+      "Bardhaman"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "godda-to-diamond-harbour",
+    "via": [
+      "Howrah",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "godda-to-haldia",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "godda-to-contai",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "godda-to-tamluk",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "godda-to-alipurduar",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "godda-to-raiganj",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "godda-to-balurghat",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "godda-to-baharampur",
+    "via": [],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "godda-to-hooghly",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "godda-to-kolkata-airport",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "godda-to-salt-lake-kolkata",
+    "via": [
+      "Barasat",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "godda-to-new-town-kolkata",
+    "via": [
+      "Bardhaman",
+      "Barasat"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "godda-to-satragachhi",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "godda-to-uluberia",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "godda-to-serampore",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "godda-to-chandannagar",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "godda-to-tarkeshwar",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "godda-to-kolaghat",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "godda-to-bagnan",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "godda-to-arambagh",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "godda-to-barasat",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "godda-to-kalyani",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "godda-to-bongaon",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "godda-to-ranaghat",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "godda-to-basirhat",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "godda-to-barrackpore",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "godda-to-dum-dum",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "godda-to-habra",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "godda-to-naihati",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "godda-to-kakdwip",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "godda-to-jhargram",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "godda-to-raniganj",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 285,
+    "duration": "5-6",
+    "slug": "godda-to-kalna",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 4000,
+    "priceSuv": 5100,
+    "priceTempo": 6800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "godda-to-katwa",
+    "via": [],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "godda-to-chakdah",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "godda-to-islampur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "godda-to-dalkhola",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "godda-to-lalbagh",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "godda-to-beldanga",
+    "via": [],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "godda-to-karimpur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "godda-to-puri",
+    "via": [
+      "Cuttack",
+      "Asansol"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "godda-to-cuttack",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "godda-to-rourkela",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "godda-to-sambalpur",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 780,
+    "duration": "15-16",
+    "slug": "godda-to-berhampur",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18700
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "godda-to-balasore",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "godda-to-konark",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "godda-to-chilika",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "godda-to-dhenkanal",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 960,
+    "duration": "18-19",
+    "slug": "godda-to-koraput",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17300,
+    "priceTempo": 23000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "godda-to-rayagada",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "godda-to-angul",
+    "via": [
+      "Dhanbad",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "godda-to-jharsuguda",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "godda-to-baripada",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 965,
+    "duration": "18-20",
+    "slug": "godda-to-jeypore",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 13500,
+    "priceSuv": 17400,
+    "priceTempo": 23200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "godda-to-gopalpur",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "godda-to-jamshedpur",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 195,
+    "duration": "3-5",
+    "slug": "godda-to-dhanbad",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4700
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "godda-to-bokaro",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "godda-to-hazaribagh",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "godda-to-giridih",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "godda-to-ramgarh",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "godda-to-palamu",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "godda-to-netarhat",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "godda-to-betla",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "godda-to-dumka",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "godda-to-chaibasa",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 90,
+    "duration": "1-3",
+    "slug": "godda-to-sahebganj",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "godda-to-latehar",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "godda-to-tatanagar",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "godda-to-adityapur",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "godda-to-khunti",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "godda-to-gumla",
+    "via": [
+      "Deoghar",
+      "Ranchi"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "godda-to-simdega",
+    "via": [
+      "Ranchi",
+      "Deoghar"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "godda-to-chatra",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "godda-to-lohardaga",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 95,
+    "duration": "1-3",
+    "slug": "godda-to-pakur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "godda-to-jamtara",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "godda-to-koderma",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "godda-to-seraikela",
+    "via": [
+      "Dhanbad",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "godda-to-patna",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "godda-to-gaya",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "godda-to-bodh-gaya",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "godda-to-nalanda",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "godda-to-rajgir",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "godda-to-muzaffarpur",
+    "via": [
+      "Patna",
+      "Deoghar"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "godda-to-varanasi",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "godda",
+    "fromName": "Godda",
+    "fromState": "jharkhand",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "godda-to-prayagraj",
+    "via": [
+      "Varanasi",
+      "Gaya"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  }
+]

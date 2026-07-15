@@ -1,0 +1,2096 @@
+[
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 494,
+    "duration": "9-11",
+    "slug": "konark-to-kolkata",
+    "via": [],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 511,
+    "duration": "10-12",
+    "slug": "konark-to-ranchi",
+    "via": [],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 65,
+    "duration": "1-2",
+    "slug": "konark-to-bhubaneswar",
+    "via": [
+      "Marine Drive Road"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 4200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 35,
+    "duration": "0-1",
+    "slug": "konark-to-puri",
+    "via": [
+      "Marine Drive"
+    ],
+    "priceSaloon": 1900,
+    "priceSuv": 2500,
+    "priceTempo": 3600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 95,
+    "duration": "2-3",
+    "slug": "konark-to-cuttack",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3300,
+    "priceTempo": 4700
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "konark-to-chilika",
+    "via": [
+      "Puri"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 940,
+    "duration": "18-19",
+    "slug": "konark-to-siliguri",
+    "via": [
+      "Kharagpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 13200,
+    "priceSuv": 16900,
+    "priceTempo": 22600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 975,
+    "duration": "18-20",
+    "slug": "konark-to-darjeeling",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 13700,
+    "priceSuv": 17600,
+    "priceTempo": 23400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "konark-to-durgapur",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "konark-to-asansol",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "konark-to-howrah",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "konark-to-kharagpur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "konark-to-bardhaman",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "konark-to-malda",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "konark-to-murshidabad",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 940,
+    "duration": "18-19",
+    "slug": "konark-to-cooch-behar",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 13200,
+    "priceSuv": 16900,
+    "priceTempo": 22600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 930,
+    "duration": "17-19",
+    "slug": "konark-to-jalpaiguri",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 13000,
+    "priceSuv": 16700,
+    "priceTempo": 22300
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "konark-to-bankura",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "konark-to-purulia",
+    "via": [
+      "Cuttack",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "konark-to-midnapore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "konark-to-digha",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "konark-to-sundarbans",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "konark-to-bishnupur",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "konark-to-bolpur-shantiniketan",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 980,
+    "duration": "18-20",
+    "slug": "konark-to-dooars",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 13700,
+    "priceSuv": 17600,
+    "priceTempo": 23500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "konark-to-mandarmani",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "konark-to-bakkhali",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "konark-to-gangasagar",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "konark-to-mayapur",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "konark-to-nabadwip",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "konark-to-krishnanagar",
+    "via": [
+      "Midnapore",
+      "Howrah"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "konark-to-diamond-harbour",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "konark-to-haldia",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "konark-to-contai",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "konark-to-tamluk",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 960,
+    "duration": "18-19",
+    "slug": "konark-to-alipurduar",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17300,
+    "priceTempo": 23000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "konark-to-raiganj",
+    "via": [
+      "Kharagpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 770,
+    "duration": "14-16",
+    "slug": "konark-to-balurghat",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 10800,
+    "priceSuv": 13900,
+    "priceTempo": 18500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "konark-to-baharampur",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "konark-to-hooghly",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "konark-to-kolkata-airport",
+    "via": [
+      "Kharagpur",
+      "Howrah"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "konark-to-salt-lake-kolkata",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "konark-to-new-town-kolkata",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "konark-to-satragachhi",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "konark-to-uluberia",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "konark-to-serampore",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "konark-to-chandannagar",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "konark-to-tarkeshwar",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "konark-to-kolaghat",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "konark-to-bagnan",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "konark-to-arambagh",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "konark-to-barasat",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "konark-to-kalyani",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "konark-to-bongaon",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "konark-to-ranaghat",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "konark-to-basirhat",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "konark-to-barrackpore",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "konark-to-dum-dum",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "konark-to-habra",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "konark-to-naihati",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "konark-to-kakdwip",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "konark-to-jhargram",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "konark-to-raniganj",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "konark-to-kalna",
+    "via": [
+      "Midnapore",
+      "Howrah"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "konark-to-katwa",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "konark-to-chakdah",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "konark-to-islampur",
+    "via": [
+      "Kharagpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 815,
+    "duration": "15-17",
+    "slug": "konark-to-dalkhola",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 11400,
+    "priceSuv": 14700,
+    "priceTempo": 19600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "konark-to-lalbagh",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "konark-to-beldanga",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 640,
+    "duration": "12-13",
+    "slug": "konark-to-karimpur",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11500,
+    "priceTempo": 15400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "konark-to-rourkela",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "konark-to-sambalpur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "konark-to-berhampur",
+    "via": [
+      "Puri"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "konark-to-balasore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "konark-to-dhenkanal",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "konark-to-koraput",
+    "via": [
+      "Puri",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "konark-to-rayagada",
+    "via": [
+      "Puri",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "konark-to-angul",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "konark-to-jharsuguda",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "konark-to-baripada",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "konark-to-jeypore",
+    "via": [
+      "Puri",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 195,
+    "duration": "3-5",
+    "slug": "konark-to-gopalpur",
+    "via": [
+      "Puri"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4700
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "konark-to-jamshedpur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "konark-to-dhanbad",
+    "via": [
+      "Jamshedpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "konark-to-bokaro",
+    "via": [
+      "Jamshedpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "konark-to-hazaribagh",
+    "via": [
+      "Cuttack",
+      "Ranchi"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "konark-to-deoghar",
+    "via": [
+      "Dhanbad",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "konark-to-giridih",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "konark-to-ramgarh",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "konark-to-palamu",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "konark-to-netarhat",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "konark-to-betla",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "konark-to-dumka",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "konark-to-chaibasa",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "konark-to-sahebganj",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "konark-to-godda",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "konark-to-latehar",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "konark-to-tatanagar",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "konark-to-adityapur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "konark-to-khunti",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "konark-to-gumla",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "konark-to-simdega",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "konark-to-chatra",
+    "via": [
+      "Cuttack",
+      "Ranchi"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "konark-to-lohardaga",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "konark-to-pakur",
+    "via": [
+      "Durgapur",
+      "Kharagpur"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "konark-to-jamtara",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "konark-to-koderma",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "konark-to-seraikela",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 760,
+    "duration": "14-16",
+    "slug": "konark-to-patna",
+    "via": [
+      "Hazaribagh",
+      "Cuttack"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13700,
+    "priceTempo": 18200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "konark-to-gaya",
+    "via": [
+      "Ranchi",
+      "Cuttack"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "konark-to-bodh-gaya",
+    "via": [
+      "Ranchi",
+      "Cuttack"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "konark-to-nalanda",
+    "via": [
+      "Cuttack",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "konark-to-rajgir",
+    "via": [
+      "Cuttack",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "konark-to-muzaffarpur",
+    "via": [
+      "Cuttack",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 805,
+    "duration": "15-16",
+    "slug": "konark-to-varanasi",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14500,
+    "priceTempo": 19300
+  },
+  {
+    "from": "konark",
+    "fromName": "Konark",
+    "fromState": "odisha",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "konark-to-prayagraj",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  }
+]

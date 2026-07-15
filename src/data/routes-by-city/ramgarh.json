@@ -1,0 +1,2076 @@
+[
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 408,
+    "duration": "8-10",
+    "slug": "ramgarh-to-kolkata",
+    "via": [],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 50,
+    "duration": "1-2",
+    "slug": "ramgarh-to-ranchi",
+    "via": [],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3900
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 484,
+    "duration": "9-11",
+    "slug": "ramgarh-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 6800,
+    "priceSuv": 8800,
+    "priceTempo": 11700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 50,
+    "duration": "1-2",
+    "slug": "ramgarh-to-hazaribagh",
+    "via": [],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3900
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 40,
+    "duration": "0-1",
+    "slug": "ramgarh-to-bokaro",
+    "via": [],
+    "priceSaloon": 1900,
+    "priceSuv": 2600,
+    "priceTempo": 3700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 110,
+    "duration": "2-3",
+    "slug": "ramgarh-to-dhanbad",
+    "via": [
+      "Bokaro Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "ramgarh-to-siliguri",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "ramgarh-to-darjeeling",
+    "via": [
+      "Siliguri",
+      "Deoghar"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "ramgarh-to-durgapur",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "ramgarh-to-asansol",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "ramgarh-to-howrah",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "ramgarh-to-kharagpur",
+    "via": [
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "ramgarh-to-bardhaman",
+    "via": [
+      "Durgapur",
+      "Bokaro"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "ramgarh-to-malda",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "ramgarh-to-murshidabad",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "ramgarh-to-cooch-behar",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "ramgarh-to-jalpaiguri",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "ramgarh-to-bankura",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "ramgarh-to-purulia",
+    "via": [
+      "Bokaro"
+    ],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "ramgarh-to-midnapore",
+    "via": [
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "ramgarh-to-digha",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "ramgarh-to-sundarbans",
+    "via": [
+      "Howrah",
+      "Midnapore"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "ramgarh-to-bishnupur",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "ramgarh-to-bolpur-shantiniketan",
+    "via": [
+      "Bokaro",
+      "Asansol"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "ramgarh-to-dooars",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "ramgarh-to-mandarmani",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "ramgarh-to-bakkhali",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "ramgarh-to-gangasagar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "ramgarh-to-mayapur",
+    "via": [
+      "Bokaro",
+      "Durgapur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "ramgarh-to-nabadwip",
+    "via": [
+      "Bokaro",
+      "Durgapur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "ramgarh-to-krishnanagar",
+    "via": [
+      "Bokaro",
+      "Durgapur"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "ramgarh-to-diamond-harbour",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "ramgarh-to-haldia",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "ramgarh-to-contai",
+    "via": [
+      "Jamshedpur",
+      "Kharagpur"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "ramgarh-to-tamluk",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "ramgarh-to-alipurduar",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "ramgarh-to-raiganj",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "ramgarh-to-balurghat",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "ramgarh-to-baharampur",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "ramgarh-to-hooghly",
+    "via": [
+      "Bokaro",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "ramgarh-to-kolkata-airport",
+    "via": [
+      "Bokaro",
+      "Howrah"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "ramgarh-to-salt-lake-kolkata",
+    "via": [
+      "Bokaro",
+      "Howrah"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "ramgarh-to-new-town-kolkata",
+    "via": [
+      "Bokaro",
+      "Howrah"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "ramgarh-to-satragachhi",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "ramgarh-to-uluberia",
+    "via": [
+      "Midnapore",
+      "Bokaro"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "ramgarh-to-serampore",
+    "via": [
+      "Bardhaman",
+      "Bokaro"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "ramgarh-to-chandannagar",
+    "via": [
+      "Bardhaman",
+      "Bokaro"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "ramgarh-to-tarkeshwar",
+    "via": [
+      "Durgapur",
+      "Bokaro"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "ramgarh-to-kolaghat",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "ramgarh-to-bagnan",
+    "via": [
+      "Midnapore",
+      "Bokaro"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "ramgarh-to-arambagh",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "ramgarh-to-barasat",
+    "via": [
+      "Bardhaman",
+      "Bokaro"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "ramgarh-to-kalyani",
+    "via": [
+      "Bokaro",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "ramgarh-to-bongaon",
+    "via": [
+      "Bokaro",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "ramgarh-to-ranaghat",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "ramgarh-to-basirhat",
+    "via": [
+      "Bokaro",
+      "Barasat"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "ramgarh-to-barrackpore",
+    "via": [
+      "Bardhaman",
+      "Bokaro"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "ramgarh-to-dum-dum",
+    "via": [
+      "Bardhaman",
+      "Bokaro"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "ramgarh-to-habra",
+    "via": [
+      "Bokaro",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "ramgarh-to-naihati",
+    "via": [
+      "Bokaro",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "ramgarh-to-kakdwip",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "ramgarh-to-jhargram",
+    "via": [
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "ramgarh-to-raniganj",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "ramgarh-to-kalna",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "ramgarh-to-katwa",
+    "via": [
+      "Bokaro",
+      "Asansol"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "ramgarh-to-chakdah",
+    "via": [
+      "Bokaro",
+      "Bardhaman"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "ramgarh-to-islampur",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "ramgarh-to-dalkhola",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "ramgarh-to-lalbagh",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "ramgarh-to-beldanga",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "ramgarh-to-karimpur",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "ramgarh-to-puri",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "ramgarh-to-cuttack",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "ramgarh-to-rourkela",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "ramgarh-to-sambalpur",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "ramgarh-to-berhampur",
+    "via": [
+      "Cuttack",
+      "Ranchi"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "ramgarh-to-balasore",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "ramgarh-to-konark",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "ramgarh-to-chilika",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "ramgarh-to-dhenkanal",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "ramgarh-to-koraput",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 660,
+    "duration": "12-14",
+    "slug": "ramgarh-to-rayagada",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11900,
+    "priceTempo": 15800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "ramgarh-to-angul",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "ramgarh-to-jharsuguda",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "ramgarh-to-baripada",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "ramgarh-to-jeypore",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "ramgarh-to-gopalpur",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "ramgarh-to-jamshedpur",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "ramgarh-to-deoghar",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "ramgarh-to-giridih",
+    "via": [
+      "Bokaro"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "ramgarh-to-palamu",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "ramgarh-to-netarhat",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "ramgarh-to-betla",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "ramgarh-to-dumka",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "ramgarh-to-chaibasa",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "ramgarh-to-sahebganj",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "ramgarh-to-godda",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "ramgarh-to-latehar",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "ramgarh-to-tatanagar",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "ramgarh-to-adityapur",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 95,
+    "duration": "1-3",
+    "slug": "ramgarh-to-khunti",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "ramgarh-to-gumla",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "ramgarh-to-simdega",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "ramgarh-to-chatra",
+    "via": [
+      "Hazaribagh"
+    ],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "ramgarh-to-lohardaga",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "ramgarh-to-pakur",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "ramgarh-to-jamtara",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "ramgarh-to-koderma",
+    "via": [
+      "Hazaribagh"
+    ],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "ramgarh-to-seraikela",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "ramgarh-to-patna",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "ramgarh-to-gaya",
+    "via": [
+      "Hazaribagh"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "ramgarh-to-bodh-gaya",
+    "via": [
+      "Hazaribagh"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "ramgarh-to-nalanda",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "ramgarh-to-rajgir",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "ramgarh-to-muzaffarpur",
+    "via": [
+      "Hazaribagh",
+      "Patna"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "ramgarh-to-varanasi",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "ramgarh",
+    "fromName": "Ramgarh",
+    "fromState": "jharkhand",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "ramgarh-to-prayagraj",
+    "via": [
+      "Varanasi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  }
+]

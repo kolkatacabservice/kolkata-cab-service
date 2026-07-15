@@ -1,0 +1,2056 @@
+[
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "lohardaga-to-kolkata",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 62,
+    "duration": "1.5-2",
+    "slug": "lohardaga-to-ranchi",
+    "via": [
+      "NH 23"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 95,
+    "duration": "1.5-2",
+    "slug": "lohardaga-to-chatra",
+    "via": [
+      "Ranchi Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 640,
+    "duration": "12-13",
+    "slug": "lohardaga-to-siliguri",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11500,
+    "priceTempo": 15400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "lohardaga-to-darjeeling",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "lohardaga-to-durgapur",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "lohardaga-to-asansol",
+    "via": [
+      "Ranchi",
+      "Bokaro"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "lohardaga-to-howrah",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "lohardaga-to-kharagpur",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "lohardaga-to-bardhaman",
+    "via": [
+      "Durgapur",
+      "Ranchi"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "lohardaga-to-malda",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "lohardaga-to-murshidabad",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "lohardaga-to-cooch-behar",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "lohardaga-to-jalpaiguri",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "lohardaga-to-bankura",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "lohardaga-to-purulia",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "lohardaga-to-midnapore",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "lohardaga-to-digha",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "lohardaga-to-sundarbans",
+    "via": [
+      "Jamshedpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "lohardaga-to-bishnupur",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "lohardaga-to-bolpur-shantiniketan",
+    "via": [
+      "Bokaro",
+      "Asansol"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "lohardaga-to-dooars",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "lohardaga-to-mandarmani",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "lohardaga-to-bakkhali",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "lohardaga-to-gangasagar",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "lohardaga-to-mayapur",
+    "via": [
+      "Ranchi",
+      "Durgapur"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "lohardaga-to-nabadwip",
+    "via": [
+      "Ranchi",
+      "Durgapur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "lohardaga-to-krishnanagar",
+    "via": [
+      "Ranchi",
+      "Durgapur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "lohardaga-to-diamond-harbour",
+    "via": [
+      "Jamshedpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "lohardaga-to-haldia",
+    "via": [
+      "Midnapore",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "lohardaga-to-contai",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "lohardaga-to-tamluk",
+    "via": [
+      "Jamshedpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "lohardaga-to-alipurduar",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "lohardaga-to-raiganj",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "lohardaga-to-balurghat",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "lohardaga-to-baharampur",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "lohardaga-to-hooghly",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "lohardaga-to-kolkata-airport",
+    "via": [
+      "Howrah",
+      "Ranchi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "lohardaga-to-salt-lake-kolkata",
+    "via": [
+      "Howrah",
+      "Ranchi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "lohardaga-to-new-town-kolkata",
+    "via": [
+      "Howrah",
+      "Ranchi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "lohardaga-to-satragachhi",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "lohardaga-to-uluberia",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "lohardaga-to-serampore",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "lohardaga-to-chandannagar",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "lohardaga-to-tarkeshwar",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "lohardaga-to-kolaghat",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "lohardaga-to-bagnan",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "lohardaga-to-arambagh",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "lohardaga-to-barasat",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "lohardaga-to-kalyani",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "lohardaga-to-bongaon",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "lohardaga-to-ranaghat",
+    "via": [
+      "Ranchi",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "lohardaga-to-basirhat",
+    "via": [
+      "Ranchi",
+      "Barasat"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "lohardaga-to-barrackpore",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "lohardaga-to-dum-dum",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "lohardaga-to-habra",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "lohardaga-to-naihati",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "lohardaga-to-kakdwip",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "lohardaga-to-jhargram",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "lohardaga-to-raniganj",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "lohardaga-to-kalna",
+    "via": [
+      "Ranchi",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "lohardaga-to-katwa",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "lohardaga-to-chakdah",
+    "via": [
+      "Bardhaman",
+      "Ranchi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "lohardaga-to-islampur",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "lohardaga-to-dalkhola",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "lohardaga-to-lalbagh",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "lohardaga-to-beldanga",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "lohardaga-to-karimpur",
+    "via": [
+      "Asansol",
+      "Bokaro"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "lohardaga-to-bhubaneswar",
+    "via": [
+      "Ranchi",
+      "Cuttack"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "lohardaga-to-puri",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "lohardaga-to-cuttack",
+    "via": [
+      "Ranchi",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "lohardaga-to-rourkela",
+    "via": [],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "lohardaga-to-sambalpur",
+    "via": [],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "lohardaga-to-berhampur",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "lohardaga-to-balasore",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "lohardaga-to-konark",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "lohardaga-to-chilika",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "lohardaga-to-dhenkanal",
+    "via": [
+      "Cuttack",
+      "Ranchi"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "lohardaga-to-koraput",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "lohardaga-to-rayagada",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "lohardaga-to-angul",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "lohardaga-to-jharsuguda",
+    "via": [],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "lohardaga-to-baripada",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "lohardaga-to-jeypore",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "lohardaga-to-gopalpur",
+    "via": [
+      "Ranchi",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "lohardaga-to-jamshedpur",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "lohardaga-to-dhanbad",
+    "via": [
+      "Ranchi",
+      "Bokaro"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "lohardaga-to-bokaro",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "lohardaga-to-hazaribagh",
+    "via": [],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "lohardaga-to-deoghar",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "lohardaga-to-giridih",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "lohardaga-to-ramgarh",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2300,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 110,
+    "duration": "2-3",
+    "slug": "lohardaga-to-palamu",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 65,
+    "duration": "1-2",
+    "slug": "lohardaga-to-netarhat",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "lohardaga-to-betla",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "lohardaga-to-dumka",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "lohardaga-to-chaibasa",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "lohardaga-to-sahebganj",
+    "via": [
+      "Deoghar",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "lohardaga-to-godda",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 60,
+    "duration": "1-2",
+    "slug": "lohardaga-to-latehar",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "lohardaga-to-tatanagar",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "lohardaga-to-adityapur",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "lohardaga-to-khunti",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 70,
+    "duration": "1-2",
+    "slug": "lohardaga-to-gumla",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "lohardaga-to-simdega",
+    "via": [],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "lohardaga-to-pakur",
+    "via": [
+      "Deoghar",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "lohardaga-to-jamtara",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "lohardaga-to-koderma",
+    "via": [
+      "Hazaribagh"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "lohardaga-to-seraikela",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "lohardaga-to-patna",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "lohardaga-to-gaya",
+    "via": [
+      "Hazaribagh"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "lohardaga-to-bodh-gaya",
+    "via": [
+      "Hazaribagh"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 270,
+    "duration": "5-6",
+    "slug": "lohardaga-to-nalanda",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 4900,
+    "priceTempo": 6500
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "lohardaga-to-rajgir",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "lohardaga-to-muzaffarpur",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "lohardaga-to-varanasi",
+    "via": [],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "lohardaga",
+    "fromName": "Lohardaga",
+    "fromState": "jharkhand",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "lohardaga-to-prayagraj",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  }
+]

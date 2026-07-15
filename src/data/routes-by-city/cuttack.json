@@ -1,0 +1,2080 @@
+[
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 452,
+    "duration": "9-11",
+    "slug": "cuttack-to-kolkata",
+    "via": [],
+    "priceSaloon": 6500,
+    "priceSuv": 8300,
+    "priceTempo": 11100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 424,
+    "duration": "8-10",
+    "slug": "cuttack-to-ranchi",
+    "via": [],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 30,
+    "duration": "0-1",
+    "slug": "cuttack-to-bhubaneswar",
+    "via": [
+      "NH 16"
+    ],
+    "priceSaloon": 1800,
+    "priceSuv": 2400,
+    "priceTempo": 3500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 85,
+    "duration": "1-2",
+    "slug": "cuttack-to-puri",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3200,
+    "priceTempo": 4500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 95,
+    "duration": "2-3",
+    "slug": "cuttack-to-konark",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3300,
+    "priceTempo": 4700
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 65,
+    "duration": "1.5-2",
+    "slug": "cuttack-to-dhenkanal",
+    "via": [
+      "NH 55"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 100,
+    "duration": "1.5-2",
+    "slug": "cuttack-to-angul",
+    "via": [
+      "NH 55"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 205,
+    "duration": "4-5",
+    "slug": "cuttack-to-balasore",
+    "via": [
+      "NH 16"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4700
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 295,
+    "duration": "5-6",
+    "slug": "cuttack-to-sambalpur",
+    "via": [
+      "NH 53"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 5000,
+    "priceTempo": 6800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 185,
+    "duration": "3-4",
+    "slug": "cuttack-to-baripada",
+    "via": [
+      "NH 18"
+    ],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4300
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "cuttack-to-siliguri",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 910,
+    "duration": "17-18",
+    "slug": "cuttack-to-darjeeling",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16400,
+    "priceTempo": 21800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "cuttack-to-durgapur",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "cuttack-to-asansol",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "cuttack-to-howrah",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "cuttack-to-kharagpur",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "cuttack-to-bardhaman",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "cuttack-to-malda",
+    "via": [
+      "Kharagpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "cuttack-to-murshidabad",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 885,
+    "duration": "17-18",
+    "slug": "cuttack-to-cooch-behar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12400,
+    "priceSuv": 15900,
+    "priceTempo": 21200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "cuttack-to-jalpaiguri",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "cuttack-to-bankura",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "cuttack-to-purulia",
+    "via": [
+      "Bhubaneswar",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "cuttack-to-midnapore",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 285,
+    "duration": "5-6",
+    "slug": "cuttack-to-digha",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4000,
+    "priceSuv": 5100,
+    "priceTempo": 6800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "cuttack-to-sundarbans",
+    "via": [
+      "Kharagpur",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "cuttack-to-bishnupur",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "cuttack-to-bolpur-shantiniketan",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 920,
+    "duration": "17-19",
+    "slug": "cuttack-to-dooars",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 12900,
+    "priceSuv": 16600,
+    "priceTempo": 22100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "cuttack-to-mandarmani",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "cuttack-to-bakkhali",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "cuttack-to-gangasagar",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "cuttack-to-mayapur",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "cuttack-to-nabadwip",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "cuttack-to-krishnanagar",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "cuttack-to-diamond-harbour",
+    "via": [
+      "Kharagpur",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "cuttack-to-haldia",
+    "via": [
+      "Kharagpur",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "cuttack-to-contai",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "cuttack-to-tamluk",
+    "via": [
+      "Bhubaneswar",
+      "Kharagpur"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 905,
+    "duration": "17-18",
+    "slug": "cuttack-to-alipurduar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16300,
+    "priceTempo": 21700
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "cuttack-to-raiganj",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "cuttack-to-balurghat",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "cuttack-to-baharampur",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "cuttack-to-hooghly",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "cuttack-to-kolkata-airport",
+    "via": [
+      "Kharagpur",
+      "Howrah"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "cuttack-to-salt-lake-kolkata",
+    "via": [
+      "Kharagpur",
+      "Howrah"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "cuttack-to-new-town-kolkata",
+    "via": [
+      "Kharagpur",
+      "Howrah"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "cuttack-to-satragachhi",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "cuttack-to-uluberia",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "cuttack-to-serampore",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "cuttack-to-chandannagar",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "cuttack-to-tarkeshwar",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "cuttack-to-kolaghat",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 405,
+    "duration": "7-9",
+    "slug": "cuttack-to-bagnan",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7300,
+    "priceTempo": 9700
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "cuttack-to-arambagh",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "cuttack-to-barasat",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "cuttack-to-kalyani",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "cuttack-to-bongaon",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "cuttack-to-ranaghat",
+    "via": [
+      "Midnapore",
+      "Howrah"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "cuttack-to-basirhat",
+    "via": [
+      "Howrah",
+      "Kolkata"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "cuttack-to-barrackpore",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "cuttack-to-dum-dum",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "cuttack-to-habra",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "cuttack-to-naihati",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "cuttack-to-kakdwip",
+    "via": [
+      "Kharagpur",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "cuttack-to-jhargram",
+    "via": [
+      "Bhubaneswar",
+      "Kharagpur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "cuttack-to-raniganj",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "cuttack-to-kalna",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "cuttack-to-katwa",
+    "via": [
+      "Bardhaman",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "cuttack-to-chakdah",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "cuttack-to-islampur",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 750,
+    "duration": "14-15",
+    "slug": "cuttack-to-dalkhola",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 10500,
+    "priceSuv": 13500,
+    "priceTempo": 18000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "cuttack-to-lalbagh",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "cuttack-to-beldanga",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "cuttack-to-karimpur",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "cuttack-to-rourkela",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "cuttack-to-berhampur",
+    "via": [
+      "Bhubaneswar",
+      "Puri"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "cuttack-to-chilika",
+    "via": [
+      "Bhubaneswar",
+      "Puri"
+    ],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "cuttack-to-koraput",
+    "via": [
+      "Bhubaneswar",
+      "Puri"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "cuttack-to-rayagada",
+    "via": [
+      "Bhubaneswar",
+      "Puri"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "cuttack-to-jharsuguda",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "cuttack-to-jeypore",
+    "via": [
+      "Bhubaneswar",
+      "Puri"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "cuttack-to-gopalpur",
+    "via": [
+      "Bhubaneswar",
+      "Puri"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "cuttack-to-jamshedpur",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "cuttack-to-dhanbad",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "cuttack-to-bokaro",
+    "via": [
+      "Jamshedpur",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "cuttack-to-hazaribagh",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "cuttack-to-deoghar",
+    "via": [
+      "Jamshedpur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "cuttack-to-giridih",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "cuttack-to-ramgarh",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "cuttack-to-palamu",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "cuttack-to-netarhat",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "cuttack-to-betla",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "cuttack-to-dumka",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "cuttack-to-chaibasa",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "cuttack-to-sahebganj",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "cuttack-to-godda",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "cuttack-to-latehar",
+    "via": [
+      "Ranchi",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "cuttack-to-tatanagar",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "cuttack-to-adityapur",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "cuttack-to-khunti",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "cuttack-to-gumla",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "cuttack-to-simdega",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "cuttack-to-chatra",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "cuttack-to-lohardaga",
+    "via": [
+      "Bhubaneswar",
+      "Ranchi"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "cuttack-to-pakur",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "cuttack-to-jamtara",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "cuttack-to-koderma",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "cuttack-to-seraikela",
+    "via": [
+      "Bhubaneswar",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "cuttack-to-patna",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "cuttack-to-gaya",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "cuttack-to-bodh-gaya",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "cuttack-to-nalanda",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "cuttack-to-rajgir",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "cuttack-to-muzaffarpur",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "cuttack-to-varanasi",
+    "via": [
+      "Ranchi",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "cuttack",
+    "fromName": "Cuttack",
+    "fromState": "odisha",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 815,
+    "duration": "15-17",
+    "slug": "cuttack-to-prayagraj",
+    "via": [
+      "Bhubaneswar",
+      "Varanasi"
+    ],
+    "priceSaloon": 11400,
+    "priceSuv": 14700,
+    "priceTempo": 19600
+  }
+]

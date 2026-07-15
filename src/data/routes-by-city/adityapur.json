@@ -1,0 +1,2031 @@
+[
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 296,
+    "duration": "5-7",
+    "slug": "adityapur-to-kolkata",
+    "via": [],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 139,
+    "duration": "2-4",
+    "slug": "adityapur-to-ranchi",
+    "via": [],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5500
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 363,
+    "duration": "7-9",
+    "slug": "adityapur-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "adityapur-to-siliguri",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "adityapur-to-darjeeling",
+    "via": [
+      "Deoghar",
+      "Dhanbad"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "adityapur-to-durgapur",
+    "via": [
+      "Asansol"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "adityapur-to-asansol",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 285,
+    "duration": "5-6",
+    "slug": "adityapur-to-howrah",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 4000,
+    "priceSuv": 5100,
+    "priceTempo": 6800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 180,
+    "duration": "3-4",
+    "slug": "adityapur-to-kharagpur",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "adityapur-to-bardhaman",
+    "via": [
+      "Midnapore",
+      "Durgapur"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "adityapur-to-malda",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "adityapur-to-murshidabad",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "adityapur-to-cooch-behar",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "adityapur-to-jalpaiguri",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "adityapur-to-bankura",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 95,
+    "duration": "1-3",
+    "slug": "adityapur-to-purulia",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "adityapur-to-midnapore",
+    "via": [],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 255,
+    "duration": "4-6",
+    "slug": "adityapur-to-digha",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4600,
+    "priceTempo": 6100
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "adityapur-to-sundarbans",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 170,
+    "duration": "3-4",
+    "slug": "adityapur-to-bishnupur",
+    "via": [],
+    "priceSaloon": 2400,
+    "priceSuv": 3100,
+    "priceTempo": 4100
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "adityapur-to-bolpur-shantiniketan",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "adityapur-to-dooars",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "adityapur-to-mandarmani",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "adityapur-to-bakkhali",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "adityapur-to-gangasagar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "adityapur-to-mayapur",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "adityapur-to-nabadwip",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "adityapur-to-krishnanagar",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "adityapur-to-diamond-harbour",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 280,
+    "duration": "5-6",
+    "slug": "adityapur-to-haldia",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "adityapur-to-contai",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "adityapur-to-tamluk",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "adityapur-to-alipurduar",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "adityapur-to-raiganj",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "adityapur-to-balurghat",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "adityapur-to-baharampur",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "adityapur-to-hooghly",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "adityapur-to-kolkata-airport",
+    "via": [
+      "Midnapore",
+      "Howrah"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "adityapur-to-salt-lake-kolkata",
+    "via": [
+      "Midnapore",
+      "Howrah"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "adityapur-to-new-town-kolkata",
+    "via": [
+      "Midnapore",
+      "Howrah"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 280,
+    "duration": "5-6",
+    "slug": "adityapur-to-satragachhi",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 270,
+    "duration": "5-6",
+    "slug": "adityapur-to-uluberia",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 4900,
+    "priceTempo": 6500
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "adityapur-to-serampore",
+    "via": [
+      "Midnapore",
+      "Howrah"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "adityapur-to-chandannagar",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "adityapur-to-tarkeshwar",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "adityapur-to-kolaghat",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "adityapur-to-bagnan",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "adityapur-to-arambagh",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "adityapur-to-barasat",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "adityapur-to-kalyani",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "adityapur-to-bongaon",
+    "via": [
+      "Barasat",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "adityapur-to-ranaghat",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "adityapur-to-basirhat",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "adityapur-to-barrackpore",
+    "via": [
+      "Midnapore",
+      "Howrah"
+    ],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "adityapur-to-dum-dum",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "adityapur-to-habra",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "adityapur-to-naihati",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "adityapur-to-kakdwip",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "adityapur-to-jhargram",
+    "via": [],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 185,
+    "duration": "3-5",
+    "slug": "adityapur-to-raniganj",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 2600,
+    "priceSuv": 3300,
+    "priceTempo": 4400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "adityapur-to-kalna",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "adityapur-to-katwa",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "adityapur-to-chakdah",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "adityapur-to-islampur",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "adityapur-to-dalkhola",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "adityapur-to-lalbagh",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "adityapur-to-beldanga",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "adityapur-to-karimpur",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 425,
+    "duration": "8-9",
+    "slug": "adityapur-to-puri",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "adityapur-to-cuttack",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "adityapur-to-rourkela",
+    "via": [],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "adityapur-to-sambalpur",
+    "via": [],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "adityapur-to-berhampur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "adityapur-to-balasore",
+    "via": [],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "adityapur-to-konark",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "adityapur-to-chilika",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "adityapur-to-dhenkanal",
+    "via": [
+      "Cuttack"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 695,
+    "duration": "13-14",
+    "slug": "adityapur-to-koraput",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9700,
+    "priceSuv": 12500,
+    "priceTempo": 16700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "adityapur-to-rayagada",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "adityapur-to-angul",
+    "via": [],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "adityapur-to-jharsuguda",
+    "via": [],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 155,
+    "duration": "2-4",
+    "slug": "adityapur-to-baripada",
+    "via": [],
+    "priceSaloon": 2200,
+    "priceSuv": 2800,
+    "priceTempo": 3700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "adityapur-to-jeypore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "adityapur-to-gopalpur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 10,
+    "duration": "0-1",
+    "slug": "adityapur-to-jamshedpur",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "adityapur-to-dhanbad",
+    "via": [
+      "Bokaro"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 145,
+    "duration": "2-4",
+    "slug": "adityapur-to-bokaro",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2600,
+    "priceTempo": 3500
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "adityapur-to-hazaribagh",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "adityapur-to-deoghar",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "adityapur-to-giridih",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 160,
+    "duration": "3-4",
+    "slug": "adityapur-to-ramgarh",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 3800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "adityapur-to-palamu",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "adityapur-to-netarhat",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "adityapur-to-betla",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "adityapur-to-dumka",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 70,
+    "duration": "1-2",
+    "slug": "adityapur-to-chaibasa",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "adityapur-to-sahebganj",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "adityapur-to-godda",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "adityapur-to-latehar",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 10,
+    "duration": "0-1",
+    "slug": "adityapur-to-tatanagar",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 140,
+    "duration": "2-4",
+    "slug": "adityapur-to-khunti",
+    "via": [],
+    "priceSaloon": 2000,
+    "priceSuv": 2500,
+    "priceTempo": 3400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "adityapur-to-gumla",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 225,
+    "duration": "4-5",
+    "slug": "adityapur-to-simdega",
+    "via": [],
+    "priceSaloon": 3200,
+    "priceSuv": 4100,
+    "priceTempo": 5400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 270,
+    "duration": "5-6",
+    "slug": "adityapur-to-chatra",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 4900,
+    "priceTempo": 6500
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "adityapur-to-lohardaga",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "adityapur-to-pakur",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "adityapur-to-jamtara",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "adityapur-to-koderma",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 50,
+    "duration": "0-2",
+    "slug": "adityapur-to-seraikela",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "adityapur-to-patna",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "adityapur-to-gaya",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "adityapur-to-bodh-gaya",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "adityapur-to-nalanda",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "adityapur-to-rajgir",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "adityapur-to-muzaffarpur",
+    "via": [
+      "Bokaro",
+      "Patna"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "adityapur-to-varanasi",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "adityapur",
+    "fromName": "Adityapur",
+    "fromState": "jharkhand",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "adityapur-to-prayagraj",
+    "via": [
+      "Ranchi",
+      "Varanasi"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  }
+]

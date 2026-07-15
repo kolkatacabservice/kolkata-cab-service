@@ -1,0 +1,2061 @@
+[
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 830,
+    "duration": "16-18",
+    "slug": "rayagada-to-kolkata",
+    "via": [],
+    "priceSaloon": 10600,
+    "priceSuv": 13600,
+    "priceTempo": 17900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 655,
+    "duration": "13-15",
+    "slug": "rayagada-to-ranchi",
+    "via": [],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 367,
+    "duration": "7-9",
+    "slug": "rayagada-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 1160,
+    "duration": "22-23",
+    "slug": "rayagada-to-siliguri",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 16200,
+    "priceSuv": 20900,
+    "priceTempo": 27800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 1185,
+    "duration": "22-24",
+    "slug": "rayagada-to-darjeeling",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 16600,
+    "priceSuv": 21300,
+    "priceTempo": 28400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "rayagada-to-durgapur",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 735,
+    "duration": "14-15",
+    "slug": "rayagada-to-asansol",
+    "via": [
+      "Dhanbad",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10300,
+    "priceSuv": 13200,
+    "priceTempo": 17600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "rayagada-to-howrah",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "rayagada-to-kharagpur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 760,
+    "duration": "14-16",
+    "slug": "rayagada-to-bardhaman",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13700,
+    "priceTempo": 18200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 960,
+    "duration": "18-19",
+    "slug": "rayagada-to-malda",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17300,
+    "priceTempo": 23000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 885,
+    "duration": "17-18",
+    "slug": "rayagada-to-murshidabad",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 12400,
+    "priceSuv": 15900,
+    "priceTempo": 21200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 1190,
+    "duration": "22-24",
+    "slug": "rayagada-to-cooch-behar",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 16700,
+    "priceSuv": 21400,
+    "priceTempo": 28600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 1160,
+    "duration": "22-23",
+    "slug": "rayagada-to-jalpaiguri",
+    "via": [
+      "Jamshedpur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 16200,
+    "priceSuv": 20900,
+    "priceTempo": 27800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "rayagada-to-bankura",
+    "via": [
+      "Cuttack",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "rayagada-to-purulia",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "rayagada-to-midnapore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "rayagada-to-digha",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "rayagada-to-sundarbans",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "rayagada-to-bishnupur",
+    "via": [
+      "Jamshedpur",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "rayagada-to-bolpur-shantiniketan",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 1225,
+    "duration": "23-25",
+    "slug": "rayagada-to-dooars",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 17200,
+    "priceSuv": 22100,
+    "priceTempo": 29400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "rayagada-to-mandarmani",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 695,
+    "duration": "13-14",
+    "slug": "rayagada-to-bakkhali",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9700,
+    "priceSuv": 12500,
+    "priceTempo": 16700
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "rayagada-to-gangasagar",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "rayagada-to-mayapur",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "rayagada-to-nabadwip",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 835,
+    "duration": "16-17",
+    "slug": "rayagada-to-krishnanagar",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 11700,
+    "priceSuv": 15000,
+    "priceTempo": 20000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "rayagada-to-diamond-harbour",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "rayagada-to-haldia",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "rayagada-to-contai",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "rayagada-to-tamluk",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 1210,
+    "duration": "23-24",
+    "slug": "rayagada-to-alipurduar",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 16900,
+    "priceSuv": 21800,
+    "priceTempo": 29000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 1020,
+    "duration": "19-21",
+    "slug": "rayagada-to-raiganj",
+    "via": [
+      "Dhanbad",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 14300,
+    "priceSuv": 18400,
+    "priceTempo": 24500
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 1025,
+    "duration": "19-21",
+    "slug": "rayagada-to-balurghat",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 14400,
+    "priceSuv": 18500,
+    "priceTempo": 24600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "rayagada-to-baharampur",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "rayagada-to-hooghly",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 770,
+    "duration": "14-16",
+    "slug": "rayagada-to-kolkata-airport",
+    "via": [
+      "Cuttack",
+      "Howrah"
+    ],
+    "priceSaloon": 10800,
+    "priceSuv": 13900,
+    "priceTempo": 18500
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 760,
+    "duration": "14-16",
+    "slug": "rayagada-to-salt-lake-kolkata",
+    "via": [
+      "Cuttack",
+      "Howrah"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13700,
+    "priceTempo": 18200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "rayagada-to-new-town-kolkata",
+    "via": [
+      "Howrah",
+      "Cuttack"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "rayagada-to-satragachhi",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "rayagada-to-uluberia",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "rayagada-to-serampore",
+    "via": [
+      "Kharagpur",
+      "Howrah"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "rayagada-to-chandannagar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "rayagada-to-tarkeshwar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "rayagada-to-kolaghat",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "rayagada-to-bagnan",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "rayagada-to-arambagh",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "rayagada-to-barasat",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "rayagada-to-kalyani",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 835,
+    "duration": "16-17",
+    "slug": "rayagada-to-bongaon",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 11700,
+    "priceSuv": 15000,
+    "priceTempo": 20000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "rayagada-to-ranaghat",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "rayagada-to-basirhat",
+    "via": [
+      "Kolkata",
+      "Cuttack"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 770,
+    "duration": "14-16",
+    "slug": "rayagada-to-barrackpore",
+    "via": [
+      "Kharagpur",
+      "Howrah"
+    ],
+    "priceSaloon": 10800,
+    "priceSuv": 13900,
+    "priceTempo": 18500
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "rayagada-to-dum-dum",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 805,
+    "duration": "15-16",
+    "slug": "rayagada-to-habra",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14500,
+    "priceTempo": 19300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "rayagada-to-naihati",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "rayagada-to-kakdwip",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "rayagada-to-jhargram",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "rayagada-to-raniganj",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 805,
+    "duration": "15-16",
+    "slug": "rayagada-to-kalna",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14500,
+    "priceTempo": 19300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "rayagada-to-katwa",
+    "via": [
+      "Kharagpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "rayagada-to-chakdah",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 1095,
+    "duration": "21-22",
+    "slug": "rayagada-to-islampur",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 15300,
+    "priceSuv": 19700,
+    "priceTempo": 26300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 1030,
+    "duration": "19-21",
+    "slug": "rayagada-to-dalkhola",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 14400,
+    "priceSuv": 18500,
+    "priceTempo": 24700
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 885,
+    "duration": "17-18",
+    "slug": "rayagada-to-lalbagh",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 12400,
+    "priceSuv": 15900,
+    "priceTempo": 21200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 860,
+    "duration": "16-18",
+    "slug": "rayagada-to-beldanga",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15500,
+    "priceTempo": 20600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 895,
+    "duration": "17-18",
+    "slug": "rayagada-to-karimpur",
+    "via": [
+      "Kharagpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16100,
+    "priceTempo": 21500
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 340,
+    "duration": "6-8",
+    "slug": "rayagada-to-puri",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6100,
+    "priceTempo": 8200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "rayagada-to-cuttack",
+    "via": [
+      "Puri",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "rayagada-to-rourkela",
+    "via": [],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "rayagada-to-sambalpur",
+    "via": [],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "rayagada-to-berhampur",
+    "via": [],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "rayagada-to-balasore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "rayagada-to-konark",
+    "via": [
+      "Bhubaneswar",
+      "Puri"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 275,
+    "duration": "5-6",
+    "slug": "rayagada-to-chilika",
+    "via": [],
+    "priceSaloon": 3900,
+    "priceSuv": 5000,
+    "priceTempo": 6600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "rayagada-to-dhenkanal",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "rayagada-to-koraput",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "rayagada-to-angul",
+    "via": [],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "rayagada-to-jharsuguda",
+    "via": [],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "rayagada-to-baripada",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "rayagada-to-jeypore",
+    "via": [],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 210,
+    "duration": "4-5",
+    "slug": "rayagada-to-gopalpur",
+    "via": [],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "rayagada-to-jamshedpur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "rayagada-to-dhanbad",
+    "via": [
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "rayagada-to-bokaro",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "rayagada-to-hazaribagh",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 805,
+    "duration": "15-16",
+    "slug": "rayagada-to-deoghar",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14500,
+    "priceTempo": 19300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "rayagada-to-giridih",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 660,
+    "duration": "12-14",
+    "slug": "rayagada-to-ramgarh",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11900,
+    "priceTempo": 15800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "rayagada-to-palamu",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "rayagada-to-netarhat",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "rayagada-to-betla",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 815,
+    "duration": "15-17",
+    "slug": "rayagada-to-dumka",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 11400,
+    "priceSuv": 14700,
+    "priceTempo": 19600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "rayagada-to-chaibasa",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 950,
+    "duration": "18-19",
+    "slug": "rayagada-to-sahebganj",
+    "via": [
+      "Dhanbad",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 13300,
+    "priceSuv": 17100,
+    "priceTempo": 22800
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "rayagada-to-godda",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "rayagada-to-latehar",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "rayagada-to-tatanagar",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "rayagada-to-adityapur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "rayagada-to-khunti",
+    "via": [
+      "Ranchi",
+      "Cuttack"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "rayagada-to-gumla",
+    "via": [],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "rayagada-to-simdega",
+    "via": [],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "rayagada-to-chatra",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "rayagada-to-lohardaga",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 895,
+    "duration": "17-18",
+    "slug": "rayagada-to-pakur",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16100,
+    "priceTempo": 21500
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 755,
+    "duration": "14-16",
+    "slug": "rayagada-to-jamtara",
+    "via": [
+      "Jamshedpur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13600,
+    "priceTempo": 18100
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "rayagada-to-koderma",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "rayagada-to-seraikela",
+    "via": [
+      "Jamshedpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "rayagada-to-patna",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "rayagada-to-gaya",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 750,
+    "duration": "14-15",
+    "slug": "rayagada-to-bodh-gaya",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10500,
+    "priceSuv": 13500,
+    "priceTempo": 18000
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "rayagada-to-nalanda",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 805,
+    "duration": "15-16",
+    "slug": "rayagada-to-rajgir",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14500,
+    "priceTempo": 19300
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 945,
+    "duration": "18-19",
+    "slug": "rayagada-to-muzaffarpur",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 13200,
+    "priceSuv": 17000,
+    "priceTempo": 22700
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "rayagada-to-varanasi",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "rayagada",
+    "fromName": "Rayagada",
+    "fromState": "odisha",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 845,
+    "duration": "16-17",
+    "slug": "rayagada-to-prayagraj",
+    "via": [
+      "Varanasi",
+      "Ranchi"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15200,
+    "priceTempo": 20300
+  }
+]

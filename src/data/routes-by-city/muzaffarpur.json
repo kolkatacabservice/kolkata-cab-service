@@ -1,0 +1,2088 @@
+[
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 695,
+    "duration": "13-15",
+    "slug": "muzaffarpur-to-kolkata",
+    "via": [
+      "Patna",
+      "NH 19"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 72,
+    "duration": "1.5-2",
+    "slug": "muzaffarpur-to-patna",
+    "via": [
+      "NH 57"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "muzaffarpur-to-rajgir",
+    "via": [
+      "Patna Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "muzaffarpur-to-gaya",
+    "via": [
+      "Patna Road"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2800,
+    "priceTempo": 3800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 340,
+    "duration": "6-7",
+    "slug": "muzaffarpur-to-varanasi",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 4400,
+    "priceSuv": 5800,
+    "priceTempo": 7800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "muzaffarpur-to-siliguri",
+    "via": [],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "muzaffarpur-to-darjeeling",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "muzaffarpur-to-durgapur",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "muzaffarpur-to-asansol",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "muzaffarpur-to-howrah",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "muzaffarpur-to-kharagpur",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "muzaffarpur-to-bardhaman",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "muzaffarpur-to-malda",
+    "via": [
+      "Deoghar",
+      "Patna"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "muzaffarpur-to-murshidabad",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "muzaffarpur-to-cooch-behar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "muzaffarpur-to-jalpaiguri",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "muzaffarpur-to-bankura",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "muzaffarpur-to-purulia",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "muzaffarpur-to-midnapore",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "muzaffarpur-to-digha",
+    "via": [
+      "Dhanbad",
+      "Kharagpur"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "muzaffarpur-to-sundarbans",
+    "via": [
+      "Kolkata",
+      "Bardhaman"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "muzaffarpur-to-bishnupur",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "muzaffarpur-to-bolpur-shantiniketan",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "muzaffarpur-to-dooars",
+    "via": [
+      "Patna",
+      "Siliguri"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "muzaffarpur-to-mandarmani",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "muzaffarpur-to-bakkhali",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 695,
+    "duration": "13-14",
+    "slug": "muzaffarpur-to-gangasagar",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 9700,
+    "priceSuv": 12500,
+    "priceTempo": 16700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "muzaffarpur-to-mayapur",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "muzaffarpur-to-nabadwip",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 7300,
+    "priceSuv": 9400,
+    "priceTempo": 12500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "muzaffarpur-to-krishnanagar",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "muzaffarpur-to-diamond-harbour",
+    "via": [
+      "Deoghar",
+      "Durgapur"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 640,
+    "duration": "12-13",
+    "slug": "muzaffarpur-to-haldia",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11500,
+    "priceTempo": 15400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "muzaffarpur-to-contai",
+    "via": [
+      "Asansol",
+      "Midnapore"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 615,
+    "duration": "11-13",
+    "slug": "muzaffarpur-to-tamluk",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 8600,
+    "priceSuv": 11100,
+    "priceTempo": 14800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "muzaffarpur-to-alipurduar",
+    "via": [
+      "Patna",
+      "Siliguri"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "muzaffarpur-to-raiganj",
+    "via": [],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "muzaffarpur-to-balurghat",
+    "via": [
+      "Patna",
+      "Malda"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "muzaffarpur-to-baharampur",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "muzaffarpur-to-hooghly",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "muzaffarpur-to-kolkata-airport",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "muzaffarpur-to-salt-lake-kolkata",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "muzaffarpur-to-new-town-kolkata",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "muzaffarpur-to-satragachhi",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "muzaffarpur-to-uluberia",
+    "via": [
+      "Deoghar",
+      "Durgapur"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "muzaffarpur-to-serampore",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "muzaffarpur-to-chandannagar",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "muzaffarpur-to-tarkeshwar",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "muzaffarpur-to-kolaghat",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "muzaffarpur-to-bagnan",
+    "via": [
+      "Deoghar",
+      "Durgapur"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "muzaffarpur-to-arambagh",
+    "via": [
+      "Deoghar",
+      "Durgapur"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "muzaffarpur-to-barasat",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 570,
+    "duration": "10-12",
+    "slug": "muzaffarpur-to-kalyani",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 8000,
+    "priceSuv": 10300,
+    "priceTempo": 13700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "muzaffarpur-to-bongaon",
+    "via": [
+      "Deoghar",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "muzaffarpur-to-ranaghat",
+    "via": [
+      "Deoghar",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "muzaffarpur-to-basirhat",
+    "via": [
+      "Krishnanagar",
+      "Deoghar"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "muzaffarpur-to-barrackpore",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "muzaffarpur-to-dum-dum",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "muzaffarpur-to-habra",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "muzaffarpur-to-naihati",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "muzaffarpur-to-kakdwip",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "muzaffarpur-to-jhargram",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "muzaffarpur-to-raniganj",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "muzaffarpur-to-kalna",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "muzaffarpur-to-katwa",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "muzaffarpur-to-chakdah",
+    "via": [
+      "Krishnanagar",
+      "Deoghar"
+    ],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "muzaffarpur-to-islampur",
+    "via": [
+      "Siliguri"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "muzaffarpur-to-dalkhola",
+    "via": [],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "muzaffarpur-to-lalbagh",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "muzaffarpur-to-beldanga",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "muzaffarpur-to-karimpur",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "muzaffarpur-to-bhubaneswar",
+    "via": [
+      "Cuttack",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "muzaffarpur-to-puri",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "muzaffarpur-to-cuttack",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "muzaffarpur-to-rourkela",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "muzaffarpur-to-sambalpur",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 895,
+    "duration": "17-18",
+    "slug": "muzaffarpur-to-berhampur",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16100,
+    "priceTempo": 21500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "muzaffarpur-to-balasore",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "muzaffarpur-to-konark",
+    "via": [
+      "Hazaribagh",
+      "Cuttack"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 840,
+    "duration": "16-17",
+    "slug": "muzaffarpur-to-chilika",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15100,
+    "priceTempo": 20200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "muzaffarpur-to-dhenkanal",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 1010,
+    "duration": "19-20",
+    "slug": "muzaffarpur-to-koraput",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 14100,
+    "priceSuv": 18200,
+    "priceTempo": 24200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 945,
+    "duration": "18-19",
+    "slug": "muzaffarpur-to-rayagada",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 13200,
+    "priceSuv": 17000,
+    "priceTempo": 22700
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "muzaffarpur-to-angul",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "muzaffarpur-to-jharsuguda",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "muzaffarpur-to-baripada",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 1010,
+    "duration": "19-20",
+    "slug": "muzaffarpur-to-jeypore",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 14100,
+    "priceSuv": 18200,
+    "priceTempo": 24200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 900,
+    "duration": "17-18",
+    "slug": "muzaffarpur-to-gopalpur",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 12600,
+    "priceSuv": 16200,
+    "priceTempo": 21600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "muzaffarpur-to-ranchi",
+    "via": [
+      "Patna",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "muzaffarpur-to-jamshedpur",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "muzaffarpur-to-dhanbad",
+    "via": [
+      "Deoghar",
+      "Patna"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "muzaffarpur-to-bokaro",
+    "via": [
+      "Dhanbad",
+      "Patna"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "muzaffarpur-to-hazaribagh",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "muzaffarpur-to-deoghar",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "muzaffarpur-to-giridih",
+    "via": [
+      "Deoghar",
+      "Patna"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "muzaffarpur-to-ramgarh",
+    "via": [
+      "Patna",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "muzaffarpur-to-palamu",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "muzaffarpur-to-netarhat",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "muzaffarpur-to-betla",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "muzaffarpur-to-dumka",
+    "via": [
+      "Patna",
+      "Deoghar"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "muzaffarpur-to-chaibasa",
+    "via": [
+      "Patna",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "muzaffarpur-to-sahebganj",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "muzaffarpur-to-godda",
+    "via": [
+      "Deoghar",
+      "Patna"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "muzaffarpur-to-latehar",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "muzaffarpur-to-tatanagar",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "muzaffarpur-to-adityapur",
+    "via": [
+      "Patna",
+      "Bokaro"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "muzaffarpur-to-khunti",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "muzaffarpur-to-gumla",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "muzaffarpur-to-simdega",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "muzaffarpur-to-chatra",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 395,
+    "duration": "7-9",
+    "slug": "muzaffarpur-to-lohardaga",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7100,
+    "priceTempo": 9500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "muzaffarpur-to-pakur",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "muzaffarpur-to-jamtara",
+    "via": [
+      "Patna",
+      "Deoghar"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 245,
+    "duration": "4-6",
+    "slug": "muzaffarpur-to-koderma",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 5900
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "muzaffarpur-to-seraikela",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "muzaffarpur-to-bodh-gaya",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "muzaffarpur-to-nalanda",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "muzaffarpur-to-prayagraj",
+    "via": [
+      "Varanasi",
+      "Patna"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  }
+]

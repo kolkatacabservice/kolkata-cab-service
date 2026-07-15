@@ -1,0 +1,2082 @@
+[
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 520,
+    "duration": "10-11",
+    "slug": "nalanda-to-kolkata",
+    "via": [
+      "Rajgir",
+      "Dhanbad",
+      "NH 19"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 95,
+    "duration": "2-3",
+    "slug": "nalanda-to-patna",
+    "via": [
+      "NH 20"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3300,
+    "priceTempo": 4700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 80,
+    "duration": "1-2",
+    "slug": "nalanda-to-gaya",
+    "via": [
+      "Rajgir"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 4200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 85,
+    "duration": "1.5-2",
+    "slug": "nalanda-to-bodh-gaya",
+    "via": [
+      "Rajgir Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 15,
+    "duration": "0.5-1",
+    "slug": "nalanda-to-rajgir",
+    "via": [
+      "Local Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "nalanda-to-siliguri",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "nalanda-to-darjeeling",
+    "via": [
+      "Patna",
+      "Siliguri"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 335,
+    "duration": "6-7",
+    "slug": "nalanda-to-durgapur",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 4700,
+    "priceSuv": 6000,
+    "priceTempo": 8000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 295,
+    "duration": "5-7",
+    "slug": "nalanda-to-asansol",
+    "via": [
+      "Deoghar",
+      "Dhanbad"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5300,
+    "priceTempo": 7100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "nalanda-to-howrah",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "nalanda-to-kharagpur",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "nalanda-to-bardhaman",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "nalanda-to-malda",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "nalanda-to-murshidabad",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "nalanda-to-cooch-behar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "nalanda-to-jalpaiguri",
+    "via": [
+      "Patna",
+      "Siliguri"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "nalanda-to-bankura",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "nalanda-to-purulia",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "nalanda-to-midnapore",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "nalanda-to-digha",
+    "via": [
+      "Dhanbad",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "nalanda-to-sundarbans",
+    "via": [
+      "Durgapur",
+      "Howrah"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "nalanda-to-bishnupur",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "nalanda-to-bolpur-shantiniketan",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "nalanda-to-dooars",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "nalanda-to-mandarmani",
+    "via": [
+      "Dhanbad",
+      "Kharagpur"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "nalanda-to-bakkhali",
+    "via": [
+      "Midnapore",
+      "Dhanbad"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 580,
+    "duration": "11-12",
+    "slug": "nalanda-to-gangasagar",
+    "via": [
+      "Midnapore",
+      "Dhanbad"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13900
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 455,
+    "duration": "8-10",
+    "slug": "nalanda-to-mayapur",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8200,
+    "priceTempo": 10900
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 450,
+    "duration": "8-10",
+    "slug": "nalanda-to-nabadwip",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 6300,
+    "priceSuv": 8100,
+    "priceTempo": 10800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "nalanda-to-krishnanagar",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "nalanda-to-diamond-harbour",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "nalanda-to-haldia",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "nalanda-to-contai",
+    "via": [
+      "Dhanbad",
+      "Midnapore"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "nalanda-to-tamluk",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "nalanda-to-alipurduar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "nalanda-to-raiganj",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "nalanda-to-balurghat",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "nalanda-to-baharampur",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "nalanda-to-hooghly",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "nalanda-to-kolkata-airport",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "nalanda-to-salt-lake-kolkata",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "nalanda-to-new-town-kolkata",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "nalanda-to-satragachhi",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "nalanda-to-uluberia",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "nalanda-to-serampore",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "nalanda-to-chandannagar",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "nalanda-to-tarkeshwar",
+    "via": [
+      "Asansol",
+      "Durgapur"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "nalanda-to-kolaghat",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "nalanda-to-bagnan",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "nalanda-to-arambagh",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "nalanda-to-barasat",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "nalanda-to-kalyani",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "nalanda-to-bongaon",
+    "via": [
+      "Krishnanagar",
+      "Deoghar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "nalanda-to-ranaghat",
+    "via": [
+      "Krishnanagar",
+      "Deoghar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "nalanda-to-basirhat",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "nalanda-to-barrackpore",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "nalanda-to-dum-dum",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "nalanda-to-habra",
+    "via": [
+      "Deoghar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "nalanda-to-naihati",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 560,
+    "duration": "10-12",
+    "slug": "nalanda-to-kakdwip",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10100,
+    "priceTempo": 13400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "nalanda-to-jhargram",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "nalanda-to-raniganj",
+    "via": [
+      "Deoghar",
+      "Asansol"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "nalanda-to-kalna",
+    "via": [
+      "Durgapur",
+      "Deoghar"
+    ],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "nalanda-to-katwa",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "nalanda-to-chakdah",
+    "via": [
+      "Bardhaman",
+      "Deoghar"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 385,
+    "duration": "7-8",
+    "slug": "nalanda-to-islampur",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 5400,
+    "priceSuv": 6900,
+    "priceTempo": 9200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 325,
+    "duration": "6-7",
+    "slug": "nalanda-to-dalkhola",
+    "via": [],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "nalanda-to-lalbagh",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 400,
+    "duration": "7-9",
+    "slug": "nalanda-to-beldanga",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 5600,
+    "priceSuv": 7200,
+    "priceTempo": 9600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "nalanda-to-karimpur",
+    "via": [
+      "Asansol",
+      "Deoghar"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 660,
+    "duration": "12-14",
+    "slug": "nalanda-to-bhubaneswar",
+    "via": [
+      "Hazaribagh",
+      "Cuttack"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11900,
+    "priceTempo": 15800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "nalanda-to-puri",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "nalanda-to-cuttack",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "nalanda-to-rourkela",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "nalanda-to-sambalpur",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 770,
+    "duration": "14-16",
+    "slug": "nalanda-to-berhampur",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10800,
+    "priceSuv": 13900,
+    "priceTempo": 18500
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "nalanda-to-balasore",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "nalanda-to-konark",
+    "via": [
+      "Hazaribagh",
+      "Cuttack"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "nalanda-to-chilika",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "nalanda-to-dhenkanal",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 895,
+    "duration": "17-18",
+    "slug": "nalanda-to-koraput",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16100,
+    "priceTempo": 21500
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "nalanda-to-rayagada",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "nalanda-to-angul",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "nalanda-to-jharsuguda",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "nalanda-to-baripada",
+    "via": [
+      "Jamshedpur",
+      "Bokaro"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 895,
+    "duration": "17-18",
+    "slug": "nalanda-to-jeypore",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16100,
+    "priceTempo": 21500
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "nalanda-to-gopalpur",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 265,
+    "duration": "5-6",
+    "slug": "nalanda-to-ranchi",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 3700,
+    "priceSuv": 4800,
+    "priceTempo": 6400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "nalanda-to-jamshedpur",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "nalanda-to-dhanbad",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 235,
+    "duration": "4-6",
+    "slug": "nalanda-to-bokaro",
+    "via": [
+      "Hazaribagh",
+      "Dhanbad"
+    ],
+    "priceSaloon": 3300,
+    "priceSuv": 4200,
+    "priceTempo": 5600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 175,
+    "duration": "3-4",
+    "slug": "nalanda-to-hazaribagh",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3200,
+    "priceTempo": 4200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 200,
+    "duration": "3-5",
+    "slug": "nalanda-to-deoghar",
+    "via": [],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 190,
+    "duration": "3-5",
+    "slug": "nalanda-to-giridih",
+    "via": [],
+    "priceSaloon": 2700,
+    "priceSuv": 3400,
+    "priceTempo": 4600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 220,
+    "duration": "4-5",
+    "slug": "nalanda-to-ramgarh",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 3100,
+    "priceSuv": 4000,
+    "priceTempo": 5300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 270,
+    "duration": "5-6",
+    "slug": "nalanda-to-palamu",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 4900,
+    "priceTempo": 6500
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "nalanda-to-netarhat",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "nalanda-to-betla",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 270,
+    "duration": "5-6",
+    "slug": "nalanda-to-dumka",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 4900,
+    "priceTempo": 6500
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 370,
+    "duration": "7-8",
+    "slug": "nalanda-to-chaibasa",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5200,
+    "priceSuv": 6700,
+    "priceTempo": 8900
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "nalanda-to-sahebganj",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "nalanda-to-godda",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 240,
+    "duration": "4-6",
+    "slug": "nalanda-to-latehar",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4300,
+    "priceTempo": 5800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "nalanda-to-tatanagar",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 350,
+    "duration": "6-8",
+    "slug": "nalanda-to-adityapur",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 4900,
+    "priceSuv": 6300,
+    "priceTempo": 8400
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 305,
+    "duration": "5-7",
+    "slug": "nalanda-to-khunti",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 4300,
+    "priceSuv": 5500,
+    "priceTempo": 7300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 320,
+    "duration": "6-7",
+    "slug": "nalanda-to-gumla",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 4500,
+    "priceSuv": 5800,
+    "priceTempo": 7700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 380,
+    "duration": "7-8",
+    "slug": "nalanda-to-simdega",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9100
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "nalanda-to-chatra",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 2300,
+    "priceSuv": 3000,
+    "priceTempo": 4000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 270,
+    "duration": "5-6",
+    "slug": "nalanda-to-lohardaga",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 3800,
+    "priceSuv": 4900,
+    "priceTempo": 6500
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "nalanda-to-pakur",
+    "via": [
+      "Deoghar"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 250,
+    "duration": "4-6",
+    "slug": "nalanda-to-jamtara",
+    "via": [
+      "Dhanbad",
+      "Deoghar"
+    ],
+    "priceSaloon": 3500,
+    "priceSuv": 4500,
+    "priceTempo": 6000
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 110,
+    "duration": "2-3",
+    "slug": "nalanda-to-koderma",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "nalanda-to-seraikela",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "nalanda-to-muzaffarpur",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "nalanda-to-varanasi",
+    "via": [
+      "Gaya",
+      "Patna"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "nalanda-to-prayagraj",
+    "via": [
+      "Varanasi",
+      "Gaya"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  }
+]

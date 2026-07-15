@@ -1,0 +1,2063 @@
+[
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 950,
+    "duration": "19-20",
+    "slug": "jeypore-to-kolkata",
+    "via": [],
+    "priceSaloon": 12000,
+    "priceSuv": 15300,
+    "priceTempo": 20100
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 746,
+    "duration": "14-16",
+    "slug": "jeypore-to-ranchi",
+    "via": [],
+    "priceSaloon": 9700,
+    "priceSuv": 12400,
+    "priceTempo": 16400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 489,
+    "duration": "9-11",
+    "slug": "jeypore-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 30,
+    "duration": "0-1",
+    "slug": "jeypore-to-koraput",
+    "via": [],
+    "priceSaloon": 1800,
+    "priceSuv": 2400,
+    "priceTempo": 3500
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 1250,
+    "duration": "24-25",
+    "slug": "jeypore-to-siliguri",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 17500,
+    "priceSuv": 22500,
+    "priceTempo": 30000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 1275,
+    "duration": "24-26",
+    "slug": "jeypore-to-darjeeling",
+    "via": [
+      "Deoghar",
+      "Ranchi"
+    ],
+    "priceSaloon": 17900,
+    "priceSuv": 23000,
+    "priceTempo": 30600
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 845,
+    "duration": "16-17",
+    "slug": "jeypore-to-durgapur",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15200,
+    "priceTempo": 20300
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "jeypore-to-asansol",
+    "via": [
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "jeypore-to-howrah",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "jeypore-to-kharagpur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 865,
+    "duration": "16-18",
+    "slug": "jeypore-to-bardhaman",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12100,
+    "priceSuv": 15600,
+    "priceTempo": 20800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 1055,
+    "duration": "20-21",
+    "slug": "jeypore-to-malda",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 14800,
+    "priceSuv": 19000,
+    "priceTempo": 25300
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 985,
+    "duration": "18-20",
+    "slug": "jeypore-to-murshidabad",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 13800,
+    "priceSuv": 17700,
+    "priceTempo": 23600
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 1285,
+    "duration": "24-26",
+    "slug": "jeypore-to-cooch-behar",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 18000,
+    "priceSuv": 23100,
+    "priceTempo": 30800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 1255,
+    "duration": "24-25",
+    "slug": "jeypore-to-jalpaiguri",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 17600,
+    "priceSuv": 22600,
+    "priceTempo": 30100
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 795,
+    "duration": "15-16",
+    "slug": "jeypore-to-bankura",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14300,
+    "priceTempo": 19100
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 750,
+    "duration": "14-15",
+    "slug": "jeypore-to-purulia",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10500,
+    "priceSuv": 13500,
+    "priceTempo": 18000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 750,
+    "duration": "14-15",
+    "slug": "jeypore-to-midnapore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10500,
+    "priceSuv": 13500,
+    "priceTempo": 18000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "jeypore-to-digha",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "jeypore-to-sundarbans",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 805,
+    "duration": "15-16",
+    "slug": "jeypore-to-bishnupur",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14500,
+    "priceTempo": 19300
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "jeypore-to-bolpur-shantiniketan",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 1320,
+    "duration": "25-26",
+    "slug": "jeypore-to-dooars",
+    "via": [
+      "Jamshedpur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 18500,
+    "priceSuv": 23800,
+    "priceTempo": 31700
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "jeypore-to-mandarmani",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "jeypore-to-bakkhali",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 770,
+    "duration": "14-16",
+    "slug": "jeypore-to-gangasagar",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10800,
+    "priceSuv": 13900,
+    "priceTempo": 18500
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 930,
+    "duration": "17-19",
+    "slug": "jeypore-to-mayapur",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 13000,
+    "priceSuv": 16700,
+    "priceTempo": 22300
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 925,
+    "duration": "17-19",
+    "slug": "jeypore-to-nabadwip",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 13000,
+    "priceSuv": 16700,
+    "priceTempo": 22200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 940,
+    "duration": "18-19",
+    "slug": "jeypore-to-krishnanagar",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 13200,
+    "priceSuv": 16900,
+    "priceTempo": 22600
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 815,
+    "duration": "15-17",
+    "slug": "jeypore-to-diamond-harbour",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11400,
+    "priceSuv": 14700,
+    "priceTempo": 19600
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 795,
+    "duration": "15-16",
+    "slug": "jeypore-to-haldia",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14300,
+    "priceTempo": 19100
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "jeypore-to-contai",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "jeypore-to-tamluk",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 1310,
+    "duration": "25-26",
+    "slug": "jeypore-to-alipurduar",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 18300,
+    "priceSuv": 23600,
+    "priceTempo": 31400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 1115,
+    "duration": "21-22",
+    "slug": "jeypore-to-raiganj",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 15600,
+    "priceSuv": 20100,
+    "priceTempo": 26800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 1125,
+    "duration": "21-23",
+    "slug": "jeypore-to-balurghat",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 15800,
+    "priceSuv": 20300,
+    "priceTempo": 27000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 975,
+    "duration": "18-20",
+    "slug": "jeypore-to-baharampur",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 13700,
+    "priceSuv": 17600,
+    "priceTempo": 23400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "jeypore-to-hooghly",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "jeypore-to-kolkata-airport",
+    "via": [
+      "Cuttack",
+      "Howrah"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "jeypore-to-salt-lake-kolkata",
+    "via": [
+      "Cuttack",
+      "Howrah"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "jeypore-to-new-town-kolkata",
+    "via": [
+      "Cuttack",
+      "Howrah"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 850,
+    "duration": "16-17",
+    "slug": "jeypore-to-satragachhi",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11900,
+    "priceSuv": 15300,
+    "priceTempo": 20400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "jeypore-to-uluberia",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "jeypore-to-serampore",
+    "via": [
+      "Kharagpur",
+      "Howrah"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 885,
+    "duration": "17-18",
+    "slug": "jeypore-to-chandannagar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12400,
+    "priceSuv": 15900,
+    "priceTempo": 21200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 850,
+    "duration": "16-17",
+    "slug": "jeypore-to-tarkeshwar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11900,
+    "priceSuv": 15300,
+    "priceTempo": 20400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "jeypore-to-kolaghat",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "jeypore-to-bagnan",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "jeypore-to-arambagh",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 885,
+    "duration": "17-18",
+    "slug": "jeypore-to-barasat",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 12400,
+    "priceSuv": 15900,
+    "priceTempo": 21200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 900,
+    "duration": "17-18",
+    "slug": "jeypore-to-kalyani",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12600,
+    "priceSuv": 16200,
+    "priceTempo": 21600
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 945,
+    "duration": "18-19",
+    "slug": "jeypore-to-bongaon",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 13200,
+    "priceSuv": 17000,
+    "priceTempo": 22700
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 925,
+    "duration": "17-19",
+    "slug": "jeypore-to-ranaghat",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 13000,
+    "priceSuv": 16700,
+    "priceTempo": 22200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 920,
+    "duration": "17-19",
+    "slug": "jeypore-to-basirhat",
+    "via": [
+      "Cuttack",
+      "Kolkata"
+    ],
+    "priceSaloon": 12900,
+    "priceSuv": 16600,
+    "priceTempo": 22100
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "jeypore-to-barrackpore",
+    "via": [
+      "Kharagpur",
+      "Howrah"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "jeypore-to-dum-dum",
+    "via": [
+      "Cuttack",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 910,
+    "duration": "17-18",
+    "slug": "jeypore-to-habra",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16400,
+    "priceTempo": 21800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "jeypore-to-naihati",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 795,
+    "duration": "15-16",
+    "slug": "jeypore-to-kakdwip",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14300,
+    "priceTempo": 19100
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "jeypore-to-jhargram",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 835,
+    "duration": "16-17",
+    "slug": "jeypore-to-raniganj",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11700,
+    "priceSuv": 15000,
+    "priceTempo": 20000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 910,
+    "duration": "17-18",
+    "slug": "jeypore-to-kalna",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16400,
+    "priceTempo": 21800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 925,
+    "duration": "17-19",
+    "slug": "jeypore-to-katwa",
+    "via": [
+      "Kharagpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 13000,
+    "priceSuv": 16700,
+    "priceTempo": 22200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "jeypore-to-chakdah",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 1185,
+    "duration": "22-24",
+    "slug": "jeypore-to-islampur",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 16600,
+    "priceSuv": 21300,
+    "priceTempo": 28400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 1120,
+    "duration": "21-23",
+    "slug": "jeypore-to-dalkhola",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 15700,
+    "priceSuv": 20200,
+    "priceTempo": 26900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 985,
+    "duration": "18-20",
+    "slug": "jeypore-to-lalbagh",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 13800,
+    "priceSuv": 17700,
+    "priceTempo": 23600
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 960,
+    "duration": "18-19",
+    "slug": "jeypore-to-beldanga",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17300,
+    "priceTempo": 23000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 1000,
+    "duration": "19-20",
+    "slug": "jeypore-to-karimpur",
+    "via": [
+      "Kharagpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 14000,
+    "priceSuv": 18000,
+    "priceTempo": 24000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 460,
+    "duration": "8-10",
+    "slug": "jeypore-to-puri",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6400,
+    "priceSuv": 8300,
+    "priceTempo": 11000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "jeypore-to-cuttack",
+    "via": [
+      "Puri",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "jeypore-to-rourkela",
+    "via": [],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "jeypore-to-sambalpur",
+    "via": [],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 315,
+    "duration": "6-7",
+    "slug": "jeypore-to-berhampur",
+    "via": [],
+    "priceSaloon": 4400,
+    "priceSuv": 5700,
+    "priceTempo": 7600
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 660,
+    "duration": "12-14",
+    "slug": "jeypore-to-balasore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11900,
+    "priceTempo": 15800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "jeypore-to-konark",
+    "via": [
+      "Bhubaneswar",
+      "Puri"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 390,
+    "duration": "7-8",
+    "slug": "jeypore-to-chilika",
+    "via": [],
+    "priceSaloon": 5500,
+    "priceSuv": 7000,
+    "priceTempo": 9400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "jeypore-to-dhenkanal",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 135,
+    "duration": "2-4",
+    "slug": "jeypore-to-rayagada",
+    "via": [],
+    "priceSaloon": 1900,
+    "priceSuv": 2400,
+    "priceTempo": 3300
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "jeypore-to-angul",
+    "via": [],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 470,
+    "duration": "9-10",
+    "slug": "jeypore-to-jharsuguda",
+    "via": [],
+    "priceSaloon": 6600,
+    "priceSuv": 8500,
+    "priceTempo": 11300
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "jeypore-to-baripada",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "jeypore-to-gopalpur",
+    "via": [],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "jeypore-to-jamshedpur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 800,
+    "duration": "15-16",
+    "slug": "jeypore-to-dhanbad",
+    "via": [
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11200,
+    "priceSuv": 14400,
+    "priceTempo": 19200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 770,
+    "duration": "14-16",
+    "slug": "jeypore-to-bokaro",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10800,
+    "priceSuv": 13900,
+    "priceTempo": 18500
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 755,
+    "duration": "14-16",
+    "slug": "jeypore-to-hazaribagh",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13600,
+    "priceTempo": 18100
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 895,
+    "duration": "17-18",
+    "slug": "jeypore-to-deoghar",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16100,
+    "priceTempo": 21500
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 835,
+    "duration": "16-17",
+    "slug": "jeypore-to-giridih",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 11700,
+    "priceSuv": 15000,
+    "priceTempo": 20000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "jeypore-to-ramgarh",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "jeypore-to-palamu",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "jeypore-to-netarhat",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "jeypore-to-betla",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 910,
+    "duration": "17-18",
+    "slug": "jeypore-to-dumka",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16400,
+    "priceTempo": 21800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "jeypore-to-chaibasa",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 1040,
+    "duration": "20-21",
+    "slug": "jeypore-to-sahebganj",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 14600,
+    "priceSuv": 18700,
+    "priceTempo": 25000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 965,
+    "duration": "18-20",
+    "slug": "jeypore-to-godda",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 13500,
+    "priceSuv": 17400,
+    "priceTempo": 23200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "jeypore-to-latehar",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "jeypore-to-tatanagar",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "jeypore-to-adityapur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "jeypore-to-khunti",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "jeypore-to-gumla",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "jeypore-to-simdega",
+    "via": [],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 755,
+    "duration": "14-16",
+    "slug": "jeypore-to-chatra",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13600,
+    "priceTempo": 18100
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "jeypore-to-lohardaga",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 995,
+    "duration": "19-20",
+    "slug": "jeypore-to-pakur",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 13900,
+    "priceSuv": 17900,
+    "priceTempo": 23900
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 845,
+    "duration": "16-17",
+    "slug": "jeypore-to-jamtara",
+    "via": [
+      "Dhanbad",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15200,
+    "priceTempo": 20300
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "jeypore-to-koderma",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "jeypore-to-seraikela",
+    "via": [
+      "Jamshedpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 935,
+    "duration": "17-19",
+    "slug": "jeypore-to-patna",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 13100,
+    "priceSuv": 16800,
+    "priceTempo": 22400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 835,
+    "duration": "16-17",
+    "slug": "jeypore-to-gaya",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 11700,
+    "priceSuv": 15000,
+    "priceTempo": 20000
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "jeypore-to-bodh-gaya",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 895,
+    "duration": "17-18",
+    "slug": "jeypore-to-nalanda",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16100,
+    "priceTempo": 21500
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 880,
+    "duration": "16-18",
+    "slug": "jeypore-to-rajgir",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21100
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 1010,
+    "duration": "19-20",
+    "slug": "jeypore-to-muzaffarpur",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 14100,
+    "priceSuv": 18200,
+    "priceTempo": 24200
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 850,
+    "duration": "16-17",
+    "slug": "jeypore-to-varanasi",
+    "via": [
+      "Ranchi",
+      "Gaya"
+    ],
+    "priceSaloon": 11900,
+    "priceSuv": 15300,
+    "priceTempo": 20400
+  },
+  {
+    "from": "jeypore",
+    "fromName": "Jeypore",
+    "fromState": "odisha",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "jeypore-to-prayagraj",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  }
+]

@@ -1,0 +1,2074 @@
+[
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 563,
+    "duration": "11-13",
+    "slug": "cooch-behar-to-kolkata",
+    "via": [],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 694,
+    "duration": "13-15",
+    "slug": "cooch-behar-to-ranchi",
+    "via": [],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 997,
+    "duration": "19-21",
+    "slug": "cooch-behar-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 20900
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 155,
+    "duration": "3-4",
+    "slug": "cooch-behar-to-siliguri",
+    "via": [
+      "NH 31"
+    ],
+    "priceSaloon": 3200,
+    "priceSuv": 4200,
+    "priceTempo": 5800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 200,
+    "duration": "3-4",
+    "slug": "cooch-behar-to-darjeeling",
+    "via": [
+      "NH 27",
+      "Siliguri"
+    ],
+    "priceSaloon": 2800,
+    "priceSuv": 3600,
+    "priceTempo": 4800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 95,
+    "duration": "1.5-2",
+    "slug": "cooch-behar-to-jalpaiguri",
+    "via": [
+      "NH 27"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 58,
+    "duration": "1-1.5",
+    "slug": "cooch-behar-to-alipurduar",
+    "via": [
+      "NH 27"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "cooch-behar-to-dalkhola",
+    "via": [
+      "NH 31"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 100,
+    "duration": "1.5-2",
+    "slug": "cooch-behar-to-islampur",
+    "via": [
+      "NH 31"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "cooch-behar-to-durgapur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-asansol",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "cooch-behar-to-howrah",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "cooch-behar-to-kharagpur",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "cooch-behar-to-bardhaman",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "cooch-behar-to-malda",
+    "via": [],
+    "priceSaloon": 3600,
+    "priceSuv": 4700,
+    "priceTempo": 6200
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "cooch-behar-to-murshidabad",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-bankura",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "cooch-behar-to-purulia",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "cooch-behar-to-midnapore",
+    "via": [
+      "Bardhaman",
+      "Malda"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "cooch-behar-to-digha",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "cooch-behar-to-sundarbans",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-bishnupur",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "cooch-behar-to-bolpur-shantiniketan",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 65,
+    "duration": "1-2",
+    "slug": "cooch-behar-to-dooars",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 670,
+    "duration": "12-14",
+    "slug": "cooch-behar-to-mandarmani",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 9400,
+    "priceSuv": 12100,
+    "priceTempo": 16100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "cooch-behar-to-bakkhali",
+    "via": [
+      "Barasat",
+      "Kolkata"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 660,
+    "duration": "12-14",
+    "slug": "cooch-behar-to-gangasagar",
+    "via": [
+      "Kolkata",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11900,
+    "priceTempo": 15800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "cooch-behar-to-mayapur",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "cooch-behar-to-nabadwip",
+    "via": [
+      "Malda",
+      "Bardhaman"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 435,
+    "duration": "8-9",
+    "slug": "cooch-behar-to-krishnanagar",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 6100,
+    "priceSuv": 7800,
+    "priceTempo": 10400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "cooch-behar-to-diamond-harbour",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "cooch-behar-to-haldia",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "cooch-behar-to-contai",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "cooch-behar-to-tamluk",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 205,
+    "duration": "3-5",
+    "slug": "cooch-behar-to-raiganj",
+    "via": [],
+    "priceSaloon": 2900,
+    "priceSuv": 3700,
+    "priceTempo": 4900
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 195,
+    "duration": "3-5",
+    "slug": "cooch-behar-to-balurghat",
+    "via": [],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4700
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "cooch-behar-to-baharampur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-hooghly",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-kolkata-airport",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "cooch-behar-to-salt-lake-kolkata",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "cooch-behar-to-new-town-kolkata",
+    "via": [
+      "Barasat",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "cooch-behar-to-satragachhi",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 550,
+    "duration": "10-12",
+    "slug": "cooch-behar-to-uluberia",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 7700,
+    "priceSuv": 9900,
+    "priceTempo": 13200
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-serampore",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "cooch-behar-to-chandannagar",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-tarkeshwar",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "cooch-behar-to-kolaghat",
+    "via": [
+      "Krishnanagar",
+      "Bardhaman"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "cooch-behar-to-bagnan",
+    "via": [
+      "Krishnanagar",
+      "Howrah"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-arambagh",
+    "via": [
+      "Bardhaman",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-barasat",
+    "via": [
+      "Krishnanagar",
+      "Kolkata"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-kalyani",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 475,
+    "duration": "9-10",
+    "slug": "cooch-behar-to-bongaon",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "cooch-behar-to-ranaghat",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-basirhat",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-barrackpore",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-dum-dum",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-habra",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-naihati",
+    "via": [
+      "Krishnanagar",
+      "Barasat"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "cooch-behar-to-kakdwip",
+    "via": [
+      "Kolkata",
+      "Barasat"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "cooch-behar-to-jhargram",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "cooch-behar-to-raniganj",
+    "via": [
+      "Malda",
+      "Durgapur"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "cooch-behar-to-kalna",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "cooch-behar-to-katwa",
+    "via": [
+      "Malda",
+      "Krishnanagar"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "cooch-behar-to-chakdah",
+    "via": [
+      "Krishnanagar",
+      "Malda"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 345,
+    "duration": "6-8",
+    "slug": "cooch-behar-to-lalbagh",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4800,
+    "priceSuv": 6200,
+    "priceTempo": 8300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "cooch-behar-to-beldanga",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 355,
+    "duration": "6-8",
+    "slug": "cooch-behar-to-karimpur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6400,
+    "priceTempo": 8500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 960,
+    "duration": "18-19",
+    "slug": "cooch-behar-to-puri",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17300,
+    "priceTempo": 23000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 885,
+    "duration": "17-18",
+    "slug": "cooch-behar-to-cuttack",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 12400,
+    "priceSuv": 15900,
+    "priceTempo": 21200
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 770,
+    "duration": "14-16",
+    "slug": "cooch-behar-to-rourkela",
+    "via": [
+      "Dhanbad",
+      "Malda"
+    ],
+    "priceSaloon": 10800,
+    "priceSuv": 13900,
+    "priceTempo": 18500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "cooch-behar-to-sambalpur",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 1080,
+    "duration": "20-22",
+    "slug": "cooch-behar-to-berhampur",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 15100,
+    "priceSuv": 19400,
+    "priceTempo": 25900
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "cooch-behar-to-balasore",
+    "via": [
+      "Bardhaman",
+      "Midnapore"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 940,
+    "duration": "18-19",
+    "slug": "cooch-behar-to-konark",
+    "via": [
+      "Midnapore",
+      "Bardhaman"
+    ],
+    "priceSaloon": 13200,
+    "priceSuv": 16900,
+    "priceTempo": 22600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 1000,
+    "duration": "19-20",
+    "slug": "cooch-behar-to-chilika",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 14000,
+    "priceSuv": 18000,
+    "priceTempo": 24000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 880,
+    "duration": "16-18",
+    "slug": "cooch-behar-to-dhenkanal",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 1280,
+    "duration": "24-26",
+    "slug": "cooch-behar-to-koraput",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 17900,
+    "priceSuv": 23000,
+    "priceTempo": 30700
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 1190,
+    "duration": "22-24",
+    "slug": "cooch-behar-to-rayagada",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 16700,
+    "priceSuv": 21400,
+    "priceTempo": 28600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "cooch-behar-to-angul",
+    "via": [
+      "Durgapur",
+      "Malda"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 880,
+    "duration": "16-18",
+    "slug": "cooch-behar-to-jharsuguda",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "cooch-behar-to-baripada",
+    "via": [
+      "Bardhaman",
+      "Durgapur"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 1285,
+    "duration": "24-26",
+    "slug": "cooch-behar-to-jeypore",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 18000,
+    "priceSuv": 23100,
+    "priceTempo": 30800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 1080,
+    "duration": "20-22",
+    "slug": "cooch-behar-to-gopalpur",
+    "via": [
+      "Durgapur",
+      "Cuttack"
+    ],
+    "priceSaloon": 15100,
+    "priceSuv": 19400,
+    "priceTempo": 25900
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "cooch-behar-to-jamshedpur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-dhanbad",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 545,
+    "duration": "10-11",
+    "slug": "cooch-behar-to-bokaro",
+    "via": [
+      "Dhanbad",
+      "Malda"
+    ],
+    "priceSaloon": 7600,
+    "priceSuv": 9800,
+    "priceTempo": 13100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 595,
+    "duration": "11-12",
+    "slug": "cooch-behar-to-hazaribagh",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10700,
+    "priceTempo": 14300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 440,
+    "duration": "8-9",
+    "slug": "cooch-behar-to-deoghar",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 7900,
+    "priceTempo": 10600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 510,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-giridih",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9200,
+    "priceTempo": 12200
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 605,
+    "duration": "11-13",
+    "slug": "cooch-behar-to-ramgarh",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 10900,
+    "priceTempo": 14500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "cooch-behar-to-palamu",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "cooch-behar-to-netarhat",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "cooch-behar-to-betla",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 410,
+    "duration": "7-9",
+    "slug": "cooch-behar-to-dumka",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 5700,
+    "priceSuv": 7400,
+    "priceTempo": 9800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "cooch-behar-to-chaibasa",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 290,
+    "duration": "5-7",
+    "slug": "cooch-behar-to-sahebganj",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4100,
+    "priceSuv": 5200,
+    "priceTempo": 7000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 360,
+    "duration": "6-8",
+    "slug": "cooch-behar-to-godda",
+    "via": [
+      "Malda",
+      "Siliguri"
+    ],
+    "priceSaloon": 5000,
+    "priceSuv": 6500,
+    "priceTempo": 8600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "cooch-behar-to-latehar",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "cooch-behar-to-tatanagar",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "cooch-behar-to-adityapur",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 680,
+    "duration": "13-14",
+    "slug": "cooch-behar-to-khunti",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16300
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "cooch-behar-to-gumla",
+    "via": [
+      "Deoghar",
+      "Ranchi"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "cooch-behar-to-simdega",
+    "via": [
+      "Ranchi",
+      "Deoghar"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 630,
+    "duration": "12-13",
+    "slug": "cooch-behar-to-chatra",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15100
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "cooch-behar-to-lohardaga",
+    "via": [
+      "Hazaribagh",
+      "Deoghar"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 330,
+    "duration": "6-7",
+    "slug": "cooch-behar-to-pakur",
+    "via": [
+      "Malda"
+    ],
+    "priceSaloon": 4600,
+    "priceSuv": 5900,
+    "priceTempo": 7900
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "cooch-behar-to-jamtara",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "cooch-behar-to-koderma",
+    "via": [
+      "Deoghar",
+      "Malda"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "cooch-behar-to-seraikela",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 535,
+    "duration": "10-11",
+    "slug": "cooch-behar-to-patna",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 7500,
+    "priceSuv": 9600,
+    "priceTempo": 12800
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "cooch-behar-to-gaya",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 590,
+    "duration": "11-12",
+    "slug": "cooch-behar-to-bodh-gaya",
+    "via": [
+      "Malda",
+      "Deoghar"
+    ],
+    "priceSaloon": 8300,
+    "priceSuv": 10600,
+    "priceTempo": 14200
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-nalanda",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 525,
+    "duration": "10-11",
+    "slug": "cooch-behar-to-rajgir",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 495,
+    "duration": "9-11",
+    "slug": "cooch-behar-to-muzaffarpur",
+    "via": [
+      "Siliguri",
+      "Malda"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8900,
+    "priceTempo": 11900
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "cooch-behar-to-varanasi",
+    "via": [
+      "Patna",
+      "Siliguri"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  },
+  {
+    "from": "cooch-behar",
+    "fromName": "Cooch Behar",
+    "fromState": "west-bengal",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 905,
+    "duration": "17-18",
+    "slug": "cooch-behar-to-prayagraj",
+    "via": [
+      "Patna",
+      "Varanasi"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16300,
+    "priceTempo": 21700
+  }
+]

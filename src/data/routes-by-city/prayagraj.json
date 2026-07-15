@@ -1,0 +1,2094 @@
+[
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 800,
+    "duration": "14-16",
+    "slug": "prayagraj-to-kolkata",
+    "via": [
+      "Varanasi",
+      "NH 19"
+    ],
+    "priceSaloon": 10500,
+    "priceSuv": 13500,
+    "priceTempo": 17800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "prayagraj-to-varanasi",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5300
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 300,
+    "duration": "5-6",
+    "slug": "prayagraj-to-patna",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 3900,
+    "priceSuv": 5100,
+    "priceTempo": 6900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 260,
+    "duration": "5-6",
+    "slug": "prayagraj-to-gaya",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 3400,
+    "priceSuv": 4400,
+    "priceTempo": 6000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "prayagraj-to-siliguri",
+    "via": [
+      "Patna",
+      "Varanasi"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "prayagraj-to-darjeeling",
+    "via": [
+      "Patna",
+      "Varanasi"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "prayagraj-to-durgapur",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "prayagraj-to-asansol",
+    "via": [
+      "Hazaribagh",
+      "Dhanbad"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "prayagraj-to-howrah",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "prayagraj-to-kharagpur",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "prayagraj-to-bardhaman",
+    "via": [
+      "Asansol",
+      "Dhanbad"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 750,
+    "duration": "14-15",
+    "slug": "prayagraj-to-malda",
+    "via": [
+      "Patna",
+      "Varanasi"
+    ],
+    "priceSaloon": 10500,
+    "priceSuv": 13500,
+    "priceTempo": 18000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "prayagraj-to-murshidabad",
+    "via": [
+      "Gaya",
+      "Deoghar"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 905,
+    "duration": "17-18",
+    "slug": "prayagraj-to-cooch-behar",
+    "via": [
+      "Varanasi",
+      "Patna"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16300,
+    "priceTempo": 21700
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "prayagraj-to-jalpaiguri",
+    "via": [
+      "Varanasi",
+      "Patna"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "prayagraj-to-bankura",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "prayagraj-to-purulia",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "prayagraj-to-midnapore",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 845,
+    "duration": "16-17",
+    "slug": "prayagraj-to-digha",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15200,
+    "priceTempo": 20300
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 960,
+    "duration": "18-19",
+    "slug": "prayagraj-to-sundarbans",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17300,
+    "priceTempo": 23000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "prayagraj-to-bishnupur",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 735,
+    "duration": "14-15",
+    "slug": "prayagraj-to-bolpur-shantiniketan",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 10300,
+    "priceSuv": 13200,
+    "priceTempo": 17600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 900,
+    "duration": "17-18",
+    "slug": "prayagraj-to-dooars",
+    "via": [
+      "Patna",
+      "Siliguri"
+    ],
+    "priceSaloon": 12600,
+    "priceSuv": 16200,
+    "priceTempo": 21600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 860,
+    "duration": "16-18",
+    "slug": "prayagraj-to-mandarmani",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15500,
+    "priceTempo": 20600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 925,
+    "duration": "17-19",
+    "slug": "prayagraj-to-bakkhali",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 13000,
+    "priceSuv": 16700,
+    "priceTempo": 22200
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 900,
+    "duration": "17-18",
+    "slug": "prayagraj-to-gangasagar",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 12600,
+    "priceSuv": 16200,
+    "priceTempo": 21600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "prayagraj-to-mayapur",
+    "via": [
+      "Varanasi",
+      "Asansol"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "prayagraj-to-nabadwip",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 840,
+    "duration": "16-17",
+    "slug": "prayagraj-to-krishnanagar",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15100,
+    "priceTempo": 20200
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "prayagraj-to-diamond-harbour",
+    "via": [
+      "Midnapore",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "prayagraj-to-haldia",
+    "via": [
+      "Ranchi",
+      "Midnapore"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "prayagraj-to-contai",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 840,
+    "duration": "16-17",
+    "slug": "prayagraj-to-tamluk",
+    "via": [
+      "Ranchi",
+      "Midnapore"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15100,
+    "priceTempo": 20200
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "prayagraj-to-alipurduar",
+    "via": [
+      "Varanasi",
+      "Patna"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "prayagraj-to-raiganj",
+    "via": [
+      "Varanasi",
+      "Patna"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "prayagraj-to-balurghat",
+    "via": [
+      "Patna",
+      "Varanasi"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "prayagraj-to-baharampur",
+    "via": [
+      "Deoghar",
+      "Gaya"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 850,
+    "duration": "16-17",
+    "slug": "prayagraj-to-hooghly",
+    "via": [
+      "Hazaribagh",
+      "Dhanbad"
+    ],
+    "priceSaloon": 11900,
+    "priceSuv": 15300,
+    "priceTempo": 20400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "prayagraj-to-kolkata-airport",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "prayagraj-to-salt-lake-kolkata",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "prayagraj-to-new-town-kolkata",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 850,
+    "duration": "16-17",
+    "slug": "prayagraj-to-satragachhi",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11900,
+    "priceSuv": 15300,
+    "priceTempo": 20400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 845,
+    "duration": "16-17",
+    "slug": "prayagraj-to-uluberia",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15200,
+    "priceTempo": 20300
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "prayagraj-to-serampore",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 850,
+    "duration": "16-17",
+    "slug": "prayagraj-to-chandannagar",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11900,
+    "priceSuv": 15300,
+    "priceTempo": 20400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "prayagraj-to-tarkeshwar",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "prayagraj-to-kolaghat",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 835,
+    "duration": "16-17",
+    "slug": "prayagraj-to-bagnan",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11700,
+    "priceSuv": 15000,
+    "priceTempo": 20000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "prayagraj-to-arambagh",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "prayagraj-to-barasat",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 850,
+    "duration": "16-17",
+    "slug": "prayagraj-to-kalyani",
+    "via": [
+      "Bardhaman",
+      "Dhanbad"
+    ],
+    "priceSaloon": 11900,
+    "priceSuv": 15300,
+    "priceTempo": 20400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "prayagraj-to-bongaon",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "prayagraj-to-ranaghat",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "prayagraj-to-basirhat",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "prayagraj-to-barrackpore",
+    "via": [
+      "Hazaribagh",
+      "Bokaro"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 865,
+    "duration": "16-18",
+    "slug": "prayagraj-to-dum-dum",
+    "via": [
+      "Bokaro",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 12100,
+    "priceSuv": 15600,
+    "priceTempo": 20800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 885,
+    "duration": "17-18",
+    "slug": "prayagraj-to-habra",
+    "via": [
+      "Bardhaman",
+      "Dhanbad"
+    ],
+    "priceSaloon": 12400,
+    "priceSuv": 15900,
+    "priceTempo": 21200
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "prayagraj-to-naihati",
+    "via": [
+      "Hazaribagh",
+      "Dhanbad"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "prayagraj-to-kakdwip",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "prayagraj-to-jhargram",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "prayagraj-to-raniganj",
+    "via": [
+      "Dhanbad",
+      "Asansol"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "prayagraj-to-kalna",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "prayagraj-to-katwa",
+    "via": [
+      "Varanasi",
+      "Gaya"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "prayagraj-to-chakdah",
+    "via": [
+      "Durgapur",
+      "Asansol"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 755,
+    "duration": "14-16",
+    "slug": "prayagraj-to-islampur",
+    "via": [
+      "Varanasi",
+      "Patna"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13600,
+    "priceTempo": 18100
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "prayagraj-to-dalkhola",
+    "via": [
+      "Varanasi",
+      "Patna"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "prayagraj-to-lalbagh",
+    "via": [
+      "Gaya",
+      "Deoghar"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "prayagraj-to-beldanga",
+    "via": [
+      "Varanasi",
+      "Gaya"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "prayagraj-to-karimpur",
+    "via": [
+      "Deoghar",
+      "Gaya"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "prayagraj-to-bhubaneswar",
+    "via": [
+      "Varanasi",
+      "Cuttack"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 880,
+    "duration": "16-18",
+    "slug": "prayagraj-to-puri",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21100
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 815,
+    "duration": "15-17",
+    "slug": "prayagraj-to-cuttack",
+    "via": [
+      "Varanasi",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 11400,
+    "priceSuv": 14700,
+    "priceTempo": 19600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "prayagraj-to-rourkela",
+    "via": [
+      "Ranchi",
+      "Varanasi"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 600,
+    "duration": "11-13",
+    "slug": "prayagraj-to-sambalpur",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 8400,
+    "priceSuv": 10800,
+    "priceTempo": 14400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 880,
+    "duration": "16-18",
+    "slug": "prayagraj-to-berhampur",
+    "via": [
+      "Bhubaneswar",
+      "Varanasi"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21100
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 800,
+    "duration": "15-16",
+    "slug": "prayagraj-to-balasore",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 11200,
+    "priceSuv": 14400,
+    "priceTempo": 19200
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "prayagraj-to-konark",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 860,
+    "duration": "16-18",
+    "slug": "prayagraj-to-chilika",
+    "via": [
+      "Bhubaneswar",
+      "Varanasi"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15500,
+    "priceTempo": 20600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 775,
+    "duration": "14-16",
+    "slug": "prayagraj-to-dhenkanal",
+    "via": [
+      "Ranchi",
+      "Varanasi"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "koraput",
+    "toName": "Koraput",
+    "toState": "odisha",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "prayagraj-to-koraput",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 845,
+    "duration": "16-17",
+    "slug": "prayagraj-to-rayagada",
+    "via": [
+      "Ranchi",
+      "Varanasi"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15200,
+    "priceTempo": 20300
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "prayagraj-to-angul",
+    "via": [
+      "Ranchi",
+      "Varanasi"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 555,
+    "duration": "10-12",
+    "slug": "prayagraj-to-jharsuguda",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 7800,
+    "priceSuv": 10000,
+    "priceTempo": 13300
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "prayagraj-to-baripada",
+    "via": [
+      "Jamshedpur",
+      "Ranchi"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 870,
+    "duration": "16-18",
+    "slug": "prayagraj-to-jeypore",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 12200,
+    "priceSuv": 15700,
+    "priceTempo": 20900
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "prayagraj-to-gopalpur",
+    "via": [
+      "Bhubaneswar",
+      "Varanasi"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "prayagraj-to-ranchi",
+    "via": [
+      "Hazaribagh",
+      "Varanasi"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "prayagraj-to-jamshedpur",
+    "via": [
+      "Varanasi",
+      "Ranchi"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "prayagraj-to-dhanbad",
+    "via": [
+      "Varanasi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 585,
+    "duration": "11-12",
+    "slug": "prayagraj-to-bokaro",
+    "via": [
+      "Varanasi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 8200,
+    "priceSuv": 10500,
+    "priceTempo": 14000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 500,
+    "duration": "9-11",
+    "slug": "prayagraj-to-hazaribagh",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 7000,
+    "priceSuv": 9000,
+    "priceTempo": 12000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 610,
+    "duration": "11-13",
+    "slug": "prayagraj-to-deoghar",
+    "via": [
+      "Varanasi",
+      "Gaya"
+    ],
+    "priceSaloon": 8500,
+    "priceSuv": 11000,
+    "priceTempo": 14600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 575,
+    "duration": "11-12",
+    "slug": "prayagraj-to-giridih",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 8100,
+    "priceSuv": 10400,
+    "priceTempo": 13800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 515,
+    "duration": "9-11",
+    "slug": "prayagraj-to-ramgarh",
+    "via": [
+      "Hazaribagh",
+      "Varanasi"
+    ],
+    "priceSaloon": 7200,
+    "priceSuv": 9300,
+    "priceTempo": 12400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "prayagraj-to-palamu",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "prayagraj-to-netarhat",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 365,
+    "duration": "7-8",
+    "slug": "prayagraj-to-betla",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 5100,
+    "priceSuv": 6600,
+    "priceTempo": 8800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 685,
+    "duration": "13-14",
+    "slug": "prayagraj-to-dumka",
+    "via": [
+      "Varanasi",
+      "Gaya"
+    ],
+    "priceSaloon": 9600,
+    "priceSuv": 12300,
+    "priceTempo": 16400
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 625,
+    "duration": "12-13",
+    "slug": "prayagraj-to-chaibasa",
+    "via": [
+      "Varanasi",
+      "Ranchi"
+    ],
+    "priceSaloon": 8800,
+    "priceSuv": 11300,
+    "priceTempo": 15000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "prayagraj-to-sahebganj",
+    "via": [
+      "Patna",
+      "Varanasi"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "prayagraj-to-godda",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "prayagraj-to-latehar",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "prayagraj-to-tatanagar",
+    "via": [
+      "Varanasi",
+      "Ranchi"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "prayagraj-to-adityapur",
+    "via": [
+      "Varanasi",
+      "Ranchi"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 530,
+    "duration": "10-11",
+    "slug": "prayagraj-to-khunti",
+    "via": [
+      "Varanasi",
+      "Ranchi"
+    ],
+    "priceSaloon": 7400,
+    "priceSuv": 9500,
+    "priceTempo": 12700
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 490,
+    "duration": "9-10",
+    "slug": "prayagraj-to-gumla",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 6900,
+    "priceSuv": 8800,
+    "priceTempo": 11800
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "prayagraj-to-simdega",
+    "via": [
+      "Ranchi",
+      "Varanasi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "prayagraj-to-chatra",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "prayagraj-to-lohardaga",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "prayagraj-to-pakur",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 645,
+    "duration": "12-13",
+    "slug": "prayagraj-to-jamtara",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11600,
+    "priceTempo": 15500
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 505,
+    "duration": "9-11",
+    "slug": "prayagraj-to-koderma",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 7100,
+    "priceSuv": 9100,
+    "priceTempo": 12100
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 635,
+    "duration": "12-13",
+    "slug": "prayagraj-to-seraikela",
+    "via": [
+      "Varanasi",
+      "Ranchi"
+    ],
+    "priceSaloon": 8900,
+    "priceSuv": 11400,
+    "priceTempo": 15200
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 420,
+    "duration": "8-9",
+    "slug": "prayagraj-to-bodh-gaya",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 5900,
+    "priceSuv": 7600,
+    "priceTempo": 10100
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "prayagraj-to-nalanda",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "prayagraj-to-rajgir",
+    "via": [
+      "Gaya",
+      "Varanasi"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "prayagraj-to-muzaffarpur",
+    "via": [
+      "Patna",
+      "Varanasi"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  }
+]

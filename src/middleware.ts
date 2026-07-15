@@ -65,10 +65,6 @@ export default function middleware(request: NextRequest) {
 
   // SEO headers
   response.headers.set('Content-Language', 'en-IN');
-  response.headers.set(
-    'X-Robots-Tag',
-    'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
-  );
 
   const knownStates = ['west-bengal', 'jharkhand', 'odisha', 'bihar', 'uttar-pradesh'];
   const segments = pathname.split('/').filter(Boolean);

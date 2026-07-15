@@ -1,0 +1,2062 @@
+[
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "kolkata",
+    "toName": "Kolkata",
+    "toState": "west-bengal",
+    "distance": 938,
+    "duration": "18-20",
+    "slug": "koraput-to-kolkata",
+    "via": [],
+    "priceSaloon": 11800,
+    "priceSuv": 15100,
+    "priceTempo": 19900
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "ranchi",
+    "toName": "Ranchi",
+    "toState": "jharkhand",
+    "distance": 743,
+    "duration": "14-16",
+    "slug": "koraput-to-ranchi",
+    "via": [],
+    "priceSaloon": 9700,
+    "priceSuv": 12400,
+    "priceTempo": 16400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "bhubaneswar",
+    "toName": "Bhubaneswar",
+    "toState": "odisha",
+    "distance": 475,
+    "duration": "9-11",
+    "slug": "koraput-to-bhubaneswar",
+    "via": [],
+    "priceSaloon": 6700,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "jeypore",
+    "toName": "Jeypore",
+    "toState": "odisha",
+    "distance": 30,
+    "duration": "0-1",
+    "slug": "koraput-to-jeypore",
+    "via": [],
+    "priceSaloon": 1800,
+    "priceSuv": 2400,
+    "priceTempo": 3500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "siliguri",
+    "toName": "Siliguri",
+    "toState": "west-bengal",
+    "distance": 1245,
+    "duration": "23-25",
+    "slug": "koraput-to-siliguri",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 17400,
+    "priceSuv": 22400,
+    "priceTempo": 29900
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "darjeeling",
+    "toName": "Darjeeling",
+    "toState": "west-bengal",
+    "distance": 1270,
+    "duration": "24-25",
+    "slug": "koraput-to-darjeeling",
+    "via": [
+      "Bokaro",
+      "Deoghar"
+    ],
+    "priceSaloon": 17800,
+    "priceSuv": 22900,
+    "priceTempo": 30500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "durgapur",
+    "toName": "Durgapur",
+    "toState": "west-bengal",
+    "distance": 835,
+    "duration": "16-17",
+    "slug": "koraput-to-durgapur",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11700,
+    "priceSuv": 15000,
+    "priceTempo": 20000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "asansol",
+    "toName": "Asansol",
+    "toState": "west-bengal",
+    "distance": 825,
+    "duration": "15-17",
+    "slug": "koraput-to-asansol",
+    "via": [
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "howrah",
+    "toName": "Howrah",
+    "toState": "west-bengal",
+    "distance": 845,
+    "duration": "16-17",
+    "slug": "koraput-to-howrah",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15200,
+    "priceTempo": 20300
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "kharagpur",
+    "toName": "Kharagpur",
+    "toState": "west-bengal",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "koraput-to-kharagpur",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "bardhaman",
+    "toName": "Bardhaman",
+    "toState": "west-bengal",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "koraput-to-bardhaman",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "malda",
+    "toName": "Malda",
+    "toState": "west-bengal",
+    "distance": 1050,
+    "duration": "20-21",
+    "slug": "koraput-to-malda",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 14700,
+    "priceSuv": 18900,
+    "priceTempo": 25200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "murshidabad",
+    "toName": "Murshidabad",
+    "toState": "west-bengal",
+    "distance": 980,
+    "duration": "18-20",
+    "slug": "koraput-to-murshidabad",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 13700,
+    "priceSuv": 17600,
+    "priceTempo": 23500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "cooch-behar",
+    "toName": "Cooch Behar",
+    "toState": "west-bengal",
+    "distance": 1280,
+    "duration": "24-26",
+    "slug": "koraput-to-cooch-behar",
+    "via": [
+      "Malda",
+      "Asansol"
+    ],
+    "priceSaloon": 17900,
+    "priceSuv": 23000,
+    "priceTempo": 30700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "jalpaiguri",
+    "toName": "Jalpaiguri",
+    "toState": "west-bengal",
+    "distance": 1245,
+    "duration": "23-25",
+    "slug": "koraput-to-jalpaiguri",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 17400,
+    "priceSuv": 22400,
+    "priceTempo": 29900
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "bankura",
+    "toName": "Bankura",
+    "toState": "west-bengal",
+    "distance": 790,
+    "duration": "15-16",
+    "slug": "koraput-to-bankura",
+    "via": [
+      "Cuttack",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14200,
+    "priceTempo": 19000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "purulia",
+    "toName": "Purulia",
+    "toState": "west-bengal",
+    "distance": 745,
+    "duration": "14-15",
+    "slug": "koraput-to-purulia",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13400,
+    "priceTempo": 17900
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "midnapore",
+    "toName": "Midnapore",
+    "toState": "west-bengal",
+    "distance": 740,
+    "duration": "14-15",
+    "slug": "koraput-to-midnapore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10400,
+    "priceSuv": 13300,
+    "priceTempo": 17800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "digha",
+    "toName": "Digha",
+    "toState": "west-bengal",
+    "distance": 725,
+    "duration": "13-15",
+    "slug": "koraput-to-digha",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "sundarbans",
+    "toName": "Sundarbans",
+    "toState": "west-bengal",
+    "distance": 865,
+    "duration": "16-18",
+    "slug": "koraput-to-sundarbans",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 12100,
+    "priceSuv": 15600,
+    "priceTempo": 20800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "bishnupur",
+    "toName": "Bishnupur",
+    "toState": "west-bengal",
+    "distance": 795,
+    "duration": "15-16",
+    "slug": "koraput-to-bishnupur",
+    "via": [
+      "Kharagpur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14300,
+    "priceTempo": 19100
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "bolpur-shantiniketan",
+    "toName": "Bolpur Shantiniketan",
+    "toState": "west-bengal",
+    "distance": 880,
+    "duration": "16-18",
+    "slug": "koraput-to-bolpur-shantiniketan",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21100
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "dooars",
+    "toName": "Dooars",
+    "toState": "west-bengal",
+    "distance": 1310,
+    "duration": "25-26",
+    "slug": "koraput-to-dooars",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 18300,
+    "priceSuv": 23600,
+    "priceTempo": 31400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "mandarmani",
+    "toName": "Mandarmani",
+    "toState": "west-bengal",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "koraput-to-mandarmani",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "bakkhali",
+    "toName": "Bakkhali",
+    "toState": "west-bengal",
+    "distance": 770,
+    "duration": "14-16",
+    "slug": "koraput-to-bakkhali",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10800,
+    "priceSuv": 13900,
+    "priceTempo": 18500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "gangasagar",
+    "toName": "Gangasagar",
+    "toState": "west-bengal",
+    "distance": 760,
+    "duration": "14-16",
+    "slug": "koraput-to-gangasagar",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13700,
+    "priceTempo": 18200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "mayapur",
+    "toName": "Mayapur",
+    "toState": "west-bengal",
+    "distance": 920,
+    "duration": "17-19",
+    "slug": "koraput-to-mayapur",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 12900,
+    "priceSuv": 16600,
+    "priceTempo": 22100
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "nabadwip",
+    "toName": "Nabadwip",
+    "toState": "west-bengal",
+    "distance": 920,
+    "duration": "17-19",
+    "slug": "koraput-to-nabadwip",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 12900,
+    "priceSuv": 16600,
+    "priceTempo": 22100
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "krishnanagar",
+    "toName": "Krishnanagar",
+    "toState": "west-bengal",
+    "distance": 930,
+    "duration": "17-19",
+    "slug": "koraput-to-krishnanagar",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 13000,
+    "priceSuv": 16700,
+    "priceTempo": 22300
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "diamond-harbour",
+    "toName": "Diamond Harbour",
+    "toState": "west-bengal",
+    "distance": 805,
+    "duration": "15-16",
+    "slug": "koraput-to-diamond-harbour",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14500,
+    "priceTempo": 19300
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "haldia",
+    "toName": "Haldia",
+    "toState": "west-bengal",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "koraput-to-haldia",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "contai",
+    "toName": "Contai",
+    "toState": "west-bengal",
+    "distance": 730,
+    "duration": "14-15",
+    "slug": "koraput-to-contai",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10200,
+    "priceSuv": 13100,
+    "priceTempo": 17500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "tamluk",
+    "toName": "Tamluk",
+    "toState": "west-bengal",
+    "distance": 780,
+    "duration": "15-16",
+    "slug": "koraput-to-tamluk",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "alipurduar",
+    "toName": "Alipurduar",
+    "toState": "west-bengal",
+    "distance": 1300,
+    "duration": "25-26",
+    "slug": "koraput-to-alipurduar",
+    "via": [
+      "Asansol",
+      "Malda"
+    ],
+    "priceSaloon": 18200,
+    "priceSuv": 23400,
+    "priceTempo": 31200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "raiganj",
+    "toName": "Raiganj",
+    "toState": "west-bengal",
+    "distance": 1110,
+    "duration": "21-22",
+    "slug": "koraput-to-raiganj",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 15500,
+    "priceSuv": 20000,
+    "priceTempo": 26600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "balurghat",
+    "toName": "Balurghat",
+    "toState": "west-bengal",
+    "distance": 1120,
+    "duration": "21-23",
+    "slug": "koraput-to-balurghat",
+    "via": [
+      "Durgapur",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 15700,
+    "priceSuv": 20200,
+    "priceTempo": 26900
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "baharampur",
+    "toName": "Baharampur",
+    "toState": "west-bengal",
+    "distance": 970,
+    "duration": "18-20",
+    "slug": "koraput-to-baharampur",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 13600,
+    "priceSuv": 17500,
+    "priceTempo": 23300
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "hooghly",
+    "toName": "Hooghly",
+    "toState": "west-bengal",
+    "distance": 880,
+    "duration": "16-18",
+    "slug": "koraput-to-hooghly",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21100
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "kolkata-airport",
+    "toName": "Kolkata Airport",
+    "toState": "west-bengal",
+    "distance": 865,
+    "duration": "16-18",
+    "slug": "koraput-to-kolkata-airport",
+    "via": [
+      "Cuttack",
+      "Howrah"
+    ],
+    "priceSaloon": 12100,
+    "priceSuv": 15600,
+    "priceTempo": 20800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "salt-lake-kolkata",
+    "toName": "Salt Lake",
+    "toState": "west-bengal",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "koraput-to-salt-lake-kolkata",
+    "via": [
+      "Cuttack",
+      "Howrah"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "new-town-kolkata",
+    "toName": "New Town",
+    "toState": "west-bengal",
+    "distance": 860,
+    "duration": "16-18",
+    "slug": "koraput-to-new-town-kolkata",
+    "via": [
+      "Cuttack",
+      "Howrah"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15500,
+    "priceTempo": 20600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "satragachhi",
+    "toName": "Satragachhi",
+    "toState": "west-bengal",
+    "distance": 840,
+    "duration": "16-17",
+    "slug": "koraput-to-satragachhi",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15100,
+    "priceTempo": 20200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "uluberia",
+    "toName": "Uluberia",
+    "toState": "west-bengal",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "koraput-to-uluberia",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "serampore",
+    "toName": "Serampore",
+    "toState": "west-bengal",
+    "distance": 860,
+    "duration": "16-18",
+    "slug": "koraput-to-serampore",
+    "via": [
+      "Kharagpur",
+      "Howrah"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15500,
+    "priceTempo": 20600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "chandannagar",
+    "toName": "Chandannagar",
+    "toState": "west-bengal",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "koraput-to-chandannagar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "tarkeshwar",
+    "toName": "Tarkeshwar",
+    "toState": "west-bengal",
+    "distance": 840,
+    "duration": "16-17",
+    "slug": "koraput-to-tarkeshwar",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15100,
+    "priceTempo": 20200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "kolaghat",
+    "toName": "Kolaghat",
+    "toState": "west-bengal",
+    "distance": 780,
+    "duration": "15-16",
+    "slug": "koraput-to-kolaghat",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 10900,
+    "priceSuv": 14000,
+    "priceTempo": 18700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "bagnan",
+    "toName": "Bagnan",
+    "toState": "west-bengal",
+    "distance": 810,
+    "duration": "15-17",
+    "slug": "koraput-to-bagnan",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 11300,
+    "priceSuv": 14600,
+    "priceTempo": 19400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "arambagh",
+    "toName": "Arambagh",
+    "toState": "west-bengal",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "koraput-to-arambagh",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "barasat",
+    "toName": "Barasat",
+    "toState": "west-bengal",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "koraput-to-barasat",
+    "via": [
+      "Kolkata",
+      "Howrah"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "kalyani",
+    "toName": "Kalyani",
+    "toState": "west-bengal",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "koraput-to-kalyani",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "bongaon",
+    "toName": "Bongaon",
+    "toState": "west-bengal",
+    "distance": 935,
+    "duration": "17-19",
+    "slug": "koraput-to-bongaon",
+    "via": [
+      "Barasat",
+      "Howrah"
+    ],
+    "priceSaloon": 13100,
+    "priceSuv": 16800,
+    "priceTempo": 22400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "ranaghat",
+    "toName": "Ranaghat",
+    "toState": "west-bengal",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "koraput-to-ranaghat",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "basirhat",
+    "toName": "Basirhat",
+    "toState": "west-bengal",
+    "distance": 910,
+    "duration": "17-18",
+    "slug": "koraput-to-basirhat",
+    "via": [
+      "Kolkata",
+      "Cuttack"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16400,
+    "priceTempo": 21800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "barrackpore",
+    "toName": "Barrackpore",
+    "toState": "west-bengal",
+    "distance": 865,
+    "duration": "16-18",
+    "slug": "koraput-to-barrackpore",
+    "via": [
+      "Kharagpur",
+      "Howrah"
+    ],
+    "priceSaloon": 12100,
+    "priceSuv": 15600,
+    "priceTempo": 20800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "dum-dum",
+    "toName": "Dum Dum",
+    "toState": "west-bengal",
+    "distance": 860,
+    "duration": "16-18",
+    "slug": "koraput-to-dum-dum",
+    "via": [
+      "Kharagpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15500,
+    "priceTempo": 20600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "habra",
+    "toName": "Habra",
+    "toState": "west-bengal",
+    "distance": 900,
+    "duration": "17-18",
+    "slug": "koraput-to-habra",
+    "via": [
+      "Howrah",
+      "Barasat"
+    ],
+    "priceSaloon": 12600,
+    "priceSuv": 16200,
+    "priceTempo": 21600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "naihati",
+    "toName": "Naihati",
+    "toState": "west-bengal",
+    "distance": 880,
+    "duration": "16-18",
+    "slug": "koraput-to-naihati",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21100
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "kakdwip",
+    "toName": "Kakdwip",
+    "toState": "west-bengal",
+    "distance": 785,
+    "duration": "15-16",
+    "slug": "koraput-to-kakdwip",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 11000,
+    "priceSuv": 14100,
+    "priceTempo": 18800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "jhargram",
+    "toName": "Jhargram",
+    "toState": "west-bengal",
+    "distance": 710,
+    "duration": "13-15",
+    "slug": "koraput-to-jhargram",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12800,
+    "priceTempo": 17000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "raniganj",
+    "toName": "Raniganj",
+    "toState": "west-bengal",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "koraput-to-raniganj",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "kalna",
+    "toName": "Kalna",
+    "toState": "west-bengal",
+    "distance": 900,
+    "duration": "17-18",
+    "slug": "koraput-to-kalna",
+    "via": [
+      "Kharagpur",
+      "Midnapore"
+    ],
+    "priceSaloon": 12600,
+    "priceSuv": 16200,
+    "priceTempo": 21600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "katwa",
+    "toName": "Katwa",
+    "toState": "west-bengal",
+    "distance": 915,
+    "duration": "17-19",
+    "slug": "koraput-to-katwa",
+    "via": [
+      "Kharagpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 12800,
+    "priceSuv": 16500,
+    "priceTempo": 22000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "chakdah",
+    "toName": "Chakdah",
+    "toState": "west-bengal",
+    "distance": 905,
+    "duration": "17-18",
+    "slug": "koraput-to-chakdah",
+    "via": [
+      "Midnapore",
+      "Kharagpur"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16300,
+    "priceTempo": 21700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "islampur",
+    "toName": "Islampur",
+    "toState": "west-bengal",
+    "distance": 1180,
+    "duration": "22-24",
+    "slug": "koraput-to-islampur",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 16500,
+    "priceSuv": 21200,
+    "priceTempo": 28300
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "dalkhola",
+    "toName": "Dalkhola",
+    "toState": "west-bengal",
+    "distance": 1115,
+    "duration": "21-22",
+    "slug": "koraput-to-dalkhola",
+    "via": [
+      "Deoghar",
+      "Bokaro"
+    ],
+    "priceSaloon": 15600,
+    "priceSuv": 20100,
+    "priceTempo": 26800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "lalbagh",
+    "toName": "Lalbagh",
+    "toState": "west-bengal",
+    "distance": 980,
+    "duration": "18-20",
+    "slug": "koraput-to-lalbagh",
+    "via": [
+      "Jamshedpur",
+      "Durgapur"
+    ],
+    "priceSaloon": 13700,
+    "priceSuv": 17600,
+    "priceTempo": 23500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "beldanga",
+    "toName": "Beldanga",
+    "toState": "west-bengal",
+    "distance": 955,
+    "duration": "18-19",
+    "slug": "koraput-to-beldanga",
+    "via": [
+      "Durgapur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17200,
+    "priceTempo": 22900
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "karimpur",
+    "toName": "Karimpur",
+    "toState": "west-bengal",
+    "distance": 990,
+    "duration": "19-20",
+    "slug": "koraput-to-karimpur",
+    "via": [
+      "Kharagpur",
+      "Bardhaman"
+    ],
+    "priceSaloon": 13900,
+    "priceSuv": 17800,
+    "priceTempo": 23800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "puri",
+    "toName": "Puri",
+    "toState": "odisha",
+    "distance": 445,
+    "duration": "8-10",
+    "slug": "koraput-to-puri",
+    "via": [
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6200,
+    "priceSuv": 8000,
+    "priceTempo": 10700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "cuttack",
+    "toName": "Cuttack",
+    "toState": "odisha",
+    "distance": 485,
+    "duration": "9-10",
+    "slug": "koraput-to-cuttack",
+    "via": [
+      "Puri",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6800,
+    "priceSuv": 8700,
+    "priceTempo": 11600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "rourkela",
+    "toName": "Rourkela",
+    "toState": "odisha",
+    "distance": 540,
+    "duration": "10-11",
+    "slug": "koraput-to-rourkela",
+    "via": [],
+    "priceSaloon": 7600,
+    "priceSuv": 9700,
+    "priceTempo": 13000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "sambalpur",
+    "toName": "Sambalpur",
+    "toState": "odisha",
+    "distance": 415,
+    "duration": "7-9",
+    "slug": "koraput-to-sambalpur",
+    "via": [],
+    "priceSaloon": 5800,
+    "priceSuv": 7500,
+    "priceTempo": 10000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "berhampur",
+    "toName": "Berhampur",
+    "toState": "odisha",
+    "distance": 300,
+    "duration": "5-7",
+    "slug": "koraput-to-berhampur",
+    "via": [],
+    "priceSaloon": 4200,
+    "priceSuv": 5400,
+    "priceTempo": 7200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "balasore",
+    "toName": "Balasore",
+    "toState": "odisha",
+    "distance": 650,
+    "duration": "12-13",
+    "slug": "koraput-to-balasore",
+    "via": [
+      "Bhubaneswar",
+      "Cuttack"
+    ],
+    "priceSaloon": 9100,
+    "priceSuv": 11700,
+    "priceTempo": 15600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "konark",
+    "toName": "Konark",
+    "toState": "odisha",
+    "distance": 480,
+    "duration": "9-10",
+    "slug": "koraput-to-konark",
+    "via": [
+      "Bhubaneswar",
+      "Puri"
+    ],
+    "priceSaloon": 6700,
+    "priceSuv": 8600,
+    "priceTempo": 11500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "chilika",
+    "toName": "Chilika",
+    "toState": "odisha",
+    "distance": 375,
+    "duration": "7-8",
+    "slug": "koraput-to-chilika",
+    "via": [],
+    "priceSaloon": 5300,
+    "priceSuv": 6800,
+    "priceTempo": 9000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "dhenkanal",
+    "toName": "Dhenkanal",
+    "toState": "odisha",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "koraput-to-dhenkanal",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "rayagada",
+    "toName": "Rayagada",
+    "toState": "odisha",
+    "distance": 120,
+    "duration": "2-3",
+    "slug": "koraput-to-rayagada",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "angul",
+    "toName": "Angul",
+    "toState": "odisha",
+    "distance": 430,
+    "duration": "8-9",
+    "slug": "koraput-to-angul",
+    "via": [],
+    "priceSaloon": 6000,
+    "priceSuv": 7700,
+    "priceTempo": 10300
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "jharsuguda",
+    "toName": "Jharsuguda",
+    "toState": "odisha",
+    "distance": 465,
+    "duration": "8-10",
+    "slug": "koraput-to-jharsuguda",
+    "via": [],
+    "priceSaloon": 6500,
+    "priceSuv": 8400,
+    "priceTempo": 11200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "baripada",
+    "toName": "Baripada",
+    "toState": "odisha",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "koraput-to-baripada",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "gopalpur",
+    "toName": "Gopalpur",
+    "toState": "odisha",
+    "distance": 310,
+    "duration": "5-7",
+    "slug": "koraput-to-gopalpur",
+    "via": [],
+    "priceSaloon": 4300,
+    "priceSuv": 5600,
+    "priceTempo": 7400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "jamshedpur",
+    "toName": "Jamshedpur",
+    "toState": "jharkhand",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "koraput-to-jamshedpur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "dhanbad",
+    "toName": "Dhanbad",
+    "toState": "jharkhand",
+    "distance": 795,
+    "duration": "15-16",
+    "slug": "koraput-to-dhanbad",
+    "via": [
+      "Bokaro",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 11100,
+    "priceSuv": 14300,
+    "priceTempo": 19100
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "bokaro",
+    "toName": "Bokaro",
+    "toState": "jharkhand",
+    "distance": 765,
+    "duration": "14-16",
+    "slug": "koraput-to-bokaro",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10700,
+    "priceSuv": 13800,
+    "priceTempo": 18400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "hazaribagh",
+    "toName": "Hazaribagh",
+    "toState": "jharkhand",
+    "distance": 755,
+    "duration": "14-16",
+    "slug": "koraput-to-hazaribagh",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13600,
+    "priceTempo": 18100
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "deoghar",
+    "toName": "Deoghar",
+    "toState": "jharkhand",
+    "distance": 890,
+    "duration": "17-18",
+    "slug": "koraput-to-deoghar",
+    "via": [
+      "Bokaro",
+      "Dhanbad"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16000,
+    "priceTempo": 21400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "giridih",
+    "toName": "Giridih",
+    "toState": "jharkhand",
+    "distance": 830,
+    "duration": "15-17",
+    "slug": "koraput-to-giridih",
+    "via": [
+      "Bokaro",
+      "Ranchi"
+    ],
+    "priceSaloon": 11600,
+    "priceSuv": 14900,
+    "priceTempo": 19900
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "ramgarh",
+    "toName": "Ramgarh",
+    "toState": "jharkhand",
+    "distance": 720,
+    "duration": "13-15",
+    "slug": "koraput-to-ramgarh",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10100,
+    "priceSuv": 13000,
+    "priceTempo": 17300
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "palamu",
+    "toName": "Palamu",
+    "toState": "jharkhand",
+    "distance": 700,
+    "duration": "13-14",
+    "slug": "koraput-to-palamu",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9800,
+    "priceSuv": 12600,
+    "priceTempo": 16800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "netarhat",
+    "toName": "Netarhat",
+    "toState": "jharkhand",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "koraput-to-netarhat",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "betla",
+    "toName": "Betla",
+    "toState": "jharkhand",
+    "distance": 715,
+    "duration": "13-15",
+    "slug": "koraput-to-betla",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 10000,
+    "priceSuv": 12900,
+    "priceTempo": 17200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "dumka",
+    "toName": "Dumka",
+    "toState": "jharkhand",
+    "distance": 905,
+    "duration": "17-18",
+    "slug": "koraput-to-dumka",
+    "via": [
+      "Jamshedpur",
+      "Asansol"
+    ],
+    "priceSaloon": 12700,
+    "priceSuv": 16300,
+    "priceTempo": 21700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "chaibasa",
+    "toName": "Chaibasa",
+    "toState": "jharkhand",
+    "distance": 640,
+    "duration": "12-13",
+    "slug": "koraput-to-chaibasa",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9000,
+    "priceSuv": 11500,
+    "priceTempo": 15400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "sahebganj",
+    "toName": "Sahebganj",
+    "toState": "jharkhand",
+    "distance": 1035,
+    "duration": "19-21",
+    "slug": "koraput-to-sahebganj",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 14500,
+    "priceSuv": 18600,
+    "priceTempo": 24800
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "godda",
+    "toName": "Godda",
+    "toState": "jharkhand",
+    "distance": 960,
+    "duration": "18-19",
+    "slug": "koraput-to-godda",
+    "via": [
+      "Dhanbad",
+      "Bokaro"
+    ],
+    "priceSaloon": 13400,
+    "priceSuv": 17300,
+    "priceTempo": 23000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "latehar",
+    "toName": "Latehar",
+    "toState": "jharkhand",
+    "distance": 705,
+    "duration": "13-15",
+    "slug": "koraput-to-latehar",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 9900,
+    "priceSuv": 12700,
+    "priceTempo": 16900
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "tatanagar",
+    "toName": "Tatanagar",
+    "toState": "jharkhand",
+    "distance": 695,
+    "duration": "13-14",
+    "slug": "koraput-to-tatanagar",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9700,
+    "priceSuv": 12500,
+    "priceTempo": 16700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "adityapur",
+    "toName": "Adityapur",
+    "toState": "jharkhand",
+    "distance": 695,
+    "duration": "13-14",
+    "slug": "koraput-to-adityapur",
+    "via": [
+      "Cuttack",
+      "Bhubaneswar"
+    ],
+    "priceSaloon": 9700,
+    "priceSuv": 12500,
+    "priceTempo": 16700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "khunti",
+    "toName": "Khunti",
+    "toState": "jharkhand",
+    "distance": 665,
+    "duration": "12-14",
+    "slug": "koraput-to-khunti",
+    "via": [
+      "Ranchi",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 9300,
+    "priceSuv": 12000,
+    "priceTempo": 16000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "gumla",
+    "toName": "Gumla",
+    "toState": "jharkhand",
+    "distance": 620,
+    "duration": "11-13",
+    "slug": "koraput-to-gumla",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 8700,
+    "priceSuv": 11200,
+    "priceTempo": 14900
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "simdega",
+    "toName": "Simdega",
+    "toState": "jharkhand",
+    "distance": 565,
+    "duration": "10-12",
+    "slug": "koraput-to-simdega",
+    "via": [],
+    "priceSaloon": 7900,
+    "priceSuv": 10200,
+    "priceTempo": 13600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "chatra",
+    "toName": "Chatra",
+    "toState": "jharkhand",
+    "distance": 755,
+    "duration": "14-16",
+    "slug": "koraput-to-chatra",
+    "via": [
+      "Ranchi",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 10600,
+    "priceSuv": 13600,
+    "priceTempo": 18100
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "lohardaga",
+    "toName": "Lohardaga",
+    "toState": "jharkhand",
+    "distance": 675,
+    "duration": "12-14",
+    "slug": "koraput-to-lohardaga",
+    "via": [
+      "Ranchi"
+    ],
+    "priceSaloon": 9500,
+    "priceSuv": 12200,
+    "priceTempo": 16200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "pakur",
+    "toName": "Pakur",
+    "toState": "jharkhand",
+    "distance": 985,
+    "duration": "18-20",
+    "slug": "koraput-to-pakur",
+    "via": [
+      "Asansol",
+      "Jamshedpur"
+    ],
+    "priceSaloon": 13800,
+    "priceSuv": 17700,
+    "priceTempo": 23600
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "jamtara",
+    "toName": "Jamtara",
+    "toState": "jharkhand",
+    "distance": 840,
+    "duration": "16-17",
+    "slug": "koraput-to-jamtara",
+    "via": [
+      "Jamshedpur",
+      "Dhanbad"
+    ],
+    "priceSaloon": 11800,
+    "priceSuv": 15100,
+    "priceTempo": 20200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "koderma",
+    "toName": "Koderma",
+    "toState": "jharkhand",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "koraput-to-koderma",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "seraikela",
+    "toName": "Seraikela",
+    "toState": "jharkhand",
+    "distance": 655,
+    "duration": "12-14",
+    "slug": "koraput-to-seraikela",
+    "via": [
+      "Jamshedpur",
+      "Cuttack"
+    ],
+    "priceSaloon": 9200,
+    "priceSuv": 11800,
+    "priceTempo": 15700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 935,
+    "duration": "17-19",
+    "slug": "koraput-to-patna",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 13100,
+    "priceSuv": 16800,
+    "priceTempo": 22400
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 835,
+    "duration": "16-17",
+    "slug": "koraput-to-gaya",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 11700,
+    "priceSuv": 15000,
+    "priceTempo": 20000
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 820,
+    "duration": "15-17",
+    "slug": "koraput-to-bodh-gaya",
+    "via": [
+      "Hazaribagh",
+      "Ranchi"
+    ],
+    "priceSaloon": 11500,
+    "priceSuv": 14800,
+    "priceTempo": 19700
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 895,
+    "duration": "17-18",
+    "slug": "koraput-to-nalanda",
+    "via": [
+      "Gaya",
+      "Hazaribagh"
+    ],
+    "priceSaloon": 12500,
+    "priceSuv": 16100,
+    "priceTempo": 21500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 880,
+    "duration": "16-18",
+    "slug": "koraput-to-rajgir",
+    "via": [
+      "Hazaribagh",
+      "Gaya"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21100
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 1010,
+    "duration": "19-20",
+    "slug": "koraput-to-muzaffarpur",
+    "via": [
+      "Patna",
+      "Gaya"
+    ],
+    "priceSaloon": 14100,
+    "priceSuv": 18200,
+    "priceTempo": 24200
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 855,
+    "duration": "16-17",
+    "slug": "koraput-to-varanasi",
+    "via": [
+      "Ranchi",
+      "Gaya"
+    ],
+    "priceSaloon": 12000,
+    "priceSuv": 15400,
+    "priceTempo": 20500
+  },
+  {
+    "from": "koraput",
+    "fromName": "Koraput",
+    "fromState": "odisha",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 875,
+    "duration": "16-18",
+    "slug": "koraput-to-prayagraj",
+    "via": [
+      "Varanasi"
+    ],
+    "priceSaloon": 12300,
+    "priceSuv": 15800,
+    "priceTempo": 21000
+  }
+]

@@ -18,17 +18,13 @@ import { generateRouteMetadata, generateFaqSchema, generateBreadcrumbSchema, gen
 import { generateRoutePageContent } from '@/lib/routeContent';
 import { formatBoldText, parseParagraphsWithBold } from '@/lib/textHelper';
 
-// true = ALL route slugs work (SSR on first request via CF Workers)
+// Pre-build the top 1000 most critical routes at build time.
+// Remaining rare routes: dynamicParams=false means 404 (not SSR) — keeps CF Free Tier safe.
 export const dynamicParams = true;
-// force-dynamic: skip ISR entirely — no NoFallbackError with dummy cache.
-// Cloudflare Cache-Control headers (s-maxage=2592000) handle edge caching.
 export const dynamic = 'force-dynamic';
 
-// Pre-build the top 200 most critical hub routes at build time.
-// ALL other 13,600+ routes render on first request via Cloudflare Workers edge SSR
-// and are then cached by Cloudflare edge for 30 days — no ISR, no Vercel needed.
 export async function generateStaticParams() {
-  return getStaticRouteSlugs(200).map(slug => ({ route: slug }));
+  return getStaticRouteSlugs(1000).map(slug => ({ route: slug }));
 }
 
 

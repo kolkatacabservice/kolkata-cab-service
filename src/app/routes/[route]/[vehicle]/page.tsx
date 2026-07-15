@@ -19,11 +19,10 @@ export const dynamicParams = true;
 // force-dynamic: skip ISR, avoid NoFallbackError with dummy cache
 export const dynamic = 'force-dynamic';
 
-// Pre-build only the top 20 hub route × vehicle combos at build time.
-// 20 routes × 4 vehicles = 80 files — well within the CF Pages limit.
-// All others generate on first request via CF Workers edge SSR + CF Cache.
+// Pre-build the top 100 hub route × vehicle combos at build time.
+// 100 routes × 4 vehicles = 400 files.
 export async function generateStaticParams() {
-  const routeSlugs = getStaticVehicleRouteSlugs(20);
+  const routeSlugs = getStaticVehicleRouteSlugs(100);
   const params: { route: string; vehicle: string }[] = [];
   for (const rs of routeSlugs) {
     for (const vs of VEHICLE_SLUGS) {
