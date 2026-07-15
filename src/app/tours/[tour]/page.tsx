@@ -10,9 +10,8 @@ import FAQSection from '@/components/FAQSection';
 import { getTour, getTourSlugs, getTours, BUSINESS } from '@/lib/data';
 import { generateTourMetadata, generateTourSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
-// Only pre-built tour pages served; unknown slugs → 404 (no on-demand ISR)
-export const dynamicParams = false;
-// Force fully static SSG — zero ISR Reads/Writes on Vercel
+// Pre-build tours at build-time. Dynamic fallback allows custom 404 page for unknown slugs.
+export const dynamicParams = true;
 export const dynamic = 'force-static';
 export const revalidate = false;
 
