@@ -3,21 +3,12 @@
  *
  * Route data helpers — Cloudflare Workers optimized.
  *
- * This version uses city-level sharding at request time (parsing ~20KB JSON instead of 10MB),
- * and pre-calculated popular-routes.json, keeping Worker CPU time well under the 10ms limit.
+ * This version uses pre-compiled dynamic imports of 20KB city shards,
+ * keeping Workers CPU time well under the 10ms limit without any external fetch dependencies.
  */
 import 'server-only';
-import { Route, StateData } from './data';
-import citiesData from '@/data/cities.json';
+import { Route } from './data';
 import { getCityRouteShard } from './cityRouteShards';
-
-// Build a fast lookup of city -> state at module load time.
-const CITY_TO_STATE = new Map<string, string>();
-for (const [stateSlug, stateData] of Object.entries(citiesData as Record<string, StateData>)) {
-  for (const city of stateData.cities) {
-    CITY_TO_STATE.set(city.slug, stateSlug);
-  }
-}
 
 // Memory cache for shards loaded during the current request lifecycle.
 const SHARD_CACHE = new Map<string, Route[]>();

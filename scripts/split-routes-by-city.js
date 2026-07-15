@@ -2,7 +2,8 @@
  * scripts/split-routes-by-city.js
  *
  * Splits the monolithic routes.json (~13,808 routes) into 119 small JSON files,
- * one for each city (e.g. routes-by-city/kolkata.json).
+ * one for each city, and writes them to src/data/routes-by-city/
+ * so they are bundled as pre-compiled chunks.
  *
  * It also generates `src/lib/cityRouteShards.ts` containing static imports/lazy switch case.
  * It also pre-generates `src/data/popular-routes.json` to avoid parsing large JSONs on request-time.

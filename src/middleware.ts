@@ -56,57 +56,7 @@ export default function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 301);
   }
 
-  // ── Cache-Control headers for Cloudflare edge ─────────────────────────────
-  // s-maxage tells Cloudflare to cache at the edge for N seconds.
-  // After the first Worker render, all subsequent requests are served from CF
-  // edge cache for the TTL — the Worker does NOT run again until cache expires.
-  // This makes on-demand rendering free-tier safe.
-  const response = NextResponse.next();
-
-  // SEO headers
-  response.headers.set('Content-Language', 'en-IN');
-
-  const knownStates = ['west-bengal', 'jharkhand', 'odisha', 'bihar', 'uttar-pradesh'];
-  const segments = pathname.split('/').filter(Boolean);
-
-  if (pathname.startsWith('/routes/')) {
-    // 13,600+ on-demand route pages — render once, CF caches 30 days
-    response.headers.set(
-      'Cache-Control',
-      'public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400'
-    );
-  } else if (segments.length >= 2 && knownStates.includes(segments[0])) {
-    // City main + service pages: /[state]/[city] and /[state]/[city]/[service]
-    response.headers.set(
-      'Cache-Control',
-      'public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400'
-    );
-  } else if (segments.length === 1 && knownStates.includes(segments[0])) {
-    // State pages: /west-bengal, /jharkhand, etc.
-    response.headers.set(
-      'Cache-Control',
-      'public, s-maxage=604800, max-age=3600, stale-while-revalidate=86400'
-    );
-  } else if (pathname.startsWith('/kolkata/')) {
-    // Kolkata neighbourhood pages
-    response.headers.set(
-      'Cache-Control',
-      'public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400'
-    );
-  } else if (pathname.startsWith('/tours/') || pathname.startsWith('/blog/')) {
-    response.headers.set(
-      'Cache-Control',
-      'public, s-maxage=604800, max-age=3600, stale-while-revalidate=86400'
-    );
-  } else {
-    // Home, services, about, fare-chart, contact, etc.
-    response.headers.set(
-      'Cache-Control',
-      'public, s-maxage=86400, max-age=3600, stale-while-revalidate=3600'
-    );
-  }
-
-  return response;
+  return NextResponse.next();
 }
 
 export const config = {
