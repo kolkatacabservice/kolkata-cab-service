@@ -5,23 +5,15 @@ workers_dev = true
 preview_urls = true
 
 # OpenNext outputs to .open-next/
-# The exact paths are determined by the OpenNext build.
-# Run: npx @opennextjs/cloudflare build
-# Then: npx wrangler deploy (or: npm run deploy)
 main = ".open-next/worker.js"
 
 # Static assets directory
 assets = { directory = ".open-next/assets", binding = "ASSETS" }
-
-# Custom domain routes (requires the zone to be on Cloudflare)
-routes = [
-  { pattern = "kolkatacabservice.com/*", zone_name = "kolkatacabservice.com" },
-  { pattern = "www.kolkatacabservice.com/*", zone_name = "kolkatacabservice.com" },
-]
 
 [vars]
 NEXT_PUBLIC_SITE_URL = "https://www.kolkatacabservice.com"
 
 [observability]
 enabled = true
+
 
