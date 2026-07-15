@@ -14,7 +14,7 @@
     "routes:split": "node scripts/split-routes.js",
     "routes:count": "node scripts/count-output-files.js",
     "preview": "opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare deploy"
+    "deploy": "cross-env OPEN_NEXT_DEPLOY=true CLOUDFLARE_ACCOUNT_ID=f1724b09121cad3a665b9599fd5213e3 wrangler deploy"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",
