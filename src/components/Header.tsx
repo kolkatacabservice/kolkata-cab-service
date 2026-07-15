@@ -87,7 +87,7 @@ export default function Header() {
           <div className="flex justify-between items-center h-14 sm:h-16 lg:h-20">
             {/* Logo — always visible with brand name */}
             <Link href="/" className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-              <Image src="/logo.webp" alt={BUSINESS.name} width={40} height={40} className="rounded-lg w-10 h-10 sm:w-[50px] sm:h-[50px]" style={{ width: 'auto', height: 'auto' }} priority />
+              <Image src="/logo.webp" alt={BUSINESS.name} width={50} height={50} className="rounded-lg w-10 h-10 sm:w-[50px] sm:h-[50px] object-contain" priority />
               <div>
                 <span className="font-extrabold text-secondary text-base sm:text-lg lg:text-xl leading-tight block tracking-tight">Kolkata Cab Service</span>
                 <span className="text-[#9A4500] text-[9px] sm:text-[10px] font-bold uppercase tracking-widest">Taxi Service</span>

@@ -117,7 +117,7 @@ export default async function Footer() {
           {/* About */}
           <div>
             <h3 className="text-xl font-bold mb-4 flex items-center gap-2">
-              <Image src="/logo.webp" alt={BUSINESS.name} width={40} height={40} className="rounded-lg" style={{ width: 'auto', height: 'auto' }} />
+              <Image src="/logo.webp" alt={BUSINESS.name} width={48} height={48} className="rounded-lg w-12 h-12 object-contain" />
               {BUSINESS.name}
             </h3>
             <p className="text-gray-300 text-sm leading-relaxed mb-4">

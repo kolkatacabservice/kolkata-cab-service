@@ -1,6 +1,8 @@
 name = "kolkata-cab-service"
 compatibility_date = "2025-07-01"
 compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+preview_urls = true
 
 # OpenNext outputs to .open-next/
 # The exact paths are determined by the OpenNext build.
@@ -10,6 +12,12 @@ main = ".open-next/worker.js"
 
 # Static assets directory
 assets = { directory = ".open-next/assets", binding = "ASSETS" }
+
+# Custom domain routes (requires the zone to be on Cloudflare)
+routes = [
+  { pattern = "kolkatacabservice.com/*", zone_name = "kolkatacabservice.com" },
+  { pattern = "www.kolkatacabservice.com/*", zone_name = "kolkatacabservice.com" },
+]
 
 [vars]
 NEXT_PUBLIC_SITE_URL = "https://www.kolkatacabservice.com"
