@@ -5,13 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:cf": "node scripts/split-routes.js && next build && npx @opennextjs/cloudflare@latest build",
+    "build:cf": "node scripts/split-routes.js && next build && opennextjs-cloudflare build",
     "start": "next start",
     "lint": "eslint",
     "routes:split": "node scripts/split-routes.js",
     "routes:count": "node scripts/count-output-files.js",
-    "preview": "npx @opennextjs/cloudflare@latest preview",
-    "deploy": "npx @opennextjs/cloudflare@latest deploy"
+    "preview": "opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",

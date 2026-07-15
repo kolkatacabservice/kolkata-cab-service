@@ -10,7 +10,8 @@ import FAQSection from '@/components/FAQSection';
 import GoogleMapEmbed from '@/components/GoogleMapEmbed';
 import FareCalculator from '@/components/FareCalculator';
 import { getCity, getState, getVehicle, getVehicles, VEHICLE_SLUGS, BUSINESS } from '@/lib/data';
-import { getRoute, getStaticVehicleRouteSlugs } from '@/lib/routeData';
+import { getRoute } from '@/lib/routeData';
+import { getStaticVehicleRouteSlugs } from '@/lib/routeDataStatic';
 import { generateVehicleRouteMetadata, generateVehicleRouteSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
 // true = ALL route/vehicle combos work (generates on first request via CF Workers edge SSR)
