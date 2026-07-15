@@ -1,0 +1,92 @@
+{
+  "jharkhand": {
+    "sedan":  { "pricePerKm": 12, "baseFare": 1799, "minKm": 130, "driverAllowance": 300 },
+    "suv":    { "pricePerKm": 16, "baseFare": 2400, "minKm": 130, "driverAllowance": 300 },
+    "innova": { "pricePerKm": 18, "baseFare": 2799, "minKm": 130, "driverAllowance": 300 },
+    "tempo":  { "pricePerKm": 22, "baseFare": 3500, "minKm": 150, "driverAllowance": 400 },
+    "luxury": { "pricePerKm": 28, "baseFare": 4500, "minKm": 100, "driverAllowance": 500 },
+    "localPackages": [
+      { "name": "4 Hours / 40 KM",    "sedan": 1800, "suv": 2500, "innova": 2999, "tempo": 3500 },
+      { "name": "8 Hours / 80 KM",    "sedan": 2800, "suv": 3800, "innova": 4500, "tempo": 5500 },
+      { "name": "12 Hours / 120 KM",  "sedan": 3800, "suv": 5200, "innova": 6000, "tempo": 7500 },
+      { "name": "Full Day (24 Hours)", "sedan": 4800, "suv": 6500, "innova": 7500, "tempo": 9500 }
+    ],
+    "airportTransfer": { "sedan": 1200, "suv": 1800, "innova": 2200 },
+    "displayRate": "₹12/km"
+  },
+  "west-bengal": {
+    "sedan":  { "pricePerKm": 12, "baseFare": 1799, "minKm": 130, "driverAllowance": 300 },
+    "suv":    { "pricePerKm": 16, "baseFare": 2400, "minKm": 130, "driverAllowance": 300 },
+    "innova": { "pricePerKm": 18, "baseFare": 2799, "minKm": 130, "driverAllowance": 300 },
+    "tempo":  { "pricePerKm": 22, "baseFare": 3500, "minKm": 150, "driverAllowance": 400 },
+    "luxury": { "pricePerKm": 28, "baseFare": 4500, "minKm": 100, "driverAllowance": 500 },
+    "localPackages": [
+      { "name": "4 Hours / 40 KM",    "sedan": 1800, "suv": 2500, "innova": 2999, "tempo": 3500 },
+      { "name": "8 Hours / 80 KM",    "sedan": 2800, "suv": 3800, "innova": 4500, "tempo": 5500 },
+      { "name": "12 Hours / 120 KM",  "sedan": 3800, "suv": 5200, "innova": 6000, "tempo": 7500 },
+      { "name": "Full Day (24 Hours)", "sedan": 4800, "suv": 6500, "innova": 7500, "tempo": 9500 }
+    ],
+    "airportTransfer": { "sedan": 1200, "suv": 1800, "innova": 2200 },
+    "displayRate": "₹12/km"
+  },
+  "odisha": {
+    "sedan":  { "pricePerKm": 12, "baseFare": 1799, "minKm": 130, "driverAllowance": 300 },
+    "suv":    { "pricePerKm": 16, "baseFare": 2400, "minKm": 130, "driverAllowance": 300 },
+    "innova": { "pricePerKm": 18, "baseFare": 2799, "minKm": 130, "driverAllowance": 300 },
+    "tempo":  { "pricePerKm": 22, "baseFare": 3500, "minKm": 150, "driverAllowance": 400 },
+    "luxury": { "pricePerKm": 28, "baseFare": 4500, "minKm": 100, "driverAllowance": 500 },
+    "localPackages": [
+      { "name": "4 Hours / 40 KM",    "sedan": 1800, "suv": 2500, "innova": 2999, "tempo": 3500 },
+      { "name": "8 Hours / 80 KM",    "sedan": 2800, "suv": 3800, "innova": 4500, "tempo": 5500 },
+      { "name": "12 Hours / 120 KM",  "sedan": 3800, "suv": 5200, "innova": 6000, "tempo": 7500 },
+      { "name": "Full Day (24 Hours)", "sedan": 4800, "suv": 6500, "innova": 7500, "tempo": 9500 }
+    ],
+    "airportTransfer": { "sedan": 1200, "suv": 1800, "innova": 2200 },
+    "displayRate": "₹12/km"
+  },
+  "default": {
+    "sedan":  { "pricePerKm": 12, "baseFare": 1799, "minKm": 130, "driverAllowance": 300 },
+    "suv":    { "pricePerKm": 16, "baseFare": 2400, "minKm": 130, "driverAllowance": 300 },
+    "innova": { "pricePerKm": 18, "baseFare": 2799, "minKm": 130, "driverAllowance": 300 },
+    "tempo":  { "pricePerKm": 22, "baseFare": 3500, "minKm": 150, "driverAllowance": 400 },
+    "luxury": { "pricePerKm": 28, "baseFare": 4500, "minKm": 100, "driverAllowance": 500 },
+    "localPackages": [
+      { "name": "4 Hours / 40 KM",    "sedan": 1800, "suv": 2500, "innova": 2999, "tempo": 3500 },
+      { "name": "8 Hours / 80 KM",    "sedan": 2800, "suv": 3800, "innova": 4500, "tempo": 5500 },
+      { "name": "12 Hours / 120 KM",  "sedan": 3800, "suv": 5200, "innova": 6000, "tempo": 7500 },
+      { "name": "Full Day (24 Hours)", "sedan": 4800, "suv": 6500, "innova": 7500, "tempo": 9500 }
+    ],
+    "airportTransfer": { "sedan": 1200, "suv": 1800, "innova": 2200 },
+    "displayRate": "₹12/km"
+  },
+  "bihar": {
+    "sedan":  { "pricePerKm": 14, "baseFare": 1999, "minKm": 130, "driverAllowance": 350 },
+    "suv":    { "pricePerKm": 18, "baseFare": 2600, "minKm": 130, "driverAllowance": 350 },
+    "innova": { "pricePerKm": 20, "baseFare": 2999, "minKm": 130, "driverAllowance": 350 },
+    "tempo":  { "pricePerKm": 24, "baseFare": 3800, "minKm": 150, "driverAllowance": 450 },
+    "luxury": { "pricePerKm": 30, "baseFare": 5000, "minKm": 100, "driverAllowance": 600 },
+    "localPackages": [
+      { "name": "4 Hours / 40 KM",    "sedan": 2000, "suv": 2800, "innova": 3200, "tempo": 3800 },
+      { "name": "8 Hours / 80 KM",    "sedan": 3200, "suv": 4200, "innova": 4800, "tempo": 6000 },
+      { "name": "12 Hours / 120 KM",  "sedan": 4200, "suv": 5500, "innova": 6500, "tempo": 8000 },
+      { "name": "Full Day (24 Hours)", "sedan": 5500, "suv": 7000, "innova": 8000, "tempo": 10000 }
+    ],
+    "airportTransfer": { "sedan": 1500, "suv": 2000, "innova": 2500 },
+    "displayRate": "₹14/km"
+  },
+  "uttar-pradesh": {
+    "sedan":  { "pricePerKm": 14, "baseFare": 1999, "minKm": 130, "driverAllowance": 350 },
+    "suv":    { "pricePerKm": 18, "baseFare": 2600, "minKm": 130, "driverAllowance": 350 },
+    "innova": { "pricePerKm": 20, "baseFare": 2999, "minKm": 130, "driverAllowance": 350 },
+    "tempo":  { "pricePerKm": 24, "baseFare": 3800, "minKm": 150, "driverAllowance": 450 },
+    "luxury": { "pricePerKm": 30, "baseFare": 5000, "minKm": 100, "driverAllowance": 600 },
+    "localPackages": [
+      { "name": "4 Hours / 40 KM",    "sedan": 2000, "suv": 2800, "innova": 3200, "tempo": 3800 },
+      { "name": "8 Hours / 80 KM",    "sedan": 3200, "suv": 4200, "innova": 4800, "tempo": 6000 },
+      { "name": "12 Hours / 120 KM",  "sedan": 4200, "suv": 5500, "innova": 6500, "tempo": 8000 },
+      { "name": "Full Day (24 Hours)", "sedan": 5500, "suv": 7000, "innova": 8000, "tempo": 10000 }
+    ],
+    "airportTransfer": { "sedan": 1500, "suv": 2000, "innova": 2500 },
+    "displayRate": "₹14/km"
+  }
+}

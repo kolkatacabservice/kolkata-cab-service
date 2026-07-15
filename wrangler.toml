@@ -1,0 +1,19 @@
+name = "kolkata-cab-service"
+compatibility_date = "2025-07-01"
+compatibility_flags = ["nodejs_compat"]
+
+# OpenNext outputs to .open-next/
+# The exact paths are determined by the OpenNext build.
+# Run: npx @opennextjs/cloudflare build
+# Then: npx wrangler deploy (or: npm run deploy)
+main = ".open-next/worker.js"
+
+# Static assets directory
+assets = { directory = ".open-next/assets", binding = "ASSETS" }
+
+[vars]
+NEXT_PUBLIC_SITE_URL = "https://www.kolkatacabservice.com"
+
+[observability]
+enabled = true
+

@@ -1,0 +1,506 @@
+[
+  {
+    "from": "gaya",
+    "fromName": "Gaya",
+    "fromState": "bihar",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 13,
+    "duration": "1-2",
+    "slug": "gaya-to-bodh-gaya",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "bodh-gaya",
+    "fromName": "Bodh Gaya",
+    "fromState": "bihar",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 13,
+    "duration": "1-2",
+    "slug": "bodh-gaya-to-gaya",
+    "via": [],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "patna-to-gaya",
+    "via": [
+      "NH 83"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4900
+  },
+  {
+    "from": "gaya",
+    "fromName": "Gaya",
+    "fromState": "bihar",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 105,
+    "duration": "2-3",
+    "slug": "gaya-to-patna",
+    "via": [
+      "NH 83"
+    ],
+    "priceSaloon": 2700,
+    "priceSuv": 3500,
+    "priceTempo": 4900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 95,
+    "duration": "2-3",
+    "slug": "patna-to-nalanda",
+    "via": [
+      "NH 20"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3300,
+    "priceTempo": 4700
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 95,
+    "duration": "2-3",
+    "slug": "nalanda-to-patna",
+    "via": [
+      "NH 20"
+    ],
+    "priceSaloon": 2500,
+    "priceSuv": 3300,
+    "priceTempo": 4700
+  },
+  {
+    "from": "gaya",
+    "fromName": "Gaya",
+    "fromState": "bihar",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 80,
+    "duration": "1-2",
+    "slug": "gaya-to-nalanda",
+    "via": [
+      "Rajgir"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 4200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 80,
+    "duration": "1-2",
+    "slug": "nalanda-to-gaya",
+    "via": [
+      "Rajgir"
+    ],
+    "priceSaloon": 2200,
+    "priceSuv": 2900,
+    "priceTempo": 4200
+  },
+  {
+    "from": "gaya",
+    "fromName": "Gaya",
+    "fromState": "bihar",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 65,
+    "duration": "1-2",
+    "slug": "gaya-to-rajgir",
+    "via": [],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3900
+  },
+  {
+    "from": "rajgir",
+    "fromName": "Rajgir",
+    "fromState": "bihar",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 65,
+    "duration": "1-2",
+    "slug": "rajgir-to-gaya",
+    "via": [],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3900
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 100,
+    "duration": "1.5-2",
+    "slug": "patna-to-rajgir",
+    "via": [
+      "Nalanda",
+      "Bihar Sharif"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "rajgir",
+    "fromName": "Rajgir",
+    "fromState": "bihar",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 100,
+    "duration": "1.5-2",
+    "slug": "rajgir-to-patna",
+    "via": [
+      "Bihar Sharif",
+      "Nalanda"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 72,
+    "duration": "1.5-2",
+    "slug": "patna-to-muzaffarpur",
+    "via": [
+      "NH 57"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 72,
+    "duration": "1.5-2",
+    "slug": "muzaffarpur-to-patna",
+    "via": [
+      "NH 57"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "patna",
+    "fromName": "Patna",
+    "fromState": "bihar",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "patna-to-bodh-gaya",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "bodh-gaya",
+    "fromName": "Bodh Gaya",
+    "fromState": "bihar",
+    "to": "patna",
+    "toName": "Patna",
+    "toState": "bihar",
+    "distance": 115,
+    "duration": "2-3",
+    "slug": "bodh-gaya-to-patna",
+    "via": [
+      "Gaya"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "bodh-gaya",
+    "fromName": "Bodh Gaya",
+    "fromState": "bihar",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 80,
+    "duration": "1.5-2",
+    "slug": "bodh-gaya-to-rajgir",
+    "via": [
+      "Gaya Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "rajgir",
+    "fromName": "Rajgir",
+    "fromState": "bihar",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 80,
+    "duration": "1.5-2",
+    "slug": "rajgir-to-bodh-gaya",
+    "via": [
+      "Gaya Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "bodh-gaya",
+    "fromName": "Bodh Gaya",
+    "fromState": "bihar",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 85,
+    "duration": "1.5-2",
+    "slug": "bodh-gaya-to-nalanda",
+    "via": [
+      "Rajgir Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 85,
+    "duration": "1.5-2",
+    "slug": "nalanda-to-bodh-gaya",
+    "via": [
+      "Rajgir Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "rajgir",
+    "fromName": "Rajgir",
+    "fromState": "bihar",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 15,
+    "duration": "0.5-1",
+    "slug": "rajgir-to-nalanda",
+    "via": [
+      "Local Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 15,
+    "duration": "0.5-1",
+    "slug": "nalanda-to-rajgir",
+    "via": [
+      "Local Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "rajgir",
+    "fromName": "Rajgir",
+    "fromState": "bihar",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "rajgir-to-muzaffarpur",
+    "via": [
+      "Patna Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "rajgir",
+    "toName": "Rajgir",
+    "toState": "bihar",
+    "distance": 130,
+    "duration": "2-3",
+    "slug": "muzaffarpur-to-rajgir",
+    "via": [
+      "Patna Road"
+    ],
+    "priceSaloon": 1700,
+    "priceSuv": 2200,
+    "priceTempo": 3300
+  },
+  {
+    "from": "gaya",
+    "fromName": "Gaya",
+    "fromState": "bihar",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "gaya-to-muzaffarpur",
+    "via": [
+      "Patna Road"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2800,
+    "priceTempo": 3800
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "gaya",
+    "toName": "Gaya",
+    "toState": "bihar",
+    "distance": 165,
+    "duration": "3-4",
+    "slug": "muzaffarpur-to-gaya",
+    "via": [
+      "Patna Road"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2800,
+    "priceTempo": 3800
+  },
+  {
+    "from": "bodh-gaya",
+    "fromName": "Bodh Gaya",
+    "fromState": "bihar",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "bodh-gaya-to-muzaffarpur",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "bodh-gaya",
+    "toName": "Bodh Gaya",
+    "toState": "bihar",
+    "distance": 215,
+    "duration": "4-5",
+    "slug": "muzaffarpur-to-bodh-gaya",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 3000,
+    "priceSuv": 3900,
+    "priceTempo": 5200
+  },
+  {
+    "from": "nalanda",
+    "fromName": "Nalanda",
+    "fromState": "bihar",
+    "to": "muzaffarpur",
+    "toName": "Muzaffarpur",
+    "toState": "bihar",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "nalanda-to-muzaffarpur",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  },
+  {
+    "from": "muzaffarpur",
+    "fromName": "Muzaffarpur",
+    "fromState": "bihar",
+    "to": "nalanda",
+    "toName": "Nalanda",
+    "toState": "bihar",
+    "distance": 150,
+    "duration": "2-4",
+    "slug": "muzaffarpur-to-nalanda",
+    "via": [
+      "Patna"
+    ],
+    "priceSaloon": 2100,
+    "priceSuv": 2700,
+    "priceTempo": 3600
+  }
+]

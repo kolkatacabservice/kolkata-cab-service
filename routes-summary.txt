@@ -1,0 +1,275 @@
+============================================================
+KOLKATA CAB TAXI SERVICES - COVERED CITIES & ROUTES SUMMARY
+============================================================
+
+Total Covered States : 5
+Total Unique Cities  : 119
+Total Active Routes  : 13,808
+
+------------------------------------------------------------
+CITIES LIST BY STATE
+------------------------------------------------------------
+
+1. WEST BENGAL (66 Cities)
+------------------------------------------------------------
+- Alipurduar
+- Arambagh
+- Asansol
+- Bagnan
+- Baharampur
+- Bakkhali
+- Balurghat
+- Bankura
+- Barasat
+- Bardhaman
+- Barrackpore
+- Basirhat
+- Beldanga
+- Bishnupur
+- Bolpur Shantiniketan
+- Bongaon
+- Chakdah
+- Chandannagar
+- Contai
+- Cooch Behar
+- Dalkhola
+- Darjeeling
+- Diamond Harbour
+- Digha
+- Dooars
+- Dum Dum
+- Durgapur
+- Gangasagar
+- Habra
+- Haldia
+- Hooghly
+- Howrah
+- Islampur
+- Jalpaiguri
+- Jhargram
+- Kakdwip
+- Kalna
+- Kalyani
+- Karimpur
+- Katwa
+- Kharagpur
+- Kolaghat
+- Kolkata
+- Kolkata Airport
+- Krishnanagar
+- Lalbagh
+- Malda
+- Mandarmani
+- Mayapur
+- Midnapore
+- Murshidabad
+- Nabadwip
+- Naihati
+- New Town
+- Purulia
+- Raiganj
+- Ranaghat
+- Raniganj
+- Salt Lake
+- Satragachhi
+- Serampore
+- Siliguri
+- Sundarbans
+- Tamluk
+- Tarkeshwar
+- Uluberia
+
+2. JHARKHAND (27 Cities)
+------------------------------------------------------------
+- Adityapur
+- Betla
+- Bokaro
+- Chaibasa
+- Chatra
+- Deoghar
+- Dhanbad
+- Dumka
+- Giridih
+- Godda
+- Gumla
+- Hazaribagh
+- Jamshedpur
+- Jamtara
+- Khunti
+- Koderma
+- Latehar
+- Lohardaga
+- Netarhat
+- Pakur
+- Palamu
+- Ramgarh
+- Ranchi
+- Sahebganj
+- Seraikela
+- Simdega
+- Tatanagar
+
+3. ODISHA (18 Cities)
+------------------------------------------------------------
+- Angul
+- Balasore
+- Baripada
+- Berhampur
+- Bhadrak
+- Bhubaneswar
+- Chilika
+- Cuttack
+- Dhenkanal
+- Gopalpur
+- Jeypore
+- Jharsuguda
+- Konark
+- Koraput
+- Puri
+- Rayagada
+- Rourkela
+- Sambalpur
+
+4. BIHAR (6 Cities)
+------------------------------------------------------------
+- Bodh Gaya
+- Gaya
+- Muzaffarpur
+- Nalanda
+- Patna
+- Rajgir
+
+5. UTTAR PRADESH (2 Cities)
+------------------------------------------------------------
+- Prayagraj
+- Varanasi
+
+------------------------------------------------------------
+POPULAR ROUTES FROM KOLKATA (117 Routes)
+------------------------------------------------------------
+Format: Destination City (State) | Distance | Duration | Saloon Price | SUV Price | Tempo Price
+------------------------------------------------------------
+Adityapur (jharkhand) | 296 km | 5-7 hrs | ₹4800 | ₹6100 | ₹8300
+Alipurduar (west-bengal) | 650 km | 12-14 hrs | ₹8700 | ₹11100 | ₹14700
+Angul (odisha) | 505 km | 10-12 hrs | ₹7100 | ₹9100 | ₹12100
+Arambagh (west-bengal) | 90 km | 2-3 hrs | ₹2400 | ₹3100 | ₹4400
+Asansol (west-bengal) | 210 km | 4-5 hrs | ₹3800 | ₹4900 | ₹6800
+Bagnan (west-bengal) | 70 km | 1-2 hrs | ₹2200 | ₹2800 | ₹4000
+Baharampur (west-bengal) | 200 km | 4-5 hrs | ₹3700 | ₹4800 | ₹6600
+Bakkhali (west-bengal) | 132 km | 3-4 hrs | ₹3000 | ₹3800 | ₹5400
+Balasore (odisha) | 247 km | 4-6 hrs | ₹4200 | ₹5500 | ₹7400
+Balurghat (west-bengal) | 387 km | 7-9 hrs | ₹5800 | ₹7400 | ₹10000
+Bankura (west-bengal) | 197 km | 3-5 hrs | ₹3700 | ₹4800 | ₹6500
+Barasat (west-bengal) | 25 km | 0.5-1 hrs | ₹1700 | ₹2200 | ₹3300
+Bardhaman (west-bengal) | 116 km | 2-4 hrs | ₹2800 | ₹3600 | ₹5100
+Baripada (odisha) | 238 km | 4-6 hrs | ₹4100 | ₹5300 | ₹7300
+Barrackpore (west-bengal) | 28 km | 0.5-1 hrs | ₹1700 | ₹2200 | ₹3300
+Basirhat (west-bengal) | 80 km | 1.5-2 hrs | ₹1700 | ₹2200 | ₹3300
+Beldanga (west-bengal) | 200 km | 3-4 hrs | ₹2800 | ₹3600 | ₹4800
+Berhampur (odisha) | 674 km | 13-15 hrs | ₹8900 | ₹11400 | ₹15100
+Betla (jharkhand) | 597 km | 11-13 hrs | ₹8100 | ₹10400 | ₹13700
+Bhubaneswar (odisha) | 440 km | 7-8 hrs | ₹6300 | ₹8200 | ₹10900
+Bishnupur (west-bengal) | 157 km | 3-5 hrs | ₹3200 | ₹4200 | ₹5800
+Bodh Gaya (bihar) | 500 km | 9-11 hrs | ₹6900 | ₹8900 | ₹11800
+Bokaro (jharkhand) | 334 km | 6-8 hrs | ₹5200 | ₹6700 | ₹9000
+Bolpur Shantiniketan (west-bengal) | 183 km | 3-5 hrs | ₹3500 | ₹4600 | ₹6300
+Bongaon (west-bengal) | 80 km | 1.5-2 hrs | ₹1700 | ₹2200 | ₹3300
+Chaibasa (jharkhand) | 342 km | 6-8 hrs | ₹5300 | ₹6800 | ₹9200
+Chakdah (west-bengal) | 64 km | 1.5-2 hrs | ₹1700 | ₹2200 | ₹3300
+Chandannagar (west-bengal) | 42 km | 1-2 hrs | ₹1900 | ₹2500 | ₹3600
+Chatra (jharkhand) | 400 km | 7-8 hrs | ₹5600 | ₹7200 | ₹9600
+Chilika (odisha) | 582 km | 11-13 hrs | ₹7900 | ₹10100 | ₹13500
+Contai (west-bengal) | 164 km | 3-4 hrs | ₹3300 | ₹4300 | ₹6000
+Cooch Behar (west-bengal) | 563 km | 11-13 hrs | ₹7700 | ₹9900 | ₹13100
+Cuttack (odisha) | 452 km | 9-11 hrs | ₹6500 | ₹8300 | ₹11100
+Dalkhola (west-bengal) | 395 km | 7-8 hrs | ₹5500 | ₹7100 | ₹9500
+Darjeeling (west-bengal) | 600 km | 11-12 hrs | ₹8100 | ₹10400 | ₹13800
+Deoghar (jharkhand) | 370 km | 6-7 hrs | ₹5600 | ₹7200 | ₹9700
+Dhanbad (jharkhand) | 290 km | 5-6 hrs | ₹4700 | ₹6100 | ₹8200
+Dhenkanal (odisha) | 464 km | 9-11 hrs | ₹6600 | ₹8500 | ₹11400
+Diamond Harbour (west-bengal) | 50 km | 1-2 hrs | ₹2100 | ₹2700 | ₹3900
+Digha (west-bengal) | 185 km | 3-4 hrs | ₹3500 | ₹4600 | ₹6300
+Dooars (west-bengal) | 613 km | 12-14 hrs | ₹8200 | ₹10600 | ₹14000
+Dum Dum (west-bengal) | 12 km | 0.5-1 hrs | ₹1700 | ₹2200 | ₹3300
+Dumka (jharkhand) | 286 km | 5-7 hrs | ₹4600 | ₹6000 | ₹8100
+Durgapur (west-bengal) | 170 km | 3-4 hrs | ₹3400 | ₹4400 | ₹6100
+Gangasagar (west-bengal) | 130 km | 3-4 hrs | ₹2900 | ₹3800 | ₹5300
+Gaya (bihar) | 490 km | 9-10 hrs | ₹6800 | ₹8800 | ₹11700
+Giridih (jharkhand) | 360 km | 7-9 hrs | ₹5500 | ₹7000 | ₹9500
+Godda (jharkhand) | 360 km | 7-9 hrs | ₹5500 | ₹7000 | ₹9500
+Gopalpur (odisha) | 669 km | 13-15 hrs | ₹8900 | ₹11400 | ₹15000
+Gumla (jharkhand) | 420 km | 8-9 hrs | ₹5900 | ₹7600 | ₹10100
+Habra (west-bengal) | 50 km | 1-1.5 hrs | ₹1700 | ₹2200 | ₹3300
+Haldia (west-bengal) | 136 km | 2-3 hrs | ₹3000 | ₹3900 | ₹5400
+Hazaribagh (jharkhand) | 448 km | 8-10 hrs | ₹6400 | ₹8300 | ₹11100
+Hooghly (west-bengal) | 45 km | 1-2 hrs | ₹2000 | ₹2600 | ₹3800
+Howrah (west-bengal) | 14 km | 1-2 hrs | ₹1700 | ₹2200 | ₹3300
+Islampur (west-bengal) | 340 km | 6-7 hrs | ₹4800 | ₹6100 | ₹8200
+Jalpaiguri (west-bengal) | 576 km | 11-13 hrs | ₹7800 | ₹10100 | ₹13400
+Jamshedpur (jharkhand) | 270 km | 4-5 hrs | ₹4500 | ₹5800 | ₹7900
+Jamtara (jharkhand) | 225 km | 4-5 hrs | ₹3200 | ₹4100 | ₹5400
+Jeypore (odisha) | 950 km | 19-20 hrs | ₹12000 | ₹15300 | ₹20100
+Jhargram (west-bengal) | 180 km | 3-4 hrs | ₹2500 | ₹3200 | ₹4300
+Jharsuguda (odisha) | 592 km | 11-13 hrs | ₹8000 | ₹10300 | ₹13700
+Kakdwip (west-bengal) | 104 km | 2-3 hrs | ₹1700 | ₹2200 | ₹3300
+Kalna (west-bengal) | 83 km | 1.5-2 hrs | ₹1700 | ₹2200 | ₹3300
+Kalyani (west-bengal) | 65 km | 1.5-2 hrs | ₹1700 | ₹2200 | ₹3300
+Karimpur (west-bengal) | 140 km | 2.5-3.5 hrs | ₹2000 | ₹2500 | ₹3400
+Katwa (west-bengal) | 155 km | 2.5-3.5 hrs | ₹2200 | ₹2800 | ₹3700
+Kharagpur (west-bengal) | 143 km | 2-4 hrs | ₹3100 | ₹4000 | ₹5600
+Khunti (jharkhand) | 340 km | 6-7 hrs | ₹4800 | ₹6100 | ₹8200
+Koderma (jharkhand) | 320 km | 6-7 hrs | ₹4500 | ₹5800 | ₹7700
+Kolaghat (west-bengal) | 72 km | 1-2 hrs | ₹2200 | ₹2800 | ₹4100
+Kolkata Airport (west-bengal) | 16 km | 1-2 hrs | ₹1700 | ₹2200 | ₹3300
+Konark (odisha) | 494 km | 9-11 hrs | ₹6900 | ₹8900 | ₹11900
+Koraput (odisha) | 938 km | 18-20 hrs | ₹11800 | ₹15100 | ₹19900
+Krishnanagar (west-bengal) | 105 km | 2-3 hrs | ₹2700 | ₹3500 | ₹4900
+Lalbagh (west-bengal) | 225 km | 4-5 hrs | ₹3200 | ₹4100 | ₹5400
+Latehar (jharkhand) | 540 km | 10-12 hrs | ₹7400 | ₹9600 | ₹12700
+Lohardaga (jharkhand) | 380 km | 7-8 hrs | ₹5300 | ₹6800 | ₹9100
+Malda (west-bengal) | 354 km | 7-9 hrs | ₹5400 | ₹7000 | ₹9400
+Mandarmani (west-bengal) | 170 km | 3-4 hrs | ₹3400 | ₹4400 | ₹6100
+Mayapur (west-bengal) | 130 km | 3-4 hrs | ₹2900 | ₹3800 | ₹5300
+Midnapore (west-bengal) | 141 km | 2-4 hrs | ₹3100 | ₹4000 | ₹5500
+Murshidabad (west-bengal) | 233 km | 4-6 hrs | ₹4100 | ₹5300 | ₹7200
+Muzaffarpur (bihar) | 695 km | 13-15 hrs | ₹9200 | ₹11800 | ₹15600
+Nabadwip (west-bengal) | 120 km | 2-3 hrs | ₹2800 | ₹3700 | ₹5200
+Naihati (west-bengal) | 42 km | 1-1.5 hrs | ₹1700 | ₹2200 | ₹3300
+Nalanda (bihar) | 520 km | 10-11 hrs | ₹7100 | ₹9100 | ₹12100
+Netarhat (jharkhand) | 561 km | 11-13 hrs | ₹7700 | ₹9900 | ₹13100
+New Town (west-bengal) | 12 km | 1-2 hrs | ₹1600 | ₹2200 | ₹3200
+Pakur (jharkhand) | 285 km | 5-6 hrs | ₹4000 | ₹5100 | ₹6800
+Palamu (jharkhand) | 601 km | 12-14 hrs | ₹8100 | ₹10400 | ₹13800
+Patna (bihar) | 600 km | 11-13 hrs | ₹8100 | ₹10400 | ₹13800
+Prayagraj (uttar-pradesh) | 800 km | 14-16 hrs | ₹10500 | ₹13500 | ₹17800
+Puri (odisha) | 500 km | 8-9 hrs | ₹7000 | ₹9000 | ₹12000
+Purulia (west-bengal) | 288 km | 5-7 hrs | ₹4700 | ₹6000 | ₹8200
+Raiganj (west-bengal) | 400 km | 7-9 hrs | ₹5900 | ₹7600 | ₹10200
+Rajgir (bihar) | 540 km | 10-12 hrs | ₹7300 | ₹9400 | ₹12500
+Ramgarh (jharkhand) | 408 km | 8-10 hrs | ₹6000 | ₹7700 | ₹10300
+Ranaghat (west-bengal) | 96 km | 1.5-2 hrs | ₹1700 | ₹2200 | ₹3300
+Ranchi (jharkhand) | 420 km | 7-8 hrs | ₹6100 | ₹7900 | ₹10600
+Raniganj (west-bengal) | 196 km | 3-4 hrs | ₹2700 | ₹3500 | ₹4700
+Rayagada (odisha) | 830 km | 16-18 hrs | ₹10600 | ₹13600 | ₹17900
+Rourkela (odisha) | 470 km | 9-11 hrs | ₹6700 | ₹8600 | ₹11500
+Sahebganj (jharkhand) | 399 km | 7-9 hrs | ₹5900 | ₹7600 | ₹10200
+Salt Lake (west-bengal) | 7 km | 1-2 hrs | ₹1600 | ₹2100 | ₹3100
+Sambalpur (odisha) | 609 km | 12-14 hrs | ₹8200 | ₹10500 | ₹14000
+Satragachhi (west-bengal) | 8 km | 1-2 hrs | ₹1600 | ₹2100 | ₹3100
+Seraikela (jharkhand) | 270 km | 5-6 hrs | ₹3800 | ₹4900 | ₹6500
+Serampore (west-bengal) | 25 km | 1-2 hrs | ₹1800 | ₹2300 | ₹3400
+Siliguri (west-bengal) | 560 km | 10-11 hrs | ₹7700 | ₹9800 | ₹13100
+Simdega (jharkhand) | 460 km | 9-10 hrs | ₹6400 | ₹8300 | ₹11000
+Sundarbans (west-bengal) | 114 km | 2-4 hrs | ₹2800 | ₹3600 | ₹5100
+Tamluk (west-bengal) | 95 km | 2-3 hrs | ₹2500 | ₹3300 | ₹4700
+Tarkeshwar (west-bengal) | 57 km | 1-2 hrs | ₹2100 | ₹2700 | ₹3900
+Tatanagar (jharkhand) | 291 km | 5-7 hrs | ₹4700 | ₹6100 | ₹8200
+Uluberia (west-bengal) | 55 km | 1-2 hrs | ₹2000 | ₹2600 | ₹3800
+Varanasi (uttar-pradesh) | 680 km | 12-14 hrs | ₹9000 | ₹11600 | ₹15300
+
+============================================================
+All routes support:
+- One-way Drop taxi service
+- Round-trip Outstation service
+- Custom Multi-day itineraries
+============================================================

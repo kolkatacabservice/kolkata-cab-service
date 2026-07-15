@@ -1,0 +1,1848 @@
+{
+  "west-bengal": {
+    "name": "West Bengal",
+    "capital": "Kolkata",
+    "slug": "west-bengal",
+    "description": "West Bengal, located in eastern India, is a state rich in culture, literature, and natural beauty. From the bustling city of Kolkata to the serene hills of Darjeeling, the mangrove forests of Sundarbans, and the beach town of Digha, West Bengal offers incredible diversity for travelers.",
+    "cities": [
+      {
+        "name": "Kolkata",
+        "slug": "kolkata",
+        "alternateNames": ["Calcutta", "Cal", "City of Joy", "Kol", "Kolkatta"],
+        "lat": 22.5726,
+        "lng": 88.3639,
+        "type": "hub",
+        "tourist": true,
+        "description": "Kolkata (formerly Calcutta), the City of Joy, is the cultural capital of India. Known for its colonial architecture, Howrah Bridge, Victoria Memorial, and vibrant street food culture. The city is a major business hub and gateway to eastern India.",
+        "landmarks": [
+          "Victoria Memorial",
+          "Howrah Bridge",
+          "Indian Museum",
+          "Dakshineswar Temple",
+          "Park Street",
+          "New Market"
+        ],
+        "airport": "Netaji Subhas Chandra Bose International Airport",
+        "railway": "Howrah Junction, Sealdah Station"
+      },
+      {
+        "name": "Siliguri",
+        "slug": "siliguri",
+        "alternateNames": ["Shiliguri", "Siliguree", "Siligudi"],
+        "lat": 26.7271,
+        "lng": 88.3953,
+        "tourist": true,
+        "description": "Siliguri (also written as Shiliguri) is the gateway to Northeast India and the hills of Darjeeling. This bustling city serves as a major transit point for travelers heading to Darjeeling, Gangtok, and the Dooars region.",
+        "landmarks": [
+          "Mahananda Wildlife Sanctuary",
+          "ISKCON Temple",
+          "Salugara Monastery",
+          "Hong Kong Market"
+        ],
+        "airport": "Bagdogra Airport",
+        "railway": "New Jalpaiguri Junction"
+      },
+      {
+        "name": "Darjeeling",
+        "slug": "darjeeling",
+        "alternateNames": ["Darjiling", "Darjeling", "Queen of Hills"],
+        "lat": 27.036,
+        "lng": 88.2627,
+        "tourist": true,
+        "description": "Darjeeling (Darjiling), the Queen of the Hills, is world-famous for its tea gardens, the Darjeeling Himalayan Railway (Toy Train), and stunning views of Mount Kanchenjunga. A must-visit hill station in eastern India.",
+        "landmarks": [
+          "Tiger Hill",
+          "Batasia Loop",
+          "Peace Pagoda",
+          "Darjeeling Tea Gardens",
+          "Himalayan Mountaineering Institute"
+        ],
+        "railway": "Darjeeling Station (Toy Train)"
+      },
+      {
+        "name": "Durgapur",
+        "slug": "durgapur",
+        "alternateNames": ["Durgapur Steel City", "Durgapore"],
+        "lat": 23.5204,
+        "lng": 87.3119,
+        "tourist": false,
+        "description": "Durgapur is one of the most important industrial cities in West Bengal, known as the Steel City. It houses major industrial units and is a growing commercial center.",
+        "landmarks": [
+          "Durgapur Barrage",
+          "Kumar Mangalam Park",
+          "Troika Park"
+        ],
+        "railway": "Durgapur Railway Station"
+      },
+      {
+        "name": "Asansol",
+        "slug": "asansol",
+        "alternateNames": ["Asansole", "Asansol WB"],
+        "lat": 23.6889,
+        "lng": 86.9661,
+        "tourist": false,
+        "description": "Asansol is the second-largest city in West Bengal and an important industrial hub. Known for its coal mines and steel plants, it serves as a major railway junction.",
+        "landmarks": [
+          "Maithon Dam",
+          "Churulia (birthplace of Kazi Nazrul Islam)",
+          "Kalyaneshwari Temple"
+        ],
+        "railway": "Asansol Junction"
+      },
+      {
+        "name": "Howrah",
+        "slug": "howrah",
+        "alternateNames": ["Haora", "Howra"],
+        "lat": 22.5958,
+        "lng": 88.2636,
+        "tourist": true,
+        "description": "Howrah (Haora), the twin city of Kolkata across the Hooghly River, is home to the iconic Howrah Bridge and Howrah Junction — one of the busiest railway stations in India.",
+        "landmarks": [
+          "Howrah Bridge",
+          "Botanical Garden",
+          "Belur Math"
+        ],
+        "railway": "Howrah Junction"
+      },
+      {
+        "name": "Kharagpur",
+        "slug": "kharagpur",
+        "alternateNames": ["Kharagpore", "IIT Kharagpur City"],
+        "lat": 22.3302,
+        "lng": 87.3236,
+        "tourist": false,
+        "description": "Kharagpur is home to the prestigious Indian Institute of Technology (IIT Kharagpur) and has the longest railway platform in India.",
+        "landmarks": [
+          "IIT Kharagpur Campus",
+          "Kharagpur Railway Station"
+        ],
+        "railway": "Kharagpur Railway Station"
+      },
+      {
+        "name": "Bardhaman",
+        "slug": "bardhaman",
+        "alternateNames": ["Burdwan", "Barddhaman", "Bardwan"],
+        "lat": 23.2324,
+        "lng": 87.8615,
+        "tourist": false,
+        "description": "Bardhaman (Burdwan/Barddhaman) is a historic city known for its rice cultivation and cultural heritage. The city has several temples and historical monuments.",
+        "landmarks": [
+          "Burdwan Rajbari",
+          "Meghnad Saha Planetarium",
+          "108 Shiv Mandir"
+        ],
+        "railway": "Barddhaman Junction"
+      },
+      {
+        "name": "Malda",
+        "slug": "malda",
+        "alternateNames": ["English Bazar", "Maldah"],
+        "lat": 25.0108,
+        "lng": 88.1432,
+        "tourist": true,
+        "description": "Malda is a historically significant district, home to the ancient ruins of Gaur and Pandua — the medieval capitals of Bengal. The region is famous for its mangoes.",
+        "landmarks": [
+          "Gaur Ruins",
+          "Adina Mosque",
+          "Pandua",
+          "Ramkeli"
+        ],
+        "railway": "Malda Town Station"
+      },
+      {
+        "name": "Murshidabad",
+        "slug": "murshidabad",
+        "alternateNames": ["Murshidabad WB", "Mursidabad"],
+        "lat": 24.1788,
+        "lng": 88.2716,
+        "tourist": true,
+        "description": "Murshidabad was the former capital of Bengal during the Nawab era. The district is rich in Mughal architecture and historical significance.",
+        "landmarks": [
+          "Hazarduari Palace",
+          "Katra Mosque",
+          "Nashipur Palace"
+        ],
+        "railway": "Murshidabad Station"
+      },
+      {
+        "name": "Cooch Behar",
+        "slug": "cooch-behar",
+        "alternateNames": ["Koch Bihar", "Coochbehar", "Cooch Bihar"],
+        "lat": 26.3452,
+        "lng": 89.4418,
+        "tourist": true,
+        "description": "Cooch Behar is a historically significant town famous for the stunning Cooch Behar Palace, modeled after Buckingham Palace. The region offers a unique blend of culture and natural beauty.",
+        "landmarks": [
+          "Cooch Behar Palace",
+          "Madan Mohan Temple",
+          "Sagardighi"
+        ],
+        "railway": "Cooch Behar Railway Station"
+      },
+      {
+        "name": "Jalpaiguri",
+        "slug": "jalpaiguri",
+        "alternateNames": ["Jalpaigury", "Jalpai"],
+        "lat": 26.5432,
+        "lng": 88.7179,
+        "tourist": true,
+        "description": "Jalpaiguri is the gateway to Dooars, the door to Bhutan and Northeast India. Known for its lush tea gardens and proximity to Gorumara and Jaldapara National Parks.",
+        "landmarks": [
+          "Gorumara National Park",
+          "Jaldapara National Park",
+          "Teesta River"
+        ],
+        "railway": "Jalpaiguri Station"
+      },
+      {
+        "name": "Bankura",
+        "slug": "bankura",
+        "lat": 23.23,
+        "lng": 87.0667,
+        "tourist": true,
+        "description": "Bankura is known for its terracotta art, Bankura horse, and Bishnupur temple town. The district is a treasure of Bengal's artistic and cultural heritage.",
+        "landmarks": [
+          "Susunia Hill",
+          "Biharinath Hill",
+          "Jhilimili"
+        ],
+        "railway": "Bankura Railway Station"
+      },
+      {
+        "name": "Purulia",
+        "slug": "purulia",
+        "lat": 23.3333,
+        "lng": 86.3667,
+        "tourist": true,
+        "description": "Purulia is known for its tribal culture, Chhau dance, and scenic beauty. The Ajodhya Hills and Baranti Dam are popular attractions for nature lovers and trekkers.",
+        "landmarks": [
+          "Ajodhya Hills",
+          "Baranti Dam",
+          "Pakhi Pahar",
+          "Matha Forest"
+        ],
+        "railway": "Purulia Railway Station"
+      },
+      {
+        "name": "Midnapore",
+        "slug": "midnapore",
+        "lat": 22.4249,
+        "lng": 87.3191,
+        "tourist": false,
+        "description": "Midnapore is a historic town with significant importance in India's freedom struggle. It serves as the district headquarters and has several cultural landmarks.",
+        "landmarks": [
+          "Midnapore College",
+          "Gandhi Park"
+        ],
+        "railway": "Midnapore Railway Station"
+      },
+      {
+        "name": "Digha",
+        "slug": "digha",
+        "alternateNames": ["Old Digha", "New Digha", "Digha Beach", "Digha Sea Beach"],
+        "lat": 21.6267,
+        "lng": 87.535,
+        "tourist": true,
+        "description": "Digha is the most popular beach resort town in West Bengal. Known for its wide, sandy beach and calm sea waters, it's a favorite weekend getaway from Kolkata.",
+        "landmarks": [
+          "New Digha Beach",
+          "Old Digha Beach",
+          "Udaipur Beach",
+          "Marine Aquarium"
+        ],
+        "railway": "Digha Railway Station"
+      },
+      {
+        "name": "Sundarbans",
+        "slug": "sundarbans",
+        "alternateNames": ["Sundarban", "Sunderban", "Sunderbans", "Sundarbon"],
+        "lat": 21.9497,
+        "lng": 88.8842,
+        "tourist": true,
+        "description": "The Sundarbans is the largest mangrove forest in the world and a UNESCO World Heritage Site. Home to the Royal Bengal Tiger, it offers unique boat safari experiences.",
+        "landmarks": [
+          "Sundarbans National Park",
+          "Sajnekhali",
+          "Sudhanyakhali Watch Tower"
+        ]
+      },
+      {
+        "name": "Bishnupur",
+        "slug": "bishnupur",
+        "lat": 23.08,
+        "lng": 87.32,
+        "tourist": true,
+        "description": "Bishnupur is famous for its terracotta temples dating back to the 17th century. The Malla kings built these beautiful temples that showcase the region's artistic brilliance.",
+        "landmarks": [
+          "Rasmancha",
+          "Jor Bangla Temple",
+          "Shyam Rai Temple",
+          "Dalmadal Cannon"
+        ],
+        "railway": "Bishnupur Railway Station"
+      },
+      {
+        "name": "Bolpur Shantiniketan",
+        "slug": "bolpur-shantiniketan",
+        "alternateNames": ["Santiniketan", "Shantiniketan", "Bolpur", "Shanti Niketan"],
+        "lat": 23.6775,
+        "lng": 87.6937,
+        "tourist": true,
+        "description": "Shantiniketan, founded by Rabindranath Tagore, is a cultural hub and home to Visva-Bharati University. The town celebrates art, music, and Tagore's legacy year-round.",
+        "landmarks": [
+          "Visva-Bharati University",
+          "Uttarayan Complex",
+          "Amar Kutir",
+          "Khoai Mela Ground"
+        ],
+        "railway": "Bolpur Shantiniketan Station"
+      },
+      {
+        "name": "Dooars",
+        "slug": "dooars",
+        "lat": 26.7167,
+        "lng": 89.3667,
+        "tourist": true,
+        "description": "The Dooars region is a gateway to Bhutan and the northeastern states. Known for its dense forests, tea gardens, and wildlife sanctuaries, it offers incredible eco-tourism.",
+        "landmarks": [
+          "Gorumara National Park",
+          "Jaldapara National Park",
+          "Buxa Tiger Reserve",
+          "Chilapata Forest"
+        ]
+      },
+      {
+        "name": "Mandarmani",
+        "slug": "mandarmani",
+        "alternateNames": ["Mandarmoni", "Mandarmani Beach"],
+        "lat": 21.6686,
+        "lng": 87.7048,
+        "tourist": true,
+        "description": "Mandarmani is a popular seaside resort town in West Bengal, known for having the longest motorable beach in India. A favorite weekend getaway from Kolkata with beachside resorts and red crab sightings.",
+        "landmarks": [
+          "Mandarmani Beach",
+          "Red Crab Beach",
+          "Tajpur Beach (nearby)",
+          "Fishing Village"
+        ],
+        "railway": "Contai Railway Station (nearest)"
+      },
+      {
+        "name": "Bakkhali",
+        "slug": "bakkhali",
+        "alternateNames": ["Bakhali", "Bakkhali Beach"],
+        "lat": 21.564,
+        "lng": 88.2518,
+        "tourist": true,
+        "description": "Bakkhali is a serene sea beach town in South 24 Parganas, known for its calm and peaceful ambiance. The nearby Frasergunj and Henry Island are popular for boat rides and bird watching.",
+        "landmarks": [
+          "Bakkhali Beach",
+          "Frasergunj Beach",
+          "Henry Island",
+          "Crocodile Park"
+        ],
+        "railway": "Namkhana (nearest)"
+      },
+      {
+        "name": "Gangasagar",
+        "slug": "gangasagar",
+        "alternateNames": ["Sagardwip", "Sagar Island", "Gangasagar Island", "Ganga Sagar"],
+        "lat": 21.634,
+        "lng": 88.0838,
+        "tourist": true,
+        "description": "Gangasagar (Sagar Island) is one of the holiest pilgrimage sites in India, where the River Ganga meets the Bay of Bengal. The annual Gangasagar Mela attracts millions of devotees for a holy dip.",
+        "landmarks": [
+          "Kapil Muni Temple",
+          "Gangasagar Beach",
+          "Onkarnath Temple",
+          "Gangasagar Mela Ground"
+        ],
+        "railway": "Namkhana (nearest, then ferry)"
+      },
+      {
+        "name": "Mayapur",
+        "slug": "mayapur",
+        "alternateNames": ["Mayapore", "Mayapur ISKCON", "Sri Mayapur"],
+        "lat": 23.4233,
+        "lng": 88.3882,
+        "tourist": true,
+        "description": "Mayapur is the global headquarters of the International Society for Krishna Consciousness (ISKCON). The Temple of the Vedic Planetarium is one of the world's largest temples under construction.",
+        "landmarks": [
+          "ISKCON Chandrodaya Temple",
+          "Temple of Vedic Planetarium",
+          "Yoga Pith",
+          "Chand Kazi Samadhi"
+        ],
+        "railway": "Krishnanagar Court Station (nearest)"
+      },
+      {
+        "name": "Nabadwip",
+        "slug": "nabadwip",
+        "alternateNames": ["Navadvipa", "Nabadweep", "Navadwip", "Nabadwip Dham"],
+        "lat": 23.4066,
+        "lng": 88.3677,
+        "tourist": true,
+        "description": "Nabadwip (Navadvipa) is a sacred town and the birthplace of Chaitanya Mahaprabhu, the founder of the Gaudiya Vaishnavism movement. It is one of the most important pilgrimage centers in Bengal.",
+        "landmarks": [
+          "Yogapith Temple",
+          "ISKCON Nabadwip",
+          "Navadvipa Dham Parikrama",
+          "Prauddha Maya Temple"
+        ],
+        "railway": "Nabadwip Dham Station"
+      },
+      {
+        "name": "Krishnanagar",
+        "slug": "krishnanagar",
+        "lat": 23.4011,
+        "lng": 88.516,
+        "tourist": true,
+        "description": "Krishnanagar is the administrative headquarters of Nadia district, famous for its traditional clay art (Ghurni art) and cultural heritage. The Krishnanagar Palace and Ghurni artist village are popular attractions.",
+        "landmarks": [
+          "Krishnanagar Palace",
+          "Ghurni Artist Village",
+          "Krishnanagar Court",
+          "Jagadhatri Temple"
+        ],
+        "railway": "Krishnanagar City Junction"
+      },
+      {
+        "name": "Diamond Harbour",
+        "slug": "diamond-harbour",
+        "alternateNames": ["Diamond Harbor", "Hajipur"],
+        "lat": 22.1918,
+        "lng": 88.1917,
+        "tourist": true,
+        "description": "Diamond Harbour is a riverside town on the banks of the Hooghly River in South 24 Parganas. A popular day trip from Kolkata, it offers beautiful riverfront views, the historic Diamond Harbour Fort ruins, and fresh seafood.",
+        "landmarks": [
+          "Diamond Harbour Fort Ruins",
+          "Riverside Promenade",
+          "Diamond Harbour Lighthouse",
+          "Roy Chowdhury Rajbari"
+        ],
+        "railway": "Diamond Harbour Railway Station"
+      },
+      {
+        "name": "Haldia",
+        "slug": "haldia",
+        "lat": 22.0667,
+        "lng": 88.0698,
+        "tourist": false,
+        "description": "Haldia is a major port city and industrial hub in Purba Medinipur district. It is one of the most important commercial centers in West Bengal with petrochemical industries and the Haldia Dock Complex.",
+        "landmarks": [
+          "Haldia Port",
+          "Haldia Petrochemicals",
+          "Rupnarayan River Front"
+        ],
+        "railway": "Haldia Railway Station"
+      },
+      {
+        "name": "Contai",
+        "slug": "contai",
+        "alternateNames": ["Kanthi", "Contai Medinipur"],
+        "lat": 21.779,
+        "lng": 87.749,
+        "tourist": false,
+        "description": "Contai (Kanthi) is a coastal city in Purba Medinipur district, serving as the gateway to popular beach destinations like Digha and Mandarmani. Known for its agriculture, fishing industry, and cultural heritage.",
+        "landmarks": [
+          "Contai Clock Tower",
+          "Hijli Light House",
+          "Dharma Raja Temple"
+        ],
+        "railway": "Contai Railway Station"
+      },
+      {
+        "name": "Tamluk",
+        "slug": "tamluk",
+        "alternateNames": ["Tamralipta", "Tamralipto"],
+        "lat": 22.2296,
+        "lng": 87.9201,
+        "tourist": true,
+        "description": "Tamluk (ancient Tamralipta) is one of the oldest continuously inhabited cities in Bengal. It was a major port of the ancient Mauryan and Gupta empires, and the district headquarters of Purba Medinipur.",
+        "landmarks": [
+          "Bargabhima Temple",
+          "Paresh Nath Shiv Mandir",
+          "Tamralipta Museum",
+          "Tamluk Rajbari"
+        ],
+        "railway": "Tamluk Railway Station"
+      },
+      {
+        "name": "Alipurduar",
+        "slug": "alipurduar",
+        "lat": 26.4888,
+        "lng": 89.53,
+        "tourist": true,
+        "description": "Alipurduar is the gateway to Bhutan and the Dooars region. It is the administrative headquarters of the Alipurduar district and surrounded by dense forests, tea gardens, and wildlife sanctuaries.",
+        "landmarks": [
+          "Buxa Tiger Reserve",
+          "Rajabhatkhawa Forest",
+          "Jayanti River",
+          "Dooars Tea Gardens"
+        ],
+        "airport": "Alipurduar Airport (proposed)",
+        "railway": "Alipurduar Junction"
+      },
+      {
+        "name": "Raiganj",
+        "slug": "raiganj",
+        "lat": 25.6208,
+        "lng": 88.1233,
+        "tourist": true,
+        "description": "Raiganj is the administrative headquarters of Uttar Dinajpur district. It is home to the Raiganj Wildlife Sanctuary (Kulik Bird Sanctuary), one of the largest bird sanctuaries in Asia.",
+        "landmarks": [
+          "Raiganj Wildlife Sanctuary",
+          "Kulik River",
+          "Karnajora Palace",
+          "Raiganj Town Mosque"
+        ],
+        "railway": "Raiganj Railway Station"
+      },
+      {
+        "name": "Balurghat",
+        "slug": "balurghat",
+        "lat": 25.2269,
+        "lng": 88.7627,
+        "tourist": false,
+        "description": "Balurghat is the administrative headquarters of Dakshin Dinajpur district, situated near the Bangladesh border. It is an important commercial and educational center in northern West Bengal.",
+        "landmarks": [
+          "Balurghat Town Hall",
+          "Ramkrishna Mission",
+          "Karnajora Rajbari (nearby)"
+        ],
+        "railway": "Balurghat Railway Station"
+      },
+      {
+        "name": "Baharampur",
+        "slug": "baharampur",
+        "alternateNames": ["Berhampore", "Berhampur WB", "Barhampur", "Behrampur", "Baharampur WB"],
+        "lat": 24.1031,
+        "lng": 88.2513,
+        "tourist": true,
+        "description": "Baharampur (Berhampore) is the administrative headquarters of Murshidabad district, situated on the banks of the Bhagirathi River. Known for its silk industry, historical significance, and proximity to Hazarduari Palace.",
+        "landmarks": [
+          "Kasimbazar Palace",
+          "Khagra Mosque",
+          "Baharampur Silk Mills",
+          "Kathgola Gardens"
+        ],
+        "railway": "Baharampur Court Railway Station"
+      },
+      {
+        "name": "Hooghly",
+        "slug": "hooghly",
+        "alternateNames": ["Chinsurah", "Chinsura", "Hughli"],
+        "lat": 22.9089,
+        "lng": 88.3967,
+        "tourist": true,
+        "description": "Hooghly (Chinsurah) is the headquarters of Hooghly district with a rich colonial history. It was a Dutch, Portuguese, and French colony. The district is also home to the famous Bandel Church and Imambara.",
+        "landmarks": [
+          "Bandel Church",
+          "Hooghly Imambara",
+          "Chinsurah Clock Tower",
+          "Triveni Sangam (Tribeni)"
+        ],
+        "railway": "Hooghly Railway Station"
+      },
+      {
+        "name": "Kolkata Airport",
+        "slug": "kolkata-airport",
+        "lat": 22.652,
+        "lng": 88.4463,
+        "type": "hub",
+        "tourist": false,
+        "description": "Netaji Subhash Chandra Bose International Airport (CCU) is the primary airport serving the Kolkata metropolitan area.",
+        "landmarks": [
+          "Terminal 2",
+          "VIP Road",
+          "Eco Park"
+        ]
+      },
+      {
+        "name": "Salt Lake",
+        "slug": "salt-lake-kolkata",
+        "lat": 22.5866,
+        "lng": 88.4115,
+        "type": "region",
+        "tourist": false,
+        "description": "Salt Lake or Bidhannagar is a planned satellite town in the Indian state of West Bengal.",
+        "landmarks": [
+          "Sector V",
+          "City Centre",
+          "Nicco Park"
+        ]
+      },
+      {
+        "name": "New Town",
+        "slug": "new-town-kolkata",
+        "lat": 22.5804,
+        "lng": 88.4556,
+        "type": "region",
+        "tourist": false,
+        "description": "New Town is an emerging business and residential hub in the northeastern fringes of Kolkata.",
+        "landmarks": [
+          "Biswa Bangla Gate",
+          "Eco Park",
+          "Action Area I"
+        ]
+      },
+      {
+        "name": "Satragachhi",
+        "slug": "satragachhi",
+        "lat": 22.5836,
+        "lng": 88.2333,
+        "type": "region",
+        "tourist": false,
+        "description": "Satragachhi is an important locality in Howrah district, home to the Satragachhi railway station — a major junction serving as an alternative gateway to Howrah for passengers from South Bengal. Conveniently connected to Kolkata via Howrah Bridge.",
+        "landmarks": [
+          "Satragachhi Railway Station",
+          "Howrah Bridge (nearby)",
+          "Shalimar Goods Yard"
+        ],
+        "railway": "Satragachhi Railway Station"
+      },
+      {
+        "name": "Uluberia",
+        "slug": "uluberia",
+        "lat": 22.4692,
+        "lng": 88.1098,
+        "tourist": false,
+        "description": "Uluberia is a municipal town in Howrah district on the banks of the Hooghly River. Known for its jute mills, industrial units, and the Uluberia Railway Station. It serves as a transit point between Kolkata and Kharagpur.",
+        "landmarks": [
+          "Uluberia Railway Station",
+          "Hooghly River Ghat",
+          "Rajabazar Market"
+        ],
+        "railway": "Uluberia Railway Station"
+      },
+      {
+        "name": "Serampore",
+        "slug": "serampore",
+        "alternateNames": ["Srirampur", "Shrirampur", "Serampore WB"],
+        "lat": 22.7483,
+        "lng": 88.3408,
+        "tourist": true,
+        "description": "Serampore (Srirampur) is a historic town in Hooghly district, once a Danish colonial settlement. Known for Serampore College, one of the oldest universities in Asia, and the historic Frederiksnagore church. A popular day trip from Kolkata.",
+        "landmarks": [
+          "Serampore College",
+          "St. Olav's Church",
+          "Frederiksnagore",
+          "Mahesh Rath Yatra Ground"
+        ],
+        "railway": "Serampore Railway Station"
+      },
+      {
+        "name": "Chandannagar",
+        "slug": "chandannagar",
+        "alternateNames": ["Chandernagore", "Chandernagor"],
+        "lat": 22.8697,
+        "lng": 88.3589,
+        "tourist": true,
+        "description": "Chandannagar (Chandernagore) is a historic French colonial town on the banks of the Hooghly River in Hooghly district. Famous for its Jagaddhatri Puja, the promenade (Strand), and the French architecture preserved from colonial times.",
+        "landmarks": [
+          "Chandannagar Strand",
+          "Institut de Chandernagore",
+          "Sacred Heart Church",
+          "Jagaddhatri Puja Ground"
+        ],
+        "railway": "Chandannagar Railway Station"
+      },
+      {
+        "name": "Tarkeshwar",
+        "slug": "tarkeshwar",
+        "alternateNames": ["Tarakeswar", "Tarakeshwar", "Baba Tarkeshwar"],
+        "lat": 22.8876,
+        "lng": 88.0103,
+        "tourist": true,
+        "description": "Tarkeshwar (Tarakeswar) is a famous pilgrimage town in Hooghly district, home to the ancient Baba Tarkeshwar Shiva Temple — one of the most sacred Shiva temples in West Bengal. Lakhs of devotees visit during Shivratri and Shravan month.",
+        "landmarks": [
+          "Tarkeshwar Shiva Temple",
+          "Dharamdanga Pond",
+          "Anandamayee Ashram"
+        ],
+        "railway": "Tarakeswar Railway Station"
+      },
+      {
+        "name": "Kolaghat",
+        "slug": "kolaghat",
+        "lat": 22.3527,
+        "lng": 87.8285,
+        "tourist": false,
+        "description": "Kolaghat is an important junction town in East Medinipur, situated at the confluence of NH-16 and NH-116. It serves as a major transit point on the route to Digha, Haldia, and Mandarmani from Kolkata.",
+        "landmarks": [
+          "Kolaghat Thermal Power Station",
+          "Rupnarayan River Bridge",
+          "Kolaghat Bus Stand"
+        ],
+        "railway": "Mecheda Railway Station (nearest)"
+      },
+      {
+        "name": "Bagnan",
+        "slug": "bagnan",
+        "lat": 22.4709,
+        "lng": 88.0316,
+        "tourist": false,
+        "description": "Bagnan is a town in Howrah district, situated on NH-6. It serves as an important junction for travelers heading towards Kharagpur and South Bengal. The town is known for its rice and jute trade.",
+        "landmarks": [
+          "Bagnan Railway Station",
+          "Rupnarayan River Ghat",
+          "Bagnan Market"
+        ],
+        "railway": "Bagnan Railway Station"
+      },
+      {
+        "name": "Arambagh",
+        "slug": "arambagh",
+        "lat": 22.8683,
+        "lng": 87.7937,
+        "tourist": true,
+        "description": "Arambagh is the sub-divisional headquarters of Arambagh subdivision in Hooghly district. Known for the nearby Kamarpukur — birthplace of Sri Ramakrishna Paramahamsa — making it an important pilgrimage circuit in Bengal.",
+        "landmarks": [
+          "Kamarpukur (Birthplace of Ramakrishna)",
+          "Jayrambati (Birthplace of Sarada Devi)",
+          "Tarakeswar Temple (nearby)"
+        ],
+        "railway": "Arambagh Station"
+      },
+      {
+        "name": "Barasat",
+        "slug": "barasat",
+        "lat": 22.7221,
+        "lng": 88.4828,
+        "tourist": false,
+        "description": "Barasat is the administrative headquarters of North 24 Parganas district, one of the most populated districts in India. Located just 20 km from Kolkata, it is a major commercial hub and a key junction on the highway to North Bengal and Bangladesh border.",
+        "landmarks": [
+          "Barasat Kali Temple",
+          "Krishnachandra Kachhari",
+          "Barasat Stadium",
+          "Barasat College"
+        ],
+        "railway": "Barasat Railway Station"
+      },
+      {
+        "name": "Kalyani",
+        "slug": "kalyani",
+        "lat": 22.9753,
+        "lng": 88.4341,
+        "tourist": false,
+        "description": "Kalyani is a planned satellite town in Nadia district, famous for its medical hub — JNMCH (Jawaharlal Nehru Memorial Hospital) and Kalyani University. A major destination for medical treatment from across West Bengal and Bangladesh.",
+        "landmarks": [
+          "Kalyani University",
+          "JNM Hospital (JNMCH)",
+          "Kalyani Stadium",
+          "Ganga Barrage"
+        ],
+        "railway": "Kalyani Railway Station"
+      },
+      {
+        "name": "Bongaon",
+        "slug": "bongaon",
+        "lat": 23.0527,
+        "lng": 88.8286,
+        "tourist": false,
+        "description": "Bongaon is a major city in North 24 Parganas near the Bangladesh border. It is an important trade and transit hub, serving as the entry point to the Petrapole-Benapole border crossing — India's busiest land port with Bangladesh.",
+        "landmarks": [
+          "Petrapole Border",
+          "Bongaon Town Hall",
+          "Ichhamati River",
+          "Thakurnagar (Matua Dhaam)"
+        ],
+        "railway": "Bongaon Railway Station"
+      },
+      {
+        "name": "Ranaghat",
+        "slug": "ranaghat",
+        "lat": 23.1809,
+        "lng": 88.5625,
+        "tourist": false,
+        "description": "Ranaghat is an important city and railway junction in Nadia district, serving as a major transit point between Kolkata, Bongaon, Krishnanagar, and North Bengal. The city is known for its historical significance and cultural events.",
+        "landmarks": [
+          "Ranaghat Railway Junction",
+          "Dwaraka River",
+          "Ranaghat College",
+          "Ranaghat Rajbari"
+        ],
+        "railway": "Ranaghat Junction"
+      },
+      {
+        "name": "Basirhat",
+        "slug": "basirhat",
+        "lat": 22.6567,
+        "lng": 88.8687,
+        "tourist": false,
+        "description": "Basirhat is the sub-divisional headquarters of Basirhat subdivision in North 24 Parganas, situated near the Bangladesh border and the Ichhamati River. An important commercial town serving the border region and Sundarbans.",
+        "landmarks": [
+          "Ichhamati River Ghat",
+          "Bashanti Temple",
+          "Basirhat Town Market"
+        ],
+        "railway": "Basirhat Railway Station"
+      },
+      {
+        "name": "Barrackpore",
+        "slug": "barrackpore",
+        "lat": 22.7624,
+        "lng": 88.3729,
+        "tourist": true,
+        "description": "Barrackpore is a historic garrison town on the banks of the Hooghly River in North 24 Parganas, with deep roots in India's independence movement. Mangal Pandey, the hero of 1857, launched his revolt here. The Gandhi Ghat and Army Museum are major attractions.",
+        "landmarks": [
+          "Gandhi Ghat",
+          "Mangal Pandey Memorial Park",
+          "Barrackpore Army Museum",
+          "Barrackpore Cantonment"
+        ],
+        "railway": "Barrackpore Railway Station"
+      },
+      {
+        "name": "Dum Dum",
+        "slug": "dum-dum",
+        "lat": 22.6532,
+        "lng": 88.3956,
+        "tourist": false,
+        "description": "Dum Dum is a suburban area in North 24 Parganas, famous for being adjacent to Netaji Subhas Chandra Bose International Airport (Kolkata Airport). A major transit hub for air travelers, it also has significant industrial and residential zones.",
+        "landmarks": [
+          "Dum Dum Airport Junction",
+          "Noapara Metro Station",
+          "Dum Dum Cantonment",
+          "Dum Dum Railway Station"
+        ],
+        "railway": "Dum Dum Railway Station"
+      },
+      {
+        "name": "Habra",
+        "slug": "habra",
+        "lat": 22.8368,
+        "lng": 88.6558,
+        "tourist": false,
+        "description": "Habra is a bustling commercial town in North 24 Parganas district. Located on the Barasat-Bongaon road, it serves as an important junction for travellers heading to the Sundarbans, Basirhat, and Bangladesh border areas.",
+        "landmarks": [
+          "Habra Railway Station",
+          "Habra Market",
+          "Amdanga (nearby)"
+        ],
+        "railway": "Habra Railway Station"
+      },
+      {
+        "name": "Naihati",
+        "slug": "naihati",
+        "lat": 22.8929,
+        "lng": 88.4198,
+        "tourist": false,
+        "description": "Naihati is a municipal town in North 24 Parganas on the west bank of the Hooghly River. Known for its jute mills, it is also the birthplace of renowned Bengali writer Bibhutibhushan Bandyopadhyay (author of Pather Panchali).",
+        "landmarks": [
+          "Bibhutibhushan Smriti Mandir",
+          "Naihati Hooghly Ghat",
+          "Naihati Railway Station"
+        ],
+        "railway": "Naihati Railway Station"
+      },
+      {
+        "name": "Kakdwip",
+        "slug": "kakdwip",
+        "lat": 21.8811,
+        "lng": 88.1795,
+        "tourist": true,
+        "description": "Kakdwip is the main gateway to Gangasagar (Sagar Island) and a key town in South 24 Parganas. The Kachuberia ferry terminal here connects to Sagar Island. Kakdwip is also known for its fishing community and proximity to the Sundarbans.",
+        "landmarks": [
+          "Kachuberia Ferry Ghat (to Gangasagar)",
+          "Kakdwip Fish Market",
+          "Namkhana (nearby)"
+        ],
+        "railway": "Lakshmikantapur Station (nearest)"
+      },
+      {
+        "name": "Jhargram",
+        "slug": "jhargram",
+        "lat": 22.4458,
+        "lng": 86.9864,
+        "tourist": true,
+        "description": "Jhargram is the headquarters of Jhargram district, surrounded by dense sal forests and scenic countryside. Known as a forest retreat, it offers peace and natural beauty with the famous Jhargram Palace and proximity to tribal culture tourism.",
+        "landmarks": [
+          "Jhargram Palace",
+          "Jhilimili Forest",
+          "Kangsabati River",
+          "Kankrajhor Forest"
+        ],
+        "railway": "Jhargram Railway Station"
+      },
+      {
+        "name": "Raniganj",
+        "slug": "raniganj",
+        "lat": 23.6167,
+        "lng": 87.1333,
+        "tourist": false,
+        "description": "Raniganj is a historic coal town in Paschim Bardhaman district, known as the birthplace of India's coal mining industry. The Raniganj Coalfield, established in 1774, is one of the largest coalfields in India.",
+        "landmarks": [
+          "Raniganj Coalfield",
+          "Shyama Prasad Mukherjee Museum",
+          "Bengal Coal Company"
+        ],
+        "railway": "Raniganj Railway Station"
+      },
+      {
+        "name": "Kalna",
+        "slug": "kalna",
+        "lat": 23.2193,
+        "lng": 88.3715,
+        "tourist": true,
+        "description": "Kalna (Ambika Kalna) is a historic temple town in Purba Bardhaman district on the banks of the Hooghly River. Famous for the Kalna Rajbari complex with 108 Shiva temples arranged in two concentric circles — a unique architectural marvel of Bengal.",
+        "landmarks": [
+          "108 Shiva Temples (Rajbari)",
+          "Pratapeshwar Temple",
+          "Lalji Temple",
+          "Kalna Hooghly Ghat"
+        ],
+        "railway": "Ambika Kalna Railway Station"
+      },
+      {
+        "name": "Katwa",
+        "slug": "katwa",
+        "lat": 23.6448,
+        "lng": 88.1295,
+        "tourist": true,
+        "description": "Katwa is a historically significant town in Purba Bardhaman district on the confluence of the Bhagirathi and Ajay rivers. It was the birthplace of Chaitanya Mahaprabhu's early follower Nityananda Prabhu and the site of the Battle of Katwa during Siraj ud-Daulah's time.",
+        "landmarks": [
+          "Katwa Rajbari",
+          "Bhagirathi-Ajoy Sangam",
+          "Nityananda Prabhu Birthplace",
+          "Katwa Court"
+        ],
+        "railway": "Katwa Railway Station"
+      },
+      {
+        "name": "Chakdah",
+        "slug": "chakdah",
+        "lat": 23.0829,
+        "lng": 88.5229,
+        "tourist": false,
+        "description": "Chakdah is a town in Nadia district known for its agricultural produce, sports goods manufacturing, and as a transit point between Kolkata and Krishnanagar. The town is notable for producing many sportsmen and athletes.",
+        "landmarks": [
+          "Chakdah Railway Station",
+          "Churni River",
+          "Chakdah Sports Ground"
+        ],
+        "railway": "Chakdah Railway Station"
+      },
+      {
+        "name": "Islampur",
+        "slug": "islampur",
+        "lat": 26.2659,
+        "lng": 88.1916,
+        "tourist": false,
+        "description": "Islampur is an important city in Uttar Dinajpur district in North Bengal, serving as a major commercial hub for the region. Located on NH 31, it is a gateway to North Bengal, Sikkim, and Darjeeling from this route.",
+        "landmarks": [
+          "Islampur Town Market",
+          "Maharaja Hat",
+          "Goalpokhor (nearby)"
+        ],
+        "railway": "Islampur Railway Station"
+      },
+      {
+        "name": "Dalkhola",
+        "slug": "dalkhola",
+        "lat": 25.8719,
+        "lng": 87.837,
+        "tourist": false,
+        "description": "Dalkhola is a strategic town in Uttar Dinajpur district at the trijunction of West Bengal, Bihar, and Jharkhand. It is a major transit point on NH 31 for travellers heading to North Bengal, Sikkim, and Northeast India.",
+        "landmarks": [
+          "Dalkhola Highway Junction",
+          "Kulik River",
+          "Dalkhola Bus Terminal"
+        ],
+        "railway": "Dalkhola Railway Station"
+      },
+      {
+        "name": "Lalbagh",
+        "slug": "lalbagh",
+        "lat": 24.1788,
+        "lng": 88.2716,
+        "tourist": true,
+        "description": "Lalbagh is a historical town in Murshidabad district, known for the ruins of the Lalbagh Fort — the incomplete palace of Nawab Shaista Khan and Aurangzeb's son. The town offers a glimpse into Bengal's Mughal-era history.",
+        "landmarks": [
+          "Lalbagh Fort Ruins",
+          "Bhagirathi River Ghat",
+          "Murshidabad Heritage Tour"
+        ],
+        "railway": "Murshidabad Station (nearby)"
+      },
+      {
+        "name": "Beldanga",
+        "slug": "beldanga",
+        "lat": 23.9266,
+        "lng": 88.2481,
+        "tourist": false,
+        "description": "Beldanga is a town in Murshidabad district on the banks of the Bhagirathi River. Known for its silk weaving industry and as a railway junction connecting Baharampur to Kolkata and Azimganj.",
+        "landmarks": [
+          "Beldanga Railway Station",
+          "Bhagirathi River Bank",
+          "Silk Weaving Villages"
+        ],
+        "railway": "Beldanga Railway Station"
+      },
+      {
+        "name": "Karimpur",
+        "slug": "karimpur",
+        "lat": 23.97,
+        "lng": 88.623,
+        "tourist": false,
+        "description": "Karimpur is a border town in Nadia district near the Bangladesh border. Known for vegetable farming and trade, it is one of the important agricultural towns of Nadia with regular commercial activity.",
+        "landmarks": [
+          "Karimpur Bazar",
+          "Mathabhanga River",
+          "Majdia (nearby railway town)"
+        ],
+        "railway": "Majdia Railway Station (nearest)"
+      }
+    ]
+  },
+  "odisha": {
+    "name": "Odisha",
+    "capital": "Bhubaneswar",
+    "slug": "odisha",
+    "description": "Odisha (formerly Orissa) is a state on India's eastern coast known for its ancient temples, tribal cultures, and pristine beaches. From the Sun Temple at Konark to the sacred city of Puri and the wildlife sanctuaries of Simlipal, Odisha is a treasure trove for travelers.",
+    "cities": [
+      {
+        "name": "Bhubaneswar",
+        "slug": "bhubaneswar",
+        "alternateNames": ["Bhubaneshwar", "Bhuwneshwar", "Bhuvaneshwar"],
+        "lat": 20.2961,
+        "lng": 85.8245,
+        "type": "hub",
+        "tourist": true,
+        "description": "Bhubaneswar, the Temple City of India, is the capital of Odisha. With over 700 temples, it's a center of art, culture, and spirituality. The city is also a growing IT hub.",
+        "landmarks": [
+          "Lingaraj Temple",
+          "Udaygiri & Khandagiri Caves",
+          "Nandankanan Zoo",
+          "Dhauli Shanti Stupa",
+          "Rajarani Temple"
+        ],
+        "airport": "Biju Patnaik International Airport",
+        "railway": "Bhubaneswar Railway Station"
+      },
+      {
+        "name": "Puri",
+        "slug": "puri",
+        "alternateNames": ["Jagannath Puri", "Puri Odisha", "Shree Puri"],
+        "lat": 19.8135,
+        "lng": 85.8312,
+        "tourist": true,
+        "description": "Puri is one of the four holy Dhams and home to the famous Jagannath Temple. The city's Golden Beach and the annual Rath Yatra festival attract millions of pilgrims and tourists.",
+        "landmarks": [
+          "Jagannath Temple",
+          "Puri Beach",
+          "Chilika Lake (nearby)",
+          "Raghurajpur Artist Village"
+        ],
+        "railway": "Puri Railway Station"
+      },
+      {
+        "name": "Cuttack",
+        "slug": "cuttack",
+        "alternateNames": ["Katak", "Kataka", "Silver City"],
+        "lat": 20.4625,
+        "lng": 85.8828,
+        "tourist": true,
+        "description": "Cuttack, the Silver City, is the former capital of Odisha and one of the oldest cities in India. Known for its silver filigree work, Barabati Fort, and Durga Puja celebrations.",
+        "landmarks": [
+          "Barabati Fort",
+          "Netaji Birth Place Museum",
+          "Cuttack Chandi Temple"
+        ],
+        "railway": "Cuttack Railway Station"
+      },
+      {
+        "name": "Rourkela",
+        "slug": "rourkela",
+        "alternateNames": ["Raurkela", "Rourkela Odisha"],
+        "lat": 22.227,
+        "lng": 84.8642,
+        "tourist": false,
+        "description": "Rourkela is a major industrial city, home to the Rourkela Steel Plant and NIT Rourkela. Located near beautiful waterfalls and the Mandira Dam.",
+        "landmarks": [
+          "Vedavyas Temple",
+          "Mandira Dam",
+          "Hanuman Vatika"
+        ],
+        "airport": "Rourkela Airport",
+        "railway": "Rourkela Railway Station"
+      },
+      {
+        "name": "Sambalpur",
+        "slug": "sambalpur",
+        "alternateNames": ["Sambhalpur", "Sambalpur Odisha"],
+        "lat": 21.4669,
+        "lng": 83.9756,
+        "tourist": true,
+        "description": "Sambalpur is known for its handloom textiles (Sambalpuri sarees), the famous Hirakud Dam, and the vibrant Sitalsasthi carnival.",
+        "landmarks": [
+          "Hirakud Dam",
+          "Samaleswari Temple",
+          "Huma Leaning Temple",
+          "Ushakothi Wildlife Sanctuary"
+        ],
+        "railway": "Sambalpur Railway Station"
+      },
+      {
+        "name": "Berhampur",
+        "slug": "berhampur",
+        "alternateNames": ["Brahmapur", "Berhampur Ganjam", "Berhampore Odisha", "Berhampur Odisha"],
+        "lat": 19.315,
+        "lng": 84.7941,
+        "tourist": false,
+        "description": "Berhampur (Brahmapur) is a major commercial city in southern Odisha, known for its silk sarees and proximity to scenic beaches like Gopalpur-on-Sea.",
+        "landmarks": [
+          "Gopalpur Beach",
+          "Tara Tarini Temple",
+          "Nirmaljhar"
+        ],
+        "railway": "Berhampur Railway Station"
+      },
+      {
+        "name": "Balasore",
+        "slug": "balasore",
+        "alternateNames": ["Baleshwar", "Balaswar", "Balasore Odisha"],
+        "lat": 21.4942,
+        "lng": 86.9335,
+        "tourist": true,
+        "description": "Balasore (Baleshwar) is famous for Chandipur Beach, where the sea recedes up to 5 km during low tide. It's also the site of India's missile testing range.",
+        "landmarks": [
+          "Chandipur Beach",
+          "Panchalingeswar Temple",
+          "Kuldiha Forest"
+        ],
+        "railway": "Balasore Railway Station"
+      },
+      {
+        "name": "Bhadrak",
+        "slug": "bhadrak",
+        "lat": 21.0585,
+        "lng": 86.4949,
+        "tourist": false,
+        "description": "Bhadrak is a district town in Odisha situated on the banks of the Salandi River. It is an important railway junction on the Howrah-Chennai main line and serves as a commercial hub for the surrounding coastal region. The Bhadrak Akhandalamani Temple is a popular religious site.",
+        "landmarks": [
+          "Akhandalamani Temple",
+          "Salandi River Ghat",
+          "Bhadrak Market",
+          "Aradi Beach (nearby)"
+        ],
+        "railway": "Bhadrak Railway Station"
+      },
+      {
+        "name": "Konark",
+        "slug": "konark",
+        "alternateNames": ["Konarak", "Konark Odisha", "Sun Temple Konark"],
+        "lat": 19.8876,
+        "lng": 86.0945,
+        "tourist": true,
+        "description": "Konark is world-famous for the Sun Temple, a UNESCO World Heritage Site. The 13th-century temple is shaped like a giant chariot and is a masterpiece of Kalinga architecture.",
+        "landmarks": [
+          "Sun Temple (UNESCO)",
+          "Konark Beach",
+          "Chandrabhaga Beach",
+          "ASI Museum"
+        ]
+      },
+      {
+        "name": "Chilika",
+        "slug": "chilika",
+        "lat": 19.7167,
+        "lng": 85.3167,
+        "tourist": true,
+        "description": "Chilika Lake is Asia's largest brackish water lagoon and a Ramsar wetland. It's a paradise for bird watchers, with millions of migratory birds visiting every winter.",
+        "landmarks": [
+          "Kalijai Temple",
+          "Nalabana Bird Sanctuary",
+          "Satapada (Dolphin Point)",
+          "Rambha Bay"
+        ]
+      },
+      {
+        "name": "Dhenkanal",
+        "slug": "dhenkanal",
+        "lat": 20.6508,
+        "lng": 85.5963,
+        "tourist": false,
+        "description": "Dhenkanal is a historic town known for its cultural heritage and proximity to Kapilash Temple. The district has lush forests and the Saptasajya hills.",
+        "landmarks": [
+          "Kapilash Temple",
+          "Saptasajya Hills",
+          "Joranda"
+        ],
+        "railway": "Dhenkanal Railway Station"
+      },
+      {
+        "name": "Koraput",
+        "slug": "koraput",
+        "lat": 18.8135,
+        "lng": 82.7108,
+        "tourist": true,
+        "description": "Koraput is known for its beautiful tribal culture, coffee plantations, and scenic landscapes. The region offers unique tribal tourism experiences.",
+        "landmarks": [
+          "Jagannath Temple Koraput",
+          "Duduma Falls",
+          "Tribal Museum"
+        ],
+        "railway": "Koraput Railway Station"
+      },
+      {
+        "name": "Rayagada",
+        "slug": "rayagada",
+        "lat": 19.17,
+        "lng": 83.41,
+        "tourist": false,
+        "description": "Rayagada is known for the Dongariya Kondh tribe and the scenic Chatikona Valley. The region offers authentic tribal tourism experiences.",
+        "landmarks": [
+          "Minajhola Falls",
+          "Chatikona Valley"
+        ],
+        "railway": "Rayagada Railway Station"
+      },
+      {
+        "name": "Angul",
+        "slug": "angul",
+        "lat": 20.8341,
+        "lng": 85.0987,
+        "tourist": false,
+        "description": "Angul is an important industrial city in Odisha, home to the NALCO aluminum smelter and thermal power plants. It is also known for the Satkosia Gorge wildlife sanctuary nearby.",
+        "landmarks": [
+          "Satkosia Gorge",
+          "NALCO Complex",
+          "Tikarpada Wildlife Sanctuary"
+        ],
+        "railway": "Angul Railway Station"
+      },
+      {
+        "name": "Jharsuguda",
+        "slug": "jharsuguda",
+        "lat": 21.8554,
+        "lng": 84.0064,
+        "tourist": false,
+        "description": "Jharsuguda is an important industrial and mining city in western Odisha, known for its coal mines, power plants, and as a major railway junction connecting Odisha with Chhattisgarh.",
+        "landmarks": [
+          "Lakhanpur",
+          "Belpahar Temple",
+          "Hirakud Reservoir (nearby)"
+        ],
+        "airport": "Veer Surendra Sai Airport",
+        "railway": "Jharsuguda Junction"
+      },
+      {
+        "name": "Baripada",
+        "slug": "baripada",
+        "lat": 21.9322,
+        "lng": 86.7247,
+        "tourist": true,
+        "description": "Baripada is the gateway to Simlipal National Park, one of India's major tiger reserves. The town is known for its tribal heritage, Chhau dance festival, and the famous Rath Yatra.",
+        "landmarks": [
+          "Simlipal National Park",
+          "Jagannath Temple Baripada",
+          "Devkund Waterfall",
+          "Hunting Tower"
+        ],
+        "railway": "Baripada Railway Station"
+      },
+      {
+        "name": "Jeypore",
+        "slug": "jeypore",
+        "lat": 18.8564,
+        "lng": 82.5713,
+        "tourist": true,
+        "description": "Jeypore (Koraput district) is known for its rich tribal culture, beautiful waterfalls, and as a gateway to the tribal hinterland of southern Odisha. The Haat Kali Temple and weekly tribal markets are major attractions.",
+        "landmarks": [
+          "Haat Kali Temple",
+          "Gupteswar Cave",
+          "Kolab Reservoir",
+          "Tribal Haat Market"
+        ],
+        "railway": "Jeypore Railway Station"
+      },
+      {
+        "name": "Gopalpur",
+        "slug": "gopalpur",
+        "lat": 19.2583,
+        "lng": 84.9048,
+        "tourist": true,
+        "description": "Gopalpur-on-Sea is a serene beach town in southern Odisha, known for its old-world charm, colonial-era lighthouse, and tranquil beach. Once a bustling port, it's now a peaceful beach getaway.",
+        "landmarks": [
+          "Gopalpur Beach",
+          "Gopalpur Lighthouse",
+          "Old Port Area",
+          "Rushikulya Turtle Nesting Beach (nearby)"
+        ],
+        "railway": "Berhampur Railway Station (nearest)"
+      }
+    ]
+  },
+  "jharkhand": {
+    "name": "Jharkhand",
+    "capital": "Ranchi",
+    "slug": "jharkhand",
+    "description": "Jharkhand, the Land of Forests, is blessed with stunning waterfalls, dense forests, and rich tribal culture. From the waterfalls around Ranchi to the religious significance of Deoghar and the industrial cities of Jamshedpur and Dhanbad, Jharkhand offers diverse experiences.",
+    "cities": [
+      {
+        "name": "Ranchi",
+        "slug": "ranchi",
+        "alternateNames": ["Ranchi Jharkhand", "City of Waterfalls"],
+        "lat": 23.3441,
+        "lng": 85.3096,
+        "type": "hub",
+        "tourist": true,
+        "description": "Ranchi, the capital of Jharkhand, is known as the City of Waterfalls. Surrounded by beautiful waterfalls like Hundru, Jonha, and Dassam Falls, Ranchi is a perfect blend of nature and urban development.",
+        "landmarks": [
+          "Hundru Falls",
+          "Jonha Falls",
+          "Dassam Falls",
+          "Tagore Hill",
+          "Rock Garden",
+          "Kanke Dam"
+        ],
+        "airport": "Birsa Munda Airport",
+        "railway": "Ranchi Railway Station"
+      },
+      {
+        "name": "Jamshedpur",
+        "slug": "jamshedpur",
+        "alternateNames": ["Tata", "Tatanagar", "Jamsedpur", "Tata Nagar", "Steel City", "Tata City"],
+        "lat": 22.8046,
+        "lng": 86.2029,
+        "tourist": false,
+        "description": "Jamshedpur, the Steel City, was founded by Tata Group and is India's first planned industrial city. Known for Jubilee Park, Dimna Lake, and the Tata Steel Works.",
+        "landmarks": [
+          "Jubilee Park",
+          "Dimna Lake",
+          "Tata Steel Zoological Park",
+          "Dalma Wildlife Sanctuary"
+        ],
+        "railway": "Tatanagar Junction"
+      },
+      {
+        "name": "Dhanbad",
+        "slug": "dhanbad",
+        "alternateNames": ["Dhanbaad", "Coal Capital", "Dhanbad Jharkhand"],
+        "lat": 23.7957,
+        "lng": 86.4304,
+        "tourist": false,
+        "description": "Dhanbad is known as the Coal Capital of India. Home to IIT ISM and surrounded by numerous coal mines, it's a major industrial city in Jharkhand.",
+        "landmarks": [
+          "Maithon Dam",
+          "Topchanchi Lake",
+          "Panchet Dam"
+        ],
+        "railway": "Dhanbad Junction"
+      },
+      {
+        "name": "Bokaro",
+        "slug": "bokaro",
+        "alternateNames": ["Bokaro Steel City", "BSL"],
+        "lat": 23.6693,
+        "lng": 86.1511,
+        "tourist": false,
+        "description": "Bokaro Steel City is home to one of India's largest steel plants. The city is well-planned with beautiful parks and the Bokaro Steel Plant complex.",
+        "landmarks": [
+          "City Park",
+          "Jawaharlal Nehru Biological Park",
+          "Garga Dam"
+        ],
+        "railway": "Bokaro Steel City Station"
+      },
+      {
+        "name": "Hazaribagh",
+        "slug": "hazaribagh",
+        "alternateNames": ["Hazaribag", "Hazaribagh Jharkhand"],
+        "lat": 23.9925,
+        "lng": 85.3616,
+        "tourist": true,
+        "description": "Hazaribagh, meaning 'City of a Thousand Gardens', is known for its natural beauty, Canary Hill, and the Hazaribagh Wildlife Sanctuary.",
+        "landmarks": [
+          "Canary Hill",
+          "Hazaribagh Lake",
+          "Hazaribagh National Park",
+          "Rajrappa Temple"
+        ],
+        "railway": "Hazaribagh Road Station"
+      },
+      {
+        "name": "Deoghar",
+        "slug": "deoghar",
+        "alternateNames": ["Deogarh", "Baidyanath Dham", "Deoghar Jharkhand"],
+        "lat": 24.4833,
+        "lng": 86.7,
+        "tourist": true,
+        "description": "Deoghar is one of the most sacred cities in India, home to the Baidyanath Dham (one of the 12 Jyotirlingas). Millions of devotees visit during the Shravani Mela.",
+        "landmarks": [
+          "Baidyanath Temple",
+          "Naulakha Mandir",
+          "Trikut Hills",
+          "Basukinath Temple"
+        ],
+        "railway": "Deoghar Railway Station"
+      },
+      {
+        "name": "Giridih",
+        "slug": "giridih",
+        "lat": 24.1832,
+        "lng": 86.2953,
+        "tourist": true,
+        "description": "Giridih is known for the Parasnath Hill, the most sacred place for Jainism. The hill has 24 Jain temples and is a popular pilgrimage destination.",
+        "landmarks": [
+          "Parasnath Hill",
+          "Usri Falls",
+          "Khandoli Dam"
+        ],
+        "railway": "Giridih Railway Station"
+      },
+      {
+        "name": "Ramgarh",
+        "slug": "ramgarh",
+        "lat": 23.6333,
+        "lng": 85.5167,
+        "tourist": false,
+        "description": "Ramgarh is known for its coal mines and scenic Rajrappa Temple located at the confluence of Damodar and Bhairavi rivers.",
+        "landmarks": [
+          "Rajrappa Temple",
+          "Patratu Valley"
+        ],
+        "railway": "Ramgarh Cantonment Station"
+      },
+      {
+        "name": "Palamu",
+        "slug": "palamu",
+        "lat": 23.8167,
+        "lng": 84.05,
+        "tourist": true,
+        "description": "Palamu is home to the Betla National Park (Palamu Tiger Reserve). The ancient Palamu Fort and dense forests make it a popular eco-tourism destination.",
+        "landmarks": [
+          "Betla National Park",
+          "Palamu Fort",
+          "Lodh Falls"
+        ],
+        "railway": "Daltonganj Railway Station"
+      },
+      {
+        "name": "Netarhat",
+        "slug": "netarhat",
+        "lat": 23.4833,
+        "lng": 84.2667,
+        "tourist": true,
+        "description": "Netarhat is known as the 'Queen of Chotanagpur'. This hill station offers breathtaking sunrise and sunset views and is surrounded by dense sal forests.",
+        "landmarks": [
+          "Magnolia Point",
+          "Upper Ghagri Falls",
+          "Lower Ghagri Falls",
+          "Netarhat Residential School"
+        ]
+      },
+      {
+        "name": "Betla",
+        "slug": "betla",
+        "lat": 23.9167,
+        "lng": 84.1167,
+        "tourist": true,
+        "description": "Betla is famous for the Betla National Park, one of the first tiger reserves in India. The park is home to tigers, elephants, and diverse wildlife.",
+        "landmarks": [
+          "Betla National Park",
+          "Betla Fort",
+          "Elephant Riding Point"
+        ]
+      },
+      {
+        "name": "Dumka",
+        "slug": "dumka",
+        "lat": 24.2668,
+        "lng": 87.2474,
+        "tourist": false,
+        "description": "Dumka is the sub-capital of Jharkhand and the administrative headquarters of Santal Pargana division. Known for its tribal heritage, Baskinath temple, and the picturesque Masanjore Dam.",
+        "landmarks": [
+          "Masanjore Dam",
+          "Baskinath Temple",
+          "Maluti Temples",
+          "Dumka Museum"
+        ],
+        "railway": "Dumka Railway Station"
+      },
+      {
+        "name": "Chaibasa",
+        "slug": "chaibasa",
+        "lat": 22.55,
+        "lng": 85.8,
+        "tourist": false,
+        "description": "Chaibasa is the administrative headquarters of West Singhbhum district. Known for its tribal culture, iron ore mining, and proximity to beautiful waterfalls and dense forests of Saranda.",
+        "landmarks": [
+          "Saranda Forest",
+          "Lupungutu Falls",
+          "Gua Mines"
+        ],
+        "railway": "Chaibasa Railway Station"
+      },
+      {
+        "name": "Sahebganj",
+        "slug": "sahebganj",
+        "alternateNames": ["Sahibganj", "Sahebganj Jharkhand"],
+        "lat": 25.25,
+        "lng": 87.6333,
+        "tourist": true,
+        "description": "Sahebganj is a historic town on the banks of the Ganges, known for the Rajmahal Hills, ancient fossils, and the beautiful Kanhaiya Sthan temple. It's an important river port town.",
+        "landmarks": [
+          "Rajmahal Hills",
+          "Kanhaiya Sthan Temple",
+          "Ganga Ghat",
+          "Udhwa Bird Sanctuary"
+        ],
+        "railway": "Sahebganj Railway Station"
+      },
+      {
+        "name": "Godda",
+        "slug": "godda",
+        "lat": 24.8333,
+        "lng": 87.2167,
+        "tourist": false,
+        "description": "Godda is a quiet town in Jharkhand known for the Sundarban Dam and proximity to the Rajmahal Hills. The district is predominantly agricultural with rich tribal heritage.",
+        "landmarks": [
+          "Sundarban Dam",
+          "Basukinath Temple (nearby)",
+          "Rajmahal Hills"
+        ],
+        "railway": "Godda Railway Station"
+      },
+      {
+        "name": "Latehar",
+        "slug": "latehar",
+        "lat": 23.7333,
+        "lng": 84.5,
+        "tourist": true,
+        "description": "Latehar is the gateway to Netarhat hill station and home to the famous Lodh Falls, the highest waterfall in Jharkhand. The district is covered with dense forests and offers excellent trekking opportunities.",
+        "landmarks": [
+          "Lodh Falls",
+          "Netarhat (nearby)",
+          "Chatra Fort",
+          "Lat Pahar"
+        ],
+        "railway": "Latehar Railway Station"
+      },
+      {
+        "name": "Tatanagar",
+        "slug": "tatanagar",
+        "alternateNames": ["Tata", "Jamshedpur", "Tata Nagar"],
+        "lat": 22.7761,
+        "lng": 86.1969,
+        "type": "hub",
+        "tourist": false,
+        "description": "Tatanagar is a major railway junction and a key gateway to Jamshedpur.",
+        "landmarks": [
+          "Tatanagar Railway Station",
+          "Jubilee Park",
+          "Bistupur"
+        ]
+      },
+      {
+        "name": "Adityapur",
+        "slug": "adityapur",
+        "lat": 22.7844,
+        "lng": 86.1601,
+        "type": "region",
+        "tourist": false,
+        "description": "Adityapur is an industrial city adjacent to Jamshedpur in the Seraikela Kharsawan district.",
+        "landmarks": [
+          "Adityapur Industrial Area",
+          "NIT Jamshedpur",
+          "Kharkai River"
+        ]
+      },
+      {
+        "name": "Khunti",
+        "slug": "khunti",
+        "lat": 23.071,
+        "lng": 85.2781,
+        "tourist": true,
+        "description": "Khunti is the birthplace of Birsa Munda, the legendary tribal freedom fighter who led the Ulgulan revolt against British rule. Situated 35 km from Ranchi, the district is a pilgrimage for tribal heritage, dense forests, and beautiful waterfalls. The Birsa Munda Memorial Museum is a must-visit.",
+        "landmarks": [
+          "Birsa Munda Birth Place (Ulihatu)",
+          "Birsa Munda Memorial Park",
+          "Murhu Ghati Waterfalls",
+          "Jojo Pani Falls"
+        ],
+        "railway": "Ranchi Railway Station (nearest)"
+      },
+      {
+        "name": "Gumla",
+        "slug": "gumla",
+        "lat": 23.0437,
+        "lng": 84.5355,
+        "tourist": true,
+        "description": "Gumla is a scenic district town in Jharkhand surrounded by dense forests and beautiful waterfalls. Known for the ancient Nagpuri culture and tribal heritage, Gumla is home to the Nagpheni waterfall and the Anjandhaam Temple — a famous pilgrimage site for Hanuman devotees.",
+        "landmarks": [
+          "Anjandhaam Temple",
+          "Nagpheni Waterfall",
+          "Konar Dam",
+          "Palkot Wildlife Sanctuary"
+        ],
+        "railway": "Ranchi Railway Station (nearest, 85km)"
+      },
+      {
+        "name": "Simdega",
+        "slug": "simdega",
+        "lat": 22.6122,
+        "lng": 84.5023,
+        "tourist": false,
+        "description": "Simdega is a tribal-dominated district in southwestern Jharkhand on the Odisha border. Known for its lush green forests, tribal culture, and the Keolajhar Forest, it is emerging as an eco-tourism destination. The district is known for producing many football players.",
+        "landmarks": [
+          "Keolajhar Forest",
+          "Bankibahal Dam",
+          "Karra Devi Temple"
+        ],
+        "railway": "Hatia Railway Station (nearest, Ranchi)"
+      },
+      {
+        "name": "Chatra",
+        "slug": "chatra",
+        "lat": 24.2075,
+        "lng": 84.8719,
+        "tourist": true,
+        "description": "Chatra is a picturesque district in Jharkhand known for beautiful waterfalls and scenic landscapes. The Tamas waterfall (also called Tandwa Falls) and the ancient Ituriaghat are popular attractions. Chatra sits on the old Grand Trunk Road route.",
+        "landmarks": [
+          "Tamas Waterfall (Tandwa Falls)",
+          "Ituriaghat",
+          "Kolhua Pahar",
+          "Gomia (nearby)"
+        ],
+        "railway": "Chatra Railway Station"
+      },
+      {
+        "name": "Lohardaga",
+        "slug": "lohardaga",
+        "lat": 23.4362,
+        "lng": 84.6878,
+        "tourist": false,
+        "description": "Lohardaga is a district town in Jharkhand, 60 km from Ranchi, known for its rich bauxite deposits and tribal culture. The Koel River flows through the district, and it is a quiet, scenic town on the route to Netarhat hill station.",
+        "landmarks": [
+          "Koel River",
+          "Lohardaga Bauxite Mines",
+          "Bhandra Waterfall",
+          "Pithoria (Ranchi border)"
+        ],
+        "railway": "Lohardaga Railway Station"
+      },
+      {
+        "name": "Pakur",
+        "slug": "pakur",
+        "lat": 24.6349,
+        "lng": 87.8421,
+        "tourist": false,
+        "description": "Pakur is a district town in the Santhal Pargana division of Jharkhand on the West Bengal border. Known for stone quarrying and mining, it sits on the banks of the Brahmani River. The district has significant tribal Santhal population and cultural heritage.",
+        "landmarks": [
+          "Brahmani River Ghat",
+          "Pakur Stone Quarries",
+          "Manibandha Market"
+        ],
+        "railway": "Pakur Railway Station"
+      },
+      {
+        "name": "Jamtara",
+        "slug": "jamtara",
+        "lat": 23.9614,
+        "lng": 86.8013,
+        "tourist": false,
+        "description": "Jamtara is a district town in Jharkhand, 150 km from Kolkata, known as an industrial transit zone near the WB-Jharkhand border. The town is surrounded by coalfields and is strategically located between Asansol and Dhanbad on the national highway.",
+        "landmarks": [
+          "Jamtara Railway Station",
+          "Kundam Hills",
+          "Mayurakshi River"
+        ],
+        "railway": "Jamtara Railway Station"
+      },
+      {
+        "name": "Koderma",
+        "slug": "koderma",
+        "lat": 24.4676,
+        "lng": 85.5967,
+        "tourist": false,
+        "description": "Koderma is a district town in Jharkhand known for its mica deposits — earning it the title 'Mica Capital of the World'. Located on NH 2 (Grand Trunk Road) between Hazaribagh and Gaya, it is an important transit point.",
+        "landmarks": [
+          "Koderma Mica Mines",
+          "Tilaiya Dam",
+          "Barhi (NH 2 Junction)"
+        ],
+        "railway": "Koderma Railway Station"
+      },
+      {
+        "name": "Seraikela",
+        "slug": "seraikela",
+        "lat": 22.5987,
+        "lng": 85.9371,
+        "tourist": true,
+        "description": "Seraikela is a historic town in Seraikela-Kharsawan district, famous for its royal heritage and the traditional Seraikela Chhau dance — one of the three major styles of the vibrant Chhau martial dance recognized by UNESCO. Located near Jamshedpur, it is an important cultural destination.",
+        "landmarks": [
+          "Seraikela Palace",
+          "Chhau Dance Academy",
+          "Kharkai River",
+          "Seraikela Durga Puja"
+        ],
+        "railway": "Gamharia Railway Station (nearest)"
+      }
+    ]
+  },
+  "bihar": {
+    "name": "Bihar",
+    "capital": "Patna",
+    "slug": "bihar",
+    "description": "Bihar, one of India's oldest civilizations, is the land of the Buddha and ancient empires. Home to sacred Buddhist circuit sites like Bodh Gaya and Nalanda, the holy pilgrim city of Gaya, and the historic capital Patna on the Ganga. A significant destination for spiritual, cultural, and heritage tourism from Kolkata.",
+    "cities": [
+      {
+        "name": "Patna",
+        "slug": "patna",
+        "alternateNames": ["Patna Bihar", "Pataliputra"],
+        "lat": 25.5941,
+        "lng": 85.1376,
+        "type": "hub",
+        "tourist": true,
+        "description": "Patna, the capital of Bihar and one of the oldest continuously inhabited cities in the world, sits on the banks of the Ganga. The ancient city of Pataliputra was the capital of the Maurya Empire. Today, Patna is a major pilgrimage and heritage tourism hub with a rich history spanning over 2,500 years.",
+        "landmarks": [
+          "Golghar",
+          "Patna Sahib Gurudwara",
+          "Mahavir Mandir",
+          "Bihar Museum",
+          "Patna Museum",
+          "Gandhi Maidan",
+          "Sanjay Gandhi Jaivik Udyan"
+        ],
+        "airport": "Jay Prakash Narayan International Airport",
+        "railway": "Patna Junction"
+      },
+      {
+        "name": "Gaya",
+        "slug": "gaya",
+        "alternateNames": ["Gaya Bihar", "Gaya Junction"],
+        "lat": 24.7955,
+        "lng": 84.9994,
+        "tourist": true,
+        "description": "Gaya is one of the most sacred pilgrimage cities in India, revered by Hindus for Pitru Paksha rituals (Pind Daan) on the banks of the Phalgu River. The Vishnupad Temple is one of the most important Vaishnava shrines. Gaya is also the gateway to Bodh Gaya, making it a dual Hindu-Buddhist pilgrimage hub.",
+        "landmarks": [
+          "Vishnupad Temple",
+          "Phalgu River Ghat",
+          "Mangla Gauri Temple",
+          "Brahmayoni Hill",
+          "Akshayavat"
+        ],
+        "airport": "Gaya International Airport",
+        "railway": "Gaya Junction"
+      },
+      {
+        "name": "Bodh Gaya",
+        "slug": "bodh-gaya",
+        "alternateNames": ["Bodhgaya", "Buddha Gaya", "BodhGaya"],
+        "lat": 24.6952,
+        "lng": 84.9916,
+        "tourist": true,
+        "description": "Bodh Gaya is the most sacred site in Buddhism — where Siddhartha Gautama attained enlightenment under the Bodhi Tree. A UNESCO World Heritage Site, it attracts Buddhist pilgrims from across the world. The Mahabodhi Temple Complex is a masterpiece of Indian architecture.",
+        "landmarks": [
+          "Mahabodhi Temple (UNESCO)",
+          "Bodhi Tree",
+          "Great Buddha Statue",
+          "Thai Monastery",
+          "Japanese Temple",
+          "Archaeological Museum"
+        ],
+        "railway": "Gaya Junction (nearest, 13km)"
+      },
+      {
+        "name": "Nalanda",
+        "slug": "nalanda",
+        "alternateNames": ["Nalanda Bihar", "Nalanda University"],
+        "lat": 25.1369,
+        "lng": 85.4432,
+        "tourist": true,
+        "description": "Nalanda was home to the ancient Nalanda University, one of the greatest centers of learning in the ancient world (5th–12th century). A UNESCO World Heritage Site, the ruins of Nalanda attract historians, Buddhist pilgrims, and culture tourists from across the world.",
+        "landmarks": [
+          "Nalanda University Ruins (UNESCO)",
+          "Nalanda Museum",
+          "Xuanzang Memorial Hall",
+          "Nalanda Multimedia Museum"
+        ],
+        "railway": "Bihar Sharif Railway Station (nearest)"
+      },
+      {
+        "name": "Rajgir",
+        "slug": "rajgir",
+        "alternateNames": ["Rajgriha", "Rajgir Bihar"],
+        "lat": 25.0269,
+        "lng": 85.4198,
+        "tourist": true,
+        "description": "Rajgir (Rajagriha), surrounded by five hills, is one of the most important Buddhist and Jain pilgrimage sites. It was the first capital of the Magadha Empire and a key place in Buddhist history. The Vishwa Shanti Stupa and ropeway are major attractions.",
+        "landmarks": [
+          "Vishwa Shanti Stupa",
+          "Griddhakuta Peak (Vulture's Peak)",
+          "Hot Springs (Brahma Kund)",
+          "Son Bhandar Caves",
+          "Venu Vana"
+        ],
+        "railway": "Rajgir Railway Station"
+      },
+      {
+        "name": "Muzaffarpur",
+        "slug": "muzaffarpur",
+        "alternateNames": ["Muzzafarpur", "Muzaffarpur Bihar"],
+        "lat": 26.1197,
+        "lng": 85.3910,
+        "tourist": false,
+        "description": "Muzaffarpur is a major commercial city in North Bihar, famous for its Shahi litchi (Muzaffarpur litchi) and as an important transport hub. The city has historical significance with the Ramna Maidan and several temples.",
+        "landmarks": [
+          "Ramna Maidan",
+          "Jubba Sahni Park",
+          "Lichhi Orchard",
+          "Garib Sthan Temple"
+        ],
+        "airport": "Muzaffarpur Airport",
+        "railway": "Muzaffarpur Junction"
+      }
+    ]
+  },
+  "uttar-pradesh": {
+    "name": "Uttar Pradesh",
+    "capital": "Lucknow",
+    "slug": "uttar-pradesh",
+    "description": "Uttar Pradesh is India's most populous state and the spiritual heartland of the nation. Home to some of the holiest cities in Hinduism — Varanasi (Kashi), Prayagraj (Allahabad), Mathura, and Ayodhya — it attracts millions of pilgrims and tourists every year from Kolkata and across India.",
+    "cities": [
+      {
+        "name": "Varanasi",
+        "slug": "varanasi",
+        "alternateNames": ["Banaras", "Kashi", "Benares", "Varanasi UP"],
+        "lat": 25.3176,
+        "lng": 82.9739,
+        "type": "hub",
+        "tourist": true,
+        "description": "Varanasi (Kashi/Banaras) is one of the oldest continuously inhabited cities in the world and the spiritual capital of India. The ghats on the Ganga, especially Dashashwamedh and Manikarnika, are iconic. The evening Ganga Aarti is a mesmerizing spiritual experience. A top pilgrimage and cultural destination for Bengalis.",
+        "landmarks": [
+          "Kashi Vishwanath Temple",
+          "Dashashwamedh Ghat",
+          "Manikarnika Ghat",
+          "Sarnath (Buddha's first sermon site)",
+          "Assi Ghat",
+          "Sankat Mochan Temple",
+          "BHU (Banaras Hindu University)"
+        ],
+        "airport": "Lal Bahadur Shastri International Airport",
+        "railway": "Varanasi Junction"
+      },
+      {
+        "name": "Prayagraj",
+        "slug": "prayagraj",
+        "alternateNames": ["Allahabad", "Ilahabad", "Prayag"],
+        "lat": 25.4358,
+        "lng": 81.8463,
+        "tourist": true,
+        "description": "Prayagraj (Allahabad) is one of the holiest cities in Hinduism, situated at the Triveni Sangam — the confluence of the Ganga, Yamuna, and the mythical Saraswati rivers. The city hosts the Kumbh Mela, the world's largest religious gathering. A major destination for Bengali pilgrims.",
+        "landmarks": [
+          "Triveni Sangam",
+          "Allahabad Fort",
+          "Anand Bhawan (Nehru Memorial)",
+          "Hanuman Temple",
+          "Kumbh Mela Ground",
+          "Akshayavat (Prayag)"
+        ],
+        "airport": "Prayagraj Airport",
+        "railway": "Prayagraj Junction"
+      }
+    ]
+  }
+}

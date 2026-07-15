@@ -1,0 +1,95 @@
+{
+  "vehicles": [
+    {
+      "id": "sedan",
+      "name": "Sedan",
+      "models": ["Swift Dzire", "Honda Amaze", "Hyundai Aura", "Maruti Ciaz"],
+      "capacity": 4,
+      "luggage": 2,
+      "ac": true,
+      "image": "/dezire.webp",
+      "description": "Perfect for small families and business travel. Our sedans offer a comfortable ride with AC, music system, and professional drivers.",
+      "features": ["AC", "Music System", "Comfortable Seating", "Ample Boot Space"],
+      "pricePerKm": 12,
+      "baseFare": 1799,
+      "minKm": 130,
+      "driverAllowance": 300
+    },
+    {
+      "id": "suv",
+      "name": "SUV",
+      "models": ["Maruti Ertiga", "Toyota Innova", "Toyota Innova Crysta", "Mahindra XUV700"],
+      "capacity": 6,
+      "luggage": 3,
+      "ac": true,
+      "image": "/ertiga.webp",
+      "description": "Ideal for family trips and group travel. Our SUVs provide spacious interiors, powerful performance, and premium comfort for long journeys.",
+      "features": ["AC", "Music System", "Spacious Interior", "Third Row Seating", "Large Boot"],
+      "pricePerKm": 16,
+      "baseFare": 2400,
+      "minKm": 130,
+      "driverAllowance": 300
+    },
+    {
+      "id": "tempo",
+      "name": "Tempo Traveller",
+      "models": ["Force Tempo Traveller 12-Seater", "Force Tempo Traveller 17-Seater", "Force Tempo Traveller 26-Seater"],
+      "capacity": 12,
+      "luggage": 5,
+      "ac": true,
+      "image": "/tampo_traveler.webp",
+      "description": "Best for large groups, corporate events, weddings, and pilgrimage tours. Our tempo travellers offer push-back seats, AC, and entertainment systems.",
+      "features": ["AC", "Push-back Seats", "Entertainment System", "Large Luggage Space", "Curtains", "First Aid Kit"],
+      "pricePerKm": 22,
+      "baseFare": 3500,
+      "minKm": 150,
+      "driverAllowance": 400
+    },
+    {
+      "id": "luxury",
+      "name": "Luxury Car",
+      "models": ["Toyota Innova Crysta", "Toyota Fortuner", "Mercedes-Benz E-Class", "BMW 5 Series"],
+      "capacity": 4,
+      "luggage": 3,
+      "ac": true,
+      "image": "/bmw.webp",
+      "description": "For premium travel experiences — weddings, corporate meetings, VIP transfers, and special occasions. Our luxury fleet offers world-class comfort.",
+      "features": ["AC", "Premium Leather Seats", "Entertainment System", "WiFi", "Mineral Water", "Newspaper"],
+      "pricePerKm": 28,
+      "baseFare": 4500,
+      "minKm": 100,
+      "driverAllowance": 500
+    },
+    {
+      "id": "wedding",
+      "name": "Wedding Cars",
+      "models": ["Decorated Innova Crysta", "Decorated Fortuner", "Vintage Cars", "Luxury Sedans"],
+      "capacity": 4,
+      "luggage": 2,
+      "ac": true,
+      "image": "/crista.webp",
+      "description": "Make your special day grand with our decorated wedding car rental service. We offer beautifully decorated cars for baraat, vidaai, and wedding functions.",
+      "features": ["Flower Decoration", "Ribbon & Balloon Decoration", "Red Carpet", "AC", "Professional Chauffeur"],
+      "pricePerKm": 28,
+      "baseFare": 5000,
+      "minKm": 50,
+      "driverAllowance": 500
+    }
+  ],
+  "localPackages": [
+    {"name": "4 Hours / 40 KM", "sedan": 1800, "suv": 2500, "tempo": 3500},
+    {"name": "8 Hours / 80 KM", "sedan": 2800, "suv": 3800, "tempo": 5500},
+    {"name": "12 Hours / 120 KM", "sedan": 3800, "suv": 5200, "tempo": 7500},
+    {"name": "Full Day (24 Hours)", "sedan": 4800, "suv": 6500, "tempo": 9500}
+  ],
+  "services": [
+    {"id": "local", "name": "Local Taxi", "slug": "local-taxi", "icon": "MapPin", "description": "Hourly cab rental for city sightseeing, shopping, hospital visits, and local travel within the city."},
+    {"id": "outstation", "name": "Outstation Cab", "slug": "outstation", "icon": "Route", "description": "Comfortable intercity travel for business, pilgrimage, family trips, and weekend getaways."},
+    {"id": "one-way", "name": "One-Way Taxi", "slug": "one-way", "icon": "ArrowRight", "description": "Pay only for one-way journey. No return fare charges. Most affordable option for point-to-point travel."},
+    {"id": "two-way", "name": "Two-Way Cab", "slug": "two-way", "icon": "ArrowLeftRight", "description": "Round trip cab booking with designated waiting time at destination. Ideal for day trips and short stays."},
+    {"id": "round-trip", "name": "Round Trip", "slug": "round-trip", "icon": "RotateCcw", "description": "Complete round trip package with driver accommodation included. Best for multi-day trips and tours."},
+    {"id": "airport", "name": "Airport Transfer", "slug": "airport-transfer", "icon": "Plane", "description": "Reliable airport pickup and drop service. Flight tracking, meet & greet, and 24/7 availability."},
+    {"id": "wedding", "name": "Wedding Car Rental", "slug": "wedding-car-rental", "icon": "Heart", "description": "Make your wedding grand with our decorated fleet. Baraat, vidaai, and wedding function car rental with decoration."},
+    {"id": "corporate", "name": "Corporate Car Rental", "slug": "corporate-car-rental", "icon": "Building", "description": "Professional car rental for corporate travel, employee transport, client meetings, and business events. Monthly contracts available."}
+  ]
+}

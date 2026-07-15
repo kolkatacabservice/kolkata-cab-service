@@ -1,0 +1,36 @@
+[
+  {
+    "from": "varanasi",
+    "fromName": "Varanasi",
+    "fromState": "uttar-pradesh",
+    "to": "prayagraj",
+    "toName": "Prayagraj",
+    "toState": "uttar-pradesh",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "varanasi-to-prayagraj",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5300
+  },
+  {
+    "from": "prayagraj",
+    "fromName": "Prayagraj",
+    "fromState": "uttar-pradesh",
+    "to": "varanasi",
+    "toName": "Varanasi",
+    "toState": "uttar-pradesh",
+    "distance": 125,
+    "duration": "2-3",
+    "slug": "prayagraj-to-varanasi",
+    "via": [
+      "NH 19"
+    ],
+    "priceSaloon": 2900,
+    "priceSuv": 3800,
+    "priceTempo": 5300
+  }
+]

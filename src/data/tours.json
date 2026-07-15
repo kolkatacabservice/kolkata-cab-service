@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "darjeeling-tour",
+    "name": "Darjeeling Hill Station Tour",
+    "slug": "darjeeling-tour",
+    "duration": "3 Days / 2 Nights",
+    "days": 3,
+    "fromCity": "Kolkata",
+    "fromSlug": "kolkata",
+    "destination": "Darjeeling",
+    "state": "West Bengal",
+    "distance": 600,
+    "category": "hill-station",
+    "highlights": [
+      "Tiger Hill Sunrise",
+      "Batasia Loop",
+      "Darjeeling Himalayan Railway (Toy Train)",
+      "Tea Gardens",
+      "Peace Pagoda",
+      "Padmaja Naidu Zoo",
+      "Mall Road"
+    ],
+    "description": "Experience the Queen of Hills with our Darjeeling tour package from Kolkata. Enjoy breathtaking Himalayan views, the iconic toy train ride, sunrise at Tiger Hill, lush tea gardens, and the vibrant culture of this beautiful hill station.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kolkata to Darjeeling",
+        "details": "Early morning pickup from Kolkata. Drive through scenic NH12 via Siliguri. Arrive Darjeeling by evening. Check into hotel. Evening free to explore Mall Road and Chowrasta."
+      },
+      {
+        "day": 2,
+        "title": "Darjeeling Sightseeing",
+        "details": "Early morning visit to Tiger Hill for sunrise over Kanchenjunga. Visit Batasia Loop, War Memorial, Ghoom Monastery, Darjeeling Himalayan Railway Museum. Afternoon visit Peace Pagoda, Padmaja Naidu Zoo, Tea Garden. Evening explore local market."
+      },
+      {
+        "day": 3,
+        "title": "Darjeeling to Kolkata",
+        "details": "After breakfast, visit Rock Garden and Ganga Maya Park. Start return journey to Kolkata via Siliguri. Drop at your Kolkata address by evening."
+      }
+    ],
+    "pricing": {
+      "sedan": 14500,
+      "suv": 18500,
+      "tempo": 24000
+    },
+    "included": [
+      "AC Vehicle",
+      "Experienced Driver",
+      "Fuel Charges",
+      "Driver Allowance",
+      "Toll Charges",
+      "Parking Charges"
+    ],
+    "excluded": [
+      "Hotel Stay",
+      "Meals",
+      "Sightseeing Entry Tickets",
+      "Personal Expenses",
+      "Toy Train Tickets"
+    ]
+  },
+  {
+    "id": "puri-konark-tour",
+    "name": "Puri & Konark Temple Tour",
+    "slug": "puri-konark-tour",
+    "duration": "2 Days / 1 Night",
+    "days": 2,
+    "fromCity": "Kolkata",
+    "fromSlug": "kolkata",
+    "destination": "Puri & Konark",
+    "state": "Odisha",
+    "distance": 500,
+    "category": "pilgrimage",
+    "highlights": [
+      "Jagannath Temple Puri",
+      "Puri Beach",
+      "Konark Sun Temple (UNESCO)",
+      "Chandrabhaga Beach",
+      "Raghurajpur Art Village",
+      "Chilika Lake"
+    ],
+    "description": "Visit the sacred Jagannath Temple in Puri and the magnificent Konark Sun Temple (UNESCO World Heritage Site). Enjoy pristine beaches, ancient architecture, and the spiritual essence of Odisha on this tour package from Kolkata.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kolkata to Puri",
+        "details": "Early morning pickup from Kolkata. Drive via NH16 through scenic coastal route. Arrive Puri by afternoon. Visit Jagannath Temple, Puri Beach. Evening explore Swargadwar Beach and local market."
+      },
+      {
+        "day": 2,
+        "title": "Konark & Return",
+        "details": "Morning visit Konark Sun Temple (UNESCO World Heritage). Visit Chandrabhaga Beach, Raghurajpur Art Village. Start return journey to Kolkata. Drop by late evening."
+      }
+    ],
+    "pricing": {
+      "sedan": 12000,
+      "suv": 15500,
+      "tempo": 20000
+    },
+    "included": [
+      "AC Vehicle",
+      "Experienced Driver",
+      "Fuel Charges",
+      "Driver Allowance",
+      "Toll Charges",
+      "Parking Charges"
+    ],
+    "excluded": [
+      "Hotel Stay",
+      "Meals",
+      "Temple Donations",
+      "Entry Tickets",
+      "Personal Expenses"
+    ]
+  },
+  {
+    "id": "sundarbans-tour",
+    "name": "Sundarbans Mangrove Safari Tour",
+    "slug": "sundarbans-tour",
+    "duration": "2 Days / 1 Night",
+    "days": 2,
+    "fromCity": "Kolkata",
+    "fromSlug": "kolkata",
+    "destination": "Sundarbans",
+    "state": "West Bengal",
+    "distance": 114,
+    "category": "wildlife",
+    "highlights": [
+      "Royal Bengal Tiger Territory",
+      "Mangrove Forest Boat Safari",
+      "Sajnekhali Watch Tower",
+      "Sudhanyakhali Watch Tower",
+      "Bird Watching",
+      "Sundarbans National Park"
+    ],
+    "description": "Explore the world's largest mangrove forest and home of the Royal Bengal Tiger. Our Sundarbans tour includes a thrilling boat safari through the dense mangroves, bird watching, and a chance to spot wildlife in their natural habitat.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kolkata to Sundarbans",
+        "details": "Morning pickup from Kolkata. Drive to Godkhali jetty (approx 3 hours). Board boat for Sundarbans. Visit Sajnekhali Watch Tower, Mangrove Forest walk. Afternoon boat ride through creeks. Overnight stay at Sundarbans eco resort."
+      },
+      {
+        "day": 2,
+        "title": "Safari & Return",
+        "details": "Early morning boat safari to spot Royal Bengal Tiger, Crocodiles, and various bird species. Visit Sudhanyakhali Watch Tower. After lunch, return boat ride to Godkhali. Drive back to Kolkata by evening."
+      }
+    ],
+    "pricing": {
+      "sedan": 5500,
+      "suv": 7500,
+      "tempo": 10000
+    },
+    "included": [
+      "AC Vehicle (Kolkata-Godkhali-Kolkata)",
+      "Experienced Driver",
+      "Fuel Charges",
+      "Toll Charges"
+    ],
+    "excluded": [
+      "Boat Safari Charges",
+      "Hotel/Resort Stay",
+      "Meals",
+      "Forest Entry Fee",
+      "Guide Charges",
+      "Personal Expenses"
+    ]
+  },
+  {
+    "id": "varanasi-ayodhya-tour",
+    "name": "Varanasi & Ayodhya Spiritual Tour",
+    "slug": "varanasi-ayodhya-tour",
+    "duration": "3 Days / 2 Nights",
+    "days": 3,
+    "fromCity": "Kolkata",
+    "fromSlug": "kolkata",
+    "destination": "Varanasi & Ayodhya",
+    "state": "Uttar Pradesh",
+    "distance": 680,
+    "category": "pilgrimage",
+    "highlights": [
+      "Kashi Vishwanath Temple",
+      "Ganga Aarti at Dashashwamedh Ghat",
+      "Sarnath Buddhist Site",
+      "Ram Mandir Ayodhya",
+      "Saryu River Aarti",
+      "Hanuman Garhi",
+      "Boat Ride on Ganga"
+    ],
+    "description": "Experience the spiritual essence of India with our Varanasi and Ayodhya tour. Witness the mesmerizing Ganga Aarti, visit the sacred Kashi Vishwanath Temple, explore the newly built Ram Mandir in Ayodhya, and discover the birthplace of Buddhism at Sarnath.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kolkata to Varanasi",
+        "details": "Early morning departure from Kolkata. Drive via NH19 through scenic Bihar plains. Arrive Varanasi by evening. Witness the spectacular Ganga Aarti at Dashashwamedh Ghat. Evening walk through the ancient lanes of Varanasi."
+      },
+      {
+        "day": 2,
+        "title": "Varanasi Sightseeing & Ayodhya",
+        "details": "Early morning boat ride on the Ganges (sunrise). Visit Kashi Vishwanath Temple, Annapurna Temple, Sarnath (Buddhist site). After lunch, drive to Ayodhya (4-5 hrs). Evening Saryu River Aarti."
+      },
+      {
+        "day": 3,
+        "title": "Ayodhya & Return",
+        "details": "Morning visit Ram Mandir, Hanuman Garhi, Ram Ki Paidi. Start return journey to Kolkata. Drop by late evening."
+      }
+    ],
+    "pricing": {
+      "sedan": 16500,
+      "suv": 21000,
+      "tempo": 27500
+    },
+    "included": [
+      "AC Vehicle",
+      "Experienced Driver",
+      "Fuel Charges",
+      "Driver Allowance",
+      "Toll Charges",
+      "Parking Charges"
+    ],
+    "excluded": [
+      "Hotel Stay",
+      "Meals",
+      "Boat Ride Charges",
+      "Temple Donations",
+      "Entry Tickets",
+      "Personal Expenses"
+    ]
+  },
+  {
+    "id": "bodh-gaya-rajgir-tour",
+    "name": "Bodh Gaya & Rajgir Buddhist Circuit Tour",
+    "slug": "bodh-gaya-rajgir-tour",
+    "duration": "2 Days / 1 Night",
+    "days": 2,
+    "fromCity": "Patna",
+    "fromSlug": "patna",
+    "destination": "Bodh Gaya & Rajgir",
+    "state": "Bihar",
+    "distance": 120,
+    "category": "pilgrimage",
+    "highlights": [
+      "Mahabodhi Temple (UNESCO)",
+      "Bodhi Tree",
+      "Great Buddha Statue",
+      "Rajgir Hot Springs",
+      "Nalanda University Ruins",
+      "Griddhakuta Peak",
+      "Japanese Peace Pagoda"
+    ],
+    "description": "Explore the sacred Buddhist circuit of Bihar. Visit the UNESCO World Heritage Mahabodhi Temple where Lord Buddha attained enlightenment, the ancient ruins of Nalanda University, and the historic city of Rajgir with its hot springs and Griddhakuta Peak.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Patna to Bodh Gaya",
+        "details": "Morning pickup from Patna. Drive to Bodh Gaya (2-3 hrs). Visit Mahabodhi Temple, Bodhi Tree, Great Buddha Statue, Thai Temple, Japanese Temple, Tibetan Monastery. Evening meditation session."
+      },
+      {
+        "day": 2,
+        "title": "Rajgir, Nalanda & Return",
+        "details": "Morning drive to Rajgir. Visit Hot Springs, Griddhakuta Peak (ropeway), Japanese Peace Pagoda, Venuvan. Drive to Nalanda — visit ancient university ruins and museum. Return to Patna by evening."
+      }
+    ],
+    "pricing": {
+      "sedan": 5000,
+      "suv": 7000,
+      "tempo": 9500
+    },
+    "included": [
+      "AC Vehicle",
+      "Experienced Driver",
+      "Fuel Charges",
+      "Toll Charges",
+      "Parking Charges"
+    ],
+    "excluded": [
+      "Hotel Stay",
+      "Meals",
+      "Ropeway Charges",
+      "Entry Tickets",
+      "Personal Expenses"
+    ]
+  },
+  {
+    "id": "deoghar-baidyanath-tour",
+    "name": "Deoghar Baidyanath Dham Pilgrimage Tour",
+    "slug": "deoghar-baidyanath-tour",
+    "duration": "2 Days / 1 Night",
+    "days": 2,
+    "fromCity": "Ranchi",
+    "fromSlug": "ranchi",
+    "destination": "Deoghar",
+    "state": "Jharkhand",
+    "distance": 250,
+    "category": "pilgrimage",
+    "highlights": [
+      "Baidyanath Dham (Jyotirlinga)",
+      "Basukinath Temple",
+      "Naulakha Mandir",
+      "Tapovan Hills",
+      "Trikuta Parvat",
+      "Nandan Pahar"
+    ],
+    "description": "Visit one of the twelve Jyotirlingas — Baidyanath Dham in Deoghar. This sacred pilgrimage tour from Ranchi covers the main temple, nearby Basukinath, and scenic attractions around Deoghar for a spiritually enriching experience.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Ranchi to Deoghar",
+        "details": "Morning pickup from Ranchi. Drive to Deoghar via Dumka road (5-6 hrs). Arrive Deoghar, visit Baidyanath Dham Temple for darshan. Evening visit Naulakha Mandir and Nandan Pahar. Overnight stay in Deoghar."
+      },
+      {
+        "day": 2,
+        "title": "Basukinath & Return",
+        "details": "Early morning visit Basukinath Temple (30 km from Deoghar). Return to Deoghar, visit Tapovan Hills and local market. After lunch, drive back to Ranchi. Drop by evening."
+      }
+    ],
+    "pricing": {
+      "sedan": 6500,
+      "suv": 8500,
+      "tempo": 11000
+    },
+    "included": [
+      "AC Vehicle",
+      "Experienced Driver",
+      "Fuel Charges",
+      "Driver Allowance",
+      "Toll Charges"
+    ],
+    "excluded": [
+      "Hotel Stay",
+      "Meals",
+      "Temple Offerings",
+      "Personal Expenses"
+    ]
+  },
+  {
+    "id": "kolkata-city-tour",
+    "name": "Kolkata Heritage City Tour",
+    "slug": "kolkata-city-tour",
+    "duration": "1 Day (8-10 Hours)",
+    "days": 1,
+    "fromCity": "Kolkata",
+    "fromSlug": "kolkata",
+    "destination": "Kolkata City",
+    "state": "West Bengal",
+    "distance": 80,
+    "category": "city-tour",
+    "highlights": [
+      "Victoria Memorial",
+      "Howrah Bridge",
+      "Dakshineswar Kali Temple",
+      "Kalighat Temple",
+      "Indian Museum",
+      "St. Paul's Cathedral",
+      "Park Street",
+      "Science City"
+    ],
+    "description": "Discover the City of Joy with our comprehensive Kolkata heritage city tour. Visit iconic landmarks including Victoria Memorial, Howrah Bridge, Dakshineswar Temple, Indian Museum, and experience the vibrant culture, street food, and colonial architecture of Kolkata.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Full Day Kolkata Sightseeing",
+        "details": "Morning pickup from your location. Visit Dakshineswar Kali Temple, Belur Math. Drive across Howrah Bridge. Visit Marble Palace, Indian Museum. Lunch break at Park Street. Afternoon visit Victoria Memorial, St. Paul's Cathedral, Kalighat Temple. Evening visit Science City or Prinsep Ghat for sunset. Drop back by evening."
+      }
+    ],
+    "pricing": {
+      "sedan": 2000,
+      "suv": 3000,
+      "tempo": 4500
+    },
+    "included": [
+      "AC Vehicle (8 hrs / 80 km)",
+      "Experienced Local Driver",
+      "Fuel Charges",
+      "Parking Charges"
+    ],
+    "excluded": [
+      "Entry Tickets to Monuments",
+      "Meals",
+      "Guide Charges",
+      "Personal Expenses",
+      "Extra KM/Hours Charges"
+    ]
+  },
+  {
+    "id": "north-bengal-tour",
+    "name": "North Bengal Complete Tour",
+    "slug": "north-bengal-tour",
+    "duration": "5 Days / 4 Nights",
+    "days": 5,
+    "fromCity": "Kolkata",
+    "fromSlug": "kolkata",
+    "destination": "Darjeeling, Gangtok & Dooars",
+    "state": "West Bengal & Sikkim",
+    "distance": 1200,
+    "category": "hill-station",
+    "highlights": [
+      "Darjeeling Toy Train",
+      "Tiger Hill Sunrise",
+      "MG Marg Gangtok",
+      "Tsomgo Lake",
+      "Baba Mandir",
+      "Jaldapara National Park",
+      "Gorumara National Park",
+      "Chapramari Wildlife Sanctuary"
+    ],
+    "description": "The ultimate North Bengal and Sikkim experience! This 5-day tour covers the best of Darjeeling hill station, vibrant Gangtok with its lakes and monasteries, and the wildlife-rich Dooars region with jungle safaris. Perfect for families and nature lovers.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kolkata to Siliguri/Darjeeling",
+        "details": "Early morning departure from Kolkata. Drive via NH12 to Siliguri. Continue to Darjeeling (total 10-12 hrs). Evening free to explore Mall Road. Overnight in Darjeeling."
+      },
+      {
+        "day": 2,
+        "title": "Darjeeling Sightseeing",
+        "details": "Early morning Tiger Hill for sunrise. Visit Batasia Loop, Ghoom Monastery, Toy Train ride, Peace Pagoda, Tea Garden. Afternoon Padmaja Naidu Zoo, Himalayan Mountaineering Institute. Overnight in Darjeeling."
+      },
+      {
+        "day": 3,
+        "title": "Darjeeling to Gangtok",
+        "details": "Morning drive to Gangtok (4-5 hrs) via Teesta River valley. Afternoon explore MG Marg, Enchey Monastery, Gangtok Ropeway. Evening explore local market. Overnight in Gangtok."
+      },
+      {
+        "day": 4,
+        "title": "Gangtok Sightseeing & to Dooars",
+        "details": "Morning excursion to Tsomgo Lake and Baba Mandir (if permits available). Return to Gangtok. Afternoon drive to Dooars/Lataguri (5-6 hrs). Overnight in Dooars."
+      },
+      {
+        "day": 5,
+        "title": "Dooars Safari & Return",
+        "details": "Early morning jungle safari in Jaldapara/Gorumara National Park. Visit Chapramari Wildlife area. After lunch, drive to Siliguri, then return to Kolkata. Drop by late evening."
+      }
+    ],
+    "pricing": {
+      "sedan": 28000,
+      "suv": 36000,
+      "tempo": 48000
+    },
+    "included": [
+      "AC Vehicle",
+      "Experienced Driver",
+      "Fuel Charges",
+      "Driver Allowance (5 days)",
+      "Toll Charges",
+      "Parking Charges",
+      "Night Halt Charges"
+    ],
+    "excluded": [
+      "Hotel Stay",
+      "Meals",
+      "Tsomgo Lake Permit",
+      "Safari Charges",
+      "Entry Tickets",
+      "Toy Train Tickets",
+      "Ropeway Charges",
+      "Personal Expenses"
+    ]
+  },
+  {
+    "id": "dehradun-mussoorie",
+    "name": "Dehradun Mussoorie Weekend Tour",
+    "slug": "dehradun-mussoorie-tour",
+    "duration": "2 Days / 1 Night",
+    "days": 2,
+    "fromCity": "Delhi",
+    "fromSlug": "delhi",
+    "destination": "Mussoorie",
+    "state": "Uttarakhand",
+    "distance": 290,
+    "category": "hill-station",
+    "highlights": [
+      "Kempty Falls",
+      "Mall Road",
+      "Gun Hill",
+      "Company Garden",
+      "Sahastradhara"
+    ],
+    "description": "Escape to the Queen of Hills — Mussoorie. This 2-day weekend trip from Delhi covers the best of Dehradun and Mussoorie with comfortable cab service.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Mussoorie",
+        "details": "Morning pickup from Delhi, drive to Mussoorie via Dehradun. Visit Sahastradhara, then proceed to Mussoorie. Evening walk on Mall Road."
+      },
+      {
+        "day": 2,
+        "title": "Mussoorie Sightseeing & Return",
+        "details": "Visit Kempty Falls, Gun Hill, Company Garden. After lunch, drive back to Delhi."
+      }
+    ],
+    "pricing": {
+      "sedan": 7500,
+      "suv": 9500,
+      "tempo": 13000
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel",
+      "Toll"
+    ],
+    "excluded": [
+      "Hotel",
+      "Meals",
+      "Entry Fees"
+    ]
+  },
+  {
+    "id": "nainital-weekend",
+    "name": "Nainital Lake Tour",
+    "slug": "nainital-lake-tour",
+    "duration": "3 Days / 2 Nights",
+    "days": 3,
+    "fromCity": "Delhi",
+    "fromSlug": "delhi",
+    "destination": "Nainital",
+    "state": "Uttarakhand",
+    "distance": 310,
+    "category": "hill-station",
+    "highlights": [
+      "Naini Lake",
+      "Mall Road",
+      "Snow View Point",
+      "Naina Devi Temple",
+      "Tiffin Top"
+    ],
+    "description": "Explore the jewel of Kumaon — Nainital. A 3-day tour from Delhi covering lake boating, hill views, and local sightseeing.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Nainital",
+        "details": "Morning departure from Delhi, arrive Nainital by evening. Check in and evening boating on Naini Lake."
+      },
+      {
+        "day": 2,
+        "title": "Nainital Sightseeing",
+        "details": "Full day sightseeing — Snow View Point, Tiffin Top, Naina Devi Temple, Mall Road shopping."
+      },
+      {
+        "day": 3,
+        "title": "Return to Delhi",
+        "details": "After breakfast, visit Bhimtal/Sattal enroute, drive back to Delhi."
+      }
+    ],
+    "pricing": {
+      "sedan": 9500,
+      "suv": 12000,
+      "tempo": 16000
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel",
+      "Toll"
+    ],
+    "excluded": [
+      "Hotel",
+      "Meals",
+      "Entry Fees",
+      "Boating"
+    ]
+  },
+  {
+    "id": "jim-corbett-safari",
+    "name": "Jim Corbett Safari Tour",
+    "slug": "jim-corbett-safari-tour",
+    "duration": "2 Days / 1 Night",
+    "days": 2,
+    "fromCity": "Delhi",
+    "fromSlug": "delhi",
+    "destination": "Jim Corbett",
+    "state": "Uttarakhand",
+    "distance": 260,
+    "category": "wildlife",
+    "highlights": [
+      "Tiger Safari",
+      "Dhikala Zone",
+      "Corbett Museum",
+      "Garjia Temple",
+      "Corbett Waterfall"
+    ],
+    "description": "Experience the thrill of spotting Bengal tigers at Jim Corbett National Park. Weekend safari tour from Delhi with comfortable cab service.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Jim Corbett",
+        "details": "Early morning drive to Jim Corbett. Check in, afternoon safari in Bijrani/Jhirna zone."
+      },
+      {
+        "day": 2,
+        "title": "Safari & Return",
+        "details": "Morning safari, visit Corbett Museum and Garjia Temple, drive back to Delhi."
+      }
+    ],
+    "pricing": {
+      "sedan": 7000,
+      "suv": 9000,
+      "tempo": 12500
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel",
+      "Toll"
+    ],
+    "excluded": [
+      "Hotel",
+      "Safari Charges",
+      "Meals"
+    ]
+  },
+  {
+    "id": "agra-taj-mahal",
+    "name": "Agra Taj Mahal Day Tour",
+    "slug": "agra-taj-mahal-tour",
+    "duration": "1 Day",
+    "days": 1,
+    "fromCity": "Delhi",
+    "fromSlug": "delhi",
+    "destination": "Agra",
+    "state": "Uttar Pradesh",
+    "distance": 233,
+    "category": "heritage",
+    "highlights": [
+      "Taj Mahal",
+      "Agra Fort",
+      "Fatehpur Sikri",
+      "Mehtab Bagh",
+      "Itimad-ud-Daulah"
+    ],
+    "description": "Same-day Agra tour from Delhi to see the Taj Mahal, Agra Fort, and other Mughal monuments. Round trip cab with professional driver.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Agra & Return",
+        "details": "Early morning drive via Yamuna Expressway. Visit Taj Mahal, Agra Fort, Fatehpur Sikri. Return to Delhi by evening."
+      }
+    ],
+    "pricing": {
+      "sedan": 4500,
+      "suv": 5800,
+      "tempo": 8000
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel",
+      "Toll",
+      "Parking"
+    ],
+    "excluded": [
+      "Entry Fees",
+      "Meals",
+      "Guide"
+    ]
+  },
+  {
+    "id": "varanasi-ayodhya",
+    "name": "Varanasi Ayodhya Pilgrimage Tour",
+    "slug": "varanasi-ayodhya-pilgrimage",
+    "duration": "4 Days / 3 Nights",
+    "days": 4,
+    "fromCity": "Kolkata",
+    "fromSlug": "kolkata",
+    "destination": "Varanasi-Ayodhya",
+    "state": "Uttar Pradesh",
+    "distance": 750,
+    "category": "pilgrimage",
+    "highlights": [
+      "Kashi Vishwanath",
+      "Ganga Aarti",
+      "Sarnath",
+      "Ram Mandir Ayodhya",
+      "Hanuman Garhi"
+    ],
+    "description": "Complete pilgrimage tour covering Varanasi's ghats, Kashi Vishwanath Temple, Sarnath, and the sacred city of Ayodhya with Ram Mandir.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kolkata to Varanasi",
+        "details": "Drive from Kolkata to Varanasi. Evening Ganga Aarti at Dashashwamedh Ghat."
+      },
+      {
+        "day": 2,
+        "title": "Varanasi Sightseeing",
+        "details": "Visit Kashi Vishwanath, Sarnath, Ramnagar Fort, boat ride on Ganga."
+      },
+      {
+        "day": 3,
+        "title": "Varanasi to Ayodhya",
+        "details": "Drive to Ayodhya. Visit Ram Mandir, Hanuman Garhi, Kanak Bhawan."
+      },
+      {
+        "day": 4,
+        "title": "Return to Kolkata",
+        "details": "After darshan, drive back to Kolkata."
+      }
+    ],
+    "pricing": {
+      "sedan": 16000,
+      "suv": 20000,
+      "tempo": 28000
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel",
+      "Toll",
+      "Driver Accommodation"
+    ],
+    "excluded": [
+      "Hotel",
+      "Meals",
+      "Temple Donations"
+    ]
+  },
+  {
+    "id": "khajuraho-tour",
+    "name": "Khajuraho Temple Tour",
+    "slug": "khajuraho-temple-tour",
+    "duration": "3 Days / 2 Nights",
+    "days": 3,
+    "fromCity": "Kolkata",
+    "fromSlug": "kolkata",
+    "destination": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "distance": 920,
+    "category": "heritage",
+    "highlights": [
+      "Western Group of Temples",
+      "Kandariya Mahadeva",
+      "Raneh Falls",
+      "Panna National Park"
+    ],
+    "description": "Visit the UNESCO World Heritage Khajuraho temples with this 3-day tour from Kolkata. Marvel at the intricate medieval sculptures and explore nearby Panna.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kolkata to Khajuraho",
+        "details": "Long drive to Khajuraho via Varanasi route. Overnight stay."
+      },
+      {
+        "day": 2,
+        "title": "Khajuraho Sightseeing",
+        "details": "Full day temple tour — Western, Eastern, and Southern temple groups. Visit Raneh Falls."
+      },
+      {
+        "day": 3,
+        "title": "Return to Kolkata",
+        "details": "Visit Panna National Park if time permits, drive back."
+      }
+    ],
+    "pricing": {
+      "sedan": 18000,
+      "suv": 23000,
+      "tempo": 32000
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel",
+      "Toll"
+    ],
+    "excluded": [
+      "Hotel",
+      "Meals",
+      "Entry Fees"
+    ]
+  },
+  {
+    "id": "delhi-agra-jaipur",
+    "name": "Golden Triangle Tour (Delhi-Agra-Jaipur)",
+    "slug": "golden-triangle-tour",
+    "duration": "4 Days / 3 Nights",
+    "days": 4,
+    "fromCity": "Delhi",
+    "fromSlug": "delhi",
+    "destination": "Agra-Jaipur",
+    "state": "Uttar Pradesh",
+    "distance": 720,
+    "category": "heritage",
+    "highlights": [
+      "Taj Mahal",
+      "Agra Fort",
+      "Hawa Mahal",
+      "Amber Fort",
+      "India Gate"
+    ],
+    "description": "The classic Golden Triangle tour covering Delhi, Agra, and Jaipur — India's most iconic heritage circuit with comfortable cab service.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi Sightseeing",
+        "details": "Visit Red Fort, India Gate, Qutub Minar, Humayun's Tomb, Lotus Temple."
+      },
+      {
+        "day": 2,
+        "title": "Delhi to Agra",
+        "details": "Drive to Agra via Yamuna Expressway. Visit Taj Mahal, Agra Fort."
+      },
+      {
+        "day": 3,
+        "title": "Agra to Jaipur",
+        "details": "Drive to Jaipur via Fatehpur Sikri. Visit Hawa Mahal, City Palace."
+      },
+      {
+        "day": 4,
+        "title": "Jaipur to Delhi",
+        "details": "Morning visit to Amber Fort, Nahargarh Fort. Drive back to Delhi."
+      }
+    ],
+    "pricing": {
+      "sedan": 14000,
+      "suv": 18000,
+      "tempo": 25000
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel",
+      "Toll",
+      "Parking"
+    ],
+    "excluded": [
+      "Hotel",
+      "Meals",
+      "Entry Fees",
+      "Guide"
+    ]
+  },
+  {
+    "id": "bhopal-sanchi-pachmarhi",
+    "name": "Bhopal Sanchi Pachmarhi Tour",
+    "slug": "bhopal-sanchi-pachmarhi-tour",
+    "duration": "3 Days / 2 Nights",
+    "days": 3,
+    "fromCity": "Delhi",
+    "fromSlug": "delhi",
+    "destination": "Bhopal",
+    "state": "Madhya Pradesh",
+    "distance": 780,
+    "category": "heritage",
+    "highlights": [
+      "Upper Lake",
+      "Sanchi Stupa",
+      "Pachmarhi",
+      "Bee Falls",
+      "Taj-ul-Masajid"
+    ],
+    "description": "Explore the heart of India — Bhopal, ancient Sanchi, and the beautiful hill station of Pachmarhi in this 3-day cab tour.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Bhopal",
+        "details": "Drive to Bhopal. Visit Upper Lake, Taj-ul-Masajid."
+      },
+      {
+        "day": 2,
+        "title": "Sanchi & Pachmarhi",
+        "details": "Morning visit to Sanchi Stupa, then drive to Pachmarhi. Visit Bee Falls."
+      },
+      {
+        "day": 3,
+        "title": "Return to Delhi",
+        "details": "Morning sightseeing in Pachmarhi, drive back to corridor."
+      }
+    ],
+    "pricing": {
+      "sedan": 16000,
+      "suv": 20000,
+      "tempo": 28000
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel",
+      "Toll"
+    ],
+    "excluded": [
+      "Hotel",
+      "Meals",
+      "Entry Fees"
+    ]
+  },
+  {
+    "id": "haridwar-rishikesh",
+    "name": "Haridwar Rishikesh Spiritual Tour",
+    "slug": "haridwar-rishikesh-tour",
+    "duration": "2 Days / 1 Night",
+    "days": 2,
+    "fromCity": "Delhi",
+    "fromSlug": "delhi",
+    "destination": "Haridwar-Rishikesh",
+    "state": "Uttarakhand",
+    "distance": 245,
+    "category": "pilgrimage",
+    "highlights": [
+      "Har Ki Pauri",
+      "Ganga Aarti",
+      "Laxman Jhula",
+      "Ram Jhula",
+      "Triveni Ghat"
+    ],
+    "description": "Weekend spiritual getaway to the holy cities of Haridwar and Rishikesh. Experience the divine Ganga Aarti and yoga capital of the world.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Delhi to Haridwar",
+        "details": "Morning drive to Haridwar. Visit Har Ki Pauri, Mansa Devi. Evening Ganga Aarti."
+      },
+      {
+        "day": 2,
+        "title": "Rishikesh & Return",
+        "details": "Drive to Rishikesh. Visit Laxman Jhula, Ram Jhula, Beatles Ashram. Return to Delhi."
+      }
+    ],
+    "pricing": {
+      "sedan": 6500,
+      "suv": 8500,
+      "tempo": 12000
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel",
+      "Toll"
+    ],
+    "excluded": [
+      "Hotel",
+      "Meals",
+      "Rafting"
+    ]
+  },
+  {
+    "id": "kolkata-digha-mandarmani",
+    "name": "Kolkata Beach Tour (Digha-Mandarmani)",
+    "slug": "kolkata-beach-tour",
+    "duration": "2 Days / 1 Night",
+    "days": 2,
+    "fromCity": "Kolkata",
+    "fromSlug": "kolkata",
+    "destination": "Digha-Mandarmani",
+    "state": "West Bengal",
+    "distance": 185,
+    "category": "beach",
+    "highlights": [
+      "Old Digha Beach",
+      "New Digha",
+      "Mandarmani Beach",
+      "Chandaneswar Temple",
+      "Shankarpur"
+    ],
+    "description": "Weekend beach getaway from Kolkata to Digha and Mandarmani — enjoy sunrise, seafood, and long red crab beaches.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Kolkata to Digha & Mandarmani",
+        "details": "Morning drive to Digha. Beach time, visit Chandaneswar Temple. Drive to Mandarmani for overnight."
+      },
+      {
+        "day": 2,
+        "title": "Mandarmani & Return",
+        "details": "Morning beach walk at Mandarmani. Visit Shankarpur fishing village. Return to Kolkata."
+      }
+    ],
+    "pricing": {
+      "sedan": 4500,
+      "suv": 5800,
+      "tempo": 8000
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel",
+      "Toll"
+    ],
+    "excluded": [
+      "Hotel",
+      "Meals"
+    ]
+  },
+  {
+    "id": "patna-rajgir-nalanda",
+    "name": "Patna Rajgir Nalanda Heritage Tour",
+    "slug": "patna-rajgir-nalanda-tour",
+    "duration": "2 Days / 1 Night",
+    "days": 2,
+    "fromCity": "Patna",
+    "fromSlug": "patna",
+    "destination": "Rajgir-Nalanda",
+    "state": "Bihar",
+    "distance": 110,
+    "category": "heritage",
+    "highlights": [
+      "Nalanda University Ruins",
+      "Rajgir Hot Springs",
+      "Vulture Peak",
+      "Pawapuri Jal Mandir",
+      "Bihar Museum"
+    ],
+    "description": "Explore ancient Bihar — visit the ruins of Nalanda University, Rajgir's hot springs, and Pawapuri's Jal Mandir on this heritage tour.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Patna to Rajgir via Nalanda",
+        "details": "Visit Bihar Museum, drive to Nalanda University ruins, then Rajgir. Hot springs, Vulture Peak."
+      },
+      {
+        "day": 2,
+        "title": "Pawapuri & Return",
+        "details": "Visit Pawapuri Jal Mandir, Son Bhandar caves. Return to Patna."
+      }
+    ],
+    "pricing": {
+      "sedan": 3500,
+      "suv": 4500,
+      "tempo": 6500
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel"
+    ],
+    "excluded": [
+      "Hotel",
+      "Meals",
+      "Entry Fees"
+    ]
+  },
+  {
+    "id": "ranchi-netarhat",
+    "name": "Ranchi Netarhat Hill Station Tour",
+    "slug": "ranchi-netarhat-tour",
+    "duration": "2 Days / 1 Night",
+    "days": 2,
+    "fromCity": "Ranchi",
+    "fromSlug": "ranchi",
+    "destination": "Netarhat",
+    "state": "Jharkhand",
+    "distance": 155,
+    "category": "hill-station",
+    "highlights": [
+      "Netarhat Sunrise Point",
+      "Magnolia Point",
+      "Upper Ghagri Falls",
+      "Betla National Park"
+    ],
+    "description": "Visit the Queen of Chhotanagpur — Netarhat hill station from Ranchi. Enjoy stunning sunrise views and lush forests.",
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Ranchi to Netarhat",
+        "details": "Morning drive to Netarhat. Visit Magnolia Point, Upper Ghagri Falls. Evening sunset."
+      },
+      {
+        "day": 2,
+        "title": "Sunrise & Return",
+        "details": "Early morning sunrise at Netarhat viewpoint. Visit Betla National Park enroute. Return to Ranchi."
+      }
+    ],
+    "pricing": {
+      "sedan": 4000,
+      "suv": 5200,
+      "tempo": 7200
+    },
+    "included": [
+      "AC Cab",
+      "Driver",
+      "Fuel"
+    ],
+    "excluded": [
+      "Hotel",
+      "Meals",
+      "Safari Charges"
+    ]
+  }
+]
