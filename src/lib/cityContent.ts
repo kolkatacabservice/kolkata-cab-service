@@ -42,7 +42,7 @@ function getCityHash(name: string): number {
 
 // ─── Generate detailed "About Cab Service" content ───
 function getAboutCityContent(input: CityContentInput): string[] {
-  const { city, stateName, routesFrom, routesTo } = input;
+  const { city, stateName, routesFrom } = input;
   const isKolkata = city.slug === 'kolkata';
   const paragraphs: string[] = [];
   const stateFares = getStateFares(input.stateSlug || 'west-bengal');

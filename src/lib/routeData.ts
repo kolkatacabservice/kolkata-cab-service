@@ -52,21 +52,6 @@ async function getShard(shardName: string): Promise<Route[]> {
 }
 
 // Get routes starting from a state (both intra-state and cross-state)
-async function getShardsForState(stateSlug: string): Promise<Route[]> {
-  const intra = await getShard(stateSlug);
-  let cross: Route[] = [];
-  if (stateSlug === 'west-bengal') {
-    cross = await getShard('cross-wb');
-  } else if (stateSlug === 'jharkhand') {
-    cross = await getShard('cross-jh');
-  } else if (stateSlug === 'odisha') {
-    cross = await getShard('cross-od');
-  } else {
-    cross = await getShard('cross-other');
-  }
-  return [...intra, ...cross];
-}
-
 // Load all shards (mainly for static build-time sitemaps)
 async function getAllRoutesInternal(): Promise<Route[]> {
   const shards = ['west-bengal', 'jharkhand', 'odisha', 'bihar', 'uttar-pradesh', 'cross-wb', 'cross-jh', 'cross-od', 'cross-other'];

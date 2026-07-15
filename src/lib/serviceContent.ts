@@ -11,7 +11,7 @@ interface ServiceContentInput {
 }
 
 export function generateLocalServiceContent(input: ServiceContentInput) {
-  const { cityName, stateName, stateSlug, citySlug, landmarks, airport, railway } = input;
+  const { cityName, stateName, stateSlug, landmarks, airport, railway } = input;
   // generateLocalServiceContent prices
   const prices = getStatePriceLabels(stateSlug || 'west-bengal');
   const landmarkList = landmarks?.slice(0, 6).join(', ') || 'railway station, bus stand, major markets';
