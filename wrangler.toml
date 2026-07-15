@@ -10,6 +10,16 @@ main = ".open-next/worker.js"
 # Static assets directory
 assets = { directory = ".open-next/assets", binding = "ASSETS" }
 
+# Domain routes — Cloudflare zone is active (nameservers: damiete/princess.ns.cloudflare.com)
+# These routes enable SSL via Cloudflare proxy and route traffic to this Worker
+[[routes]]
+pattern = "kolkatacabservice.com/*"
+zone_name = "kolkatacabservice.com"
+
+[[routes]]
+pattern = "www.kolkatacabservice.com/*"
+zone_name = "kolkatacabservice.com"
+
 [vars]
 NEXT_PUBLIC_SITE_URL = "https://www.kolkatacabservice.com"
 

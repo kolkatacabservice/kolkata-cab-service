@@ -6,9 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "build:cf": "node scripts/split-routes.js && next build && opennextjs-cloudflare build && node scripts/copy-cache.js",
-
-
-
     "start": "next start",
     "lint": "eslint",
     "routes:split": "node scripts/split-routes.js",
@@ -30,6 +27,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
+    "cross-env": "^10.1.0",
     "esbuild": "latest",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
