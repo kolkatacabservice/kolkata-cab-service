@@ -20,8 +20,8 @@ import { formatBoldText, parseParagraphsWithBold } from '@/lib/textHelper';
 
 // Pre-build the top 1000 most critical routes at build time.
 // Remaining rare routes: dynamicParams=false means 404 (not SSR) — keeps CF Free Tier safe.
-export const dynamicParams = true;
-export const dynamic = 'force-dynamic';
+export const dynamicParams = false;
+export const dynamic = 'force-static';
 
 export async function generateStaticParams() {
   return getStaticRouteSlugs(1000).map(slug => ({ route: slug }));

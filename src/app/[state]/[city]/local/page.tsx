@@ -16,6 +16,7 @@ import { formatBoldText } from '@/lib/textHelper';
 
 // Pre-render ALL city pages at build time to avoid SSR CPU limit errors on CF Free Tier
 export const dynamicParams = false;
+export const dynamic = 'force-static';
 export const revalidate = false;
 
 export async function generateStaticParams() {

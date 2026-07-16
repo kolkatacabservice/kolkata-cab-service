@@ -14,10 +14,10 @@ import { getRoute } from '@/lib/routeData';
 import { getStaticVehicleRouteSlugs } from '@/lib/routeDataStatic';
 import { generateVehicleRouteMetadata, generateVehicleRouteSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
-// true = ALL route/vehicle combos work (SSR on first request via CF Workers)
-export const dynamicParams = true;
-// force-dynamic: skip ISR, avoid NoFallbackError with dummy cache
-export const dynamic = 'force-dynamic';
+// false = only pre-built route/vehicle combos work (no dynamic SSR on edge)
+export const dynamicParams = false;
+// force-static: pre-build pages and serve as static assets to save CPU time limits
+export const dynamic = 'force-static';
 
 // Pre-build the top 100 hub route × vehicle combos at build time.
 // 100 routes × 4 vehicles = 400 files.

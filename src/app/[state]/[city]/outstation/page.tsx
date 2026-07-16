@@ -14,8 +14,9 @@ import { generateFaqSchema, generateBreadcrumbSchema, getCityGeoMeta, generateCi
 import { generateOutstationServiceContent } from '@/lib/serviceContent';
 import { formatBoldText } from '@/lib/textHelper';
 
-// Cloudflare Workers edge SSR — renders on first request, cached 30 days by CF edge
+// Pre-render pages as static HTML to avoid edge CPU execution limits
 export const dynamicParams = false;
+export const dynamic = 'force-static';
 export const revalidate = false;
 
 export async function generateStaticParams() {
