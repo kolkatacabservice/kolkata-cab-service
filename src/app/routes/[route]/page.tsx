@@ -13,18 +13,18 @@ import FareCalculator from '@/components/FareCalculator';
 import FleetSection from '@/components/FleetSection';
 import { getCity, getState, getVehicles, BUSINESS } from '@/lib/data';
 import { getRoute, getRoutesFrom, getPopularLocalRoutes } from '@/lib/routeData';
-import { getStaticRouteSlugs } from '@/lib/routeDataStatic';
+import { getAllRouteSlugs } from '@/lib/routeDataStatic';
 import { generateRouteMetadata, generateFaqSchema, generateBreadcrumbSchema, generateEnhancedRouteSchema } from '@/lib/seo';
 import { generateRoutePageContent } from '@/lib/routeContent';
 import { formatBoldText, parseParagraphsWithBold } from '@/lib/textHelper';
 
-// Pre-build the top 1000 most critical routes at build time.
-// Remaining rare routes: dynamicParams=false means 404 (not SSR) — keeps CF Free Tier safe.
+// Pre-build ALL routes (~13,800) as static HTML at build time.
+// This ensures 0ms Worker CPU usage per request and eliminates 503 errors on the CF Free Tier.
 export const dynamicParams = false;
 export const dynamic = 'force-static';
 
 export async function generateStaticParams() {
-  return getStaticRouteSlugs(1000).map(slug => ({ route: slug }));
+  return getAllRouteSlugs().map(slug => ({ route: slug }));
 }
 
 

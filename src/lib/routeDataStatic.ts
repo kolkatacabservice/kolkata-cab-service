@@ -42,7 +42,18 @@ function isHubRoute(slug: string): boolean {
 }
 
 /**
- * Returns at most `limit` route slugs for SSG — runs ONLY at build time.
+ * Returns ALL route slugs for full SSG — runs ONLY at build time.
+ * Pre-renders every route as a static HTML file, ensuring 0ms Worker CPU usage per request.
+ * Total routes ~13,800 — well within Cloudflare Pages 20,000-file limit.
+ */
+export function getAllRouteSlugs(): string[] {
+  const routes = loadAllSync();
+  return routes.map(r => r.slug);
+}
+
+/**
+ * Returns at most `limit` route slugs, hub-first — runs ONLY at build time.
+ * Kept for vehicle-page SSG which only needs hub routes.
  */
 export function getStaticRouteSlugs(limit = 200): string[] {
   const routes = loadAllSync();
