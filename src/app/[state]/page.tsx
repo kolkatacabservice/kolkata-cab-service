@@ -77,7 +77,18 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
       }
     }
   }
-  const localRoutesSample = intraStateRoutes.slice(0, 12);
+
+  // Fix #8 — Soft 404 prevention: For states with sparse intra-state routes (e.g. Bihar/UP),
+  // supplement with cross-state routes from Kolkata to state cities — gives Google real, crawlable content.
+  let crossStateRoutes: Route[] = [];
+  if (intraStateRoutes.length < 4) {
+    const kolkataRoutes = await getRoutesFrom('kolkata');
+    crossStateRoutes = kolkataRoutes
+      .filter(r => r.toState === stateSlug && !seenSlugs.has(r.slug))
+      .slice(0, 8);
+  }
+
+  const localRoutesSample = [...intraStateRoutes, ...crossStateRoutes].slice(0, 12);
 
   const faqs = [
     { question: `What cab services are available in ${state.name}?`, answer: `${BUSINESS.name} offers local taxi, outstation cab, one-way taxi, round trip, airport transfer, wedding car rental, and corporate car rental services across all major cities in ${state.name} including ${state.cities.slice(0, 5).map(c => c.name).join(', ')}.` },

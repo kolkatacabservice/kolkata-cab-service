@@ -109,10 +109,13 @@ export function generateRouteKeywords(
 
 export function generateRouteMetadata(
   fromName: string, toName: string, distance: number, priceSaloon: number, slug?: string,
-  fromAlternateNames?: string[], toAlternateNames?: string[]
+  fromAlternateNames?: string[], toAlternateNames?: string[],
+  priceSuvActual?: number
 ): Metadata {
   const routeSlug = slug || `${fromName.toLowerCase().replace(/\s+/g, '-')}-to-${toName.toLowerCase().replace(/\s+/g, '-')}`;
-  const priceSuv = Math.round(priceSaloon * 1.27);
+  // Use actual route priceSuv from data if provided — prevents meta/body price mismatch.
+  // Falls back to 1.27× estimate only for non-route callers that don't have route data.
+  const priceSuv = priceSuvActual ?? Math.round(priceSaloon * 1.27);
   // Keyword-first title under 60 chars for Google — includes taxi + cab both
   const title = `${fromName} to ${toName} Cab ₹${priceSaloon} | Taxi Book 24/7`;
 
@@ -1153,16 +1156,18 @@ export function generateCityServiceSchema(cityName: string, stateName: string, a
   };
 }
 
-export function generateFaqSchema(faqs: { question: string; answer: string }[]) {
+export function generateFaqSchema(faqs: { question: string; answer: string; lang?: string }[]) {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: faqs.map(faq => ({
       '@type': 'Question',
       name: faq.question,
+      ...(faq.lang === 'hi' ? { inLanguage: 'hi-IN' } : {}),
       acceptedAnswer: {
         '@type': 'Answer',
         text: faq.answer,
+        ...(faq.lang === 'hi' ? { inLanguage: 'hi-IN' } : {}),
       },
     })),
   };

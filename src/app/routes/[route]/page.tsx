@@ -41,7 +41,8 @@ export async function generateMetadata({ params }: { params: Promise<{ route: st
     route.priceSaloon,
     route.slug,
     fromCity?.alternateNames,
-    toCity?.alternateNames
+    toCity?.alternateNames,
+    route.priceSuv  // Pass actual priceSuv — prevents meta/body price inconsistency
   );
   return {
     ...baseMetadata,
@@ -115,6 +116,9 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateBreadcrumbSchema([
         { name: 'Home', url: BUSINESS.domain },
         { name: 'Routes', url: `${BUSINESS.domain}/routes` },
+        ...(route.fromState !== route.toState && toState
+          ? [{ name: toState.name, url: `${BUSINESS.domain}/${route.toState}` }]
+          : []),
         { name: `${route.fromName} to ${route.toName}`, url: `${BUSINESS.domain}/routes/${route.slug}` },
       ])) }} />
 
@@ -124,6 +128,9 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
         <div className="relative z-10 max-w-7xl mx-auto px-4">
           <Breadcrumbs items={[
             { name: fromState?.name || '', href: `/${route.fromState}` },
+            ...(route.fromState !== route.toState && toState
+              ? [{ name: toState.name, href: `/${route.toState}` }]
+              : []),
             { name: `${route.fromName} to ${route.toName}`, href: `/routes/${route.slug}` },
           ]} />
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold mt-4 mb-4">

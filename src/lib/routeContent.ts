@@ -113,12 +113,23 @@ function getSlugHash(slug: string): number {
   return hash;
 }
 
+/**
+ * Detects if this is the "reverse" direction of a route pair.
+ * A route is considered reverse if its fromCity slug comes after toCity slug alphabetically.
+ * This ensures A→B and B→A get different template variants and content angles.
+ */
+function isReverseRoute(from: string, to: string): boolean {
+  return from > to;
+}
+
 // ─── Generate unique "About" description for route ───
 function getRouteAboutContent(input: RouteContentInput): string[] {
   const { route, fromCity, toCity, fromStateName, toStateName } = input;
   const paragraphs: string[] = [];
   const hash = getSlugHash(route.slug);
-  const templateIndex = hash % 8;
+  // Fix #2: Reverse routes get +4 template offset to ensure structurally different content from forward route
+  const reverseOffset = isReverseRoute(route.from, route.to) ? 4 : 0;
+  const templateIndex = (hash + reverseOffset) % 8;
 
   // Paragraph 1: Route overview — highly natural, keyword-rich, and distinct
   let p1 = '';
@@ -162,27 +173,56 @@ function getRouteAboutContent(input: RouteContentInput): string[] {
   }
   paragraphs.push(p2);
 
-  // Paragraph 3: Destination content
-  if (toCity && toCity.tourist && toCity.landmarks && toCity.landmarks.length > 0) {
-    paragraphs.push(
-      `${route.toName} is a wonderful destination known for its rich heritage and attractions. When you arrive by cab, you can explore famous places like ${toCity.landmarks.join(', ')}. ${toCity.description} Our drivers are familiar with all tourist spots in ${route.toName} and can suggest the best itinerary for your visit.`
-    );
-  } else if (toCity) {
-    paragraphs.push(
-      `${route.toName} is ${toCity.tourist ? 'a popular destination' : 'an important city'} in ${toStateName || 'the region'}. ${toCity.description} Our cab service provides convenient door-to-door transfers from ${route.fromName} to any location within ${route.toName} including ${toCity.landmarks ? toCity.landmarks.slice(0, 3).join(', ') : 'all major areas'}, railway station, bus stand, and residential areas.`
-    );
-  }
+  // Paragraph 3 & 4: City content — Fix #2 & #9
+  // Forward routes: lead with destination (you're going TO it — tourist appeal)
+  // Reverse routes: lead with source city (you're departing FROM it — departure context)
+  const isReverse = isReverseRoute(route.from, route.to);
 
-  // Paragraph 4: Source city content
-  if (fromCity) {
-    const pickupPoints = [];
-    if (fromCity.airport) pickupPoints.push(fromCity.airport);
-    if (fromCity.railway) pickupPoints.push(fromCity.railway);
-    if (fromCity.landmarks) pickupPoints.push(...fromCity.landmarks.slice(0, 3));
-
-    paragraphs.push(
-      `Our cab service picks you up from anywhere in ${route.fromName}. Popular pickup points include ${pickupPoints.join(', ')}, and all residential/commercial areas. ${fromCity.airport ? `If you are arriving by flight at ${fromCity.airport}, our driver will track your flight and wait outside the arrival gate with a name board — no extra charge for flight delays.` : ''} ${fromCity.railway ? `For railway station pickups from ${fromCity.railway}, our driver will be waiting at the station exit at your scheduled time.` : ''}`
-    );
+  if (!isReverse) {
+    // Forward route — destination-first angle
+    if (toCity && toCity.tourist && toCity.landmarks && toCity.landmarks.length > 0) {
+      paragraphs.push(
+        `${route.toName} is a wonderful destination${toStateName ? ` in ${toStateName}` : ''} known for its rich heritage and attractions. When you arrive by cab from ${route.fromName}, you can explore famous places like ${toCity.landmarks.join(', ')}. ${toCity.description} Our drivers are familiar with all tourist spots in ${route.toName} and can suggest the best itinerary for your visit.`
+      );
+    } else if (toCity) {
+      paragraphs.push(
+        `${route.toName} is ${toCity.tourist ? 'a popular destination' : 'an important city'} in ${toStateName || 'the region'}. ${toCity.description} Our cab service provides convenient door-to-door transfers from ${route.fromName} to any location within ${route.toName} including ${toCity.landmarks ? toCity.landmarks.slice(0, 3).join(', ') : 'all major areas'}, railway station, bus stand, and residential areas.`
+      );
+    }
+    // Source city pickup context
+    if (fromCity) {
+      const pickupPoints = [];
+      if (fromCity.airport) pickupPoints.push(fromCity.airport);
+      if (fromCity.railway) pickupPoints.push(fromCity.railway);
+      if (fromCity.landmarks) pickupPoints.push(...fromCity.landmarks.slice(0, 3));
+      paragraphs.push(
+        `Our cab picks you up from anywhere in ${route.fromName}${pickupPoints.length > 0 ? ` including ${pickupPoints.slice(0, 4).join(', ')}` : ''}. ${fromCity.airport ? `Arriving by flight at ${fromCity.airport}? Our driver tracks your flight and waits at the arrival gate — no extra charge for delays.` : ''} ${fromCity.railway ? `For pickups from ${fromCity.railway}, our driver will be at the exit gate at your scheduled time.` : ''}`
+      );
+    }
+  } else {
+    // Reverse route — departure-first angle (you're leaving FROM this city)
+    if (fromCity) {
+      const pickupPoints = [];
+      if (fromCity.airport) pickupPoints.push(fromCity.airport);
+      if (fromCity.railway) pickupPoints.push(fromCity.railway);
+      if (fromCity.landmarks) pickupPoints.push(...fromCity.landmarks.slice(0, 4));
+      const fromDesc = fromCity.tourist && fromCity.description
+        ? `${route.fromName} — ${fromCity.description.split('.')[0]}. `
+        : `${route.fromName} is a major city in ${fromStateName || 'the region'}. `;
+      paragraphs.push(
+        `${fromDesc}Our cab service departs from all areas of ${route.fromName}${pickupPoints.length > 0 ? ` including ${pickupPoints.join(', ')}` : ''}. ${fromCity.airport ? `Flight passengers at ${fromCity.airport} can book our airport-to-${route.toName} cab with meet-and-greet service.` : ''} ${fromCity.railway ? `Pickups from ${fromCity.railway} available 24/7 — our driver will meet you at the station exit.` : ''}`
+      );
+    }
+    // Destination context for reverse route
+    if (toCity) {
+      const dropPoints = [];
+      if (toCity.airport) dropPoints.push(toCity.airport);
+      if (toCity.railway) dropPoints.push(toCity.railway);
+      if (toCity.landmarks) dropPoints.push(...toCity.landmarks.slice(0, 3));
+      paragraphs.push(
+        `${route.toName} is your destination${toStateName ? ` in ${toStateName}` : ''}. ${toCity.description ? toCity.description.split('.')[0] + '.' : ''} We offer door-to-door drop to any location in ${route.toName}${dropPoints.length > 0 ? ` including ${dropPoints.join(', ')}` : ''}. ${toCity.tourist ? `If you plan to visit local tourist spots, let our driver know — they can guide you to the best routes.` : ''}`
+      );
+    }
   }
 
   // Paragraph 5: Service commitment
@@ -246,7 +286,23 @@ export function getRouteExtendedFAQs(input: RouteContentInput): { question: stri
     },
     {
       question: `What are the toll charges from ${route.fromName} to ${route.toName}?`,
-      answer: `Toll charges on the ${route.fromName} to ${route.toName} route vary based on vehicle type and the number of toll plazas. Typically, toll charges range from ₹${Math.round(route.distance * 0.5)} to ₹${Math.round(route.distance * 1.2)} for sedans. Our driver will inform you about toll amounts before the trip, and you can pay tolls via FASTag or cash at the plaza. Toll charges are not included in the cab fare.`,
+      answer: (() => {
+        // Tiered toll estimates based on realistic NH toll plaza density in East India
+        // (NH-6, NH-16, NH-2, NH-33, NH-49 corridors — avg ₹50–₹130 per car plaza)
+        let minToll = 0, maxToll = 0;
+        if (route.distance < 100) {
+          minToll = 0; maxToll = 100;
+        } else if (route.distance < 200) {
+          minToll = 80; maxToll = 220;
+        } else if (route.distance < 350) {
+          minToll = 150; maxToll = 380;
+        } else if (route.distance < 500) {
+          minToll = 300; maxToll = 600;
+        } else {
+          minToll = 500; maxToll = 900;
+        }
+        return `Toll charges on the ${route.fromName} to ${route.toName} route vary by vehicle type. For a sedan, expect approximately ₹${minToll}–₹${maxToll} total across all toll plazas on this ${route.distance} km route${route.via.length > 0 ? ` via ${route.via.join(', ')}` : ''}. SUVs and Tempo Travellers pay slightly higher commercial toll rates. Our driver will inform you of exact toll amounts before departure, and FASTag-enabled vehicles get smooth, cashless passage. Toll charges are NOT included in the quoted cab fare.`;
+      })(),
     },
     {
       question: `Can I book a round trip from ${route.fromName} to ${route.toName}?`,
@@ -286,20 +342,23 @@ export function getRouteExtendedFAQs(input: RouteContentInput): { question: stri
 }
 
 // ─── Hindi/Hinglish FAQs for route pages ───
-export function getRouteHindiFAQs(input: RouteContentInput): { question: string; answer: string }[] {
+export function getRouteHindiFAQs(input: RouteContentInput): { question: string; answer: string; lang: string }[] {
   const { route } = input;
   return [
     {
       question: `${route.fromName} se ${route.toName} cab ka kiraya kitna hai?`,
       answer: `${route.fromName} se ${route.toName} cab ka kiraya Sedan (Swift Dzire) mein \u20B9${route.priceSaloon} se shuru hota hai. SUV (Ertiga, Innova) mein \u20B9${route.priceSuv} aur Tempo Traveller mein \u20B9${route.priceTempo} lagta hai. Saare fare mein fuel aur driver charges included hai. Toll aur parking alag hai. Call karein ${BUSINESS.phone}.`,
+      lang: 'hi',
     },
     {
       question: `${route.fromName} se ${route.toName} kitna dur hai road se?`,
       answer: `${route.fromName} se ${route.toName} road distance lagbhag ${route.distance} km hai. Car se ${route.duration} ghante lagte hain.${route.via.length > 0 ? ` Route ${route.via.join(', ')} se hokar jaata hai.` : ''} ${BUSINESS.name} ka AC cab book karein comfortable journey ke liye.`,
+      lang: 'hi',
     },
     {
       question: `${route.fromName} se ${route.toName} one way cab milta hai?`,
       answer: `Haan! ${BUSINESS.name} mein ${route.fromName} se ${route.toName} one way cab available hai. Sirf one way ka paisa lagta hai \u2014 return fare nahi lagta. One way Sedan cab \u20B9${route.priceSaloon} se start hota hai. Call karein ${BUSINESS.phone}.`,
+      lang: 'hi',
     },
   ];
 }

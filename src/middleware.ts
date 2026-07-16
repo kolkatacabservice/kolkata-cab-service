@@ -52,11 +52,21 @@ export default function middleware(request: NextRequest) {
 
   // ── Canonical: redirect http → https ─────────────────────────────────────
   if (url.protocol === 'http:') {
-    url.protocol = 'https';
+    url.protocol = 'https:';
     return NextResponse.redirect(url, 301);
   }
 
-  return NextResponse.next();
+  // ── Strip X-Robots-Tag: noindex on production — prevents stale preview headers ──
+  // Cloudflare preview deployments may inject noindex headers; strip them on prod.
+  const response = NextResponse.next();
+  const isProduction = hostname === 'www.kolkatacabservice.com' || hostname === 'kolkatacabservice.com';
+  if (isProduction) {
+    response.headers.delete('X-Robots-Tag');
+    // Also add explicit index header so no ambiguity
+    response.headers.set('X-Robots-Tag', 'index, follow');
+  }
+
+  return response;
 }
 
 export const config = {

@@ -6,6 +6,7 @@ import { ChevronDown, HelpCircle } from 'lucide-react';
 interface FAQ {
   question: string;
   answer: string;
+  lang?: string;  // e.g. 'hi' for Hindi FAQs — renders with lang="hi" to avoid mixed-language duplicate content signals
 }
 
 interface FAQSectionProps {
@@ -45,9 +46,14 @@ export default function FAQSection({ faqs, title = 'Frequently Asked Questions' 
                 }`}>
                   {i + 1}
                 </span>
-                <span className={`font-semibold text-sm md:text-base transition-colors ${
-                  openIndex === i ? 'text-primary' : 'text-secondary'
-                }`}>{faq.question}</span>
+                <span
+                  className={`font-semibold text-sm md:text-base transition-colors ${
+                    openIndex === i ? 'text-primary' : 'text-secondary'
+                  }`}
+                  lang={faq.lang === 'hi' ? 'hi' : undefined}
+                >
+                  {faq.question}
+                </span>
               </div>
               <div className={`flex items-center justify-center w-8 h-8 rounded-full shrink-0 transition-all ${
                 openIndex === i ? 'bg-primary/10 rotate-180' : 'bg-gray-100'
@@ -61,7 +67,12 @@ export default function FAQSection({ faqs, title = 'Frequently Asked Questions' 
               }`}
             >
               <div className="px-4 md:px-5 pb-4 md:pb-5 pl-14 md:pl-16">
-                <p className="text-gray-600 text-sm leading-relaxed">{faq.answer}</p>
+                <p
+                  className="text-gray-600 text-sm leading-relaxed"
+                  lang={faq.lang === 'hi' ? 'hi' : undefined}
+                >
+                  {faq.answer}
+                </p>
               </div>
             </div>
           </div>
