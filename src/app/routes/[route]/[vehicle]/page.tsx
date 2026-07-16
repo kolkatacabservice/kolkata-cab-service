@@ -14,15 +14,17 @@ import { getRoute } from '@/lib/routeData';
 import { getStaticVehicleRouteSlugs } from '@/lib/routeDataStatic';
 import { generateVehicleRouteMetadata, generateVehicleRouteSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
-// false = only pre-built route/vehicle combos work (no dynamic SSR on edge)
-export const dynamicParams = false;
+// true = pre-built route/vehicle combos work, but rare combos generate dynamically on demand and are cached
+export const dynamicParams = true;
 // force-static: pre-build pages and serve as static assets to save CPU time limits
 export const dynamic = 'force-static';
+export const revalidate = 31536000; // cache at CDN edge for up to 1 year
 
-// Pre-build the top 100 hub route × vehicle combos at build time.
-// 100 routes × 4 vehicles = 400 files.
+// Pre-build the top 300 hub route × vehicle combos at build time.
+// 300 routes × 4 vehicles = 1,200 files.
+// This keeps us safely under Cloudflare Free Tier's 20,000 files limit.
 export async function generateStaticParams() {
-  const routeSlugs = getStaticVehicleRouteSlugs(100);
+  const routeSlugs = getStaticVehicleRouteSlugs(300);
   const params: { route: string; vehicle: string }[] = [];
   for (const rs of routeSlugs) {
     for (const vs of VEHICLE_SLUGS) {
