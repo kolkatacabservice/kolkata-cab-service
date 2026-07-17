@@ -1,6 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Fixed deployment ID — keeps the open-next buildId stable across rebuilds.
+  // Without this, every `next build` generates a new random buildId, forcing
+  // Cloudflare to re-upload ALL 16K+ cache files on every deploy.
+  // With this fixed, only actually-changed files are re-uploaded (fast deploys).
+  deploymentId: "kolkata-cab-v1",
+
   // Ensure consistent URLs — no trailing slashes
   trailingSlash: false,
 

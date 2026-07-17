@@ -1,26 +1,31 @@
 /**
  * inject-static-route-cache.js
  *
- * Optimizes static site delivery on Cloudflare Workers Free Tier.
+ * Converts ALL statically pre-rendered HTML files from .next/server/app/
+ * into open-next .cache format and injects them into .open-next/cache/<buildId>/.
  *
- * WHAT THIS SCRIPT DOES:
- * 1. Copies ALL statically pre-rendered HTML files from .next/server/app/
- *    directly into .open-next/assets/ as .html files.
- *    - Example: .next/server/app/routes/kolkata-to-siliguri.html
- *      is copied to .open-next/assets/routes/kolkata-to-siliguri.html
- *    - Cloudflare CDN matches clean URLs (e.g. /routes/kolkata-to-siliguri)
- *      to these .html files and serves them directly, bypassing the Worker completely.
- *    - Result: 0ms Worker CPU time for all direct visits and search engine crawls,
- *      permanently eliminating Error 1102 on route pages.
+ * WHY THIS EXISTS:
+ * Next.js App Router generates static HTML for all pre-rendered pages in .next/server/app/.
+ * However, @opennextjs/cloudflare only copies pages rendered dynamically during build
+ * into .open-next/cache. Static pages (force-static) are NOT included — meaning when
+ * Cloudflare receives a request, it finds no cache, falls through to the Worker JS runtime,
+ * consumes CPU, and hits the 10ms Free Tier limit → Error 1102 / 503.
  *
- * 2. Writes .cache files (HTML + RSC payload JSON) to .open-next/cache/
- *    ONLY for critical pages and the top 300 hub routes (and their vehicle combinations).
- *    - Non-route pages (Home, Fleet, Services, Cities, States) get .cache files so client-side
- *      RSC navigation requests work perfectly.
- *    - Only the top 300 hub routes get .cache files (300 routes * 4 vehicles = 1,200 cache files).
- *    - The remaining ~13,500 route pages DO NOT get .cache files.
- *    - Result: Total assets uploaded to Cloudflare remains at ~18,000 files,
- *      safely under the Cloudflare Free Tier 20,000 files upload limit!
+ * FIX: This script walks ALL of .next/server/app/ recursively, finds every .html + .meta
+ * pair, and writes them as .cache files into .open-next/cache/<buildId>/ at the exact
+ * matching path. After copy-cache.js runs, every page (routes, cities, fleet, services,
+ * tours, blog, etc.) exists in .open-next/assets/cdn-cgi/_next_cache/ and is served
+ * directly from CDN with 0ms Worker CPU usage — permanently eliminating 1102 errors.
+ *
+ * COVERAGE:
+ * - /routes/<slug>            → 13,808 pages
+ * - /routes/<slug>/<vehicle>  → 1,200 pages (hub routes × 4 vehicles)
+ * - /west-bengal, /jharkhand, /odisha, /bihar  → state pages
+ * - /west-bengal/<city>, /jharkhand/<city>, etc. → city pages
+ * - /west-bengal/<city>/outstation|one-way|airport-transfer|etc. → city service pages
+ * - /fleet, /services/*, /tours/*, /blog/*
+ * - /kolkata/<area> → Kolkata area pages
+ * - All other static pages (home, about, faq, contact, privacy, terms, etc.)
  *
  * USAGE: Run AFTER opennextjs-cloudflare build, BEFORE copy-cache.js
  * (Already wired into package.json build:cf script)
@@ -32,7 +37,10 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const NEXT_APP_DIR = path.join(ROOT, '.next/server/app');
 const OPEN_NEXT_CACHE_DIR = path.join(ROOT, '.open-next/cache');
-const OPEN_NEXT_ASSETS_DIR = path.join(ROOT, '.open-next/assets');
+
+// ─── Skip non-page files and internal Next.js files ──────────────────────────
+const SKIP_EXTENSIONS = new Set(['.js', '.nft.json', '.rsc', '.meta', '.body', '.txt']);
+const SKIP_NAMES = new Set(['page.js', 'page_client-reference-manifest.js', 'page.js.nft.json']);
 
 // ─── Helper: find the build ID folder inside .open-next/cache ────────────────
 function getBuildIdFolder() {
@@ -50,72 +58,6 @@ function getBuildIdFolder() {
   return path.join(OPEN_NEXT_CACHE_DIR, buildIdDir);
 }
 
-// ─── Helper: Load and calculate the top 300 hub routes ────────────────────────
-function getPrebuiltRouteSlugs(limit = 300) {
-  const dataDir = path.join(ROOT, 'src/data');
-  const files = [
-    'routes-west-bengal.json',
-    'routes-jharkhand.json',
-    'routes-odisha.json',
-    'routes-bihar.json',
-    'routes-uttar-pradesh.json',
-    'routes-cross-wb.json',
-    'routes-cross-jh.json',
-    'routes-cross-od.json',
-    'routes-cross-other.json'
-  ];
-
-  let routes = [];
-  for (const f of files) {
-    const full = path.join(dataDir, f);
-    if (fs.existsSync(full)) {
-      try {
-        const data = JSON.parse(fs.readFileSync(full, 'utf8'));
-        routes.push(...data);
-      } catch (err) {
-        console.error(`[inject] Error parsing data file ${f}:`, err.message);
-      }
-    }
-  }
-
-  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
-  const routeMap = new Map(routes.map(r => [r.slug, r]));
-
-  const tier1 = routes.filter(r => hubSlugs.has(r.from) && hubSlugs.has(r.to));
-  const tier2 = routes
-    .filter(r => hubSlugs.has(r.from) && !hubSlugs.has(r.to))
-    .sort((a, b) => a.distance - b.distance);
-  const tier3 = routes
-    .filter(r => !hubSlugs.has(r.from) && hubSlugs.has(r.to))
-    .sort((a, b) => a.distance - b.distance);
-
-  const seen = new Set();
-  const result = [];
-
-  for (const r of [...tier1, ...tier2, ...tier3]) {
-    if (result.length >= limit) break;
-    if (!seen.has(r.slug)) {
-      seen.add(r.slug);
-      result.push(r.slug);
-    }
-  }
-
-  const withReverse = [...result];
-  for (const slug of result) {
-    if (withReverse.length >= limit) break;
-    const parts = slug.split('-to-');
-    if (parts.length === 2) {
-      const rev = `${parts[1]}-to-${parts[0]}`;
-      if (routeMap.has(rev) && !seen.has(rev)) {
-        seen.add(rev);
-        withReverse.push(rev);
-      }
-    }
-  }
-
-  return new Set(withReverse.slice(0, limit));
-}
-
 // ─── Walk .next/server/app recursively, collect all .html files ───────────────
 function collectHtmlFiles(dir, relBase = '') {
   const results = [];
@@ -127,19 +69,20 @@ function collectHtmlFiles(dir, relBase = '') {
     const stat = fs.lstatSync(fullPath);
 
     if (stat.isDirectory()) {
+      // Skip internal Next.js directories
       if (entry.startsWith('_') && entry !== '_not-found') continue;
+      // Recurse into subdirectories (these are URL path segments)
       const subRel = relBase ? `${relBase}/${entry}` : entry;
       results.push(...collectHtmlFiles(fullPath, subRel));
     } else if (entry.endsWith('.html')) {
+      // This is a pre-rendered page
       const slug = entry.slice(0, -5); // remove .html
       const cacheKey = relBase ? `${relBase}/${slug}` : slug;
       const metaPath = path.join(dir, `${slug}.meta`);
-      const rscPath = path.join(dir, `${slug}.rsc`);
       results.push({
-        cacheKey,
+        cacheKey,  // relative path like "routes/kolkata-to-siliguri" or "west-bengal/kolkata"
         htmlPath: fullPath,
         metaPath,
-        rscPath,
       });
     }
   }
@@ -148,7 +91,7 @@ function collectHtmlFiles(dir, relBase = '') {
 
 // ─── Main ─────────────────────────────────────────────────────────────────────
 function main() {
-  console.log('[inject-static-cache] Starting full-site static optimization...');
+  console.log('[inject-static-cache] Starting full-site static cache injection...');
   console.time('[inject-static-cache] Total time');
 
   const buildCacheDir = getBuildIdFolder();
@@ -160,89 +103,31 @@ function main() {
     process.exit(1);
   }
 
-  // Calculate prebuilt hub routes
-  const prebuiltRoutes = getPrebuiltRouteSlugs(300);
-  console.log(`[inject] Calculated ${prebuiltRoutes.size} prebuilt hub routes for cache injection.`);
-
-  // Clean existing route cache directories of non-hub cache files
-  const routesCacheDir = path.join(buildCacheDir, 'routes');
-  const routesAssetsCacheDir = path.join(OPEN_NEXT_ASSETS_DIR, 'cdn-cgi/_next_cache', buildId, 'routes');
-  
-  const cleanCacheDir = (dirPath) => {
-    if (!fs.existsSync(dirPath)) return;
-    const entries = fs.readdirSync(dirPath);
-    let deleted = 0;
-    for (const entry of entries) {
-      if (entry.endsWith('.cache')) {
-        const slug = entry.slice(0, -6);
-        if (!prebuiltRoutes.has(slug)) {
-          fs.unlinkSync(path.join(dirPath, entry));
-          deleted++;
-        }
-      }
-    }
-    if (deleted > 0) {
-      console.log(`[inject] Cleaned ${deleted} leftover cache files from ${path.basename(dirPath)}`);
-    }
-  };
-
-  cleanCacheDir(routesCacheDir);
-  cleanCacheDir(routesAssetsCacheDir);
-
   const allFiles = collectHtmlFiles(NEXT_APP_DIR);
-  console.log(`[inject] Found ${allFiles.length} static HTML pages to optimize.`);
+  console.log(`[inject] Found ${allFiles.length} static HTML pages to inject.`);
 
-  let htmlCopied = 0;
-  let cacheInjected = 0;
-  let cacheSkipped = 0;
+  let injected = 0;
+  let skipped = 0;
   let errors = 0;
 
-  for (const { cacheKey, htmlPath, metaPath, rscPath } of allFiles) {
+  for (const { cacheKey, htmlPath, metaPath } of allFiles) {
     try {
-      // Decide whether we process this page
-      const isRoute = cacheKey.startsWith('routes/');
-      let isPrebuiltHub = false;
+      const cacheFilePath = path.join(buildCacheDir, `${cacheKey}.cache`);
+      const cacheDir = path.dirname(cacheFilePath);
 
-      if (isRoute) {
-        const parts = cacheKey.split('/');
-        const routeSlug = parts[1];
-        if (prebuiltRoutes.has(routeSlug)) {
-          isPrebuiltHub = true;
-        }
-      }
-
-      // If it is a route and NOT a prebuilt hub route, we SKIP IT ENTIRELY!
-      if (isRoute && !isPrebuiltHub) {
-        cacheSkipped++;
+      // Skip if already exists (idempotent — safe to re-run)
+      if (fs.existsSync(cacheFilePath)) {
+        skipped++;
         continue;
       }
 
-      // 1. Copy the .html file directly to open-next assets directory
-      // This is the core magic: direct CDN serving with 0ms Worker CPU!
-      const assetHtmlPath = path.join(OPEN_NEXT_ASSETS_DIR, `${cacheKey}.html`);
-      const assetHtmlDir = path.dirname(assetHtmlPath);
-      
-      fs.mkdirSync(assetHtmlDir, { recursive: true });
-      fs.copyFileSync(htmlPath, assetHtmlPath);
-      htmlCopied++;
-
-      // Generate the .cache file
-      const cacheFilePath = path.join(buildCacheDir, `${cacheKey}.cache`);
-      const cacheDir = path.dirname(cacheFilePath);
+      // Ensure parent directory exists
       fs.mkdirSync(cacheDir, { recursive: true });
 
-      // Read HTML and RSC
+      // Read HTML
       const html = fs.readFileSync(htmlPath, 'utf8');
-      let rsc = undefined;
-      if (fs.existsSync(rscPath)) {
-        try {
-          rsc = fs.readFileSync(rscPath, 'utf8');
-        } catch {
-          // ignore
-        }
-      }
 
-      // Read meta
+      // Read meta (headers) if available
       let meta = {
         headers: {
           'x-nextjs-stale-time': '31536000',
@@ -259,25 +144,29 @@ function main() {
             meta = parsed;
           }
         } catch {
-          // ignore
+          // Use default meta if parse fails
         }
       }
 
-      const cacheEntry = JSON.stringify({ type: 'app', meta, html, rsc });
+      // Build the .cache file in open-next/staticAssetsIncrementalCache format
+      const cacheEntry = JSON.stringify({ type: 'app', meta, html });
       fs.writeFileSync(cacheFilePath, cacheEntry, 'utf8');
-      cacheInjected++;
+      injected++;
 
+      if (injected % 2000 === 0) {
+        console.log(`[inject] Progress: ${injected}/${allFiles.length} injected...`);
+      }
     } catch (err) {
       console.error(`[inject] ERROR processing ${cacheKey}:`, err.message);
       errors++;
     }
   }
 
-  console.log(`\n[inject] ✅ Optimization Complete!`);
-  console.log(`[inject]   Static HTML files copied to assets: ${htmlCopied}`);
-  console.log(`[inject]   Cache JSON files written (.cache):   ${cacheInjected}`);
-  console.log(`[inject]   Cache JSON files skipped (non-hub): ${cacheSkipped}`);
+  console.log(`\n[inject] ✅ Done!`);
+  console.log(`[inject]   Injected: ${injected}`);
+  console.log(`[inject]   Skipped (already existed): ${skipped}`);
   console.log(`[inject]   Errors: ${errors}`);
+  console.log(`[inject]   Cache dir: ${buildCacheDir}`);
   console.timeEnd('[inject-static-cache] Total time');
 }
 
