@@ -199,6 +199,24 @@ function main() {
 
   for (const { cacheKey, htmlPath, metaPath, rscPath } of allFiles) {
     try {
+      // Decide whether we process this page
+      const isRoute = cacheKey.startsWith('routes/');
+      let isPrebuiltHub = false;
+
+      if (isRoute) {
+        const parts = cacheKey.split('/');
+        const routeSlug = parts[1];
+        if (prebuiltRoutes.has(routeSlug)) {
+          isPrebuiltHub = true;
+        }
+      }
+
+      // If it is a route and NOT a prebuilt hub route, we SKIP IT ENTIRELY!
+      if (isRoute && !isPrebuiltHub) {
+        cacheSkipped++;
+        continue;
+      }
+
       // 1. Copy the .html file directly to open-next assets directory
       // This is the core magic: direct CDN serving with 0ms Worker CPU!
       const assetHtmlPath = path.join(OPEN_NEXT_ASSETS_DIR, `${cacheKey}.html`);
@@ -207,26 +225,6 @@ function main() {
       fs.mkdirSync(assetHtmlDir, { recursive: true });
       fs.copyFileSync(htmlPath, assetHtmlPath);
       htmlCopied++;
-
-      // 2. Decide whether we write a .cache file
-      // We only generate .cache files for:
-      // - All non-route pages (Home, Fleet, Services, Cities, States)
-      // - The top 300 hub routes and their vehicle sub-pages
-      let shouldCache = true;
-
-      if (cacheKey.startsWith('routes/')) {
-        const parts = cacheKey.split('/');
-        // parts[1] is the route slug (e.g. "kolkata-to-siliguri")
-        const routeSlug = parts[1];
-        if (!prebuiltRoutes.has(routeSlug)) {
-          shouldCache = false;
-        }
-      }
-
-      if (!shouldCache) {
-        cacheSkipped++;
-        continue;
-      }
 
       // Generate the .cache file
       const cacheFilePath = path.join(buildCacheDir, `${cacheKey}.cache`);
