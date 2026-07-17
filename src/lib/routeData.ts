@@ -9,6 +9,7 @@
 import 'server-only';
 import { Route } from './data';
 import { getCityRouteShard } from './cityRouteShards';
+import { getCityRouteToShard } from './cityRouteToShards';
 
 // Memory cache for shards loaded during the current request lifecycle.
 const SHARD_CACHE = new Map<string, Route[]>();
@@ -82,10 +83,9 @@ export async function getRoutesFrom(citySlug: string): Promise<Route[]> {
   return getCityRouteShard(citySlug);
 }
 
-/** Loads all shards that could end in this city (Build-time only helper) */
+/** Loads only the relevant city shard (~117 routes) */
 export async function getRoutesTo(citySlug: string): Promise<Route[]> {
-  const all = await getAllRoutesInternal();
-  return all.filter(r => r.to === citySlug);
+  return getCityRouteToShard(citySlug);
 }
 
 export async function getRoutesBetweenStates(fromState: string, toState: string): Promise<Route[]> {
