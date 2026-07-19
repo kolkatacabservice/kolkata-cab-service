@@ -85,10 +85,26 @@ const customStaticAssetsIncrementalCache = {
     }
   },
 
-  async set(key: string, _value: unknown, cacheType: string) {
-    console.error(
-      `CustomStaticAssetsIncrementalCache: Failed to set to read-only cache key=${key} type=${cacheType}`
-    );
+  async set(key: string, value: unknown, cacheType: string) {
+    const assets = getAssets();
+    if (!assets) {
+      console.warn('[CustomStaticAssetsIncrementalCache] ASSETS binding not available for set');
+      return;
+    }
+
+    try {
+      const url = getAssetUrl(key, cacheType);
+      const response = new Response(JSON.stringify(value), {
+        headers: { 'Content-Type': 'application/json' },
+      });
+      const cachedResponse = new Response(response.body, {
+        headers: response.headers,
+      });
+      await assets.set(url, cachedResponse);
+      console.log(`[CustomStaticAssetsIncrementalCache] Successfully set cache for ${key}`);
+    } catch (err) {
+      console.error(`[CustomStaticAssetsIncrementalCache] ERROR setting cache for ${key}:`, err);
+    }
   },
 
   async delete(_key: string) {

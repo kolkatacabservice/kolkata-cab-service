@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DOMAIN = 'https://www.kolkatacabservice.com';
-const LAST_MODIFIED = '2026-07-19T07:00:00.000Z';
+const LAST_MODIFIED = '2026-07-20T00:00:00.000Z';
 const publicDir = path.join(__dirname, '../public');
 const sitemapDir = path.join(publicDir, 'sitemap');
 
@@ -339,15 +339,27 @@ for (const slug of linkedVehicleSlugs) {
 fs.writeFileSync(path.join(sitemapDir, '5.xml'), buildSitemapXml(sitemap5Urls));
 console.log(`✓ Generated public/sitemap/5.xml (${sitemap5Urls.length} links)`);
 
-// Clean up sitemap 6.xml if it exists to prevent hosting a stale file
-const sitemap6Path = path.join(sitemapDir, '6.xml');
-if (fs.existsSync(sitemap6Path)) {
-  fs.unlinkSync(sitemap6Path);
-  console.log('✓ Cleaned up old sitemap 6.xml');
+// --- Sitemap 6: Service city pages (/services/[service]/[city]) ---
+const SERVICE_SLUGS = ['local-taxi', 'outstation', 'one-way', 'round-trip', 'airport-transfer', 'wedding-car-rental', 'corporate-car-rental'];
+const HUB_CITY_SLUGS_FOR_SERVICES = ['kolkata', 'ranchi', 'bhubaneswar'];
+const sitemap6Urls = [];
+for (const city of cities) {
+  if (HUB_CITY_SLUGS_FOR_SERVICES.includes(city.slug)) {
+    for (const serviceSlug of SERVICE_SLUGS) {
+      sitemap6Urls.push({
+        url: `${DOMAIN}/services/${serviceSlug}/${city.slug}`,
+        lastModified: LAST_MODIFIED,
+        changeFrequency: 'monthly',
+        priority: 0.82
+      });
+    }
+  }
 }
+fs.writeFileSync(path.join(sitemapDir, '6.xml'), buildSitemapXml(sitemap6Urls));
+console.log(`✓ Generated public/sitemap/6.xml (${sitemap6Urls.length} links)`);
 
 // ─── 5. Generate sitemap_index.xml ───
-const sitemapsList = ['0.xml', '1.xml', '2.xml', '3.xml', '4.xml', '5.xml'];
+const sitemapsList = ['0.xml', '1.xml', '2.xml', '3.xml', '4.xml', '5.xml', '6.xml'];
 let indexXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
 indexXml += `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 for (const sitemapFile of sitemapsList) {

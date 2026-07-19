@@ -755,6 +755,61 @@ export function generateServicePageMetadata(serviceName: string, description: st
   };
 }
 
+export function generateServiceCityMetadata(
+  serviceName: string,
+  cityName: string,
+  stateName: string,
+  serviceSlug: string,
+): Metadata {
+  const citySlug = cityName.toLowerCase().replace(/\s+/g, '-');
+  const canonicalUrl = `${DOMAIN}/services/${serviceSlug}/${citySlug}`;
+  const title = `${serviceName} in ${cityName} ₹12/km | Book 24/7 | ${BUSINESS.name}`;
+  const desc = `${serviceName} service in ${cityName}, ${stateName}. AC Sedan, SUV, Innova Crysta. Verified drivers, no surge pricing. 24/7. Call ${BUSINESS.phone}`.slice(0, 160);
+
+  const keywords = [
+    `${serviceName.toLowerCase()} ${cityName.toLowerCase()}`,
+    `${serviceName.toLowerCase()} in ${cityName.toLowerCase()}`,
+    `cab service ${cityName.toLowerCase()}`,
+    `taxi service ${cityName.toLowerCase()}`,
+    `${cityName.toLowerCase()} ${serviceName.toLowerCase()}`,
+    `${cityName.toLowerCase()} cab booking`,
+    `${cityName.toLowerCase()} taxi booking`,
+    `book cab ${cityName.toLowerCase()}`,
+    `best cab service ${cityName.toLowerCase()}`,
+    `${cityName.toLowerCase()} ac cab`,
+    `${serviceName.toLowerCase()} ${cityName.toLowerCase()} ${stateName.toLowerCase()}`,
+    `cheap cab ${cityName.toLowerCase()}`,
+    `${cityName.toLowerCase()} airport cab`,
+    `${cityName.toLowerCase()} outstation cab`,
+    `${cityName.toLowerCase()} local taxi`,
+  ];
+
+  return {
+    title,
+    description: desc,
+    keywords,
+    openGraph: {
+      title: `${serviceName} in ${cityName} | ${BUSINESS.name}`,
+      description: `${serviceName} in ${cityName}. AC cab, verified drivers, 24/7. No surge pricing. Call ${BUSINESS.phone}`,
+      type: 'website',
+      siteName: BUSINESS.name,
+      url: canonicalUrl,
+      locale: 'en_IN',
+      images: [{ url: OG_IMAGE_URL, width: 1200, height: 630, alt: `${serviceName} in ${cityName} - ${BUSINESS.name}` }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${serviceName} in ${cityName} | ${BUSINESS.name}`,
+      description: desc,
+      images: [OG_IMAGE_URL],
+    },
+    alternates: { canonical: canonicalUrl },
+    other: {
+      thumbnail: OG_IMAGE_URL,
+    },
+  };
+}
+
 // Keep old name as alias for backward compat
 export const generateServiceMetadata = generateServicePageMetadata;
 

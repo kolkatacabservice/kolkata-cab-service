@@ -5,7 +5,7 @@ import Breadcrumbs from '@/components/Breadcrumbs';
 import HeroBanner from '@/components/HeroBanner';
 import FAQSection from '@/components/FAQSection';
 import GoogleMapEmbed from '@/components/GoogleMapEmbed';
-import { BUSINESS, getServices } from '@/lib/data';
+import { BUSINESS, getServices, getAllCities } from '@/lib/data';
 import { generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
 export const dynamic = 'force-static';
@@ -97,6 +97,60 @@ const serviceCards = [
     features: ['Monthly contracts', '15-25% discount', 'GST invoices', 'Dedicated vehicles'],
   },
 ];
+
+const HUB_CITY_SERVICES = [
+  { slug: 'local-taxi', name: 'Local Taxi', icon: MapPin },
+  { slug: 'outstation', name: 'Outstation Cab', icon: Route },
+  { slug: 'one-way', name: 'One-Way Taxi', icon: ArrowRight },
+  { slug: 'round-trip', name: 'Round Trip', icon: Repeat },
+  { slug: 'airport-transfer', name: 'Airport Transfer', icon: Plane },
+  { slug: 'wedding-car-rental', name: 'Wedding Car', icon: Heart },
+  { slug: 'corporate-car-rental', name: 'Corporate Car', icon: Building },
+];
+
+function HubCitiesSection() {
+  const allCities = getAllCities();
+  const hubCities = allCities.filter(c => c.type === 'hub');
+  if (hubCities.length === 0) return null;
+
+  return (
+    <section className="py-12 bg-white border-t border-gray-100">
+      <div className="max-w-7xl mx-auto px-4">
+        <h2 className="text-2xl font-bold text-secondary mb-2 text-center">
+          Cab Services by City — <span className="text-primary">Book Online</span>
+        </h2>
+        <p className="text-gray-500 text-sm mb-8 text-center">Choose your city for local, outstation, airport & all services</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {hubCities.map(city => (
+            <div key={city.slug} className="bg-gradient-to-br from-white to-gray-50 rounded-2xl border border-gray-100 shadow-sm p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
+                  <MapPin size={20} className="text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-bold text-secondary text-lg">{city.name}</h3>
+                  <p className="text-gray-400 text-xs">{city.state === 'west-bengal' ? 'West Bengal' : city.state === 'jharkhand' ? 'Jharkhand' : 'Odisha'}</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-2">
+                {HUB_CITY_SERVICES.map(svc => (
+                  <Link
+                    key={svc.slug}
+                    href={`/services/${svc.slug}/${city.slug}`}
+                    className="flex items-center gap-2 px-3 py-2 bg-white rounded-lg border border-gray-100 hover:border-primary/30 hover:shadow-sm transition-all text-sm text-gray-600 hover:text-primary"
+                  >
+                    <svc.icon size={13} />
+                    <span className="truncate">{svc.name}</span>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
 
 export default function ServicesPage() {
   const faqs = [
@@ -211,6 +265,9 @@ export default function ServicesPage() {
           <p className="text-xs text-gray-400 mt-2 text-center">* Toll, parking, state permit extra. No surge pricing — same rate 24/7.</p>
         </div>
       </section>
+
+      {/* Hub Cities */}
+      <HubCitiesSection />
 
       {/* FAQ */}
       <section className="py-12 bg-white">
