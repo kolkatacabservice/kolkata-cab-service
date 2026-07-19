@@ -1,6 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Required for opennextjs-cloudflare --skipBuild flag.
+  // opennextjs-cloudflare expects a pre-built standalone directory.
+  // We then run clean-standalone.js to delete .html/.rsc/.meta files
+  // (freeing ~3-5 GB) BEFORE opennextjs copies the standalone folder.
+  output: "standalone",
+
   // Fixed deployment ID — keeps the open-next buildId stable across rebuilds.
   // Without this, every `next build` generates a new random buildId, forcing
   // Cloudflare to re-upload ALL 16K+ cache files on every deploy.
@@ -11,14 +17,15 @@ const nextConfig: NextConfig = {
   trailingSlash: false,
 
   // Exclude large pre-rendered output files from standalone file tracing.
-  // NOTE: This reduces standalone size for traced files but does NOT prevent
-  // Next.js from copying .html/.rsc/.meta to .next/standalone/ — that requires
-  // adequate disk space on the build runner (~25 GB for 15K+ pages).
+  // This prevents Next.js from including .html/.rsc/.meta in the traced
+  // file list (used by serverless bundlers). Combined with clean-standalone.js
+  // which physically deletes them after build, we save ~3-5 GB on CI.
   outputFileTracingExcludes: {
     "*": [
       ".next/server/app/**/*.html",
       ".next/server/app/**/*.rsc",
       ".next/server/app/**/*.meta",
+      ".next/server/app/**/*.body",
     ],
   },
 
