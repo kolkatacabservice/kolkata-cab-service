@@ -115,12 +115,6 @@ function main() {
       const cacheFilePath = path.join(buildCacheDir, `${cacheKey}.cache`);
       const cacheDir = path.dirname(cacheFilePath);
 
-      // Skip if already exists (idempotent — safe to re-run)
-      if (fs.existsSync(cacheFilePath)) {
-        skipped++;
-        continue;
-      }
-
       // Ensure parent directory exists
       fs.mkdirSync(cacheDir, { recursive: true });
 
