@@ -12,7 +12,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     name: Build & Deploy
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
