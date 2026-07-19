@@ -1,8 +1,14 @@
 import type { OpenNextConfig } from "@opennextjs/cloudflare";
-import staticAssetsIncrementalCache from "@opennextjs/cloudflare/overrides/incremental-cache/static-assets-incremental-cache";
+import type { IncrementalCache } from "@opennextjs/aws/types/overrides.js";
+import customIncrementalCache from "./src/lib/custom-incremental-cache";
 
 /**
  * open-next.config.ts — Required configuration for @opennextjs/cloudflare.
+ *
+ * Uses a custom incremental cache that stores files under `_next_cache/` instead
+ * of the default `cdn-cgi/_next_cache/`. This is necessary because Cloudflare
+ * intercepts all `cdn-cgi/` paths at the CDN layer, preventing ASSETS.fetch()
+ * from retrieving those files inside the Worker.
  */
 const config: OpenNextConfig = {
   default: {
@@ -10,7 +16,7 @@ const config: OpenNextConfig = {
       wrapper: "cloudflare-node",
       converter: "edge",
       proxyExternalRequest: "fetch",
-      incrementalCache: () => staticAssetsIncrementalCache,
+      incrementalCache: () => customIncrementalCache as unknown as IncrementalCache,
       tagCache: "dummy",
       queue: "dummy",
     },
@@ -25,7 +31,7 @@ const config: OpenNextConfig = {
       wrapper: "cloudflare-edge",
       converter: "edge",
       proxyExternalRequest: "fetch",
-      incrementalCache: () => staticAssetsIncrementalCache,
+      incrementalCache: () => customIncrementalCache as unknown as IncrementalCache,
       tagCache: "dummy",
       queue: "dummy",
     },
@@ -33,4 +39,3 @@ const config: OpenNextConfig = {
 };
 
 export default config;
-

@@ -16,7 +16,10 @@ function copyFolderSync(from, to) {
 }
 
 const sourceDir = path.join(__dirname, '../.open-next/cache');
-const targetDir = path.join(__dirname, '../.open-next/assets/cdn-cgi/_next_cache');
+// NOTE: Must use `_next_cache/` — NOT `cdn-cgi/_next_cache/`.
+// Cloudflare intercepts all /cdn-cgi/ paths at the CDN layer, so ASSETS.fetch()
+// cannot retrieve files stored there. Using _next_cache/ bypasses this restriction.
+const targetDir = path.join(__dirname, '../.open-next/assets/_next_cache');
 
 if (fs.existsSync(sourceDir)) {
   console.log(`Copying cache from ${sourceDir} to ${targetDir}...`);
