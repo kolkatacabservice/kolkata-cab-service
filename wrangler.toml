@@ -4,9 +4,6 @@ compatibility_flags = ["nodejs_compat"]
 workers_dev = true
 preview_urls = true
 
-[build]
-command = "npm run build:cf"
-
 # OpenNext outputs to .open-next/
 main = ".open-next/worker.js"
 
@@ -28,3 +25,6 @@ NEXT_PUBLIC_SITE_URL = "https://www.kolkatacabservice.com"
 
 [observability]
 enabled = true
+
+[build]
+command = "npm run build:cf"
