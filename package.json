@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:cf": "node scripts/split-routes-by-city.js && node scripts/generate-static-sitemaps.js && opennextjs-cloudflare build && node scripts/inject-static-route-cache.js && node scripts/copy-cache.js && node scripts/clean-standalone.js",
+    "build": "next build; node scripts/clean-standalone.js",
+    "build:cf": "node scripts/split-routes-by-city.js && node scripts/generate-static-sitemaps.js && opennextjs-cloudflare build && node scripts/inject-static-route-cache.js && node scripts/copy-cache.js",
     "start": "next start",
     "lint": "eslint",
     "preview": "opennextjs-cloudflare preview",

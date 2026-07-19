@@ -10,10 +10,10 @@ const nextConfig: NextConfig = {
   // Ensure consistent URLs — no trailing slashes
   trailingSlash: false,
 
-  // Exclude large pre-rendered output files from standalone file tracing.
+  // Exclude pre-rendered output files from standalone file tracing.
   // This prevents Next.js from including .html/.rsc/.meta in the traced
   // file list (used by serverless bundlers). Combined with clean-standalone.js
-  // which physically deletes them after build, we save ~3-5 GB on CI.
+  // which physically deletes them after build, we save disk space on CI.
   outputFileTracingExcludes: {
     "*": [
       ".next/server/app/**/*.html",

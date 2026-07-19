@@ -14,17 +14,18 @@ import { getRoute } from '@/lib/routeData';
 import { getStaticVehicleRouteSlugs } from '@/lib/routeDataStatic';
 import { generateVehicleRouteMetadata, generateVehicleRouteSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
-// false = only pre-built route/vehicle combos work, unknown combos return 404 (no CPU spent)
-export const dynamicParams = false;
+// dynamicParams=true: Kolkata/Ranchi/Bhubaneswar vehicle pages are pre-rendered at build time.
+// Jamshedpur/Patna/other hub vehicle pages render ON DEMAND and are cached by edge.
+export const dynamicParams = true;
 // force-static: pre-build pages and serve as static assets to save CPU time limits
 export const dynamic = 'force-static';
 export const revalidate = false; // fully static, no ISR — zero CPU at request time
 
-// Pre-build the top 300 hub route × vehicle combos at build time.
-// 300 routes × 4 vehicles = 1,200 files.
-// This keeps us safely under Cloudflare Free Tier's 20,000 files limit.
+// Pre-build Kolkata/Ranchi/Bhubaneswar hub route × vehicle combos at build time.
+// ~100 hub routes × 4 vehicles = ~400 static files.
+// Other hub combos (Jamshedpur, Patna) render on-demand via dynamicParams=true.
 export async function generateStaticParams() {
-  const routeSlugs = getStaticVehicleRouteSlugs(300);
+  const routeSlugs = getStaticVehicleRouteSlugs(100);
   const params: { route: string; vehicle: string }[] = [];
   for (const rs of routeSlugs) {
     for (const vs of VEHICLE_SLUGS) {

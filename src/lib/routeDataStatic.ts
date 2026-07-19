@@ -32,15 +32,6 @@ function loadAllSync(): Route[] {
   return [...wb, ...jh, ...od, ...bh, ...up, ...cwb, ...cjh, ...cod, ...coth];
 }
 
-function isHubRoute(slug: string): boolean {
-  const parts = slug.split('-to-');
-  if (parts.length === 2) {
-    const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
-    return hubSlugs.has(parts[0]) || hubSlugs.has(parts[1]);
-  }
-  return false;
-}
-
 /**
  * Returns ALL route slugs for full SSG — runs ONLY at build time.
  * Pre-renders every route as a static HTML file, ensuring 0ms Worker CPU usage per request.
@@ -95,7 +86,48 @@ export function getStaticRouteSlugs(limit = 200): string[] {
   return withReverse.slice(0, limit);
 }
 
-/** Returns hub-only route slugs for vehicle SSG pages — build time only. */
-export function getStaticVehicleRouteSlugs(limit = 20): string[] {
-  return getStaticRouteSlugs(limit).filter(isHubRoute);
+/**
+ * Returns primary-hub route slugs for vehicle SSG pages — build time only.
+ *
+ * Only Kolkata, Ranchi, and Bhubaneswar routes get static vehicle pages.
+ * Jamshedpur/Patna vehicle pages are handled dynamically (dynamicParams=true).
+ */
+export function getStaticVehicleRouteSlugs(limit = 200): string[] {
+  const routes = loadAllSync();
+  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar']);
+  const routeMap = new Map(routes.map(r => [r.slug, r]));
+
+  const tier1 = routes.filter(r => hubSlugs.has(r.from) && hubSlugs.has(r.to));
+  const tier2 = routes
+    .filter(r => hubSlugs.has(r.from) && !hubSlugs.has(r.to))
+    .sort((a, b) => a.distance - b.distance);
+  const tier3 = routes
+    .filter(r => !hubSlugs.has(r.from) && hubSlugs.has(r.to))
+    .sort((a, b) => a.distance - b.distance);
+
+  const seen = new Set<string>();
+  const result: string[] = [];
+
+  for (const r of [...tier1, ...tier2, ...tier3]) {
+    if (result.length >= limit) break;
+    if (!seen.has(r.slug) && (hubSlugs.has(r.from) || hubSlugs.has(r.to))) {
+      seen.add(r.slug);
+      result.push(r.slug);
+    }
+  }
+
+  const withReverse = [...result];
+  for (const slug of result) {
+    if (withReverse.length >= limit) break;
+    const parts = slug.split('-to-');
+    if (parts.length === 2) {
+      const rev = `${parts[1]}-to-${parts[0]}`;
+      if (routeMap.has(rev) && !seen.has(rev) && (hubSlugs.has(parts[1]) || hubSlugs.has(parts[0]))) {
+        seen.add(rev);
+        withReverse.push(rev);
+      }
+    }
+  }
+
+  return withReverse.slice(0, limit);
 }
