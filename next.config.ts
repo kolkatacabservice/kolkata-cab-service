@@ -1,12 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Required for opennextjs-cloudflare --skipBuild flag.
-  // opennextjs-cloudflare expects a pre-built standalone directory.
-  // We then run clean-standalone.js to delete .html/.rsc/.meta files
-  // (freeing ~3-5 GB) BEFORE opennextjs copies the standalone folder.
-  output: "standalone",
-
   // Fixed deployment ID — keeps the open-next buildId stable across rebuilds.
   // Without this, every `next build` generates a new random buildId, forcing
   // Cloudflare to re-upload ALL 16K+ cache files on every deploy.
