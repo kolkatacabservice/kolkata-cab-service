@@ -10,6 +10,16 @@ const nextConfig: NextConfig = {
   // Ensure consistent URLs — no trailing slashes
   trailingSlash: false,
 
+  // Exclude statically pre-rendered route files from Next.js standalone tracing.
+  // This prevents duplicating 15,000+ files to `.next/standalone/`, avoiding ENOSPC errors.
+  outputFileTracingExcludes: {
+    "*": [
+      "./.next/server/app/**/*.html",
+      "./.next/server/app/**/*.rsc",
+      "./.next/server/app/**/*.meta",
+    ],
+  },
+
 
   // `sharp` is NOT supported in Cloudflare Workers runtime.
   // Use unoptimized: true so Next.js skips server-side image processing.
