@@ -1,9 +1,6 @@
 name: Deploy to Cloudflare Workers
 
 on:
-  # Auto-deploy disabled until CF_API_TOKEN secret is configured in GitHub repo settings.
-  # To enable: add CF_API_TOKEN (Cloudflare API token) and CF_ACCOUNT_ID to GitHub Secrets,
-  # then uncomment the push trigger below.
   push:
     branches: [main]
   workflow_dispatch: # Allows manual trigger too
@@ -15,10 +12,11 @@ jobs:
     timeout-minutes: 60
 
     steps:
-      - name: Free disk space
+      - name: Free disk space (aggressive)
         run: |
-          echo "Before cleanup:"
+          echo "=== Disk space BEFORE cleanup ==="
           df -h /
+          # Remove large pre-installed tools not needed for this build
           sudo rm -rf /usr/share/dotnet || true
           sudo rm -rf /usr/local/lib/android || true
           sudo rm -rf /opt/ghc || true
@@ -26,13 +24,19 @@ jobs:
           sudo rm -rf /usr/local/share/chromium || true
           sudo rm -rf /usr/local/share/powershell || true
           sudo rm -rf /usr/share/swift || true
-          docker system prune -af || true
-          echo "After cleanup:"
+          sudo rm -rf /usr/local/.ghcup || true
+          sudo rm -rf /usr/local/share/boost || true
+          sudo rm -rf /usr/lib/jvm || true
+          sudo rm -rf /opt/microsoft || true
+          sudo rm -rf /usr/local/graalvm || true
+          docker system prune -af --volumes || true
+          sudo apt-get clean || true
+          echo "=== Disk space AFTER cleanup ==="
           df -h /
 
       - name: Add swap space
         run: |
-          sudo fallocate -l 4G /swapfile
+          sudo fallocate -l 8G /swapfile
           sudo chmod 600 /swapfile
           sudo mkswap /swapfile
           sudo swapon /swapfile
@@ -51,11 +55,14 @@ jobs:
       - name: Install dependencies
         run: npm ci --legacy-peer-deps
 
-      - name: Build Next.js app + OpenNext CF bundle
+      - name: Build Next.js app + clean + OpenNext CF bundle
         run: npm run build:cf
         env:
           NODE_ENV: production
           NEXT_PUBLIC_SITE_URL: https://www.kolkatacabservice.com
+
+      - name: Check disk space after build
+        run: df -h /
 
       - name: Deploy to Cloudflare Workers
         run: npx wrangler@4 deploy
