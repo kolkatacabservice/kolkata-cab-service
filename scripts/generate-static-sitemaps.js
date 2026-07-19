@@ -275,18 +275,54 @@ for (const city of cities) {
 fs.writeFileSync(path.join(sitemapDir, '4.xml'), buildSitemapXml(sitemap4Urls));
 console.log(`✓ Generated public/sitemap/4.xml (${sitemap4Urls.length} links)`);
 
-// --- Sitemap 5 & 6: Vehicle route pages ---
-const linkedVehicleSlugs = getLinkedVehicleRouteSlugs();
-const vehicleRoutePages = [];
-const linkedRoutes = routes.filter(r => linkedVehicleSlugs.includes(r.slug));
-const halfIndex = Math.ceil(linkedRoutes.length / 2);
+// Helper to replicate getStaticVehicleRouteSlugs(300) from routeDataStatic.ts
+function getStaticVehicleRouteSlugsJs(limit = 300) {
+  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
+  const tier1 = routes.filter(r => hubSlugs.has(r.from) && hubSlugs.has(r.to));
+  const tier2 = routes
+    .filter(r => hubSlugs.has(r.from) && !hubSlugs.has(r.to))
+    .sort((a, b) => a.distance - b.distance);
+  const tier3 = routes
+    .filter(r => !hubSlugs.has(r.from) && hubSlugs.has(r.to))
+    .sort((a, b) => a.distance - b.distance);
 
-const routesPart1 = linkedRoutes.slice(0, halfIndex);
-const routesPart2 = linkedRoutes.slice(halfIndex);
+  const seen = new Set();
+  const result = [];
 
-// Generate Part 1 (sitemap/5.xml)
+  for (const r of [...tier1, ...tier2, ...tier3]) {
+    if (result.length >= limit) break;
+    if (!seen.has(r.slug)) {
+      seen.add(r.slug);
+      result.push(r.slug);
+    }
+  }
+
+  const withReverse = [...result];
+  for (const slug of result) {
+    if (withReverse.length >= limit) break;
+    const parts = slug.split('-to-');
+    if (parts.length === 2) {
+      const rev = `${parts[1]}-to-${parts[0]}`;
+      const hasReverse = routes.some(r => r.slug === rev);
+      if (hasReverse && !seen.has(rev)) {
+        seen.add(rev);
+        withReverse.push(rev);
+      }
+    }
+  }
+
+  return withReverse.slice(0, limit).filter(slug => {
+    const parts = slug.split('-to-');
+    return parts.length === 2 && (hubSlugs.has(parts[0]) || hubSlugs.has(parts[1]));
+  });
+}
+
+// --- Sitemap 5: Vehicle route pages (exactly matching pre-built routes) ---
+const linkedVehicleSlugs = getStaticVehicleRouteSlugsJs(300);
 const sitemap5Urls = [];
-for (const route of routesPart1) {
+for (const slug of linkedVehicleSlugs) {
+  const route = routes.find(r => r.slug === slug);
+  if (!route) continue;
   const isHighPriority = (
     (HUB_SLUGS.includes(route.from) && POPULAR_DESTINATIONS.includes(route.to)) ||
     (HUB_SLUGS.includes(route.to) && POPULAR_DESTINATIONS.includes(route.from))
@@ -303,28 +339,15 @@ for (const route of routesPart1) {
 fs.writeFileSync(path.join(sitemapDir, '5.xml'), buildSitemapXml(sitemap5Urls));
 console.log(`✓ Generated public/sitemap/5.xml (${sitemap5Urls.length} links)`);
 
-// Generate Part 2 (sitemap/6.xml)
-const sitemap6Urls = [];
-for (const route of routesPart2) {
-  const isHighPriority = (
-    (HUB_SLUGS.includes(route.from) && POPULAR_DESTINATIONS.includes(route.to)) ||
-    (HUB_SLUGS.includes(route.to) && POPULAR_DESTINATIONS.includes(route.from))
-  );
-  for (const vehicleSlug of VEHICLE_SLUGS) {
-    sitemap6Urls.push({
-      url: `${DOMAIN}/routes/${route.slug}/${vehicleSlug}`,
-      lastModified: LAST_MODIFIED,
-      changeFrequency: 'monthly',
-      priority: isHighPriority ? 0.5 : 0.3
-    });
-  }
+// Clean up sitemap 6.xml if it exists to prevent hosting a stale file
+const sitemap6Path = path.join(sitemapDir, '6.xml');
+if (fs.existsSync(sitemap6Path)) {
+  fs.unlinkSync(sitemap6Path);
+  console.log('✓ Cleaned up old sitemap 6.xml');
 }
-fs.writeFileSync(path.join(sitemapDir, '6.xml'), buildSitemapXml(sitemap6Urls));
-console.log(`✓ Generated public/sitemap/6.xml (${sitemap6Urls.length} links)`);
-
 
 // ─── 5. Generate sitemap_index.xml ───
-const sitemapsList = ['0.xml', '1.xml', '2.xml', '3.xml', '4.xml', '5.xml', '6.xml'];
+const sitemapsList = ['0.xml', '1.xml', '2.xml', '3.xml', '4.xml', '5.xml'];
 let indexXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
 indexXml += `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
 for (const sitemapFile of sitemapsList) {
