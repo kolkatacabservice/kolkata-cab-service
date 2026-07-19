@@ -10,8 +10,8 @@ import FAQSection from '@/components/FAQSection';
 import { getTour, getTourSlugs, getTours, BUSINESS } from '@/lib/data';
 import { generateTourMetadata, generateTourSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
-// Pre-build tours at build-time. Dynamic fallback allows custom 404 page for unknown slugs.
-export const dynamicParams = true;
+// Pre-build tours at build-time. Only serve pre-rendered pages, returning 404 for unknown slugs.
+export const dynamicParams = false;
 export const dynamic = 'force-static';
 export const revalidate = false;
 

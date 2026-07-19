@@ -21,8 +21,8 @@ type Blog = {
 
 const blogs = blogsData as Blog[];
 
-// Pre-build blogs at build-time. Dynamic fallback allows custom 404 page for unknown slugs.
-export const dynamicParams = true;
+// Pre-build blogs at build-time. Only serve pre-rendered pages, returning 404 for unknown slugs.
+export const dynamicParams = false;
 export const dynamic = 'force-static';
 export const revalidate = false;
 
