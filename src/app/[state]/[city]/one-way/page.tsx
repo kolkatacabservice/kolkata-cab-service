@@ -264,7 +264,6 @@ export default async function OneWayPage({ params }: { params: Promise<{ state: 
             {[
               { name: 'Local Taxi', slug: 'local', price: `₹${prices.localPkgSedan}/${prices.localPkgName}` },
               { name: 'Outstation Cab', slug: 'outstation', price: `${prices.sedanPerKm}` },
-              { name: 'Two-Way Cab', slug: 'two-way', price: `${prices.sedanPerKm}` },
               { name: 'Round Trip', slug: 'round-trip', price: `${prices.sedanPerKm}` },
               { name: 'Airport Transfer', slug: 'airport-transfer', price: `${prices.airportSedan}+` },
               { name: 'Wedding Car', slug: 'wedding-car', price: '₹5,000+' }

@@ -406,8 +406,6 @@ export function generateCityPageContent(input: CityContentInput) {
       `round trip cab ${city.name}`,
       `${city.name} round trip cab`,
       `${city.name} round trip taxi`,
-      `two way cab ${city.name}`,
-      `${city.name} two way taxi`,
       `return cab ${city.name}`,
       // ═══ AIRPORT KEYWORDS ═══
       `${city.name} airport cab`,

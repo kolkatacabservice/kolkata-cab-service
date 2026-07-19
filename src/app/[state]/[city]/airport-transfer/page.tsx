@@ -167,7 +167,6 @@ export default async function AirportTransferPage({ params }: { params: Promise<
               { name: 'Local Taxi', slug: 'local', price: `₹${prices.localPkgSedan}/${prices.localPkgName}` },
               { name: 'Outstation Cab', slug: 'outstation', price: `${prices.sedanPerKm}` },
               { name: 'One-Way Taxi', slug: 'one-way', price: `${prices.sedanPerKm}` },
-              { name: 'Two-Way Cab', slug: 'two-way', price: `${prices.sedanPerKm}` },
               { name: 'Round Trip', slug: 'round-trip', price: `${prices.sedanPerKm}` },
               { name: 'Wedding Car', slug: 'wedding-car', price: '₹5,000+' }
             ].map((srv) => (

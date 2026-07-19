@@ -653,16 +653,6 @@ const SERVICE_SEO: Record<string, { keywords: string[]; slug: string }> = {
       'one way taxi bhubaneswar', 'one way cab bhubaneswar', 'drop taxi bhubaneswar',
     ],
   },
-  'Two Way Cab Service': {
-    slug: 'two-way',
-    keywords: [
-      'two way cab service kolkata', 'return taxi service kolkata', 'same day return cab kolkata',
-      'cab with waiting time kolkata', 'two way taxi fare kolkata', 'round cab booking kolkata',
-      'return journey taxi kolkata', 'two way cab near me kolkata', 'day trip cab kolkata',
-      'two way cab ranchi', 'return taxi ranchi', 'round trip cab ranchi',
-      'two way cab jamshedpur', 'two way cab bhubaneswar', 'day trip cab ranchi',
-    ],
-  },
   'Round Trip Cab Service': {
     slug: 'round-trip',
     keywords: [
@@ -716,7 +706,7 @@ const SERVICE_STRONG_TITLES: Record<string, string> = {
   'Local Taxi Service':        `Local Taxi in Kolkata | Hourly Cab ₹1800/4hr | Book 24/7`,
   'Outstation Cab Service':    `Outstation Cab Kolkata ₹12/km | Intercity Taxi | Book 24/7`,
   'One Way Taxi Service':      `One Way Cab Kolkata ₹12/km | Drop Taxi | Pay One Side`,
-  'Two Way Cab Service':       `Two Way Cab Kolkata | Return Taxi | Same Driver ₹12/km`,
+
   'Round Trip Cab Service':    `Round Trip Cab Kolkata ₹12/km | Multi-Day Tour Taxi 24/7`,
   'Airport Transfer Service':  `Airport Cab Kolkata ₹1200 | CCU Taxi Pickup & Drop 24/7`,
   'Wedding Car Rental':        `Wedding Car Rental Kolkata | Decorated Innova, Fortuner`,
@@ -728,7 +718,7 @@ const SERVICE_STRONG_DESCS: Record<string, string> = {
   'Local Taxi Service':        `Local taxi service in Kolkata. 4hr/40km ₹1,800, 8hr/80km ₹3,200. Sedan ₹12/km, SUV ₹16/km, Innova Crysta ₹18/km. Hospital visits, shopping, city tours. 24/7. Call ${BUSINESS.phone}`,
   'Outstation Cab Service':    `Outstation cab from Kolkata from ₹12/km. Ranchi, Jamshedpur, Bhubaneswar, Siliguri, Puri & 80+ routes. AC Sedan, SUV, Innova Crysta. One-way & round trip. 24/7. Call ${BUSINESS.phone}`,
   'One Way Taxi Service':      `One way cab from Kolkata ₹12/km. Pay only for one side — no return charges. All major routes: Kolkata→Ranchi, Kolkata→Jamshedpur, Kolkata→Bhubaneswar. AC, 24/7. Call ${BUSINESS.phone}`,
-  'Two Way Cab Service':       `Two way cab from Kolkata ₹12/km. Same driver for onward & return trip. Day outings, same-day returns. All cities. AC, 24/7. No surge. Call ${BUSINESS.phone}`,
+
   'Round Trip Cab Service':    `Round trip cab from Kolkata ₹12/km. Multi-day trips with driver: Darjeeling, Puri, Varanasi & more. Sedan, SUV, Innova Crysta. 24/7. Book online. Call ${BUSINESS.phone}`,
   'Airport Transfer Service':  `Airport cab Kolkata from ₹1,200. CCU (Netaji Subhash Airport) pickup & drop. Flight tracking, meet & greet, 24/7. Sedan ₹1200, SUV ₹1800, Innova ₹2200. No surge. Call ${BUSINESS.phone}`,
   'Wedding Car Rental':        `Wedding car rental in Kolkata. Decorated Innova Crysta, Fortuner & luxury sedans. Baraat, vidaai, wedding functions. From ₹3,500. Professional chauffeur. Book via ${BUSINESS.phone}`,

@@ -14,11 +14,11 @@ import { getRoute } from '@/lib/routeData';
 import { getStaticVehicleRouteSlugs } from '@/lib/routeDataStatic';
 import { generateVehicleRouteMetadata, generateVehicleRouteSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
-// true = pre-built route/vehicle combos work, but rare combos generate dynamically on demand and are cached
-export const dynamicParams = true;
+// false = only pre-built route/vehicle combos work, unknown combos return 404 (no CPU spent)
+export const dynamicParams = false;
 // force-static: pre-build pages and serve as static assets to save CPU time limits
 export const dynamic = 'force-static';
-export const revalidate = 31536000; // cache at CDN edge for up to 1 year
+export const revalidate = false; // fully static, no ISR — zero CPU at request time
 
 // Pre-build the top 300 hub route × vehicle combos at build time.
 // 300 routes × 4 vehicles = 1,200 files.

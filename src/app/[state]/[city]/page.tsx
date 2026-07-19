@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
-import { MapPin, Route, Phone, Clock, ArrowRight, ArrowLeftRight, CheckCircle } from 'lucide-react';
+import { MapPin, Route, Phone, Clock, ArrowRight, CheckCircle } from 'lucide-react';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import HeroBanner from '@/components/HeroBanner';
 
@@ -101,7 +101,6 @@ export default async function CityPage({ params }: { params: Promise<{ state: st
     { name: 'Local Taxi', slug: 'local', icon: <MapPin size={20} />, desc: `Hourly cab rental for city travel in ${city.name}`, price: `From ₹${prices.localPkgSedan}` },
     { name: 'Outstation Cab', slug: 'outstation', icon: <Route size={20} />, desc: `Intercity cab from ${city.name}`, price: `From ${prices.sedanPerKm}` },
     { name: 'One-Way Taxi', slug: 'one-way', icon: <ArrowRight size={20} />, desc: `Pay only one side from ${city.name}`, price: `From ${prices.sedanPerKm}` },
-    { name: 'Two-Way Cab', slug: 'two-way', icon: <ArrowLeftRight size={20} />, desc: `Same driver onward & return from ${city.name}`, price: `From ${prices.sedanPerKm}` },
     { name: 'Round Trip', slug: 'round-trip', icon: <ArrowRight size={20} />, desc: `Multi-day trips from ${city.name}`, price: `From ${prices.sedanPerKm}` },
     { name: 'Airport Transfer', slug: 'airport-transfer', icon: <ArrowRight size={20} />, desc: `Airport pickup/drop in ${city.name}`, price: `From ${prices.airportSedan}` },
     { name: 'Wedding Car', slug: 'wedding-car', icon: <ArrowRight size={20} />, desc: `Decorated car in ${city.name}`, price: 'From ₹5,000' },

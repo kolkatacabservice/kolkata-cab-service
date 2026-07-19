@@ -65,7 +65,7 @@ const serviceCards = [
     features: ['No return fare', 'Point-to-point', 'All routes available', 'Cheapest option'],
   },
   {
-    name: 'Two-Way / Round Trip',
+    name: 'Round Trip',
     slug: 'round-trip',
     icon: Repeat,
     price: 'From ₹12/km',

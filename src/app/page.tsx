@@ -802,7 +802,6 @@ export default async function HomePage() {
                   { name: 'Wedding Car Kolkata', href: '/services/wedding-car-rental' },
                   { name: 'Corporate Car Rental', href: '/services/corporate-car-rental' },
                   { name: 'Round Trip Cab', href: '/services/round-trip' },
-                  { name: 'Two Way Cab Kolkata', href: '/services/two-way' },
                   { name: 'Tour Packages', href: '/tours' },
                   { name: 'Kolkata Cab Fare Chart', href: '/fare-chart' },
                 ].map(s => (

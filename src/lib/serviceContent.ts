@@ -147,7 +147,7 @@ export function generateRoundTripServiceContent(input: ServiceContentInput) {
       { question: `Do you provide round trip cab at night from ${cityName}?`, answer: `Yes! 24/7 round trip availability from ${cityName}. Same fixed rate anytime. Night charge of ₹300 applies for 10 PM–6 AM travel. No surge pricing ever.` },
     ],
     popularSearches: [
-      `round trip cab from ${cityName}`, `round trip taxi ${cityName}`, `two way cab ${cityName}`,
+      `round trip cab from ${cityName}`, `round trip taxi ${cityName}`, `return cab ${cityName}`,
       `${cityName} round trip cab service`, `multi day cab ${cityName}`, `return trip taxi ${cityName}`,
       `cab for tour from ${cityName}`, `${cityName} round trip fare`, `book round trip cab ${cityName}`,
     ],
@@ -205,33 +205,6 @@ export function generateWeddingCarServiceContent(input: ServiceContentInput) {
       `wedding car ${cityName}`, `wedding car rental ${cityName}`, `baraat car ${cityName}`,
       `decorated car ${cityName}`, `marriage car ${cityName}`, `dulhan car ${cityName}`,
       `wedding taxi ${cityName}`, `shaadi car ${cityName}`, `luxury wedding car ${cityName}`,
-    ],
-  };
-}
-
-export function generateTwoWayServiceContent(input: ServiceContentInput) {
-  const { cityName, stateName, stateSlug } = input;
-  // generateTwoWayServiceContent prices
-  const prices = getStatePriceLabels(stateSlug || 'west-bengal');
-  return {
-    aboutContent: [
-      `${BUSINESS.name} offers two-way (round trip) cab service from ${cityName}, ${stateName} — the best option when you need to travel to another city and return. With a two-way booking, your driver stays with you at the destination, providing flexibility for local travel, sightseeing, and return journey. One booking, one driver, complete convenience — that's the two-way advantage.`,
-      `Two-way cab fares from ${cityName}: Sedan ${prices.sedanPerKm}, SUV ${prices.suvPerKm}, Innova Crysta ${prices.crystaPerKm}, Tempo Traveller ${prices.tempoPerKm}. Minimum 250 km per day applies. The fare covers both your onward and return journey. Driver allowance of ₹300/night for overnight stays. Toll, parking, and state permits are extra and paid directly by the passenger.`,
-      `Two-way vs one-way from ${cityName}: Choose two-way when you need the cab at your destination for local travel, when you have a flexible return date, or when traveling with family/group. Two-way is more economical for trips where you need 2+ days at the destination. One-way is cheaper for fixed point-to-point travel.`,
-      `Our two-way cab service from ${cityName} covers all destinations across ${stateName}, West Bengal, Jharkhand, Odisha, Bihar, and neighboring states. Popular two-way trips include weekend getaways, temple tours, family visits, business trips with multiple meetings, and holiday tours. Multi-day packages with hotel recommendations are available.`,
-      `Book two-way cab from ${cityName} now — call ${BUSINESS.phone} or WhatsApp. Share your destination, travel dates, group size, and preferred vehicle. Get instant fare quote and booking confirmation. Available 24/7. Free cancellation up to 4 hours before pickup.`,
-    ],
-    faqs: [
-      { question: `What is two-way cab fare from ${cityName}?`, answer: `Two-way cab fares from ${cityName}: Sedan ${prices.sedanPerKm}, SUV ${prices.suvPerKm}, Crysta ${prices.crystaPerKm}, Tempo ${prices.tempoPerKm}. Minimum 250 km/day. Both onward and return included. Driver allowance ₹300/night. Call ${BUSINESS.phone}.` },
-      { question: `Is two-way cheaper than booking two one-way cabs?`, answer: `Yes, usually! Two-way from ${cityName} with 250 km/day minimum is cheaper than booking separate one-way cabs, especially for 2+ day trips. Plus you get the same driver throughout.` },
-      { question: `Can the driver wait at my destination?`, answer: `Yes! In two-way bookings, the driver stays with you. Use the cab for local sightseeing, meetings, or errands at destination. Driver accommodation is included in the package.` },
-      { question: `What is the minimum km for two-way from ${cityName}?`, answer: `Minimum 250 km per day for two-way trips from ${cityName}. If actual travel is less than 250 km/day, the minimum charge applies. Extra km beyond 250/day charged at the same per-km rate.` },
-      { question: `Can I book two-way cab for a week from ${cityName}?`, answer: `Yes! Multi-day two-way packages from ${cityName} available for 2 days to 30 days. Special rates for week-long bookings. Driver changes may happen for trips longer than 5 days.` },
-    ],
-    popularSearches: [
-      `two way cab from ${cityName}`, `round trip taxi ${cityName}`, `return cab ${cityName}`,
-      `${cityName} two way cab service`, `both way cab ${cityName}`, `multi day cab ${cityName}`,
-      `cab with driver ${cityName}`, `${cityName} return taxi`, `book two way cab ${cityName}`,
     ],
   };
 }

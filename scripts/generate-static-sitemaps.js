@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DOMAIN = 'https://www.kolkatacabservice.com';
-const LAST_MODIFIED = '2026-06-16T11:00:00.000Z';
+const LAST_MODIFIED = '2026-07-19T07:00:00.000Z';
 const publicDir = path.join(__dirname, '../public');
 const sitemapDir = path.join(publicDir, 'sitemap');
 
@@ -95,7 +95,7 @@ const TOP_PRIORITY_CITIES = [
   'gaya', 'bodh-gaya', 'nalanda', 'rajgir', 'varanasi', 'prayagraj'
 ];
 const CITY_SERVICE_TYPES = [
-  'local', 'outstation', 'one-way', 'two-way', 'round-trip', 'airport-transfer', 'wedding-car'
+  'local', 'outstation', 'one-way', 'round-trip', 'airport-transfer', 'wedding-car'
 ];
 
 // Helper to check hub routes
@@ -180,7 +180,6 @@ const sitemap0Urls = [
   { url: `${DOMAIN}/services/local-taxi`, lastModified: LAST_MODIFIED, changeFrequency: 'monthly', priority: 0.90 },
   { url: `${DOMAIN}/services/outstation`, lastModified: LAST_MODIFIED, changeFrequency: 'monthly', priority: 0.90 },
   { url: `${DOMAIN}/services/one-way`, lastModified: LAST_MODIFIED, changeFrequency: 'monthly', priority: 0.90 },
-  { url: `${DOMAIN}/services/two-way`, lastModified: LAST_MODIFIED, changeFrequency: 'monthly', priority: 0.80 },
   { url: `${DOMAIN}/services/round-trip`, lastModified: LAST_MODIFIED, changeFrequency: 'monthly', priority: 0.85 },
   { url: `${DOMAIN}/services/airport-transfer`, lastModified: LAST_MODIFIED, changeFrequency: 'monthly', priority: 0.92 },
   { url: `${DOMAIN}/services/wedding-car-rental`, lastModified: LAST_MODIFIED, changeFrequency: 'monthly', priority: 0.85 },

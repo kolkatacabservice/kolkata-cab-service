@@ -471,7 +471,6 @@ export function generateRoutePageContent(input: RouteContentInput) {
       `${route.fromName} to ${route.toName} one way taxi`,
       `${route.fromName} to ${route.toName} drop taxi`,
       `${route.fromName} to ${route.toName} return cab`,
-      `${route.fromName} to ${route.toName} two way cab`,
       `${route.fromName} to ${route.toName} round trip taxi`,
       `${route.fromName} to ${route.toName} day trip cab`,
       // ═══ Vehicle-specific keywords ═══

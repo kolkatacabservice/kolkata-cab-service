@@ -26,7 +26,6 @@ const PRIORITY_URLS = [
   '/services/wedding-car-rental',
   '/services/corporate-car-rental',
   '/services/round-trip',
-  '/services/two-way',
   '/fleet',
   '/tours',
   '/fare-chart',

@@ -8,8 +8,6 @@
     "build:cf": "node scripts/split-routes-by-city.js && node scripts/generate-static-sitemaps.js && next build && opennextjs-cloudflare build && node scripts/inject-static-route-cache.js && node scripts/copy-cache.js",
     "start": "next start",
     "lint": "eslint",
-    "routes:split": "node scripts/split-routes.js",
-    "routes:count": "node scripts/count-output-files.js",
     "preview": "opennextjs-cloudflare preview",
     "deploy": "cross-env OPEN_NEXT_DEPLOY=true CLOUDFLARE_ACCOUNT_ID=f1724b09121cad3a665b9599fd5213e3 wrangler deploy"
   },

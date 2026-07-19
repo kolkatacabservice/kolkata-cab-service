@@ -27,9 +27,6 @@ jobs:
       - name: Install dependencies
         run: npm ci --legacy-peer-deps
 
-      - name: Generate route shards
-        run: node scripts/split-routes.js
-
       - name: Build Next.js app + OpenNext CF bundle
         run: npm run build:cf
         env:

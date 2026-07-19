@@ -168,7 +168,6 @@ export default async function RoundTripPage({ params }: { params: Promise<{ stat
               { name: 'Local Taxi', slug: 'local', price: `₹${prices.localPkgSedan}/${prices.localPkgName}` },
               { name: 'Outstation Cab', slug: 'outstation', price: `${prices.sedanPerKm}` },
               { name: 'One-Way Taxi', slug: 'one-way', price: `${prices.sedanPerKm}` },
-              { name: 'Two-Way Cab', slug: 'two-way', price: `${prices.sedanPerKm}` },
               { name: 'Airport Transfer', slug: 'airport-transfer', price: `${prices.airportSedan}+` },
               { name: 'Wedding Car', slug: 'wedding-car', price: '₹5,000+' }
             ].map((srv) => (

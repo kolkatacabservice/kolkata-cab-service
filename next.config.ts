@@ -202,6 +202,17 @@ const nextConfig: NextConfig = {
         destination: "/kolkata/new-town",
         permanent: true,
       },
+      // Two-Way → Round Trip (service removed, round trip covers same use case)
+      {
+        source: "/services/two-way",
+        destination: "/services/round-trip",
+        permanent: true,
+      },
+      {
+        source: "/:state/:city/two-way",
+        destination: "/:state/:city/round-trip",
+        permanent: true,
+      },
       // Delhi-NCR, Uttarakhand, MP remain redirected (no content yet)
       { source: "/delhi-ncr", destination: "/", permanent: true },
       { source: "/delhi-ncr/:path*", destination: "/", permanent: true },

@@ -14,7 +14,6 @@ const navigation = [
       { name: 'Local Taxi', href: '/services/local-taxi' },
       { name: 'Outstation Cab', href: '/services/outstation' },
       { name: 'One-Way Taxi', href: '/services/one-way' },
-      { name: 'Two-Way Cab', href: '/services/two-way' },
       { name: 'Round Trip', href: '/services/round-trip' },
       { name: 'Airport Transfer', href: '/services/airport-transfer' },
       { name: 'Wedding Car Rental', href: '/services/wedding-car-rental' },

@@ -172,7 +172,6 @@ export default async function WeddingCarPage({ params }: { params: Promise<{ sta
               { name: 'Local Taxi', slug: 'local', price: `₹${prices.localPkgSedan}/${prices.localPkgName}` },
               { name: 'Outstation Cab', slug: 'outstation', price: `${prices.sedanPerKm}` },
               { name: 'One-Way Taxi', slug: 'one-way', price: `${prices.sedanPerKm}` },
-              { name: 'Two-Way Cab', slug: 'two-way', price: `${prices.sedanPerKm}` },
               { name: 'Round Trip', slug: 'round-trip', price: `${prices.sedanPerKm}` },
               { name: 'Airport Transfer', slug: 'airport-transfer', price: `${prices.airportSedan}+` }
             ].map((srv) => (

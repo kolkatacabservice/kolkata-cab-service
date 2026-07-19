@@ -86,7 +86,6 @@
     {"id": "local", "name": "Local Taxi", "slug": "local-taxi", "icon": "MapPin", "description": "Hourly cab rental for city sightseeing, shopping, hospital visits, and local travel within the city."},
     {"id": "outstation", "name": "Outstation Cab", "slug": "outstation", "icon": "Route", "description": "Comfortable intercity travel for business, pilgrimage, family trips, and weekend getaways."},
     {"id": "one-way", "name": "One-Way Taxi", "slug": "one-way", "icon": "ArrowRight", "description": "Pay only for one-way journey. No return fare charges. Most affordable option for point-to-point travel."},
-    {"id": "two-way", "name": "Two-Way Cab", "slug": "two-way", "icon": "ArrowLeftRight", "description": "Round trip cab booking with designated waiting time at destination. Ideal for day trips and short stays."},
     {"id": "round-trip", "name": "Round Trip", "slug": "round-trip", "icon": "RotateCcw", "description": "Complete round trip package with driver accommodation included. Best for multi-day trips and tours."},
     {"id": "airport", "name": "Airport Transfer", "slug": "airport-transfer", "icon": "Plane", "description": "Reliable airport pickup and drop service. Flight tracking, meet & greet, and 24/7 availability."},
     {"id": "wedding", "name": "Wedding Car Rental", "slug": "wedding-car-rental", "icon": "Heart", "description": "Make your wedding grand with our decorated fleet. Baraat, vidaai, and wedding function car rental with decoration."},
