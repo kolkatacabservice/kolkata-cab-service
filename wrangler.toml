@@ -26,5 +26,7 @@ NEXT_PUBLIC_SITE_URL = "https://www.kolkatacabservice.com"
 [observability]
 enabled = true
 
-[build]
-command = "npm run build:cf"
+# NOTE: [build] command intentionally removed.
+# GitHub Actions runs `npm run build:cf` explicitly before `wrangler deploy`.
+# If [build] were present, wrangler would double-build on every deploy,
+# causing the injected static cache to be wiped by the second build.
