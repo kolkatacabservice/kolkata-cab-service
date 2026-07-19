@@ -10,13 +10,15 @@ const nextConfig: NextConfig = {
   // Ensure consistent URLs — no trailing slashes
   trailingSlash: false,
 
-  // Exclude statically pre-rendered route files from Next.js standalone tracing.
-  // This prevents duplicating 15,000+ files to `.next/standalone/`, avoiding ENOSPC errors.
+  // Exclude large pre-rendered output files from standalone file tracing.
+  // NOTE: This reduces standalone size for traced files but does NOT prevent
+  // Next.js from copying .html/.rsc/.meta to .next/standalone/ — that requires
+  // adequate disk space on the build runner (~25 GB for 15K+ pages).
   outputFileTracingExcludes: {
     "*": [
-      "./.next/server/app/**/*.html",
-      "./.next/server/app/**/*.rsc",
-      "./.next/server/app/**/*.meta",
+      ".next/server/app/**/*.html",
+      ".next/server/app/**/*.rsc",
+      ".next/server/app/**/*.meta",
     ],
   },
 
