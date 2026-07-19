@@ -53,24 +53,34 @@ const customStaticAssetsIncrementalCache = {
 
   async get(key: string, cacheType: string) {
     const assets = getAssets();
-    if (!assets) return null;
+    const buildId = process.env.OPEN_NEXT_BUILD_ID ?? FALLBACK_BUILD_ID;
+    console.log(`[CacheGet] Key: ${key}, CacheType: ${cacheType}, BuildID: ${buildId}`);
+    if (!assets) {
+      console.warn('[CacheGet] WARNING: ASSETS binding is not available!');
+      return null;
+    }
 
     try {
       const url = getAssetUrl(key, cacheType);
+      console.log(`[CacheGet] Fetching: ${url}`);
       const response = await assets.fetch(url);
+      console.log(`[CacheGet] Response OK: ${response.ok}, Status: ${response.status}`);
 
       if (!response.ok) {
         await response.body?.cancel();
         return null;
       }
 
+      const val = await response.json();
+      console.log(`[CacheGet] Successfully loaded JSON from cache for ${key}`);
       return {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        value: await response.json() as any,
+        value: val as any,
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         lastModified: (globalThis as any).__BUILD_TIMESTAMP_MS__ ?? Date.now(),
       };
-    } catch {
+    } catch (err) {
+      console.error(`[CacheGet] ERROR fetching from static assets:`, err);
       return null;
     }
   },
