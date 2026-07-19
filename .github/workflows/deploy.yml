@@ -36,11 +36,19 @@ jobs:
 
       - name: Add swap space
         run: |
-          sudo fallocate -l 8G /swapfile
-          sudo chmod 600 /swapfile
-          sudo mkswap /swapfile
-          sudo swapon /swapfile
-          echo "Swap added:"
+          # Check if swap already exists
+          if swapon --show | grep -q '/swapfile'; then
+            echo "Swap already active, skipping."
+          elif [ -f /swapfile ]; then
+            echo "Swapfile exists but not active, activating..."
+            sudo swapon /swapfile || true
+          else
+            sudo fallocate -l 8G /swapfile || sudo dd if=/dev/zero of=/swapfile bs=1M count=8192
+            sudo chmod 600 /swapfile
+            sudo mkswap /swapfile
+            sudo swapon /swapfile
+          fi
+          echo "Swap status:"
           swapon --show
 
       - name: Checkout repository
