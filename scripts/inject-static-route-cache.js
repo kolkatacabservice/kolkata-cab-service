@@ -121,6 +121,17 @@ function main() {
       // Read HTML
       const html = fs.readFileSync(htmlPath, 'utf8');
 
+      // Read RSC payload (crucial for Next.js 15 App Router hydration)
+      const rscPath = htmlPath.slice(0, -5) + '.rsc';
+      let rsc = '';
+      if (fs.existsSync(rscPath)) {
+        try {
+          rsc = fs.readFileSync(rscPath, 'utf8');
+        } catch (err) {
+          console.warn(`[inject] Warning: Failed to read RSC for ${cacheKey}: ${err.message}`);
+        }
+      }
+
       // Read meta (headers) if available
       let meta = {
         headers: {
@@ -143,7 +154,7 @@ function main() {
       }
 
       // Build the .cache file in open-next/staticAssetsIncrementalCache format
-      const cacheEntry = JSON.stringify({ type: 'app', meta, html });
+      const cacheEntry = JSON.stringify({ type: 'app', meta, html, rsc });
       fs.writeFileSync(cacheFilePath, cacheEntry, 'utf8');
       injected++;
 
