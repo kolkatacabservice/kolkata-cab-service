@@ -4,6 +4,9 @@ compatibility_flags = ["nodejs_compat"]
 workers_dev = true
 preview_urls = true
 
+[build]
+command = "npm run build:cf"
+
 # OpenNext outputs to .open-next/
 main = ".open-next/worker.js"
 
