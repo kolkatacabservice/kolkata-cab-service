@@ -1,32 +1,20 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Fixed deployment ID — keeps the open-next buildId stable across rebuilds.
-  // Without this, every `next build` generates a new random buildId, forcing
-  // Cloudflare to re-upload ALL 16K+ cache files on every deploy.
-  // With this fixed, only actually-changed files are re-uploaded (fast deploys).
+  // ── Static Export for Cloudflare Pages ──────────────────────────────────────
+  // Generates ./out/ directory with pure static HTML — served directly by
+  // Cloudflare's CDN with ZERO CPU usage. Eliminates Error 1102 permanently.
+  output: "export",
+
+  // Fixed deployment ID — keeps the buildId stable across rebuilds.
+  // Without this, every `next build` generates a new random buildId.
   deploymentId: "kolkata-cab-v1",
 
   // Ensure consistent URLs — no trailing slashes
   trailingSlash: false,
 
-  // Exclude pre-rendered output files from standalone file tracing.
-  // This prevents Next.js from including .html/.rsc/.meta in the traced
-  // file list (used by serverless bundlers). Combined with clean-standalone.js
-  // which physically deletes them after build, we save disk space on CI.
-  outputFileTracingExcludes: {
-    "*": [
-      ".next/server/app/**/*.html",
-      ".next/server/app/**/*.rsc",
-      ".next/server/app/**/*.meta",
-      ".next/server/app/**/*.body",
-    ],
-  },
-
-
-  // `sharp` is NOT supported in Cloudflare Workers runtime.
+  // `sharp` is NOT supported in the Cloudflare Pages build environment.
   // Use unoptimized: true so Next.js skips server-side image processing.
-  // Images are served as static assets; use Cloudflare Images for on-the-fly transforms.
   images: {
     unoptimized: true,
     // Retain device/image sizes for <Image> sizing hints (no actual transform occurs)
@@ -36,7 +24,6 @@ const nextConfig: NextConfig = {
     contentDispositionType: "attachment",
   },
 
-  compress: true,
   poweredByHeader: false,
 
   // ── Strip legacy JS polyfills — SWC targets modern browsers only ──
@@ -47,9 +34,10 @@ const nextConfig: NextConfig = {
         : false,
   },
 
-  // NOTE: experimental.optimizeCss and inlineCss are incompatible with the
-  // Cloudflare Workers edge runtime and have been removed.
-
+  // NOTE: Headers and redirects below are for local `next dev` development only.
+  // In production (Cloudflare Pages), these are handled by public/_headers
+  // and public/_redirects files which are processed by Cloudflare's CDN layer.
+  // Keep them here so local development works correctly.
   async headers() {
     return [
       {
@@ -82,7 +70,6 @@ const nextConfig: NextConfig = {
       },
       {
         // Long-lived cache for immutable static assets
-        // Next.js route source uses path matching, not full regex — avoid (?:) groups
         source: "/:path*.:ext(js|css|woff2|webp|avif|png|jpg|jpeg|svg|ico)",
         headers: [
           {
@@ -92,8 +79,6 @@ const nextConfig: NextConfig = {
         ],
       },
       {
-        // Edge-cache HTML pages for 30 days, allow stale for 24h while revalidating
-        // This is the primary caching strategy replacing Vercel ISR
         source: "/routes/(.*)",
         headers: [
           {
@@ -113,52 +98,7 @@ const nextConfig: NextConfig = {
           },
         ],
       },
-      {
-        source: "/sitemap/:id.xml",
-        headers: [
-          {
-            key: "Cache-Control",
-            value:
-              "public, max-age=604800, s-maxage=604800, stale-while-revalidate=86400",
-          },
-          { key: "Content-Type", value: "application/xml" },
-        ],
-      },
-      {
-        source: "/sitemap_index.xml",
-        headers: [
-          {
-            key: "Cache-Control",
-            value:
-              "public, max-age=604800, s-maxage=604800, stale-while-revalidate=86400",
-          },
-          { key: "Content-Type", value: "application/xml" },
-        ],
-      },
-      {
-        source: "/robots.txt",
-        headers: [
-          {
-            key: "Cache-Control",
-            value:
-              "public, max-age=3600, s-maxage=86400, stale-while-revalidate=3600",
-          },
-          // Explicit MIME type — prevents any proxy/CDN from guessing
-          { key: "Content-Type", value: "text/plain; charset=utf-8" },
-        ],
-      },
-      {
-        source: "/feed.xml",
-        headers: [
-          {
-            key: "Cache-Control",
-            value:
-              "public, max-age=86400, s-maxage=86400, stale-while-revalidate=3600",
-          },
-          { key: "Content-Type", value: "application/rss+xml; charset=utf-8" },
-        ],
-      },
-      // Noindex headers for stub/removed state paths (Delhi-NCR, Uttarakhand, MP)
+      // Noindex headers for stub/removed state paths
       {
         source: "/delhi-ncr/:path*",
         headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
@@ -215,7 +155,7 @@ const nextConfig: NextConfig = {
         destination: "/kolkata/new-town",
         permanent: true,
       },
-      // Two-Way → Round Trip (service removed, round trip covers same use case)
+      // Two-Way → Round Trip
       {
         source: "/services/two-way",
         destination: "/services/round-trip",

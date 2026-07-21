@@ -1,44 +1,44 @@
-import { NextRequest, NextResponse } from 'next/server';
-
 /**
- * IndexNow API — Instantly notify search engines about changed URLs.
- * 
- * Usage:
- *   POST /api/reindex
- *   Body: { "urls": ["/routes/kolkata-to-ranchi", "/services/outstation"] }
- *   Header: x-api-key: <REINDEX_API_KEY from .env.local>
- * 
- * This pings IndexNow (supported by Google, Bing, Yandex, Seznam) to
- * re-crawl updated pages immediately instead of waiting for the next crawl.
+ * functions/api/reindex.ts
+ *
+ * Cloudflare Pages Function — replaces src/app/api/reindex/route.ts
+ *
+ * POST /api/reindex — submit specific URLs to IndexNow (authenticated)
+ * Header: x-api-key: <REINDEX_API_KEY>
+ * Body: { "urls": ["/routes/kolkata-to-ranchi", ...] }
  */
 
-const DOMAIN = 'https://www.kolkatacabservice.com';
-const INDEXNOW_KEY = (process.env.INDEXNOW_API_KEY || 'f63a562479e04845a7090b84784a9e52').trim();
+interface Env {
+  INDEXNOW_API_KEY?: string;
+  REINDEX_API_KEY?: string;
+}
 
-// IndexNow endpoints — all major search engines
+const DOMAIN = 'https://www.kolkatacabservice.com';
+
 const INDEXNOW_ENDPOINTS = [
   'https://api.indexnow.org/indexnow',
   'https://www.bing.com/indexnow',
   'https://yandex.com/indexnow',
 ];
 
-export async function POST(request: NextRequest) {
+export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   // Authenticate
   const apiKey = request.headers.get('x-api-key');
-  if (apiKey !== (process.env.REINDEX_API_KEY || '').trim()) {
-    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  if (apiKey !== (env.REINDEX_API_KEY || '').trim()) {
+    return Response.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
   try {
-    const body = await request.json();
+    const INDEXNOW_KEY = (env.INDEXNOW_API_KEY || 'f63a562479e04845a7090b84784a9e52').trim();
+    const body = await request.json() as { urls?: string[] };
     const urls: string[] = body.urls || [];
 
     if (urls.length === 0) {
-      return NextResponse.json({ error: 'No URLs provided' }, { status: 400 });
+      return Response.json({ error: 'No URLs provided' }, { status: 400 });
     }
 
     // Convert relative URLs to absolute
-    const absoluteUrls = urls.map(url => 
+    const absoluteUrls = urls.map(url =>
       url.startsWith('http') ? url : `${DOMAIN}${url.startsWith('/') ? '' : '/'}${url}`
     );
 
@@ -59,25 +59,25 @@ export async function POST(request: NextRequest) {
       })
     );
 
-    // Also ping Google's URL submission via sitemap ping (legacy but still works)
+    // Also ping Google's URL submission via sitemap ping
     const googlePing = await fetch(
       `https://www.google.com/ping?sitemap=${encodeURIComponent(`${DOMAIN}/sitemap_index.xml`)}`,
       { method: 'GET' }
     ).catch(() => null);
 
-    return NextResponse.json({
+    return Response.json({
       success: true,
       urlsSubmitted: absoluteUrls.length,
       urls: absoluteUrls,
-      indexNowResults: results.map(r => 
-        r.status === 'fulfilled' ? r.value : { error: r.reason?.message }
+      indexNowResults: results.map(r =>
+        r.status === 'fulfilled' ? r.value : { error: (r.reason as Error)?.message }
       ),
       googleSitemapPing: googlePing ? googlePing.status : 'failed',
     });
   } catch (error) {
-    return NextResponse.json(
+    return Response.json(
       { error: 'Failed to submit URLs', details: String(error) },
       { status: 500 }
     );
   }
-}
+};

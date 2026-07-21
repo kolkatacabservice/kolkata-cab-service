@@ -1,16 +1,43 @@
-import { NextRequest, NextResponse } from 'next/server';
+/**
+ * functions/api/booking.ts
+ *
+ * Cloudflare Pages Function — replaces src/app/api/booking/route.ts
+ *
+ * This runs on Cloudflare Workers runtime ONLY when a booking form is submitted.
+ * Static pages never touch this function — they are served directly from CDN.
+ *
+ * Cloudflare Pages Functions automatically handle routing:
+ * POST /api/booking → this file's onRequestPost handler
+ */
 
-// Google Apps Script Web App URL — deployed as "Anyone can access"
-const GOOGLE_SCRIPT_URL = (process.env.GOOGLE_SCRIPT_URL || '').replace(/[\r\n]/g, '').trim();
+interface Env {
+  GOOGLE_SCRIPT_URL?: string;
+}
 
-export async function POST(request: NextRequest) {
+interface BookingBody {
+  tripType?: string;
+  from?: string;
+  to?: string;
+  date?: string;
+  carType?: string;
+  name?: string;
+  phone?: string;
+}
+
+export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   try {
-    const body = await request.json();
+    let body: BookingBody;
+    try {
+      body = await request.json() as BookingBody;
+    } catch {
+      return Response.json({ success: false, error: 'Invalid JSON body' }, { status: 400 });
+    }
+
+    const { tripType, from, to, date, carType, name, phone } = body;
 
     // Validate required fields
-    const { tripType, from, to, date, carType, name, phone } = body;
     if (!from || !date || !name || !phone) {
-      return NextResponse.json(
+      return Response.json(
         { success: false, error: 'Missing required fields' },
         { status: 400 }
       );
@@ -19,16 +46,17 @@ export async function POST(request: NextRequest) {
     // Validate phone number (min 10 digits)
     const cleanPhone = phone.replace(/\D/g, '');
     if (cleanPhone.length < 10) {
-      return NextResponse.json(
+      return Response.json(
         { success: false, error: 'Invalid phone number' },
         { status: 400 }
       );
     }
 
-    // Check env var configured
+    const GOOGLE_SCRIPT_URL = (env.GOOGLE_SCRIPT_URL || '').replace(/[\r\n]/g, '').trim();
+
     if (!GOOGLE_SCRIPT_URL) {
-      console.error('🚨 GOOGLE_SCRIPT_URL env variable is not set!');
-      return NextResponse.json(
+      console.error('GOOGLE_SCRIPT_URL env variable is not set!');
+      return Response.json(
         { success: false, error: 'Booking service not configured. Please call us directly.' },
         { status: 500 }
       );
@@ -46,10 +74,9 @@ export async function POST(request: NextRequest) {
       source: 'website',
     };
 
-    // Send to Google Sheets via Apps Script
     try {
       const controller = new AbortController();
-      // 25s timeout — accounts for Vercel cold start + Google Script latency
+      // 25s timeout — accounts for Google Apps Script latency
       const timeoutId = setTimeout(() => controller.abort(), 25000);
 
       const response = await fetch(GOOGLE_SCRIPT_URL, {
@@ -63,41 +90,39 @@ export async function POST(request: NextRequest) {
       clearTimeout(timeoutId);
 
       if (response.ok) {
-        // ANY 200 response = success (Script returns JSON or HTML — both are OK)
         const resText = await response.text().catch(() => '');
-        console.log('✅ Booking sent to Google Sheets. Status:', response.status, '| Response:', resText.substring(0, 200));
-        return NextResponse.json({
+        console.log('Booking sent to Google Sheets. Status:', response.status, '| Response:', resText.substring(0, 200));
+        return Response.json({
           success: true,
           message: 'Booking submitted successfully! We will call you shortly.',
         });
       } else {
         const errText = await response.text().catch(() => 'unknown');
-        console.error('❌ Google Script HTTP error:', response.status, errText.substring(0, 300));
-        return NextResponse.json(
+        console.error('Google Script HTTP error:', response.status, errText.substring(0, 300));
+        return Response.json(
           { success: false, error: 'Unable to submit booking. Please call us directly.' },
           { status: 502 }
         );
       }
     } catch (err: unknown) {
       if (err instanceof Error && err.name === 'AbortError') {
-        console.error('❌ Google Script timed out after 25s');
-        return NextResponse.json(
+        console.error('Google Script timed out after 25s');
+        return Response.json(
           { success: false, error: 'Request timed out. Please call us at +916204811752.' },
           { status: 504 }
         );
       }
-      console.error('❌ Google Script fetch error:', err);
-      return NextResponse.json(
+      console.error('Google Script fetch error:', err);
+      return Response.json(
         { success: false, error: 'Unable to submit booking. Please call us directly.' },
         { status: 502 }
       );
     }
-
   } catch (error) {
     console.error('Booking API error:', error);
-    return NextResponse.json(
+    return Response.json(
       { success: false, error: 'Server error. Please try again.' },
       { status: 500 }
     );
   }
-}
+};

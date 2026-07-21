@@ -1,0 +1,99 @@
+# Cloudflare Pages _headers file
+# Processed by Cloudflare CDN — applies to ALL static assets served from Pages.
+# Docs: https://developers.cloudflare.com/pages/configuration/headers/
+
+# ── Security Headers — applied to all routes ─────────────────────────────────
+/*
+  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(self)
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://maps.googleapis.com https://maps.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https: blob:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com https://wa.me; frame-src https://www.google.com https://maps.google.com https://maps.googleapis.com https://www.googletagmanager.com;
+  Content-Language: en-IN
+
+# ── Immutable static assets (JS/CSS/fonts/images) — 1 year cache ─────────────
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/logo.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/logo.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.avif
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.svg
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.ico
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+# ── Route pages — 30 days CDN, 1 hour browser, stale-while-revalidate ────────
+/routes/*
+  Cache-Control: public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400
+
+# ── State/city pages — 30 days CDN cache ─────────────────────────────────────
+/west-bengal/*
+  Cache-Control: public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400
+
+/jharkhand/*
+  Cache-Control: public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400
+
+/odisha/*
+  Cache-Control: public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400
+
+/bihar/*
+  Cache-Control: public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400
+
+/kolkata/*
+  Cache-Control: public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400
+
+# ── Sitemaps — 7 day cache ────────────────────────────────────────────────────
+/sitemap_index.xml
+  Cache-Control: public, max-age=604800, s-maxage=604800, stale-while-revalidate=86400
+  Content-Type: application/xml
+
+/sitemap/*.xml
+  Cache-Control: public, max-age=604800, s-maxage=604800, stale-while-revalidate=86400
+  Content-Type: application/xml
+
+# ── robots.txt — 1 hour cache ────────────────────────────────────────────────
+/robots.txt
+  Cache-Control: public, max-age=3600, s-maxage=86400, stale-while-revalidate=3600
+  Content-Type: text/plain; charset=utf-8
+
+# ── RSS feed — 24 hour cache ──────────────────────────────────────────────────
+/feed.xml
+  Cache-Control: public, max-age=86400, s-maxage=86400, stale-while-revalidate=3600
+  Content-Type: application/rss+xml; charset=utf-8
+
+# ── IndexNow key file ─────────────────────────────────────────────────────────
+/f63a562479e04845a7090b84784a9e52.txt
+  Cache-Control: public, max-age=86400
+
+# ── Noindex for stub state pages ──────────────────────────────────────────────
+/delhi-ncr/*
+  X-Robots-Tag: noindex, nofollow
+
+/uttarakhand/*
+  X-Robots-Tag: noindex, nofollow
+
+/madhya-pradesh/*
+  X-Robots-Tag: noindex, nofollow

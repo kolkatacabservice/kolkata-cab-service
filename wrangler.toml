@@ -1,32 +1,24 @@
+# wrangler.toml — Cloudflare Pages configuration
+# Used by: wrangler pages deploy out --project-name=kolkata-cab-service
+#
+# Cloudflare Pages serves static HTML from ./out/ directly via CDN.
+# Dynamic API routes are handled by ./functions/api/*.ts (Pages Functions).
+# This setup provides:
+#   - Zero CPU cost for static pages (CDN serves them directly)
+#   - No Error 1102 — ever
+#   - Free tier: unlimited static requests, 100k dynamic function calls/day
+#
+# Pages project must be created once in Cloudflare Dashboard:
+#   https://dash.cloudflare.com → Pages → Create a project → Direct Upload
+# Or via CLI: wrangler pages project create kolkata-cab-service
+
 name = "kolkata-cab-service"
+pages_build_output_dir = "out"
 compatibility_date = "2025-07-01"
 compatibility_flags = ["nodejs_compat"]
-workers_dev = true
-preview_urls = true
-
-# OpenNext outputs to .open-next/
-main = ".open-next/worker.js"
-
-# Static assets directory
-assets = { directory = ".open-next/assets", binding = "ASSETS" }
-
-# Domain routes — Cloudflare zone is active (nameservers: damiete/princess.ns.cloudflare.com)
-# These routes enable SSL via Cloudflare proxy and route traffic to this Worker
-[[routes]]
-pattern = "kolkatacabservice.com/*"
-zone_name = "kolkatacabservice.com"
-
-[[routes]]
-pattern = "www.kolkatacabservice.com/*"
-zone_name = "kolkatacabservice.com"
 
 [vars]
 NEXT_PUBLIC_SITE_URL = "https://www.kolkatacabservice.com"
 
 [observability]
 enabled = true
-
-# NOTE: [build] command intentionally removed.
-# GitHub Actions runs `npm run build:cf` explicitly before `wrangler deploy`.
-# If [build] were present, wrangler would double-build on every deploy,
-# causing the injected static cache to be wiped by the second build.

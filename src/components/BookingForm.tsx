@@ -115,7 +115,7 @@ export default function BookingForm({ defaultFrom = '', defaultTo = '', compact 
         }),
       });
 
-      const data = await res.json();
+      const data = await res.json() as { success: boolean; error?: string; message?: string };
 
       if (data.success) {
         // Store submitted data for success screen

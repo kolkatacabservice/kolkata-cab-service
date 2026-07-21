@@ -1,0 +1,29 @@
+# Cloudflare Pages _redirects file
+# Processed by Cloudflare CDN — 301/302 redirects with zero CPU usage.
+# Docs: https://developers.cloudflare.com/pages/configuration/redirects/
+# Format: <source> <destination> <status_code>
+
+# ── Sitemap alias (Google compatibility) ─────────────────────────────────────
+/sitemap.xml /sitemap_index.xml 301
+
+# ── Common typo redirects ─────────────────────────────────────────────────────
+/route/* /routes/:splat 301
+/service/* /services/:splat 301
+
+# ── Duplicate page consolidation — Salt Lake & New Town ──────────────────────
+/west-bengal/salt-lake-kolkata /kolkata/salt-lake 301
+/west-bengal/salt-lake-kolkata/* /kolkata/salt-lake 301
+/west-bengal/new-town-kolkata /kolkata/new-town 301
+/west-bengal/new-town-kolkata/* /kolkata/new-town 301
+
+# ── Service rename: Two-Way → Round Trip ─────────────────────────────────────
+/services/two-way /services/round-trip 301
+/:state/:city/two-way /:state/:city/round-trip 301
+
+# ── Delhi-NCR, Uttarakhand, MP — no content, redirect to home ────────────────
+/delhi-ncr / 301
+/delhi-ncr/* / 301
+/uttarakhand / 301
+/uttarakhand/* / 301
+/madhya-pradesh / 301
+/madhya-pradesh/* / 301

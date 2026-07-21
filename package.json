@@ -4,12 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/clean-standalone.js",
-    "build:cf": "node scripts/split-routes-by-city.js && node scripts/generate-static-sitemaps.js && opennextjs-cloudflare build && node scripts/inject-static-route-cache.js && node scripts/copy-cache.js",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "preview": "opennextjs-cloudflare preview",
-    "deploy": "cross-env OPEN_NEXT_DEPLOY=true CLOUDFLARE_ACCOUNT_ID=f1724b09121cad3a665b9599fd5213e3 wrangler deploy"
+    "build:cf": "node scripts/split-routes-by-city.js && node scripts/generate-static-sitemaps.js && node scripts/generate-static-files.js && next build",
+    "deploy": "wrangler pages deploy out --project-name=kolkata-cab-service --commit-dirty=true"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",
@@ -19,14 +18,13 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@opennextjs/cloudflare": "latest",
+    "@cloudflare/workers-types": "^4.20241218.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
     "cross-env": "^10.1.0",
-    "esbuild": "latest",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
     "tailwindcss": "^4",

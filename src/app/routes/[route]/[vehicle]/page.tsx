@@ -14,10 +14,11 @@ import { getRoute } from '@/lib/routeData';
 import { getStaticVehicleRouteSlugs } from '@/lib/routeDataStatic';
 import { generateVehicleRouteMetadata, generateVehicleRouteSchema, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
-// dynamicParams=true: Kolkata/Ranchi/Bhubaneswar vehicle pages are pre-rendered at build time.
-// Jamshedpur/Patna/other hub vehicle pages render ON DEMAND and are cached by edge.
-export const dynamicParams = true;
-// force-static: pre-build pages and serve as static assets to save CPU time limits
+// dynamicParams=false: With output: 'export', all pages must be pre-rendered at build time.
+// Only pre-built route × vehicle combos are served; unknown combinations return 404.
+// This covers all major hub route × vehicle combos pre-built at build time.
+export const dynamicParams = false;
+// force-static: pre-build pages and serve as static assets — zero CPU at request time
 export const dynamic = 'force-static';
 export const revalidate = false; // fully static, no ISR — zero CPU at request time
 

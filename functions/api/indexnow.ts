@@ -1,19 +1,17 @@
-import { NextResponse } from 'next/server';
-
 /**
- * IndexNow API — Automatically pings Bing, Yandex, and Naver
- * to index your pages immediately after deployment.
- * 
- * Usage: POST /api/indexnow with { "urls": ["https://..."] }
- * Or GET /api/indexnow to submit ALL important pages automatically.
- * 
- * This is called automatically by the Vercel deployment hook
- * or manually via: curl -X GET https://www.kolkatacabservice.com/api/indexnow
+ * functions/api/indexnow.ts
+ *
+ * Cloudflare Pages Function — replaces src/app/api/indexnow/route.ts
+ *
+ * GET  /api/indexnow — submit all priority URLs to search engines
+ * POST /api/indexnow — submit custom URL list
  */
 
-const INDEXNOW_KEY = (process.env.INDEXNOW_API_KEY || 'f63a562479e04845a7090b84784a9e52').trim();
-const DOMAIN = 'https://www.kolkatacabservice.com';
+interface Env {
+  INDEXNOW_API_KEY?: string;
+}
 
+const DOMAIN = 'https://www.kolkatacabservice.com';
 
 // Top priority pages to submit on every deploy
 const PRIORITY_URLS = [
@@ -78,13 +76,10 @@ const PRIORITY_URLS = [
   '/west-bengal/durgapur',
   '/west-bengal/asansol',
   '/west-bengal/howrah',
-  '/west-bengal/salt-lake-kolkata',
-  '/west-bengal/new-town-kolkata',
-  '/west-bengal/kolkata-airport',
   '/west-bengal/digha',
   '/west-bengal/mandarmani',
   '/west-bengal/sundarbans',
-  // Kolkata area pages (high-value local pages)
+  // Kolkata area pages
   '/kolkata/salt-lake',
   '/kolkata/new-town',
   '/kolkata/howrah',
@@ -103,16 +98,14 @@ const PRIORITY_URLS = [
   '/blog/kolkata-airport-cab-service-guide',
   '/blog/best-weekend-trips-from-kolkata',
   '/blog/kolkata-to-puri-cab-jagannath-temple',
-  // Sitemaps (for search engine ping)
+  // Sitemaps
   '/sitemap_index.xml',
 ];
 
-async function submitToIndexNow(urls: string[]) {
+async function submitToIndexNow(urls: string[], indexNowKey: string) {
   const fullUrls = urls.map(u => u.startsWith('http') ? u : `${DOMAIN}${u}`);
-  
   const results: { engine: string; status: string; error?: string }[] = [];
-  
-  // Submit to IndexNow API (Bing, Yandex, Naver all use the same API)
+
   const engines = [
     { name: 'Bing', url: 'https://www.bing.com/indexnow' },
     { name: 'Yandex', url: 'https://yandex.com/indexnow' },
@@ -125,22 +118,17 @@ async function submitToIndexNow(urls: string[]) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           host: 'www.kolkatacabservice.com',
-          key: INDEXNOW_KEY,
-          keyLocation: `${DOMAIN}/${INDEXNOW_KEY}.txt`,
-          urlList: fullUrls.slice(0, 10000), // IndexNow max 10000 URLs per request
+          key: indexNowKey,
+          keyLocation: `${DOMAIN}/${indexNowKey}.txt`,
+          urlList: fullUrls.slice(0, 10000),
         }),
       });
-      
       results.push({
         engine: engine.name,
         status: response.ok ? 'success' : `error-${response.status}`,
       });
     } catch (error) {
-      results.push({
-        engine: engine.name,
-        status: 'failed',
-        error: String(error),
-      });
+      results.push({ engine: engine.name, status: 'failed', error: String(error) });
     }
   }
 
@@ -155,43 +143,39 @@ async function submitToIndexNow(urls: string[]) {
       status: googlePing.ok ? 'success' : `error-${googlePing.status}`,
     });
   } catch (error) {
-    results.push({
-      engine: 'Google Sitemap Ping',
-      status: 'failed',
-      error: String(error),
-    });
+    results.push({ engine: 'Google Sitemap Ping', status: 'failed', error: String(error) });
   }
 
   return results;
 }
 
-// GET — Auto-submit all priority URLs
-export async function GET() {
-  const results = await submitToIndexNow(PRIORITY_URLS);
-  
-  return NextResponse.json({
+export const onRequestGet: PagesFunction<Env> = async ({ env }) => {
+  const INDEXNOW_KEY = (env.INDEXNOW_API_KEY || 'f63a562479e04845a7090b84784a9e52').trim();
+  const results = await submitToIndexNow(PRIORITY_URLS, INDEXNOW_KEY);
+
+  return Response.json({
     message: `Submitted ${PRIORITY_URLS.length} URLs to search engines`,
     submitted: PRIORITY_URLS.length,
     results,
     timestamp: new Date().toISOString(),
   });
-}
+};
 
-// POST — Submit custom URLs
-export async function POST(request: Request) {
+export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   try {
-    const body = await request.json();
+    const INDEXNOW_KEY = (env.INDEXNOW_API_KEY || 'f63a562479e04845a7090b84784a9e52').trim();
+    const body = await request.json() as { urls?: string[] };
     const urls = body.urls || PRIORITY_URLS;
-    
-    const results = await submitToIndexNow(urls);
-    
-    return NextResponse.json({
+
+    const results = await submitToIndexNow(urls, INDEXNOW_KEY);
+
+    return Response.json({
       message: `Submitted ${urls.length} URLs to search engines`,
       submitted: urls.length,
       results,
       timestamp: new Date().toISOString(),
     });
   } catch {
-    return NextResponse.json({ error: 'Invalid request body' }, { status: 400 });
+    return Response.json({ error: 'Invalid request body' }, { status: 400 });
   }
-}
+};

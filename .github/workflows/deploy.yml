@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Workers
+name: Deploy to Cloudflare Pages
 
 on:
   push:
@@ -12,11 +12,10 @@ jobs:
     timeout-minutes: 60
 
     steps:
-      - name: Free disk space (aggressive)
+      - name: Free disk space
         run: |
           echo "=== Disk space BEFORE cleanup ==="
           df -h /
-          # Remove large pre-installed tools not needed for this build
           sudo rm -rf /usr/share/dotnet || true
           sudo rm -rf /usr/local/lib/android || true
           sudo rm -rf /opt/ghc || true
@@ -28,15 +27,12 @@ jobs:
           sudo rm -rf /usr/local/share/boost || true
           sudo rm -rf /usr/lib/jvm || true
           sudo rm -rf /opt/microsoft || true
-          sudo rm -rf /usr/local/graalvm || true
           docker system prune -af --volumes || true
-          sudo apt-get clean || true
           echo "=== Disk space AFTER cleanup ==="
           df -h /
 
       - name: Add swap space
         run: |
-          # Check if swap already exists
           if swapon --show | grep -q '/swapfile'; then
             echo "Swap already active, skipping."
           elif [ -f /swapfile ]; then
@@ -48,7 +44,6 @@ jobs:
             sudo mkswap /swapfile
             sudo swapon /swapfile
           fi
-          echo "Swap status:"
           swapon --show
 
       - name: Checkout repository
@@ -63,18 +58,25 @@ jobs:
       - name: Install dependencies
         run: npm ci --legacy-peer-deps
 
-      - name: Build Next.js app + clean + OpenNext CF bundle
+      - name: Build Next.js static export
+        # build:cf runs: split-routes → generate-sitemaps → generate-static-files → next build
+        # Output: ./out/ directory with all static HTML + Pages Functions in ./functions/
         run: npm run build:cf
         env:
           NODE_ENV: production
           NEXT_PUBLIC_SITE_URL: https://www.kolkatacabservice.com
 
-      - name: Check disk space after build
-        run: df -h /
+      - name: Check disk space and output size
+        run: |
+          df -h /
+          echo "=== Output directory size ==="
+          du -sh out/ || true
+          echo "=== File count in out/ ==="
+          find out -type f | wc -l
 
-      - name: Deploy to Cloudflare Workers
-        run: npx wrangler@4 deploy
+      - name: Deploy to Cloudflare Pages
+        # Deploys ./out/ (static HTML) + ./functions/ (Pages Functions for API routes)
+        run: npx wrangler@latest pages deploy out --project-name=kolkata-cab-service --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-          OPEN_NEXT_DEPLOY: 'true'
