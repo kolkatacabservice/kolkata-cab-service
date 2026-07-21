@@ -12,7 +12,7 @@ import GoogleMapEmbed from '@/components/GoogleMapEmbed';
 import FareCalculator from '@/components/FareCalculator';
 import FleetSection from '@/components/FleetSection';
 import { getCity, getState, getVehicles, BUSINESS } from '@/lib/data';
-import { getRoute, getRoutesFrom, getPopularLocalRoutes } from '@/lib/routeData';
+import { getRoute, getRoutesFrom, getPopularLocalRoutes, isHubRoute } from '@/lib/routeData';
 import { getAllRouteSlugs } from '@/lib/routeDataStatic';
 import { generateRouteMetadata, generateFaqSchema, generateBreadcrumbSchema, generateEnhancedRouteSchema } from '@/lib/seo';
 import { generateRoutePageContent } from '@/lib/routeContent';
@@ -607,14 +607,14 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
             <Link href={`/${route.toState}/${route.to}/round-trip`} className="px-3 py-1.5 bg-white border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors">
               round trip from {route.toName}
             </Link>
-            {/* Vehicle-specific route links — internal page links, strong ranking signal */}
-            <Link href={`/routes/${route.slug}/sedan`} className="px-3 py-1.5 bg-white border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors">
+            {/* Vehicle-specific route links — hub routes get detail pages, others scroll to booking */}
+            <Link href={isHubRoute(route.slug) ? `/routes/${route.slug}/sedan` : `/routes/${route.slug}#booking-form`} className="px-3 py-1.5 bg-white border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors">
               {route.fromName} to {route.toName} sedan cab
             </Link>
-            <Link href={`/routes/${route.slug}/suv`} className="px-3 py-1.5 bg-white border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors">
+            <Link href={isHubRoute(route.slug) ? `/routes/${route.slug}/suv` : `/routes/${route.slug}#booking-form`} className="px-3 py-1.5 bg-white border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors">
               {route.fromName} to {route.toName} SUV cab
             </Link>
-            <Link href={`/routes/${route.slug}/tempo`} className="px-3 py-1.5 bg-white border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors">
+            <Link href={isHubRoute(route.slug) ? `/routes/${route.slug}/tempo` : `/routes/${route.slug}#booking-form`} className="px-3 py-1.5 bg-white border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors">
               {route.fromName} to {route.toName} tempo traveller
             </Link>
             <Link href="/services/outstation" className="px-3 py-1.5 bg-white border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors">
