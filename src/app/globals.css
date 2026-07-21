@@ -282,10 +282,10 @@
     transform: translateY(-4px);
   }
 
-  /* Content visibility for below-fold performance optimization */
+  /* Content visibility — use 'visible' to prevent CSS flash on navigation.
+     'auto' causes unstyled sections during client-side navigation in Safari/older Chromium. */
   .lazy-section {
-    content-visibility: auto;
-    contain-intrinsic-size: 1px 500px;
+    content-visibility: visible;
   }
 
   /* Respect User Motion Preferences - drops animation complexity for TBT gains */

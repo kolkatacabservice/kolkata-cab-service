@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { Calculator, MapPin, Car, Phone, ArrowRight, IndianRupee, Clock, Route as RouteIcon, ChevronDown, Sparkles } from 'lucide-react';
 import { BUSINESS, getAllCities, getStateFares } from '@/lib/data';
 
@@ -23,7 +23,7 @@ interface FareResult {
 }
 
 export default function FareCalculator({ defaultFrom = '', defaultTo = '' }: FareCalculatorProps) {
-  const allCities = getAllCities();
+  const allCities = useMemo(() => getAllCities(), []);
 
   const [from, setFrom] = useState(defaultFrom);
   const [to, setTo] = useState(defaultTo);

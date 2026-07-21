@@ -184,7 +184,7 @@ export async function getLinkedVehicleRouteSlugs(): Promise<string[]> {
 export function isHubRoute(slug: string): boolean {
   const parts = slug.split('-to-');
   if (parts.length === 2) {
-    const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar']);
+    const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
     return hubSlugs.has(parts[0]) || hubSlugs.has(parts[1]);
   }
   return false;

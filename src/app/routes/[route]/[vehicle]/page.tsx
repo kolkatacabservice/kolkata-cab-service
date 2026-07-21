@@ -4,11 +4,12 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { MapPin, Clock, Phone, CheckCircle, Users, Briefcase, Fuel, Gauge } from 'lucide-react';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import HeroBanner from '@/components/HeroBanner';
+import nextDynamic from 'next/dynamic';
 import BookingForm from '@/components/BookingForm';
 import FAQSection from '@/components/FAQSection';
-import GoogleMapEmbed from '@/components/GoogleMapEmbed';
-import FareCalculator from '@/components/FareCalculator';
+
+const GoogleMapEmbed = nextDynamic(() => import('@/components/GoogleMapEmbed'), { ssr: false, loading: () => <div className="py-12 text-center text-gray-400">Loading map...</div> });
+const FareCalculator = nextDynamic(() => import('@/components/FareCalculator'), { ssr: false, loading: () => <div className="py-12 text-center text-gray-400">Loading calculator...</div> });
 import { getCity, getState, getVehicle, getVehicles, VEHICLE_SLUGS, BUSINESS } from '@/lib/data';
 import { getRoute } from '@/lib/routeData';
 import { getStaticVehicleRouteSlugs } from '@/lib/routeDataStatic';
@@ -22,11 +23,10 @@ export const dynamicParams = false;
 export const dynamic = 'force-static';
 export const revalidate = false; // fully static, no ISR — zero CPU at request time
 
-// Pre-build Kolkata/Ranchi/Bhubaneswar hub route × vehicle combos at build time.
-// ~100 hub routes × 4 vehicles = ~400 static files.
-// Other hub combos (Jamshedpur, Patna) render on-demand via dynamicParams=true.
+// Pre-build hub route × vehicle combos at build time.
+// ~300 hub routes × 4 vehicles = ~1200 static files.
 export async function generateStaticParams() {
-  const routeSlugs = getStaticVehicleRouteSlugs(100);
+  const routeSlugs = getStaticVehicleRouteSlugs(500);
   const params: { route: string; vehicle: string }[] = [];
   for (const rs of routeSlugs) {
     for (const vs of VEHICLE_SLUGS) {

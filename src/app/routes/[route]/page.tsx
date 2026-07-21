@@ -4,13 +4,14 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { MapPin, Clock, Phone, CheckCircle, Navigation, ArrowLeftRight, Info, Route as RouteIcon } from 'lucide-react';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import HeroBanner from '@/components/HeroBanner';
 
+import nextDynamic from 'next/dynamic';
 import BookingForm from '@/components/BookingForm';
 import FAQSection from '@/components/FAQSection';
-import GoogleMapEmbed from '@/components/GoogleMapEmbed';
-import FareCalculator from '@/components/FareCalculator';
 import FleetSection from '@/components/FleetSection';
+
+const GoogleMapEmbed = nextDynamic(() => import('@/components/GoogleMapEmbed'), { ssr: false, loading: () => <div className="py-12 text-center text-gray-400">Loading map...</div> });
+const FareCalculator = nextDynamic(() => import('@/components/FareCalculator'), { ssr: false, loading: () => <div className="py-12 text-center text-gray-400">Loading calculator...</div> });
 import { getCity, getState, getVehicles, BUSINESS } from '@/lib/data';
 import { getRoute, getRoutesFrom, getPopularLocalRoutes, isHubRoute } from '@/lib/routeData';
 import { getAllRouteSlugs } from '@/lib/routeDataStatic';
@@ -123,8 +124,7 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
       ])) }} />
 
       {/* Hero */}
-      <section className="relative text-white py-12 lg:py-16 overflow-hidden">
-        <HeroBanner hideDots />
+      <section className="relative text-white py-12 lg:py-16 overflow-hidden bg-gradient-to-br from-secondary via-slate-800 to-secondary">
         <div className="relative z-10 max-w-7xl mx-auto px-4">
           <Breadcrumbs items={[
             { name: fromState?.name || '', href: `/${route.fromState}` },

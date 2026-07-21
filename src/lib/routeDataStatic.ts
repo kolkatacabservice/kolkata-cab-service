@@ -89,12 +89,11 @@ export function getStaticRouteSlugs(limit = 200): string[] {
 /**
  * Returns primary-hub route slugs for vehicle SSG pages — build time only.
  *
- * Only Kolkata, Ranchi, and Bhubaneswar routes get static vehicle pages.
- * Jamshedpur/Patna vehicle pages are handled dynamically (dynamicParams=true).
+ * All hub cities (Kolkata, Ranchi, Bhubaneswar, Jamshedpur, Patna) get static vehicle pages.
  */
 export function getStaticVehicleRouteSlugs(limit = 200): string[] {
   const routes = loadAllSync();
-  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar']);
+  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
   const routeMap = new Map(routes.map(r => [r.slug, r]));
 
   const tier1 = routes.filter(r => hubSlugs.has(r.from) && hubSlugs.has(r.to));

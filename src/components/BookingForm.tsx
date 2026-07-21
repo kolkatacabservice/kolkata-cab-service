@@ -1,11 +1,8 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { MapPin, Calendar, Car, User, Phone, Send, ChevronDown, CheckCircle, AlertCircle, RotateCcw } from 'lucide-react';
 import { BUSINESS, getAllCities } from '@/lib/data';
-
-// Evaluated once at module load — not on every render
-const allCities = getAllCities();
 
 interface BookingFormProps {
   defaultFrom?: string;
@@ -27,6 +24,7 @@ type FormState = {
 type SubmitStatus = 'idle' | 'submitting' | 'success' | 'error';
 
 export default function BookingForm({ defaultFrom = '', defaultTo = '', compact = false, flat = false }: BookingFormProps) {
+  const allCities = useMemo(() => getAllCities(), []);
   const getInitialForm = useCallback((): FormState => ({
     from: defaultFrom,
     to: defaultTo,
