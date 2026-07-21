@@ -4,12 +4,10 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { MapPin, Clock, Phone, CheckCircle, Users, Briefcase, Fuel, Gauge } from 'lucide-react';
 import Breadcrumbs from '@/components/Breadcrumbs';
-import nextDynamic from 'next/dynamic';
 import BookingForm from '@/components/BookingForm';
 import FAQSection from '@/components/FAQSection';
-
-const GoogleMapEmbed = nextDynamic(() => import('@/components/GoogleMapEmbed'), { ssr: false, loading: () => <div className="py-12 text-center text-gray-400">Loading map...</div> });
-const FareCalculator = nextDynamic(() => import('@/components/FareCalculator'), { ssr: false, loading: () => <div className="py-12 text-center text-gray-400">Loading calculator...</div> });
+import GoogleMapEmbed from '@/components/GoogleMapEmbed';
+import FareCalculator from '@/components/FareCalculator';
 import { getCity, getState, getVehicle, getVehicles, VEHICLE_SLUGS, BUSINESS } from '@/lib/data';
 import { getRoute } from '@/lib/routeData';
 import { getStaticVehicleRouteSlugs } from '@/lib/routeDataStatic';
@@ -116,8 +114,7 @@ export default async function VehicleRoutePage({ params }: { params: Promise<{ r
       )}
 
       {/* Hero */}
-      <section className="relative text-white py-12 lg:py-16 overflow-hidden">
-        <HeroBanner hideDots />
+      <section className="relative text-white py-12 lg:py-16 overflow-hidden bg-gradient-to-br from-secondary via-slate-800 to-secondary">
         <div className="relative z-10 max-w-7xl mx-auto px-4">
           <Breadcrumbs items={[
             { name: fromState?.name || '', href: `/${route.fromState}` },
