@@ -58,6 +58,13 @@ export default function FareCalculator({ defaultFrom = '', defaultTo = '' }: Far
       return;
     }
 
+    const fromNorm = from.toLowerCase().trim().split(',')[0].trim();
+    const toNorm = to.toLowerCase().trim().split(',')[0].trim();
+    if (fromNorm === toNorm) {
+      setError('Pickup and drop city cannot be the same. Please enter different cities.');
+      return;
+    }
+
     setCalculating(true);
 
     // Simulate a brief calculation animation
@@ -272,7 +279,7 @@ export default function FareCalculator({ defaultFrom = '', defaultTo = '' }: Far
                     <div className="border-t border-gray-100 pt-3">
                       <p className="text-xs text-gray-400">Estimated Fare</p>
                       <p className="text-2xl font-extrabold text-primary">₹{v.fare.toLocaleString('en-IN')}</p>
-                      <p className="text-xs text-gray-400 mt-1">₹{v.perKm}/km × {result.distance} km</p>
+                      <p className="text-xs text-gray-400 mt-1">Est. for {result.distance} km journey</p>
                     </div>
                     <a
                       href={`tel:${BUSINESS.phone}`}

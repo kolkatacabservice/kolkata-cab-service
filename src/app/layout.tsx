@@ -22,57 +22,24 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(BUSINESS.domain),
   title: {
-    default: 'Kolkata Cab Service | Book Taxi in Kolkata ₹12/km | Airport, Outstation, Local 24/7',
+    default: 'Cab Service in Kolkata ₹12/km | ⭐4.8 | Airport, Outstation, Local Taxi 24/7',
     template: '%s | Kolkata Cab Service',
   },
   description: `★4.8 rated cab service in Kolkata from ₹12/km. Airport taxi ₹1,200 | Outstation to Ranchi, Jamshedpur, Bhubaneswar, Darjeeling | Local 4hr ₹1,800. AC Innova Crysta, Sedan, SUV. No surge 24/7. Call ${BUSINESS.phone}`,
   keywords: [
-    // Primary high-volume keywords
-    'kolkata cab service', 'cab service in kolkata', 'kolkata taxi service',
+    // Brand keywords — home page only
+    'Kolkata Cab Service', 'kolkata cab service', 'cab service in kolkata', 'kolkata taxi service',
     'taxi in kolkata', 'cab in kolkata', 'book cab kolkata', 'book taxi kolkata',
-    // Route keywords (highest search volume)
-    'kolkata to ranchi cab', 'kolkata to ranchi taxi',
-    'kolkata to jamshedpur cab', 'kolkata to jamshedpur taxi',
-    'kolkata to bhubaneswar cab', 'kolkata to siliguri cab',
-    'kolkata to darjeeling cab', 'kolkata to puri cab',
-    'kolkata to digha cab', 'kolkata to durgapur cab',
-    // Typo / garbled variants (critical for this site)
-    'kolkatato ranchi cab', 'kolkata to ranchitaxi', 'kolkata to ranchicab',
-    'kolkatato jamshedpur cab', 'kolkata to jamshedpurtaxi',
-    'ranchi to kolkata cab', 'ranchi to kolkata taxi',
-    'jamshedpur to kolkata cab', 'jamshedpur to kolkata taxi',
-    // Airport
-    'kolkata airport cab', 'kolkata airport taxi', 'ccu airport cab',
-    'netaji subhas chandra bose airport cab', 'dum dum airport cab',
-    'kolkata airport pickup', 'kolkata airport drop',
-    // Vehicle keywords
-    'innova cab kolkata', 'innova crysta kolkata', 'sedan cab kolkata',
-    'suv cab kolkata', 'tempo traveller kolkata',
-    // Car rental
-    'car rental kolkata', 'car hire kolkata', 'cab rental kolkata',
-    // Service keywords
-    'outstation cab kolkata', 'one way cab kolkata', 'local taxi kolkata',
-    'round trip cab kolkata', 'airport transfer kolkata', 'wedding car kolkata',
-    // Brand/competitor alternatives
-    'no surge cab kolkata', 'fixed rate taxi kolkata', 'ola alternative kolkata',
-    // 24/7
-    '24 hour cab kolkata', '24x7 taxi kolkata', 'night cab kolkata',
-    // Voice search / question-based queries
-    'best cab service near me kolkata',
-    'cheap cab service kolkata',
-    'reliable taxi kolkata',
-    'how to book cab in kolkata',
-    'cab booking kolkata online',
-    'taxi booking kolkata number',
-    // Location-specific Kolkata
-    'salt lake cab service', 'new town cab service', 'howrah cab service',
-    'park street cab', 'south kolkata cab', 'north kolkata taxi',
-    'esplanade taxi', 'sealdah cab', 'howrah station cab',
-    // Intercity direct searches
-    'kolkata to patna cab', 'kolkata to dhanbad cab', 'kolkata to bokaro cab',
-    'kolkata to asansol cab', 'kolkata to haldia cab', 'kolkata to krishnanagar cab',
-    // Hindi transliterations (common search patterns)
-    'kolkata se ranchi cab', 'kolkata taxi number', 'cab seva kolkata',
+    // Service-level keywords — home page appropriate
+    'kolkata airport cab', 'kolkata airport taxi', 'kolkata airport pickup',
+    'outstation cab kolkata', 'one way cab kolkata', 'round trip cab kolkata',
+    'local taxi kolkata', 'car rental kolkata', 'cab rental kolkata',
+    'innova cab kolkata', 'innova crysta kolkata', 'sedan cab kolkata', 'suv cab kolkata',
+    // Service quality
+    'no surge cab kolkata', 'fixed rate taxi kolkata', '24 hour cab kolkata',
+    'reliable taxi kolkata', 'cheap cab service kolkata',
+    // Hindi / voice search
+    'kolkata taxi number', 'cab booking kolkata online', 'best cab service kolkata',
   ],
   authors: [{ name: BUSINESS.name, url: BUSINESS.domain }],
   creator: BUSINESS.name,

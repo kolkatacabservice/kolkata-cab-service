@@ -21,7 +21,6 @@ export const revalidate = false;
 
 export async function generateStaticParams() {
   // Pre-render ALL cities at build time — eliminates SSR cold starts on CF Free Tier
-  const { getAllCities } = await import('@/lib/data');
   const cities = getAllCities();
   return cities.map(c => ({ state: c.state, city: c.slug }));
 }

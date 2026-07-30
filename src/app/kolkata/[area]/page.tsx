@@ -414,7 +414,27 @@ export default async function AreaPage({ params }: { params: Promise<{ area: str
         <div className="max-w-7xl mx-auto px-4">
           <h3 className="text-sm font-semibold text-gray-400 mb-3">People Also Search For</h3>
           <div className="flex flex-wrap gap-2">
-            {area.keywords.slice(0, 24).map((kw, i) => (
+            {/* First 8 keyword pills → internal pages (crawlable by Google) */}
+            {[
+              { label: `cab service in ${area.shortName}`, href: '/west-bengal/kolkata' },
+              { label: `taxi in ${area.shortName} Kolkata`, href: '/west-bengal/kolkata' },
+              { label: `${area.shortName} airport cab`, href: '/west-bengal/kolkata/airport-transfer' },
+              { label: `${area.shortName} outstation cab`, href: '/west-bengal/kolkata/outstation' },
+              { label: `local taxi ${area.shortName}`, href: '/west-bengal/kolkata/local' },
+              { label: `${area.shortName} to Ranchi cab`, href: '/routes/kolkata-to-ranchi' },
+              { label: `${area.shortName} to Siliguri cab`, href: '/routes/kolkata-to-siliguri' },
+              { label: `${area.shortName} to Jamshedpur cab`, href: '/routes/kolkata-to-jamshedpur' },
+            ].map((item, i) => (
+              <Link
+                key={i}
+                href={item.href}
+                className="px-3 py-1.5 bg-white border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors"
+              >
+                {item.label}
+              </Link>
+            ))}
+            {/* Remaining keywords → WhatsApp booking intent */}
+            {area.keywords.slice(8, 20).map((kw, i) => (
               <a
                 key={i}
                 href={`https://wa.me/${BUSINESS.whatsapp}?text=${encodeURIComponent(`Hi! I need a cab in ${area.shortName}. Query: ${kw}`)}`}

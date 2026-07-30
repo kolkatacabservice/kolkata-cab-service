@@ -216,6 +216,7 @@ export default async function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-2 text-sm text-gray-400">
           <p suppressHydrationWarning>© {new Date().getFullYear()} {BUSINESS.name}. All rights reserved. | Best Cab Service in Kolkata ₹12/km</p>
+          <p>Developed by <a href="https://basant.me" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors font-semibold">Basant Kumar</a></p>
           <div className="flex flex-wrap gap-4">
             <Link href="/about" className="hover:text-primary transition-colors">About</Link>
             <Link href="/contact" className="hover:text-primary transition-colors">Contact</Link>

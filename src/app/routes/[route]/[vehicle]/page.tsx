@@ -4,10 +4,31 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { MapPin, Clock, Phone, CheckCircle, Users, Briefcase, Fuel, Gauge } from 'lucide-react';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import HeroBanner from '@/components/HeroBanner';
+import nextDynamic from 'next/dynamic';
 import BookingForm from '@/components/BookingForm';
 import FAQSection from '@/components/FAQSection';
-import GoogleMapEmbed from '@/components/GoogleMapEmbed';
-import FareCalculator from '@/components/FareCalculator';
+
+const GoogleMapEmbed = nextDynamic(() => import('@/components/GoogleMapEmbed'), {
+  loading: () => (
+    <div className="py-16 text-center">
+      <div className="inline-flex items-center gap-3 px-6 py-3 bg-gray-50 rounded-full text-gray-400 text-sm border border-gray-100">
+        <div className="w-4 h-4 border-2 border-primary/30 border-t-primary rounded-full animate-spin" />
+        Loading map&hellip;
+      </div>
+    </div>
+  ),
+});
+const FareCalculator = nextDynamic(() => import('@/components/FareCalculator'), {
+  loading: () => (
+    <div className="py-20 text-center">
+      <div className="inline-flex items-center gap-3 px-6 py-3 bg-gray-50 rounded-full text-gray-400 text-sm border border-gray-100">
+        <div className="w-4 h-4 border-2 border-primary/30 border-t-primary rounded-full animate-spin" />
+        Calculating fares&hellip;
+      </div>
+    </div>
+  ),
+});
 import { getCity, getState, getVehicle, getVehicles, VEHICLE_SLUGS, BUSINESS } from '@/lib/data';
 import { getRoute } from '@/lib/routeData';
 import { getStaticVehicleRouteSlugs } from '@/lib/routeDataStatic';
@@ -106,7 +127,13 @@ export default async function VehicleRoutePage({ params }: { params: Promise<{ r
 
       {fromCity && (
         <>
-          <meta name="geo.region" content={route.fromState === 'west-bengal' ? 'IN-WB' : route.fromState === 'jharkhand' ? 'IN-JH' : 'IN-OR'} />
+          <meta name="geo.region" content={
+            route.fromState === 'west-bengal' ? 'IN-WB' :
+            route.fromState === 'jharkhand' ? 'IN-JH' :
+            route.fromState === 'odisha' ? 'IN-OR' :
+            route.fromState === 'bihar' ? 'IN-BR' :
+            route.fromState === 'uttar-pradesh' ? 'IN-UP' : 'IN-WB'
+          } />
           <meta name="geo.placename" content={route.fromName} />
           <meta name="geo.position" content={`${fromCity.lat};${fromCity.lng}`} />
           <meta name="ICBM" content={`${fromCity.lat}, ${fromCity.lng}`} />
@@ -114,7 +141,8 @@ export default async function VehicleRoutePage({ params }: { params: Promise<{ r
       )}
 
       {/* Hero */}
-      <section className="relative text-white py-12 lg:py-16 overflow-hidden bg-gradient-to-br from-secondary via-slate-800 to-secondary">
+      <section className="relative text-white py-12 lg:py-16 overflow-hidden">
+        <HeroBanner hideDots />
         <div className="relative z-10 max-w-7xl mx-auto px-4">
           <Breadcrumbs items={[
             { name: fromState?.name || '', href: `/${route.fromState}` },

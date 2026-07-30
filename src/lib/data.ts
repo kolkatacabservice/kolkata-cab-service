@@ -209,7 +209,7 @@ export const BUSINESS = {
   gbpLink: 'https://g.page/r/CQpn2lOt9Y8QEBM',
   gbpReviewLink: 'https://g.page/r/CQpn2lOt9Y8QEBM/review',
   states: ['West Bengal', 'Jharkhand', 'Odisha', 'Bihar', 'Uttar Pradesh'],
-  hubs: ['Kolkata', 'Ranchi', 'Bhubaneswar'],
+  hubs: ['Kolkata', 'Ranchi', 'Bhubaneswar', 'Jamshedpur', 'Patna'],
 };
 
 export interface TourItinerary {

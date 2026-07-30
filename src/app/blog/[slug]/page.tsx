@@ -1,3 +1,4 @@
+import React from 'react';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
@@ -20,6 +21,21 @@ type Blog = {
 };
 
 const blogs = blogsData as Blog[];
+
+// ── Inline markdown renderer ─────────────────────────────────────────────────
+// Converts **bold** → <strong>, and strips any leftover ** pairs.
+// Returns an array of React nodes safe to render inside any element.
+function renderInline(text: string): React.ReactNode[] {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={idx} className="font-semibold text-secondary">{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+}
+
+
 
 // Pre-build blogs at build-time. Only serve pre-rendered pages, returning 404 for unknown slugs.
 export const dynamicParams = false;
@@ -93,7 +109,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <div className="flex items-center gap-3 mt-4 mb-3">
             <span className="px-3 py-1 bg-primary/30 text-white text-xs font-medium rounded-full">{blog.category}</span>
             <span className="flex items-center gap-1 text-xs text-gray-300"><Clock size={12} /> {blog.readTime}</span>
-            <span className="text-xs text-gray-400">{new Date(blog.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+            <span className="text-xs text-gray-400">{(() => { try { return new Date(blog.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' }); } catch { return blog.date; } })()}</span>
           </div>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold leading-tight">{blog.title}</h1>
         </div>
@@ -104,17 +120,49 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         <div className="max-w-4xl mx-auto px-4">
           <article className="prose prose-gray max-w-none">
             {blog.content.map((block, i) => {
-              // Handle markdown-style headings
+              // ── Heading: ## Title ──────────────────────────────────────────
               if (block.startsWith('## ')) {
-                return <h2 key={i} className="text-xl font-bold text-secondary mt-8 mb-4">{block.replace('## ', '')}</h2>;
+                return (
+                  <h2 key={i} className="text-xl font-bold text-secondary mt-8 mb-4">
+                    {renderInline(block.slice(3))}
+                  </h2>
+                );
               }
-              if (block.startsWith('**') && block.endsWith('**')) {
-                return <p key={i} className="font-bold text-secondary mb-2">{block.replace(/\*\*/g, '')}</p>;
+              // ── Sub-heading: ### Title ─────────────────────────────────────
+              if (block.startsWith('### ')) {
+                return (
+                  <h3 key={i} className="text-lg font-bold text-secondary mt-6 mb-3">
+                    {renderInline(block.slice(4))}
+                  </h3>
+                );
               }
-              if (block.startsWith('- ') || block.startsWith('1. ')) {
-                return <p key={i} className="text-gray-600 mb-2 pl-4 border-l-2 border-primary/20">{block}</p>;
+              // ── Numbered list: 1. item ─────────────────────────────────────
+              if (/^\d+\.\s/.test(block)) {
+                const text = block.replace(/^\d+\.\s/, '');
+                return (
+                  <div key={i} className="flex gap-3 mb-3 pl-2">
+                    <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-white text-xs font-bold flex items-center justify-center mt-0.5">
+                      {block.match(/^(\d+)/)?.[1]}
+                    </span>
+                    <p className="text-gray-600 leading-relaxed">{renderInline(text)}</p>
+                  </div>
+                );
               }
-              return <p key={i} className="text-gray-600 mb-4 leading-relaxed">{block}</p>;
+              // ── Bullet list: - item ────────────────────────────────────────
+              if (block.startsWith('- ')) {
+                return (
+                  <div key={i} className="flex gap-3 mb-2 pl-2">
+                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-primary mt-2.5" />
+                    <p className="text-gray-600 leading-relaxed">{renderInline(block.slice(2))}</p>
+                  </div>
+                );
+              }
+              // ── Paragraph ──────────────────────────────────────────────────
+              return (
+                <p key={i} className="text-gray-600 mb-4 leading-relaxed">
+                  {renderInline(block)}
+                </p>
+              );
             })}
           </article>
 

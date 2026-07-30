@@ -9,7 +9,7 @@ import { BUSINESS } from '@/lib/data';
 const navigation = [
   { name: 'Home', href: '/' },
   {
-    name: 'Services', href: '#',
+    name: 'Services', href: '/services',
     children: [
       { name: 'Local Taxi', href: '/services/local-taxi' },
       { name: 'Outstation Cab', href: '/services/outstation' },
@@ -34,7 +34,7 @@ const navigation = [
     ],
   },
   {
-    name: 'Cities', href: '#',
+    name: 'Cities', href: '/west-bengal',
     children: [
       { name: 'Kolkata', href: '/west-bengal/kolkata' },
       { name: 'Howrah', href: '/west-bengal/howrah' },
@@ -109,12 +109,14 @@ export default function Header() {
                     {item.children && <ChevronDown size={14} className={`transition-transform ${openDropdown === item.name ? 'rotate-180' : ''}`} />}
                   </Link>
                   {item.children && openDropdown === item.name && (
-                    <div className="absolute top-full left-0 w-56 bg-white rounded-xl shadow-xl border border-gray-100 py-2 animate-fadeIn">
+                    <div className="absolute top-full left-0 pt-2 w-56">
+                      <div className="bg-white rounded-xl shadow-xl border border-gray-100 py-2 animate-fadeIn">
                       {item.children.map((child) => (
                         <Link key={child.name} href={child.href} className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-accent/50 hover:text-primary transition-colors">
                           {child.name}
                         </Link>
                       ))}
+                    </div>
                     </div>
                   )}
                 </div>

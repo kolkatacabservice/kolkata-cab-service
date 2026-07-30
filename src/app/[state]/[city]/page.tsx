@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
-import { MapPin, Route, Phone, Clock, ArrowRight, CheckCircle } from 'lucide-react';
+import { MapPin, Route, Phone, Clock, ArrowRight, CheckCircle, RotateCcw, Plane, Heart } from 'lucide-react';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import HeroBanner from '@/components/HeroBanner';
 
@@ -38,14 +38,19 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   return {
     ...baseMetadata,
     keywords: [
+      // Primary — "cab in city" / "taxi in city" highest volume patterns
       `cab service in ${city.name}`,
       `taxi in ${city.name}`,
+      `cab in ${city.name}`,
       `${city.name} cab service`,
       `${city.name} taxi service`,
-      `cab booking ${city.name}`,
-      `book cab in ${city.name}`,
       `${city.name} cab`,
       `${city.name} taxi`,
+      // Booking intent
+      `cab booking ${city.name}`,
+      `book cab in ${city.name}`,
+      `online cab booking ${city.name}`,
+      // Service types
       `outstation cab from ${city.name}`,
       `one way cab from ${city.name}`,
       `round trip cab ${city.name}`,
@@ -53,12 +58,23 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
       `airport transfer ${city.name}`,
       `local taxi ${city.name}`,
       `${city.name} local cab`,
+      // Car rental variants
       `car rental ${city.name}`,
+      `car rental in ${city.name}`,
+      `rental cab in ${city.name}`,
+      `${city.name} car rental`,
+      `${city.name} car hire`,
+      // Route to Kolkata
       `${city.name} to kolkata cab`,
       `kolkata to ${city.name} cab`,
+      // Vehicle-specific high volume
       `${city.name} innova cab`,
+      `innova in ${city.name}`,
+      `innova cab in ${city.name}`,
       `${city.name} suv cab`,
+      `suv cab in ${city.name}`,
       `${city.name} sedan cab`,
+      // Feature keywords
       `24/7 cab ${city.name}`,
       `night cab ${city.name}`,
       `cab near me ${city.name}`,
@@ -68,8 +84,11 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
       `ac cab ${city.name}`,
       `wedding car ${city.name}`,
       `tempo traveller ${city.name}`,
+      // Alternate name coverage
       ...(city.alternateNames || []).map((n: string) => `cab service in ${n}`),
       ...(city.alternateNames || []).map((n: string) => `taxi in ${n}`),
+      ...(city.alternateNames || []).map((n: string) => `cab in ${n}`),
+      ...(city.alternateNames || []).map((n: string) => `${n} cab service`),
     ],
   };
 }
@@ -101,9 +120,9 @@ export default async function CityPage({ params }: { params: Promise<{ state: st
     { name: 'Local Taxi', slug: 'local', icon: <MapPin size={20} />, desc: `Hourly cab rental for city travel in ${city.name}`, price: `From ₹${prices.localPkgSedan}` },
     { name: 'Outstation Cab', slug: 'outstation', icon: <Route size={20} />, desc: `Intercity cab from ${city.name}`, price: `From ${prices.sedanPerKm}` },
     { name: 'One-Way Taxi', slug: 'one-way', icon: <ArrowRight size={20} />, desc: `Pay only one side from ${city.name}`, price: `From ${prices.sedanPerKm}` },
-    { name: 'Round Trip', slug: 'round-trip', icon: <ArrowRight size={20} />, desc: `Multi-day trips from ${city.name}`, price: `From ${prices.sedanPerKm}` },
-    { name: 'Airport Transfer', slug: 'airport-transfer', icon: <ArrowRight size={20} />, desc: `Airport pickup/drop in ${city.name}`, price: `From ${prices.airportSedan}` },
-    { name: 'Wedding Car', slug: 'wedding-car', icon: <ArrowRight size={20} />, desc: `Decorated car in ${city.name}`, price: 'From ₹5,000' },
+    { name: 'Round Trip', slug: 'round-trip', icon: <RotateCcw size={20} />, desc: `Multi-day trips from ${city.name}`, price: `From ${prices.sedanPerKm}` },
+    { name: 'Airport Transfer', slug: 'airport-transfer', icon: <Plane size={20} />, desc: `Airport pickup/drop in ${city.name}`, price: `From ${prices.airportSedan}` },
+    { name: 'Wedding Car', slug: 'wedding-car', icon: <Heart size={20} />, desc: `Decorated car in ${city.name}`, price: 'From ₹5,000' },
   ];
 
   // ItemList schema for routes

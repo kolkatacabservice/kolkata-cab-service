@@ -87,6 +87,19 @@ function generateRobotsTxt() {
 Allow: /
 Disallow: /api/
 Disallow: /_next/
+# Block car-type query parameter variants — these caused 13,103 GSC redirect errors
+# ?car=sedan/suv/tempo/luxury are internal UI filters, NOT indexable pages
+Disallow: /*?car=sedan
+Disallow: /*?car=suv
+Disallow: /*?car=tempo
+Disallow: /*?car=luxury
+Disallow: /*?car=innova
+# Block path-based car type variants (returned 403/404 for 8,149 pages in GSC)
+Disallow: /routes/*/sedan
+Disallow: /routes/*/suv
+Disallow: /routes/*/tempo
+Disallow: /routes/*/luxury
+Disallow: /routes/*/innova
 
 User-agent: Amazonbot
 Disallow: /
@@ -182,10 +195,26 @@ User-agent: DuckAssistBot
 Allow: /
 
 Sitemap: ${DOMAIN}/sitemap_index.xml
+Sitemap: ${DOMAIN}/sitemap.xml
 `;
 
   fs.writeFileSync(path.join(PUBLIC_DIR, 'robots.txt'), robotsTxt, 'utf8');
   console.log('[generate-static-files] ✅ robots.txt generated (static file, no Cloudflare injection)');
+}
+
+// ── Generate sitemap.xml (direct copy — no redirect needed) ─────────────────
+function generateSitemapXml() {
+  // Creates /sitemap.xml as a DIRECT static file — Google Search Console
+  // users typically submit sitemap.xml. Having the file directly (not just
+  // a 301 redirect) avoids Cloudflare redirect overhead and GSC warnings.
+  const sitemapIndexPath = path.join(PUBLIC_DIR, 'sitemap_index.xml');
+  if (!fs.existsSync(sitemapIndexPath)) {
+    console.warn('[generate-static-files] sitemap_index.xml not found, cannot generate sitemap.xml');
+    return;
+  }
+  const content = fs.readFileSync(sitemapIndexPath, 'utf8');
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap.xml'), content, 'utf8');
+  console.log('[generate-static-files] ✅ sitemap.xml generated (direct copy of sitemap_index.xml)');
 }
 
 // ── Main ─────────────────────────────────────────────────────────────────────
@@ -193,6 +222,9 @@ function main() {
   console.log('[generate-static-files] Generating static files...');
   generateFeedXml();
   generateRobotsTxt();
+  // generateSitemapXml must run AFTER generate-static-sitemaps.js creates sitemap_index.xml
+  // In the build:cf pipeline: generate-static-sitemaps.js runs first, then generate-static-files.js
+  generateSitemapXml();
   console.log('[generate-static-files] ✅ Done!');
 }
 

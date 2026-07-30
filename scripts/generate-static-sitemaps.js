@@ -10,7 +10,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DOMAIN = 'https://www.kolkatacabservice.com';
-const LAST_MODIFIED = '2026-07-20T00:00:00.000Z';
+const LAST_MODIFIED = new Date().toISOString().split('T')[0] + 'T00:00:00.000Z';
 const publicDir = path.join(__dirname, '../public');
 const sitemapDir = path.join(publicDir, 'sitemap');
 
@@ -215,7 +215,8 @@ const cityPages = cities
 fs.writeFileSync(path.join(sitemapDir, '1.xml'), buildSitemapXml([...statePages, ...cityPages]));
 console.log('✓ Generated public/sitemap/1.xml');
 
-// --- Sitemap 2: Routes ---
+// --- Sitemap 2+: Routes — split into chunks of 500 URLs max (~1MB each) ---
+// Splitting prevents crawler timeout on large sitemaps (2.8MB was too large)
 const sitemap2Urls = routes.map(route => {
   const isHighPriority = (
     (HUB_SLUGS.includes(route.from) && POPULAR_DESTINATIONS.includes(route.to)) ||
@@ -229,8 +230,20 @@ const sitemap2Urls = routes.map(route => {
     priority: isReverseHubRoute ? 0.95 : isHighPriority ? 0.88 : 0.65
   };
 });
-fs.writeFileSync(path.join(sitemapDir, '2.xml'), buildSitemapXml(sitemap2Urls));
-console.log(`✓ Generated public/sitemap/2.xml (${sitemap2Urls.length} links)`);
+const ROUTE_CHUNK_SIZE = 500;
+const routeChunks = [];
+for (let i = 0; i < sitemap2Urls.length; i += ROUTE_CHUNK_SIZE) {
+  routeChunks.push(sitemap2Urls.slice(i, i + ROUTE_CHUNK_SIZE));
+}
+routeChunks.forEach((chunk, idx) => {
+  const fileName = idx === 0 ? '2.xml' : `2_${idx}.xml`;
+  fs.writeFileSync(path.join(sitemapDir, fileName), buildSitemapXml(chunk));
+  console.log(`✓ Generated public/sitemap/${fileName} (${chunk.length} links)`);
+});
+console.log(`✓ Routes split into ${routeChunks.length} sitemap chunks`);
+
+
+
 
 // --- Sitemap 3: Tours + Blogs + Kolkata areas ---
 const tourPages = tourSlugs.map(slug => ({
@@ -358,11 +371,19 @@ for (const city of cities) {
 fs.writeFileSync(path.join(sitemapDir, '6.xml'), buildSitemapXml(sitemap6Urls));
 console.log(`✓ Generated public/sitemap/6.xml (${sitemap6Urls.length} links)`);
 
-// ─── 5. Generate sitemap_index.xml ───
-const sitemapsList = ['0.xml', '1.xml', '2.xml', '3.xml', '4.xml', '5.xml', '6.xml'];
+// ─── 5. Generate sitemap_index.xml (auto-discover all generated sitemaps) ───
+// Dynamically scan the sitemapDir for all .xml files so we never miss any.
+const generatedSitemapFiles = fs.readdirSync(sitemapDir)
+  .filter(f => f.endsWith('.xml'))
+  .sort((a, b) => {
+    const numA = parseInt(a.replace('.xml', ''), 10);
+    const numB = parseInt(b.replace('.xml', ''), 10);
+    return numA - numB;
+  });
+
 let indexXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
 indexXml += `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-for (const sitemapFile of sitemapsList) {
+for (const sitemapFile of generatedSitemapFiles) {
   indexXml += `  <sitemap>\n`;
   indexXml += `    <loc>${DOMAIN}/sitemap/${sitemapFile}</loc>\n`;
   indexXml += `    <lastmod>${LAST_MODIFIED}</lastmod>\n`;
@@ -370,5 +391,6 @@ for (const sitemapFile of sitemapsList) {
 }
 indexXml += `</sitemapindex>`;
 fs.writeFileSync(path.join(publicDir, 'sitemap_index.xml'), indexXml);
-console.log('✓ Generated public/sitemap_index.xml');
+console.log(`✓ Generated public/sitemap_index.xml (${generatedSitemapFiles.length} sitemaps: ${generatedSitemapFiles.join(', ')})`);
 console.log('🎉 All static sitemaps generated successfully!');
+

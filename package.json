@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node scripts/cleanup-out.js",
     "start": "next start",
     "lint": "eslint",
-    "build:cf": "node scripts/split-routes-by-city.js && node scripts/generate-static-sitemaps.js && node scripts/generate-static-files.js && next build && node scripts/clean-rsc-txt.js",
+    "build:cf": "node scripts/split-routes-by-city.js && node scripts/generate-static-sitemaps.js && node scripts/generate-static-files.js && next build && node scripts/cleanup-out.js",
     "deploy": "wrangler pages deploy out --project-name=kolkata-cab-service --commit-dirty=true"
   },
   "dependencies": {

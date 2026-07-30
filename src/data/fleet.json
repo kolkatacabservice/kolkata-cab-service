@@ -77,10 +77,10 @@
     }
   ],
   "localPackages": [
-    {"name": "4 Hours / 40 KM", "sedan": 1800, "suv": 2500, "tempo": 3500},
-    {"name": "8 Hours / 80 KM", "sedan": 2800, "suv": 3800, "tempo": 5500},
-    {"name": "12 Hours / 120 KM", "sedan": 3800, "suv": 5200, "tempo": 7500},
-    {"name": "Full Day (24 Hours)", "sedan": 4800, "suv": 6500, "tempo": 9500}
+    {"name": "4 Hours / 40 KM", "sedan": 1800, "suv": 2500, "innova": 2900, "tempo": 3500},
+    {"name": "8 Hours / 80 KM", "sedan": 2800, "suv": 3800, "innova": 4200, "tempo": 5500},
+    {"name": "12 Hours / 120 KM", "sedan": 3800, "suv": 5200, "innova": 5800, "tempo": 7500},
+    {"name": "Full Day (24 Hours)", "sedan": 4800, "suv": 6500, "innova": 7200, "tempo": 9500}
   ],
   "services": [
     {"id": "local", "name": "Local Taxi", "slug": "local-taxi", "icon": "MapPin", "description": "Hourly cab rental for city sightseeing, shopping, hospital visits, and local travel within the city."},

@@ -21,7 +21,6 @@ export const revalidate = false;
 
 export async function generateStaticParams() {
   // Pre-render ALL cities at build time — eliminates SSR cold starts on CF Free Tier
-  const { getAllCities } = await import('@/lib/data');
   const cities = getAllCities();
   return cities.map(c => ({ state: c.state, city: c.slug }));
 }
@@ -268,10 +267,41 @@ export default async function OutstationPage({ params }: { params: Promise<{ sta
       {/* FAQ */}
       <section className="py-12 bg-gray-50"><div className="max-w-7xl mx-auto px-4"><FAQSection faqs={content.faqs} title={`FAQs — Outstation Cab from ${city.name}, ${state.name}`} /></div></section>
 
-      {/* Popular Searches */}
+      {/* Popular Searches — mix of crawlable route links + WhatsApp fallback */}
       <section className="py-8 bg-white"><div className="max-w-7xl mx-auto px-4">
         <h3 className="text-sm font-semibold text-gray-400 mb-3">People Also Search For</h3>
-        <div className="flex flex-wrap gap-2">{content.popularSearches.slice(0, 24).map((kw, i) => (<a key={i} href={`https://wa.me/${BUSINESS.whatsapp}?text=${encodeURIComponent(`Hi! I need an outstation cab from ${city?.name || 'this city'}. Query: ${kw}`)}`} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors">{kw}</a>))}</div>
+        <div className="flex flex-wrap gap-2">
+          {/* Route-specific internal links — crawlable for SEO */}
+          {routes.slice(0, 8).map((r) => (
+            <Link
+              key={r.slug}
+              href={`/routes/${r.slug}`}
+              className="px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors"
+            >
+              {city.name} to {r.toName} cab
+            </Link>
+          ))}
+          {/* Service type links — internal crawlable */}
+          {[
+            { label: `one way cab from ${city.name}`, href: `/${stateSlug}/${citySlug}/one-way` },
+            { label: `round trip cab ${city.name}`, href: `/${stateSlug}/${citySlug}/round-trip` },
+            { label: `${city.name} airport cab`, href: `/${stateSlug}/${citySlug}/airport-transfer` },
+            { label: `outstation innova ${city.name}`, href: `/${stateSlug}/${citySlug}/outstation` },
+            { label: `${city.name} cab service`, href: `/${stateSlug}/${citySlug}` },
+          ].map((item) => (
+            <Link
+              key={item.label}
+              href={item.href}
+              className="px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors"
+            >
+              {item.label}
+            </Link>
+          ))}
+          {/* Remaining generic keywords → WhatsApp conversion */}
+          {content.popularSearches.slice(8, 16).map((kw, i) => (
+            <a key={i} href={`https://wa.me/${BUSINESS.whatsapp}?text=${encodeURIComponent(`Hi! I need an outstation cab from ${city?.name || 'this city'}. Query: ${kw}`)}`} target="_blank" rel="noopener noreferrer" className="px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-full text-xs text-gray-600 hover:border-primary/40 hover:text-primary hover:bg-primary/5 transition-colors">{kw}</a>
+          ))}
+        </div>
       </div></section>
 
       {/* CTA */}

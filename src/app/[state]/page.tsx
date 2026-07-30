@@ -8,7 +8,7 @@ import HeroBanner from '@/components/HeroBanner';
 import BookingForm from '@/components/BookingForm';
 import FAQSection from '@/components/FAQSection';
 import { getState, getAllStateSlugs, BUSINESS, getStatePriceLabels, type Route } from '@/lib/data';
-import { getRoutesFrom, getPopularLocalRoutes, getRoute } from '@/lib/routeData';
+import { getRoutesFrom, getPopularLocalRoutes } from '@/lib/routeData';
 import { generateStateMetadata, generateFaqSchema, generateBreadcrumbSchema } from '@/lib/seo';
 
 // Only pre-built state pages served; unknown state slugs → 404 (no on-demand ISR)
@@ -89,6 +89,16 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
   }
 
   const localRoutesSample = [...intraStateRoutes, ...crossStateRoutes].slice(0, 12);
+
+  // Build a Set of all known route slugs from already-fetched data.
+  // Used in the Popular Searches section to determine if a city→hub route exists
+  // WITHOUT calling the async getRoute() function (which would return a Promise when
+  // used synchronously — always truthy, causing broken links for non-existent routes).
+  const knownRouteSlugs = new Set<string>([
+    ...hubRoutes.map(r => r.slug),
+    ...intraStateRoutes.map(r => r.slug),
+    ...crossStateRoutes.map(r => r.slug),
+  ]);
 
   const faqs = [
     { question: `What cab services are available in ${state.name}?`, answer: `${BUSINESS.name} offers local taxi, outstation cab, one-way taxi, round trip, airport transfer, wedding car rental, and corporate car rental services across all major cities in ${state.name} including ${state.cities.slice(0, 5).map(c => c.name).join(', ')}.` },
@@ -262,7 +272,10 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
           <div className="flex flex-wrap gap-2">
             {state.cities.slice(0, 12).flatMap(c => {
               const routeSlug = `${c.slug}-to-${hubCity.slug}`;
-              const hasRoute = getRoute(routeSlug) !== undefined;
+              // Use pre-built Set instead of async getRoute() called synchronously.
+              // getRoute() is async — calling without await returns a Promise (always truthy),
+              // causing every city to link to /routes/... even when that route doesn't exist.
+              const hasRoute = knownRouteSlugs.has(routeSlug);
               return [
                 { label: `${c.name} cab service`, href: `/${state.slug}/${c.slug}` },
                 { label: `taxi in ${c.name}`, href: `/${state.slug}/${c.slug}` },

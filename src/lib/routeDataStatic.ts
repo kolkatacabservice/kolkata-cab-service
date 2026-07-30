@@ -35,7 +35,6 @@ function loadAllSync(): Route[] {
 /**
  * Returns ALL route slugs for full SSG — runs ONLY at build time.
  * Pre-renders every route as a static HTML file, ensuring 0ms Worker CPU usage per request.
- * Total routes ~13,800 — well within Cloudflare Pages 20,000-file limit.
  */
 export function getAllRouteSlugs(): string[] {
   const routes = loadAllSync();
@@ -49,6 +48,7 @@ export function getAllRouteSlugs(): string[] {
 export function getStaticRouteSlugs(limit = 200): string[] {
   const routes = loadAllSync();
   const routeMap = new Map(routes.map(r => [r.slug, r]));
+  // Must match isHubRoute() hub set in routeData.ts exactly
   const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
 
   const tier1 = routes.filter(r => hubSlugs.has(r.from) && hubSlugs.has(r.to));
@@ -87,46 +87,38 @@ export function getStaticRouteSlugs(limit = 200): string[] {
 }
 
 /**
- * Returns primary-hub route slugs for vehicle SSG pages — build time only.
+ * Returns hub route slugs for vehicle SSG pages — build time only.
  *
- * All hub cities (Kolkata, Ranchi, Bhubaneswar, Jamshedpur, Patna) get static vehicle pages.
+ * Pre-builds vehicle pages ONLY for routes where the ORIGIN city is a hub.
+ * Must match isHubRoute() exactly: isHubRoute checks parts[0] (FROM city) only.
+ *
+ * Non-hub-origin routes (e.g. siliguri-to-kolkata) get fleet cards in FleetSection
+ * but clicking links to #booking-form — no vehicle detail page is served.
+ *
+ * Hub cities: Kolkata, Ranchi, Bhubaneswar, Jamshedpur, Patna
+ *
+ * @param limit - Max route slugs returned. Default 1400 → 1400×4 = 5,600 vehicle pages max.
  */
-export function getStaticVehicleRouteSlugs(limit = 200): string[] {
+export function getStaticVehicleRouteSlugs(limit = 1400): string[] {
   const routes = loadAllSync();
+  // Must match isHubRoute() hub set in routeData.ts exactly — FROM city only
   const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
-  const routeMap = new Map(routes.map(r => [r.slug, r]));
 
-  const tier1 = routes.filter(r => hubSlugs.has(r.from) && hubSlugs.has(r.to));
-  const tier2 = routes
-    .filter(r => hubSlugs.has(r.from) && !hubSlugs.has(r.to))
-    .sort((a, b) => a.distance - b.distance);
-  const tier3 = routes
-    .filter(r => !hubSlugs.has(r.from) && hubSlugs.has(r.to))
+  // Only routes WHERE FROM (r.from) is a hub city, sorted by distance (shortest = most popular)
+  const hubFromRoutes = routes
+    .filter(r => hubSlugs.has(r.from))
     .sort((a, b) => a.distance - b.distance);
 
   const seen = new Set<string>();
   const result: string[] = [];
 
-  for (const r of [...tier1, ...tier2, ...tier3]) {
+  for (const r of hubFromRoutes) {
     if (result.length >= limit) break;
-    if (!seen.has(r.slug) && (hubSlugs.has(r.from) || hubSlugs.has(r.to))) {
+    if (!seen.has(r.slug)) {
       seen.add(r.slug);
       result.push(r.slug);
     }
   }
 
-  const withReverse = [...result];
-  for (const slug of result) {
-    if (withReverse.length >= limit) break;
-    const parts = slug.split('-to-');
-    if (parts.length === 2) {
-      const rev = `${parts[1]}-to-${parts[0]}`;
-      if (routeMap.has(rev) && !seen.has(rev) && (hubSlugs.has(parts[1]) || hubSlugs.has(parts[0]))) {
-        seen.add(rev);
-        withReverse.push(rev);
-      }
-    }
-  }
-
-  return withReverse.slice(0, limit);
+  return result.slice(0, limit);
 }

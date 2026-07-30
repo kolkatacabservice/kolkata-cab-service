@@ -79,22 +79,24 @@ const nextConfig: NextConfig = {
         ],
       },
       {
+        // 7 days CDN cache (was 30 days) — allows faster re-crawl after updates
         source: "/routes/(.*)",
         headers: [
           {
             key: "Cache-Control",
             value:
-              "public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400",
+              "public, s-maxage=604800, max-age=3600, stale-while-revalidate=86400",
           },
         ],
       },
       {
+        // 7 days CDN cache (was 30 days) — faster re-crawl for Google
         source: "/:state/:city(.*)",
         headers: [
           {
             key: "Cache-Control",
             value:
-              "public, s-maxage=2592000, max-age=3600, stale-while-revalidate=86400",
+              "public, s-maxage=604800, max-age=3600, stale-while-revalidate=86400",
           },
         ],
       },

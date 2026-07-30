@@ -38,39 +38,49 @@ export default function HeroBanner({ hideDots = false }: HeroBannerProps) {
 
   return (
     <>
-      {/* Render all images stacked; only the active one is visible via opacity.
-          will-change:opacity promotes each to its own GPU compositing layer —
-          avoids forced reflow on every slide transition. */}
-      {bannerImages.map((img, index) => {
-        const shouldRenderImage = index === 0 || loadOthers;
-        return (
-          <div
-            key={img.src}
-            className="absolute inset-0 transition-opacity duration-700 ease-in-out"
-            style={{
-              opacity: index === current ? 1 : 0,
-              willChange: index === current ? 'opacity' : 'auto',
-              // Ensure first image is painted immediately for LCP
-              zIndex: index === current ? 1 : 0,
-            }}
-            aria-hidden={index !== current}
-          >
-            {shouldRenderImage && (
-              <Image
-                src={img.src}
-                alt={img.alt}
-                fill
-                className="object-cover"
-                // Only the first (LCP) image gets priority + eager loading
-                priority={index === 0}
-                loading={index === 0 ? 'eager' : 'lazy'}
-                fetchPriority={index === 0 ? 'high' : 'low'}
-                sizes="100vw"
-              />
-            )}
-          </div>
-        );
-      })}
+      {/* Accessible carousel container — aria-live announces slide changes to screen readers.
+          will-change:opacity on active slide promotes to GPU compositing layer,
+          avoiding forced reflow on every slide transition. */}
+      <div
+        role="region"
+        aria-label="Banner slideshow"
+        aria-live="polite"
+        aria-atomic="false"
+        className="absolute inset-0"
+      >
+        {bannerImages.map((img, index) => {
+          const shouldRenderImage = index === 0 || loadOthers;
+          return (
+            <div
+              key={img.src}
+              role="img"
+              aria-label={img.alt}
+              aria-hidden={index !== current}
+              className="absolute inset-0 transition-opacity duration-700 ease-in-out"
+              style={{
+                opacity: index === current ? 1 : 0,
+                willChange: index === current ? 'opacity' : 'auto',
+                // Ensure first image is painted immediately for LCP
+                zIndex: index === current ? 1 : 0,
+              }}
+            >
+              {shouldRenderImage && (
+                <Image
+                  src={img.src}
+                  alt={img.alt}
+                  fill
+                  className="object-cover"
+                  // Only the first (LCP) image gets priority + eager loading
+                  priority={index === 0}
+                  loading={index === 0 ? 'eager' : 'lazy'}
+                  fetchPriority={index === 0 ? 'high' : 'low'}
+                  sizes="100vw"
+                />
+              )}
+            </div>
+          );
+        })}
+      </div>
 
       {/* Overlays */}
       <div className="absolute inset-0 bg-secondary/50" style={{ zIndex: 2 }} />

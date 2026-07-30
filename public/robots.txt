@@ -2,6 +2,19 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /_next/
+# Block car-type query parameter variants — these caused 13,103 GSC redirect errors
+# ?car=sedan/suv/tempo/luxury are internal UI filters, NOT indexable pages
+Disallow: /*?car=sedan
+Disallow: /*?car=suv
+Disallow: /*?car=tempo
+Disallow: /*?car=luxury
+Disallow: /*?car=innova
+# Block path-based car type variants (returned 403/404 for 8,149 pages in GSC)
+Disallow: /routes/*/sedan
+Disallow: /routes/*/suv
+Disallow: /routes/*/tempo
+Disallow: /routes/*/luxury
+Disallow: /routes/*/innova
 
 User-agent: Amazonbot
 Disallow: /

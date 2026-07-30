@@ -4,12 +4,33 @@ import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { MapPin, Clock, Phone, CheckCircle, Navigation, ArrowLeftRight, Info, Route as RouteIcon } from 'lucide-react';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import HeroBanner from '@/components/HeroBanner';
 
+import nextDynamic from 'next/dynamic';
 import BookingForm from '@/components/BookingForm';
 import FAQSection from '@/components/FAQSection';
-import GoogleMapEmbed from '@/components/GoogleMapEmbed';
-import FareCalculator from '@/components/FareCalculator';
 import FleetSection from '@/components/FleetSection';
+
+const GoogleMapEmbed = nextDynamic(() => import('@/components/GoogleMapEmbed'), {
+  loading: () => (
+    <div className="py-16 text-center">
+      <div className="inline-flex items-center gap-3 px-6 py-3 bg-gray-50 rounded-full text-gray-400 text-sm border border-gray-100">
+        <div className="w-4 h-4 border-2 border-primary/30 border-t-primary rounded-full animate-spin" />
+        Loading map&hellip;
+      </div>
+    </div>
+  ),
+});
+const FareCalculator = nextDynamic(() => import('@/components/FareCalculator'), {
+  loading: () => (
+    <div className="py-20 text-center">
+      <div className="inline-flex items-center gap-3 px-6 py-3 bg-gray-50 rounded-full text-gray-400 text-sm border border-gray-100">
+        <div className="w-4 h-4 border-2 border-primary/30 border-t-primary rounded-full animate-spin" />
+        Calculating fares&hellip;
+      </div>
+    </div>
+  ),
+});
 import { getCity, getState, getVehicles, BUSINESS } from '@/lib/data';
 import { getRoute, getRoutesFrom, getPopularLocalRoutes, isHubRoute } from '@/lib/routeData';
 import { getAllRouteSlugs } from '@/lib/routeDataStatic';
@@ -85,7 +106,6 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
   const relatedRoutes = (await getRoutesFrom(route.from)).filter(r => r.slug !== route.slug).slice(0, 8);
   const localRoutesFrom = await getPopularLocalRoutes(route.from, 6);
   const localRoutesTo = await getPopularLocalRoutes(route.to, 6);
-  const vehicles = getVehicles();
 
   // Generate rich, unique content for this route
   const content = generateRoutePageContent({
@@ -96,6 +116,9 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
     toStateName: toState?.name,
   });
 
+  // Check if reverse route exists — prevents 404 links (some routes are one-directional)
+  const reverseRoute = await getRoute(content.reverseRouteSlug);
+  const hasReverseRoute = !!reverseRoute;
 
 
   return (
@@ -103,7 +126,13 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
       {/* Geo Meta Tags — target source city for local ranking */}
       {fromCity && (
         <>
-          <meta name="geo.region" content={route.fromState === 'west-bengal' ? 'IN-WB' : route.fromState === 'jharkhand' ? 'IN-JH' : 'IN-OR'} />
+          <meta name="geo.region" content={
+            route.fromState === 'west-bengal' ? 'IN-WB' :
+            route.fromState === 'jharkhand' ? 'IN-JH' :
+            route.fromState === 'odisha' ? 'IN-OR' :
+            route.fromState === 'bihar' ? 'IN-BR' :
+            route.fromState === 'uttar-pradesh' ? 'IN-UP' : 'IN-WB'
+          } />
           <meta name="geo.placename" content={route.fromName} />
           <meta name="geo.position" content={`${fromCity.lat};${fromCity.lng}`} />
           <meta name="ICBM" content={`${fromCity.lat}, ${fromCity.lng}`} />
@@ -122,7 +151,8 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
       ])) }} />
 
       {/* Hero */}
-      <section className="relative text-white py-12 lg:py-16 overflow-hidden bg-gradient-to-br from-secondary via-slate-800 to-secondary">
+      <section className="relative text-white py-12 lg:py-16 overflow-hidden">
+        <HeroBanner hideDots />
         <div className="relative z-10 max-w-7xl mx-auto px-4">
           <Breadcrumbs items={[
             { name: fromState?.name || '', href: `/${route.fromState}` },
@@ -157,9 +187,11 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
             <a href={`tel:${BUSINESS.phone}`} className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary to-amber-500 text-white font-bold rounded-full shadow-lg">
               <Phone size={18} /> Book Now: {BUSINESS.phone}
             </a>
+            {hasReverseRoute && (
             <Link href={`/routes/${content.reverseRouteSlug}`} className="inline-flex items-center gap-2 px-4 py-2.5 bg-white/10 text-white/90 text-sm rounded-full hover:bg-white/20 transition-colors border border-white/20">
               <ArrowLeftRight size={14} /> {content.reverseRouteLabel} Cab →
             </Link>
+            )}
           </div>
         </div>
       </section>
@@ -173,9 +205,9 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
               {/* ── QUICK ANSWER BOX — targets AI Overviews / Featured Snippets ── */}
               <div className="mb-6 p-5 bg-amber-50 border border-amber-200 rounded-2xl flex flex-col md:flex-row gap-4 items-center" itemProp="description">
                 <div className="flex-1 w-full">
-                  <h2 className="text-base font-bold text-secondary mb-3 flex items-center gap-2">
+                  <h3 className="text-base font-bold text-secondary mb-3 flex items-center gap-2">
                     ⚡ Quick Answer — {route.fromName} to {route.toName} Cab
-                  </h2>
+                  </h3>
                   <dl className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm">
                     <div className="bg-white rounded-xl p-3 text-center border border-amber-100">
                       <dt className="text-xs text-gray-400 mb-1">Distance</dt>
@@ -646,11 +678,13 @@ export default async function RoutePage({ params }: { params: Promise<{ route: s
           <h3 className="text-lg font-bold text-secondary mb-4">Related Pages</h3>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {/* Reverse Route */}
-            <Link href={`/routes/${content.reverseRouteSlug}`} className="group p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-primary/30 hover:shadow-md transition-all">
-              <p className="text-xs text-gray-400 mb-1">Reverse Route</p>
-              <p className="font-semibold text-secondary text-sm group-hover:text-primary transition-colors">🔄 {content.reverseRouteLabel} Cab</p>
-              <p className="text-xs text-gray-400 mt-1">One-way & round trip available</p>
-            </Link>
+            {hasReverseRoute && (
+              <Link href={`/routes/${content.reverseRouteSlug}`} className="group p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-primary/30 hover:shadow-md transition-all">
+                <p className="text-xs text-gray-400 mb-1">Reverse Route</p>
+                <p className="font-semibold text-secondary text-sm group-hover:text-primary transition-colors">🔄 {content.reverseRouteLabel} Cab</p>
+                <p className="text-xs text-gray-400 mt-1">One-way &amp; round trip available</p>
+              </Link>
+            )}
             {/* Source City Page */}
             {fromState && !['bihar', 'uttar-pradesh', 'delhi-ncr', 'uttarakhand', 'madhya-pradesh'].includes(route.fromState) && (
               <Link href={`/${route.fromState}/${route.from}`} className="group p-4 bg-gray-50 rounded-xl border border-gray-100 hover:border-primary/30 hover:shadow-md transition-all">

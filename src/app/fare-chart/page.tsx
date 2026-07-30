@@ -11,20 +11,20 @@ import { generateBreadcrumbSchema, generateItemListSchema, generateCabPriceSchem
 export const dynamic = 'force-static';
 export const revalidate = false;
 export const metadata: Metadata = {
-  title: `Kolkata Cab Fare Chart 2025 — Taxi Rate Per KM | Local & Outstation`,
-  description: `Complete cab fare chart for Kolkata 2025. Sedan ₹12/km, SUV ₹16/km, Innova Crysta ₹18/km. Local packages from ₹1,800, airport fares, outstation rates. No surge pricing. Call ${BUSINESS.phone}.`,
+  title: `Kolkata Cab Fare Chart 2026 — Taxi Rate Per KM | Local & Outstation`,
+  description: `Complete cab fare chart for Kolkata 2026. Sedan ₹12/km, SUV ₹16/km, Innova Crysta ₹18/km. Local packages from ₹1,800, airport fares, outstation rates. No surge pricing. Call ${BUSINESS.phone}.`,
   openGraph: {
-    title: `Kolkata Cab Fare Chart 2025 | Sedan ₹12/km, SUV ₹16/km`,
+    title: `Kolkata Cab Fare Chart 2026 | Sedan ₹12/km, SUV ₹16/km`,
     description: `Complete pricing guide — outstation ₹12/km sedan, local 4hr ₹1,800, airport ₹800+. No hidden charges. No surge. Call ${BUSINESS.phone}`,
     type: 'website',
     siteName: 'Kolkata Cab Service',
     url: `${BUSINESS.domain}/fare-chart`,
     locale: 'en_IN',
-    images: [{ url: `${BUSINESS.domain}/navbanner.webp`, width: 1200, height: 630, alt: 'Kolkata Cab Fare Chart 2025' }],
+    images: [{ url: `${BUSINESS.domain}/navbanner.webp`, width: 1200, height: 630, alt: 'Kolkata Cab Fare Chart 2026' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: `Kolkata Cab Fare Chart 2025 | ₹12/km Sedan`,
+    title: `Kolkata Cab Fare Chart 2026 | ₹12/km Sedan`,
     description: `Outstation ₹12/km | Local 4hr ₹1,800 | Airport from ₹800. No surge. Call ${BUSINESS.phone}`,
     images: [`${BUSINESS.domain}/navbanner.webp`],
   },

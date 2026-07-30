@@ -130,7 +130,7 @@ export async function getAllRouteSlugs(): Promise<string[]> {
 
 export async function getHighPriorityRoutes(): Promise<Route[]> {
   const all = await getAllRoutesInternal();
-  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
+  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna', 'siliguri', 'dhanbad']);
   return all.filter(r =>
     r.distance <= 250 || hubSlugs.has(r.from) || hubSlugs.has(r.to)
   );
@@ -138,7 +138,7 @@ export async function getHighPriorityRoutes(): Promise<Route[]> {
 
 export async function getLinkedRouteSlugs(): Promise<string[]> {
   const all = await getAllRoutesInternal();
-  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
+  const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna', 'siliguri', 'dhanbad']);
   const seen = new Set<string>();
 
   all.forEach(r => {
@@ -184,8 +184,12 @@ export async function getLinkedVehicleRouteSlugs(): Promise<string[]> {
 export function isHubRoute(slug: string): boolean {
   const parts = slug.split('-to-');
   if (parts.length === 2) {
+    // Vehicle sub-pages (sedan/suv/tempo/luxury) are pre-built ONLY for routes
+    // where the ORIGIN (parts[0]) is a hub city. This matches getStaticVehicleRouteSlugs().
+    // For non-hub-origin routes (e.g. siliguri-to-kolkata), FleetSection shows the
+    // same vehicle cards but links to #booking-form instead of a vehicle detail page.
     const hubSlugs = new Set(['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna']);
-    return hubSlugs.has(parts[0]) || hubSlugs.has(parts[1]);
+    return hubSlugs.has(parts[0]);
   }
   return false;
 }
