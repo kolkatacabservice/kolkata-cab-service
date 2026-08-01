@@ -126,10 +126,10 @@ User-agent: FacebookBot
 Disallow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 User-agent: Google-CloudVertexBot
-Disallow: /
+Allow: /
 
 User-agent: GPTBot
 Disallow: /
