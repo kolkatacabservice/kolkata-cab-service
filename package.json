@@ -30,7 +30,7 @@
     "eslint-config-next": "16.2.1",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "wrangler": "latest"
+    "wrangler": "4.111.0"
   },
   "browserslist": [
     "Chrome >= 94",
