@@ -50,7 +50,7 @@ export default async function OutstationPage() {
       <section className="relative text-white py-16 overflow-hidden">
         <HeroBanner hideDots />
         <div className="relative z-10 max-w-7xl mx-auto px-4">
-          <Breadcrumbs items={[{ name: 'Services', href: '#' }, { name: 'Outstation Cab', href: '/services/outstation' }]} />
+          <Breadcrumbs items={[{ name: 'Services', href: '/services' }, { name: 'Outstation Cab', href: '/services/outstation' }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold mt-4 mb-4">Outstation <span className="text-gradient">Cab Service</span> from Kolkata ₹12/km | Book Online</h1>
           <p className="text-lg text-gray-300 max-w-3xl">Book outstation cab from Kolkata to 500+ cities. AC Sedan ₹12/km, SUV ₹16/km, Innova Crysta ₹18/km. One-way & round trip. Verified drivers. No surge 24/7. Call {BUSINESS.phone}.</p>
           <a href={`tel:${BUSINESS.phone}`} className="inline-flex items-center gap-2 px-6 py-3 mt-6 bg-gradient-to-r from-primary to-amber-500 text-white font-bold rounded-full shadow-lg">

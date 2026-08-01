@@ -792,7 +792,7 @@ export function generateServicePageMetadata(serviceName: string, description: st
     description: strongDesc,
     keywords: serviceConfig.keywords,
     openGraph: {
-      title: `${strongTitle} | ${BUSINESS.name}`,
+      title: `${strongTitle}`,
       description: `${description}. Book online. No surge. Call ${BUSINESS.phone}`,
       type: 'website',
       siteName: BUSINESS.name,
@@ -1080,7 +1080,7 @@ export function generateLocalBusinessSchema() {
     review: [
       {
         '@type': 'Review',
-        author: { '@type': 'Person', name: 'Rahul Sharma', sameAs: 'https://g.page/r/CQpn2lOt9Y8QEBM/review' },
+        author: { '@type': 'Person', name: 'Rahul Sharma', sameAs: 'https://g.page/r/CcJ-ldDglNfaEBM/review' },
         datePublished: '2026-04-15',
         reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5', worstRating: '1' },
         reviewBody: 'Best cab service in Kolkata. Driver was on time, vehicle was AC and clean. Kolkata to Jamshedpur trip was very comfortable. Highly recommended!',

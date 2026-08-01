@@ -46,7 +46,7 @@ export default function CorporatePage() {
       <section className="relative text-white py-16 overflow-hidden">
         <HeroBanner hideDots />
         <div className="relative z-10 max-w-7xl mx-auto px-4">
-          <Breadcrumbs items={[{ name: 'Services', href: '#' }, { name: 'Corporate Car Rental', href: '/services/corporate-car-rental' }]} />
+          <Breadcrumbs items={[{ name: 'Services', href: '/services' }, { name: 'Corporate Car Rental', href: '/services/corporate-car-rental' }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold mt-4 mb-4">Corporate <span className="text-gradient">Car Rental in Kolkata</span> ₹25,000/month | GST Invoice</h1>
           <p className="text-lg text-gray-300 max-w-3xl">Business-grade cab service in Kolkata — employee transport, executive car rental, airport transfer, monthly contracts & GST invoices. 24/7 corporate fleet management.</p>
           <a href={`tel:${BUSINESS.phone}`} className="inline-flex items-center gap-2 px-6 py-3 mt-6 bg-gradient-to-r from-primary to-amber-500 text-white font-bold rounded-full shadow-lg">

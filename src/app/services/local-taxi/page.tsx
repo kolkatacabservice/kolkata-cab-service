@@ -59,7 +59,7 @@ export default function LocalTaxiPage() {
       <section className="relative text-white py-16 overflow-hidden">
         <HeroBanner hideDots />
         <div className="relative z-10 max-w-7xl mx-auto px-4">
-          <Breadcrumbs items={[{ name: 'Services', href: '#' }, { name: 'Local Taxi', href: '/services/local-taxi' }]} />
+          <Breadcrumbs items={[{ name: 'Services', href: '/services' }, { name: 'Local Taxi', href: '/services/local-taxi' }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold mt-4 mb-4">Local <span className="text-gradient">Taxi Service</span> in Kolkata ₹1,800/4hr | Book Online 24/7</h1>
           <p className="text-lg text-gray-300 max-w-3xl">Hourly cab rental in Kolkata for hospital visits, airport, sightseeing, shopping & events. Starting ₹1,800 for 4 hrs/40 km. 24/7 availability, AC vehicles.</p>
           <a href={`tel:${BUSINESS.phone}`} className="inline-flex items-center gap-2 px-6 py-3 mt-6 bg-gradient-to-r from-primary to-amber-500 text-white font-bold rounded-full shadow-lg">

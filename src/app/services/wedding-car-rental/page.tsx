@@ -46,7 +46,7 @@ export default function WeddingCarPage() {
       <section className="relative text-white py-16 overflow-hidden">
         <HeroBanner hideDots />
         <div className="relative z-10 max-w-7xl mx-auto px-4">
-          <Breadcrumbs items={[{ name: 'Services', href: '#' }, { name: 'Wedding Car Rental', href: '/services/wedding-car-rental' }]} />
+          <Breadcrumbs items={[{ name: 'Services', href: '/services' }, { name: 'Wedding Car Rental', href: '/services/wedding-car-rental' }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold mt-4 mb-4">Wedding Car <span className="text-gradient">Rental in Kolkata</span> ₹3,500 | Decorated Cars</h1>
           <p className="text-lg text-gray-300 max-w-3xl">Premium decorated cars for your special day in Kolkata — baraat, vidaai, wedding functions. Flower-decorated Innova Crysta, Fortuner & luxury sedans with professional chauffeurs.</p>
           <a href={`tel:${BUSINESS.phone}`} className="inline-flex items-center gap-2 px-6 py-3 mt-6 bg-gradient-to-r from-primary to-amber-500 text-white font-bold rounded-full shadow-lg">

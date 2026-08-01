@@ -110,3 +110,4 @@ User-agent: DuckAssistBot
 Allow: /
 
 Sitemap: https://www.kolkatacabservice.com/sitemap_index.xml
+Sitemap: https://www.kolkatacabservice.com/sitemap.xml

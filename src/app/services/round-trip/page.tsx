@@ -51,7 +51,7 @@ export default async function RoundTripPage() {
       <section className="relative text-white py-16 overflow-hidden">
         <HeroBanner hideDots />
         <div className="relative z-10 max-w-7xl mx-auto px-4">
-          <Breadcrumbs items={[{ name: 'Services', href: '#' }, { name: 'Round Trip', href: '/services/round-trip' }]} />
+          <Breadcrumbs items={[{ name: 'Services', href: '/services' }, { name: 'Round Trip', href: '/services/round-trip' }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold mt-4 mb-4">Round Trip <span className="text-gradient">Cab Service</span> from Kolkata ₹12/km | Multi-Day Available</h1>
           <p className="text-lg text-gray-300 max-w-3xl">Multi-day round trip cab from Kolkata — driver stays with you for the full tour. Darjeeling, Puri, Digha & 500+ routes. Sedan ₹12/km, Innova ₹18/km.</p>
           <a href={`tel:${BUSINESS.phone}`} className="inline-flex items-center gap-2 px-6 py-3 mt-6 bg-gradient-to-r from-primary to-amber-500 text-white font-bold rounded-full shadow-lg">

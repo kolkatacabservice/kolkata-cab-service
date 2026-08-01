@@ -23,6 +23,13 @@
 /route/* /routes/:splat 301
 /service/* /services/:splat 301
 
+# ── Fix: Route -cab/-taxi/-service suffix → canonical (popular user URL patterns) ──
+# /routes/kolkata-to-ranchi-cab → /routes/kolkata-to-ranchi (301)
+/routes/*-cab /routes/:splat 301
+/routes/*-taxi /routes/:splat 301
+/routes/*-service /routes/:splat 301
+/routes/*-booking /routes/:splat 301
+
 # ── Duplicate page consolidation — Salt Lake & New Town ──────────────────────
 /west-bengal/salt-lake-kolkata /kolkata/salt-lake 301
 /west-bengal/salt-lake-kolkata/* /kolkata/salt-lake 301

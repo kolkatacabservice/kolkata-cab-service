@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ area: str
   const area = areas.find(a => a.slug === slug);
   if (!area) return {};
   return {
-    title: `Cab Service in ${area.shortName}, Kolkata | Taxi & Car Rental 24/7 | ${BUSINESS.name}`,
+    title: `Cab Service in ${area.shortName}, Kolkata | Taxi & Car Rental 24/7`,
     description: `Best cab service in ${area.name}, Kolkata. Airport transfer ${area.fareToAirport}, outstation ₹12/km, local ₹1,800/4hr. 24/7 AC cabs. Verified drivers. Call ${BUSINESS.phone}.`,
     openGraph: {
       title: `${area.shortName} Cab Service, Kolkata — ${BUSINESS.name}`,

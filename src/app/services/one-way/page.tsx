@@ -53,7 +53,7 @@ export default async function OneWayPage() {
       <section className="relative text-white py-16 overflow-hidden">
         <HeroBanner hideDots />
         <div className="relative z-10 max-w-7xl mx-auto px-4">
-          <Breadcrumbs items={[{ name: 'Services', href: '#' }, { name: 'One Way Taxi', href: '/services/one-way' }]} />
+          <Breadcrumbs items={[{ name: 'Services', href: '/services' }, { name: 'One Way Taxi', href: '/services/one-way' }]} />
           <h1 className="text-3xl md:text-4xl font-extrabold mt-4 mb-4">One Way <span className="text-gradient">Taxi Service</span> from Kolkata ₹12/km | Pay One Side Only</h1>
           <p className="text-lg text-gray-300 max-w-3xl">Pay only for one side — no return charges. Most affordable cab service from Kolkata to all major cities. 24/7 booking, AC vehicles, verified drivers.</p>
           <a href={`tel:${BUSINESS.phone}`} className="inline-flex items-center gap-2 px-6 py-3 mt-6 bg-gradient-to-r from-primary to-amber-500 text-white font-bold rounded-full shadow-lg">

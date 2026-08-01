@@ -206,8 +206,8 @@ export const BUSINESS = {
   payment: 'Cash, UPI, Card, Online Transfer',
   domain: 'https://www.kolkatacabservice.com',
   foundYear: 2020,
-  gbpLink: 'https://g.page/r/CQpn2lOt9Y8QEBM',
-  gbpReviewLink: 'https://g.page/r/CQpn2lOt9Y8QEBM/review',
+  gbpLink: 'https://g.page/r/CcJ-ldDglNfaEBM/review',
+  gbpReviewLink: 'https://g.page/r/CcJ-ldDglNfaEBM/review',
   states: ['West Bengal', 'Jharkhand', 'Odisha', 'Bihar', 'Uttar Pradesh'],
   hubs: ['Kolkata', 'Ranchi', 'Bhubaneswar', 'Jamshedpur', 'Patna'],
 };
