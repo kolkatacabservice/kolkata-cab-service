@@ -527,7 +527,7 @@ export default async function HomePage() {
               <span>4.8/5 rating based on 2,847+ reviews</span>
             </div>
             <a
-              href="https://g.page/r/CQpn2lOt9Y8QEBM/review"
+              href={BUSINESS.gbpReviewLink}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-white text-secondary font-semibold rounded-full text-sm hover:bg-gray-100 transition-colors shadow-lg"
@@ -605,7 +605,7 @@ export default async function HomePage() {
           {/* GMB Integration */}
           <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="https://g.page/r/CQpn2lOt9Y8QEBM"
+              href={BUSINESS.gbpReviewLink}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white/20 backdrop-blur-sm text-white font-semibold rounded-full text-sm border border-white/30 hover:bg-white/30 transition-all"
@@ -613,7 +613,7 @@ export default async function HomePage() {
               📍 Find Us on Google Maps
             </a>
             <a
-              href="https://g.page/r/CQpn2lOt9Y8QEBM/review"
+              href={BUSINESS.gbpReviewLink}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white/20 backdrop-blur-sm text-white font-semibold rounded-full text-sm border border-white/30 hover:bg-white/30 transition-all"
@@ -689,7 +689,7 @@ export default async function HomePage() {
                   <p><strong>Phone:</strong> <a href={`tel:${BUSINESS.phone}`} className="text-amber-900 font-semibold hover:underline">{BUSINESS.phone}</a></p>
                   <p><strong>Email:</strong> <a href={`mailto:${BUSINESS.email}`} className="text-amber-900 hover:underline">{BUSINESS.email}</a></p>
                   <p><strong>Hours:</strong> 24/7, 365 Days</p>
-                  <p className="mt-2"><a href="https://g.page/r/CQpn2lOt9Y8QEBM" target="_blank" rel="noopener noreferrer" className="text-amber-900 font-semibold hover:underline">View on Google Maps</a></p>
+                  <p className="mt-2"><a href={BUSINESS.gbpReviewLink} target="_blank" rel="noopener noreferrer" className="text-amber-900 font-semibold hover:underline">View on Google Maps</a></p>
                 </div>
               </div>
             </address>
