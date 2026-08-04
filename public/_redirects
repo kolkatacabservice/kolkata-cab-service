@@ -30,6 +30,42 @@
 /west-bengal/new-town-kolkata /kolkata/new-town 301
 /west-bengal/new-town-kolkata/* /kolkata/new-town 301
 
+# ── Short City URLs (e.g. /ranchi → /jharkhand/ranchi) ──────────────────────
+/ranchi /jharkhand/ranchi 301
+/ranchi/* /jharkhand/ranchi/:splat 301
+/jamshedpur /jharkhand/jamshedpur 301
+/jamshedpur/* /jharkhand/jamshedpur/:splat 301
+/dhanbad /jharkhand/dhanbad 301
+/dhanbad/* /jharkhand/dhanbad/:splat 301
+/bokaro /jharkhand/bokaro 301
+/bokaro/* /jharkhand/bokaro/:splat 301
+/deoghar /jharkhand/deoghar 301
+/deoghar/* /jharkhand/deoghar/:splat 301
+/puri /odisha/puri 301
+/puri/* /odisha/puri/:splat 301
+/bhubaneswar /odisha/bhubaneswar 301
+/bhubaneswar/* /odisha/bhubaneswar/:splat 301
+/balasore /odisha/balasore 301
+/balasore/* /odisha/balasore/:splat 301
+/cuttack /odisha/cuttack 301
+/cuttack/* /odisha/cuttack/:splat 301
+/rourkela /odisha/rourkela 301
+/rourkela/* /odisha/rourkela/:splat 301
+/siliguri /west-bengal/siliguri 301
+/siliguri/* /west-bengal/siliguri/:splat 301
+/darjeeling /west-bengal/darjeeling 301
+/darjeeling/* /west-bengal/darjeeling/:splat 301
+/durgapur /west-bengal/durgapur 301
+/durgapur/* /west-bengal/durgapur/:splat 301
+/asansol /west-bengal/asansol 301
+/asansol/* /west-bengal/asansol/:splat 301
+/patna /bihar/patna 301
+/patna/* /bihar/patna/:splat 301
+/gaya /bihar/gaya 301
+/gaya/* /bihar/gaya/:splat 301
+/varanasi /uttar-pradesh/varanasi 301
+/varanasi/* /uttar-pradesh/varanasi/:splat 301
+
 # ── Service rename: Two-Way → Round Trip ─────────────────────────────────────
 /services/two-way /services/round-trip 301
 /:state/:city/two-way /:state/:city/round-trip 301
