@@ -109,5 +109,6 @@ Allow: /
 User-agent: DuckAssistBot
 Allow: /
 
-Sitemap: https://www.kolkatacabservice.com/sitemap_index.xml
+# Only one sitemap URL submitted — sitemap.xml is the sitemap index.
+# Removed sitemap_index.xml to prevent duplicate GSC sitemap submissions.
 Sitemap: https://www.kolkatacabservice.com/sitemap.xml

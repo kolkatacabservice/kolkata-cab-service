@@ -118,12 +118,10 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
-      // Redirect /sitemap.xml → /sitemap_index.xml (Google compatibility fallback)
-      {
-        source: "/sitemap.xml",
-        destination: "/sitemap_index.xml",
-        permanent: true,
-      },
+      // NOTE: sitemap.xml → sitemap_index.xml redirect removed.
+      // public/sitemap.xml IS the sitemap index already (static file).
+      // Cloudflare Pages serves it directly. Having a redirect caused
+      // inconsistent behavior between CF Pages and local Next.js dev.
       // Redirect /route/xxx to /routes/xxx (common typo)
       {
         source: "/route/:path*",
