@@ -150,6 +150,17 @@ export function generateRouteMetadata(
       images: [OG_IMAGE_URL],
     },
     alternates: { canonical: `${DOMAIN}/routes/${routeSlug}` },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+        'max-video-preview': -1,
+      },
+    },
     other: {
       thumbnail: OG_IMAGE_URL,
     },

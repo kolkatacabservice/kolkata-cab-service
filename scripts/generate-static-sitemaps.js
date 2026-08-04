@@ -14,10 +14,11 @@ const LAST_MODIFIED = new Date().toISOString().split('T')[0] + 'T00:00:00.000Z';
 const publicDir = path.join(__dirname, '../public');
 const sitemapDir = path.join(publicDir, 'sitemap');
 
-// Ensure directories exist
-if (!fs.existsSync(sitemapDir)) {
-  fs.mkdirSync(sitemapDir, { recursive: true });
+// Ensure directory exists and is clean (remove stale old XML files like 5.xml, 7.xml, etc.)
+if (fs.existsSync(sitemapDir)) {
+  fs.rmSync(sitemapDir, { recursive: true, force: true });
 }
+fs.mkdirSync(sitemapDir, { recursive: true });
 
 // ─── 1. Load raw data files ───
 const citiesData = JSON.parse(fs.readFileSync(path.join(__dirname, '../src/data/cities.json'), 'utf8'));
@@ -330,27 +331,7 @@ function getStaticVehicleRouteSlugsJs(limit = 300) {
   });
 }
 
-// --- Sitemap 5: Vehicle route pages (exactly matching pre-built routes) ---
-const linkedVehicleSlugs = getStaticVehicleRouteSlugsJs(300);
-const sitemap5Urls = [];
-for (const slug of linkedVehicleSlugs) {
-  const route = routes.find(r => r.slug === slug);
-  if (!route) continue;
-  const isHighPriority = (
-    (HUB_SLUGS.includes(route.from) && POPULAR_DESTINATIONS.includes(route.to)) ||
-    (HUB_SLUGS.includes(route.to) && POPULAR_DESTINATIONS.includes(route.from))
-  );
-  for (const vehicleSlug of VEHICLE_SLUGS) {
-    sitemap5Urls.push({
-      url: `${DOMAIN}/routes/${route.slug}/${vehicleSlug}`,
-      lastModified: LAST_MODIFIED,
-      changeFrequency: 'monthly',
-      priority: isHighPriority ? 0.5 : 0.3
-    });
-  }
-}
-fs.writeFileSync(path.join(sitemapDir, '5.xml'), buildSitemapXml(sitemap5Urls));
-console.log(`✓ Generated public/sitemap/5.xml (${sitemap5Urls.length} links)`);
+// NOTE: Sitemap 5 (Vehicle route variants /sedan, /suv) removed to prevent GSC contradiction with robots.txt & 301 redirects.
 
 // --- Sitemap 6: Service city pages (/services/[service]/[city]) ---
 const SERVICE_SLUGS = ['local-taxi', 'outstation', 'one-way', 'round-trip', 'airport-transfer', 'wedding-car-rental', 'corporate-car-rental'];
