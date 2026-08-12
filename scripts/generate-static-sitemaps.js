@@ -336,7 +336,32 @@ function getStaticVehicleRouteSlugsJs(limit = 300) {
   });
 }
 
-// NOTE: Sitemap 5 (Vehicle route variants /sedan, /suv) removed to prevent GSC contradiction with robots.txt & 301 redirects.
+// --- Sitemap 5: Hub route vehicle pages (/routes/[route]/[vehicle]) ---
+// Vehicle pages (sedan/suv/tempo/luxury) exist ONLY for hub-origin routes
+// (kolkata, ranchi, bhubaneswar, jamshedpur, patna as the FROM city).
+// These are pre-built as static HTML with unique vehicle-specific content,
+// fares per vehicle type, and vehicle FAQs. Their canonical points to themselves.
+// They MUST be in the sitemap so Google discovers and indexes them.
+// Non-hub vehicle pages don't exist as static files — _redirects handles them.
+const vehicleRouteSlugsSitemap = getStaticVehicleRouteSlugsJs(300); // top 300 hub routes
+const sitemap5Urls = [];
+for (const routeSlug of vehicleRouteSlugsSitemap) {
+  for (const vehicleSlug of VEHICLE_SLUGS) {
+    const routeData = routes.find(r => r.slug === routeSlug);
+    const isHighValue = routeData && (
+      POPULAR_DESTINATIONS.includes(routeData.to) ||
+      POPULAR_DESTINATIONS.includes(routeData.from)
+    );
+    sitemap5Urls.push({
+      url: `${DOMAIN}/routes/${routeSlug}/${vehicleSlug}`,
+      lastModified: LAST_MODIFIED,
+      changeFrequency: 'monthly',
+      priority: isHighValue ? 0.78 : 0.65
+    });
+  }
+}
+fs.writeFileSync(path.join(sitemapDir, '5.xml'), buildSitemapXml(sitemap5Urls));
+console.log(`✓ Generated public/sitemap/5.xml (${sitemap5Urls.length} hub route vehicle page links)`);
 
 // --- Sitemap 6: Service city pages (/services/[service]/[city]) ---
 const SERVICE_SLUGS = ['local-taxi', 'outstation', 'one-way', 'round-trip', 'airport-transfer', 'wedding-car-rental', 'corporate-car-rental'];

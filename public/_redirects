@@ -12,25 +12,34 @@
 # ║   Then: https://www.kolkatacabservice.com${uri.path} [301]          ║
 # ║ Also enable: SSL/TLS → Edge Certificates → Always Use HTTPS: ON     ║
 # ╚══════════════════════════════════════════════════════════════════════╝
+#
+# ╔══════════════════════════════════════════════════════════════════════╗
+# ║ IMPORTANT NOTE FOR STATIC SITES:                                    ║
+# ║ Cloudflare Pages serves pre-built static HTML files BEFORE          ║
+# ║ evaluating _redirects rules. This means if /routes/kolkata-to-      ║
+# ║ ranchi/suv.html exists as a static file, _redirects rules for       ║
+# ║ /routes/*/suv will NOT fire — the static file is served instead.    ║
+# ║ TO OVERRIDE: Use Cloudflare Dashboard → Rules → Redirect Rules      ║
+# ║ with a regex rule (see SEO fix plan for exact instructions).        ║
+# ║ The X-Robots-Tag: noindex in _headers WILL still apply though.     ║
+# ╚══════════════════════════════════════════════════════════════════════╝
 
 # sitemap_index.xml → sitemap.xml (301 permanent)
-# robots.txt now only lists sitemap.xml. Any cached GSC/Googlebot references
-# to sitemap_index.xml will be redirected to the canonical sitemap URL.
 /sitemap_index.xml /sitemap.xml 301
 
-# ── Fix: Path-based car type variants → canonical route page ─────────────────
-# GSC reported 8,149 pages "Blocked due to 403" for URLs like /routes/xxx/suv
-# These are old/wrong URL formats — redirect to canonical (no car type in path)
-/routes/*/sedan /routes/:splat 301
-/routes/*/suv /routes/:splat 301
-/routes/*/tempo /routes/:splat 301
-/routes/*/luxury /routes/:splat 301
-/routes/*/innova /routes/:splat 301
-/routes/*/crysta /routes/:splat 301
-/routes/*/dzire /routes/:splat 301
-/routes/*/ertiga /routes/:splat 301
+# ── PRIORITY: Vehicle sub-page variants → canonical route page ───────────────
+# These redirect rules appear FIRST so they match before other rules.
+# For pre-built static pages, also create a Cloudflare Redirect Rule in
+# Dashboard → Rules → Redirect Rules (see SEO plan for exact regex).
+/routes/*/sedan     /routes/:splat 301
+/routes/*/suv       /routes/:splat 301
+/routes/*/tempo     /routes/:splat 301
+/routes/*/luxury    /routes/:splat 301
+/routes/*/innova    /routes/:splat 301
+/routes/*/crysta    /routes/:splat 301
+/routes/*/dzire     /routes/:splat 301
+/routes/*/ertiga    /routes/:splat 301
 /routes/*/traveller /routes/:splat 301
-
 
 /route/* /routes/:splat 301
 /service/* /services/:splat 301
