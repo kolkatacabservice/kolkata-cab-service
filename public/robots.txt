@@ -15,6 +15,48 @@ Disallow: /routes/*/suv
 Disallow: /routes/*/tempo
 Disallow: /routes/*/luxury
 Disallow: /routes/*/innova
+# Block stale sitemap_index.xml — canonical sitemap is at /sitemap.xml
+# sitemap_index.xml 301s to sitemap.xml but blocking it avoids crawl waste
+Disallow: /sitemap_index.xml
+
+# IMPORTANT: Non-www → www redirect CANNOT be handled here or in _redirects.
+# It requires a Cloudflare Redirect Rule in the Dashboard:
+# Rules → Redirect Rules → "Hostname equals kolkatacabservice.com"
+# → Redirect to https://www.kolkatacabservice.com${uri.path} (301)
+# Without this, Google sees kolkatacabservice.com as a separate duplicate site.
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: BingBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Baidu
+Allow: /
+
+User-agent: archive.org_bot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
 
 User-agent: Amazonbot
 Disallow: /
@@ -39,12 +81,6 @@ Disallow: /
 
 User-agent: FacebookBot
 Disallow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Google-CloudVertexBot
-Allow: /
 
 User-agent: GPTBot
 Disallow: /
@@ -82,33 +118,6 @@ Disallow: /
 User-agent: Anchor Browser
 Disallow: /
 
-User-agent: Googlebot
-Allow: /
-
-User-agent: BingBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Claude-SearchBot
-Allow: /
-
-User-agent: Baidu
-Allow: /
-
-User-agent: archive.org_bot
-Allow: /
-
-User-agent: DuckAssistBot
-Allow: /
-
-# Only one sitemap URL submitted — sitemap.xml is the sitemap index.
-# Removed sitemap_index.xml to prevent duplicate GSC sitemap submissions.
+# Canonical sitemap index — sitemap.xml IS the sitemap index file.
+# Do NOT submit sitemap_index.xml to GSC — it is blocked above.
 Sitemap: https://www.kolkatacabservice.com/sitemap.xml

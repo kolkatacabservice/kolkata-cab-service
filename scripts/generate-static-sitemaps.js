@@ -10,7 +10,10 @@ const fs = require('fs');
 const path = require('path');
 
 const DOMAIN = 'https://www.kolkatacabservice.com';
-const LAST_MODIFIED = new Date().toISOString().split('T')[0] + 'T00:00:00.000Z';
+// Use the current build date in IST. The date portion is correct for India;
+// we anchor time to midnight UTC to avoid timezone confusion in GSC.
+const TODAY = new Date();
+const LAST_MODIFIED = `${TODAY.getUTCFullYear()}-${String(TODAY.getUTCMonth()+1).padStart(2,'0')}-${String(TODAY.getUTCDate()).padStart(2,'0')}T00:00:00+05:30`;
 const publicDir = path.join(__dirname, '../public');
 const sitemapDir = path.join(publicDir, 'sitemap');
 
@@ -269,25 +272,27 @@ fs.writeFileSync(path.join(sitemapDir, '3.xml'), buildSitemapXml([...tourPages, 
 console.log('✓ Generated public/sitemap/3.xml');
 
 // --- Sitemap 4: City service sub-pages ---
-const HUB_CITY_SLUGS = ['kolkata', 'ranchi', 'jamshedpur', 'dhanbad', 'bokaro', 'deoghar',
-  'bhubaneswar', 'puri', 'siliguri', 'darjeeling', 'howrah', 'durgapur', 'asansol',
-  'patna', 'varanasi'];
+// IMPORTANT: Restrict to hub cities ONLY (not all cities). Including every
+// city × service combination (~4,200 URLs) dilutes crawl budget and creates
+// thousands of near-identical thin pages. Hub cities only = ~90 high-value URLs.
+const HUB_CITY_SLUGS = ['kolkata', 'ranchi', 'bhubaneswar', 'jamshedpur', 'patna',
+  'siliguri', 'darjeeling', 'puri'];
 const sitemap4Urls = [];
 for (const city of cities) {
   if (REDIRECTED_CITIES.includes(city.slug)) continue;
-  const isTopCity = TOP_PRIORITY_CITIES.includes(city.slug);
-  const isHubCity = HUB_CITY_SLUGS.includes(city.slug);
+  // Only include hub cities in this sitemap — others are accessible but not submitted
+  if (!HUB_CITY_SLUGS.includes(city.slug)) continue;
   for (const serviceType of CITY_SERVICE_TYPES) {
     sitemap4Urls.push({
       url: `${DOMAIN}/${city.state}/${city.slug}/${serviceType}`,
       lastModified: LAST_MODIFIED,
       changeFrequency: 'monthly',
-      priority: isHubCity ? 0.82 : isTopCity ? 0.75 : 0.6
+      priority: 0.82
     });
   }
 }
 fs.writeFileSync(path.join(sitemapDir, '4.xml'), buildSitemapXml(sitemap4Urls));
-console.log(`✓ Generated public/sitemap/4.xml (${sitemap4Urls.length} links)`);
+console.log(`✓ Generated public/sitemap/4.xml (${sitemap4Urls.length} hub city service links — restricted to hub cities only)`);
 
 // Helper to replicate getStaticVehicleRouteSlugs(300) from routeDataStatic.ts
 function getStaticVehicleRouteSlugsJs(limit = 300) {
@@ -352,14 +357,25 @@ for (const city of cities) {
 fs.writeFileSync(path.join(sitemapDir, '6.xml'), buildSitemapXml(sitemap6Urls));
 console.log(`✓ Generated public/sitemap/6.xml (${sitemap6Urls.length} links)`);
 
-// ─── 5. Generate sitemap_index.xml (auto-discover all generated sitemaps) ───
+// ─── 5. Generate sitemap.xml index (replaces sitemap_index.xml) ───
 // Dynamically scan the sitemapDir for all .xml files so we never miss any.
+// IMPORTANT: Write to public/sitemap.xml ONLY. The duplicate public/sitemap_index.xml
+// has been removed — having two identical files caused GSC to track them as separate
+// sitemaps, diluting signals. The _redirects rule 301s sitemap_index.xml → sitemap.xml.
 const generatedSitemapFiles = fs.readdirSync(sitemapDir)
   .filter(f => f.endsWith('.xml'))
   .sort((a, b) => {
-    const numA = parseInt(a.replace('.xml', ''), 10);
-    const numB = parseInt(b.replace('.xml', ''), 10);
-    return numA - numB;
+    // Correct sort for names like 2.xml, 2_1.xml, 2_10.xml, 2_2.xml:
+    // Parse the base number and the optional sub-index separately.
+    const parseFilename = (name) => {
+      const base = name.replace('.xml', '');
+      const parts = base.split('_');
+      return [parseInt(parts[0], 10), parts[1] ? parseInt(parts[1], 10) : -1];
+    };
+    const [aBase, aSub] = parseFilename(a);
+    const [bBase, bSub] = parseFilename(b);
+    if (aBase !== bBase) return aBase - bBase;
+    return aSub - bSub;
   });
 
 let indexXml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
@@ -371,7 +387,17 @@ for (const sitemapFile of generatedSitemapFiles) {
   indexXml += `  </sitemap>\n`;
 }
 indexXml += `</sitemapindex>`;
-fs.writeFileSync(path.join(publicDir, 'sitemap_index.xml'), indexXml);
-console.log(`✓ Generated public/sitemap_index.xml (${generatedSitemapFiles.length} sitemaps: ${generatedSitemapFiles.join(', ')})`);
+
+// Write to sitemap.xml (canonical URL)
+fs.writeFileSync(path.join(publicDir, 'sitemap.xml'), indexXml);
+console.log(`✓ Generated public/sitemap.xml (${generatedSitemapFiles.length} sitemaps: ${generatedSitemapFiles.join(', ')})`);
+
+// Remove any stale sitemap_index.xml that may exist from previous builds
+const staleIndex = path.join(publicDir, 'sitemap_index.xml');
+if (fs.existsSync(staleIndex)) {
+  fs.unlinkSync(staleIndex);
+  console.log('✓ Removed stale public/sitemap_index.xml (duplicate of sitemap.xml)');
+}
+
 console.log('🎉 All static sitemaps generated successfully!');
 

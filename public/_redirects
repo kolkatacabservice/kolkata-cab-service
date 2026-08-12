@@ -2,6 +2,16 @@
 # Processed by Cloudflare CDN — 301/302 redirects with zero CPU usage.
 # Docs: https://developers.cloudflare.com/pages/configuration/redirects/
 # Format: <source> <destination> <status_code>
+#
+# ╔══════════════════════════════════════════════════════════════════════╗
+# ║ CRITICAL: Non-www → www redirect CANNOT be done in this file!       ║
+# ║ Cloudflare Pages _redirects only handles PATH-based rules.          ║
+# ║ Non-www → www is a HOSTNAME redirect, handled in the CF Dashboard:  ║
+# ║   Dashboard → Rules → Redirect Rules → Create Rule                  ║
+# ║   When: Hostname equals "kolkatacabservice.com"                     ║
+# ║   Then: https://www.kolkatacabservice.com${uri.path} [301]          ║
+# ║ Also enable: SSL/TLS → Edge Certificates → Always Use HTTPS: ON     ║
+# ╚══════════════════════════════════════════════════════════════════════╝
 
 # sitemap_index.xml → sitemap.xml (301 permanent)
 # robots.txt now only lists sitemap.xml. Any cached GSC/Googlebot references
