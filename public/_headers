@@ -113,3 +113,35 @@
 
 /madhya-pradesh/*
   X-Robots-Tag: noindex, nofollow
+
+# ── Noindex for city service sub-pages (/local, /outstation, /one-way, /round-trip) ──
+# These are thin duplicate content sub-pages. Canonical is the parent city page.
+# CDN header reinforces the HTML <meta robots> noindex tag on these pages.
+/*/local
+  X-Robots-Tag: noindex, follow
+
+/*/outstation
+  X-Robots-Tag: noindex, follow
+
+/*/one-way
+  X-Robots-Tag: noindex, follow
+
+/*/round-trip
+  X-Robots-Tag: noindex, follow
+
+# ── Noindex for vehicle sub-route pages (/sedan, /suv, /tempo, /luxury, /innova) ──
+# These pages already have noindex in HTML. CDN header is a belt-and-suspenders fix.
+/routes/*/sedan
+  X-Robots-Tag: noindex, nofollow
+
+/routes/*/suv
+  X-Robots-Tag: noindex, nofollow
+
+/routes/*/tempo
+  X-Robots-Tag: noindex, nofollow
+
+/routes/*/luxury
+  X-Robots-Tag: noindex, nofollow
+
+/routes/*/innova
+  X-Robots-Tag: noindex, nofollow

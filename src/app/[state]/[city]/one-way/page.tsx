@@ -46,6 +46,8 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
     twitter: { card: 'summary_large_image', title: `One Way Taxi from ${city.name} | ${BUSINESS.name}`, images: [`${BUSINESS.domain}/navbanner.webp`] },
     alternates: { canonical: canonicalUrl },
     other: { thumbnail: `${BUSINESS.domain}/navbanner.webp` },
+    // noindex: city /one-way sub-page — canonical city page (/{state}/{city}) is the indexable version.
+    robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
     keywords: [
       `one way cab from ${city.name}`,
       `one way taxi from ${city.name}`,

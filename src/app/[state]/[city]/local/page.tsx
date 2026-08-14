@@ -53,6 +53,9 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
     },
     alternates: { canonical: canonicalUrl },
     other: { thumbnail: `${BUSINESS.domain}/navbanner.webp` },
+    // noindex: city /local sub-page — canonical city page (/{state}/{city}) is the indexable version.
+    // Prevents crawl budget waste on thin service-type sub-pages.
+    robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
     keywords: [
       `local cab service ${city.name}`,
       `local taxi ${city.name}`,

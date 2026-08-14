@@ -41,6 +41,13 @@
 /routes/*/ertiga    /routes/:splat 301
 /routes/*/traveller /routes/:splat 301
 
+# Vehicle sub-page trailing slash variants
+/routes/*/sedan/    /routes/:splat 301
+/routes/*/suv/      /routes/:splat 301
+/routes/*/tempo/    /routes/:splat 301
+/routes/*/luxury/   /routes/:splat 301
+/routes/*/innova/   /routes/:splat 301
+
 /route/* /routes/:splat 301
 /service/* /services/:splat 301
 
