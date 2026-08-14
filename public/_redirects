@@ -58,6 +58,21 @@
 /west-bengal/new-town-kolkata /kolkata/new-town 301
 /west-bengal/new-town-kolkata/* /kolkata/new-town 301
 
+# ── State root trailing slash (not caught by /*/ wildcard) ───────────────────
+/west-bengal/ /west-bengal 301
+/jharkhand/ /jharkhand 301
+/odisha/ /odisha 301
+/bihar/ /bihar 301
+/uttar-pradesh/ /uttar-pradesh 301
+/kolkata/ /kolkata 301
+/routes/ /routes 301
+/services/ /services 301
+/tours/ /tours 301
+
+# ── Airport-transfer city sub-pages → parent city page ───────────────────────
+/*/airport-transfer /:splat 301
+/*/airport-transfer/ /:splat 301
+
 # ── Short City URLs (e.g. /ranchi → /jharkhand/ranchi) ──────────────────────
 /ranchi /jharkhand/ranchi 301
 /ranchi/* /jharkhand/ranchi/:splat 301
