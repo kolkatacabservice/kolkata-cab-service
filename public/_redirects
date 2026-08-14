@@ -51,6 +51,17 @@
 /route/* /routes/:splat 301
 /service/* /services/:splat 301
 
+# ── Legacy old-format cab slugs (found in GSC "Redirect error" report) ────────
+# These old URLs existed before the /routes/ structure was introduced.
+/jamshedpur-to-kolkata-cab     /routes/jamshedpur-to-kolkata     301
+/kolkata-to-jamshedpur-cab     /routes/kolkata-to-jamshedpur     301
+/kolkata-to-ranchi-cab         /routes/kolkata-to-ranchi         301
+/kolkata-to-puri-cab           /routes/kolkata-to-puri           301
+/kolkata-to-bhubaneswar-cab    /routes/kolkata-to-bhubaneswar    301
+/kolkata-to-darjeeling-cab     /routes/kolkata-to-darjeeling     301
+/kolkata-to-siliguri-cab       /routes/kolkata-to-siliguri       301
+/kolkata-to-digha-cab          /routes/kolkata-to-digha          301
+
 
 # ── Duplicate page consolidation — Salt Lake & New Town ──────────────────────
 /west-bengal/salt-lake-kolkata /kolkata/salt-lake 301
