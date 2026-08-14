@@ -2,11 +2,33 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 import { BUSINESS, getAllStates } from '@/lib/data';
-import { getPopularRoutes } from '@/lib/routeData';
+
+// Top-priority route pages — always linked from footer for maximum internal link equity
+const TOP_ROUTE_LINKS = [
+  { from: 'Kolkata', to: 'Ranchi', slug: 'kolkata-to-ranchi' },
+  { from: 'Kolkata', to: 'Jamshedpur', slug: 'kolkata-to-jamshedpur' },
+  { from: 'Kolkata', to: 'Puri', slug: 'kolkata-to-puri' },
+  { from: 'Kolkata', to: 'Bhubaneswar', slug: 'kolkata-to-bhubaneswar' },
+  { from: 'Kolkata', to: 'Darjeeling', slug: 'kolkata-to-darjeeling' },
+  { from: 'Kolkata', to: 'Siliguri', slug: 'kolkata-to-siliguri' },
+  { from: 'Kolkata', to: 'Digha', slug: 'kolkata-to-digha' },
+  { from: 'Kolkata', to: 'Durgapur', slug: 'kolkata-to-durgapur' },
+  { from: 'Kolkata', to: 'Balasore', slug: 'kolkata-to-balasore' },
+  { from: 'Kolkata', to: 'Asansol', slug: 'kolkata-to-asansol' },
+  { from: 'Kolkata', to: 'Dhanbad', slug: 'kolkata-to-dhanbad' },
+  { from: 'Kolkata', to: 'Kharagpur', slug: 'kolkata-to-kharagpur' },
+  { from: 'Ranchi', to: 'Kolkata', slug: 'ranchi-to-kolkata' },
+  { from: 'Jamshedpur', to: 'Kolkata', slug: 'jamshedpur-to-kolkata' },
+  { from: 'Puri', to: 'Kolkata', slug: 'puri-to-kolkata' },
+  { from: 'Siliguri', to: 'Kolkata', slug: 'siliguri-to-kolkata' },
+  { from: 'Bhubaneswar', to: 'Kolkata', slug: 'bhubaneswar-to-kolkata' },
+  { from: 'Kolkata', to: 'Mandarmani', slug: 'kolkata-to-mandarmani' },
+  { from: 'Kolkata', to: 'Cuttack', slug: 'kolkata-to-cuttack' },
+  { from: 'Kolkata', to: 'Shantiniketan', slug: 'kolkata-to-bolpur-shantiniketan' },
+];
 
 export default async function Footer() {
   const states = getAllStates();
-  const popularRoutes = await getPopularRoutes(12);
 
   // Top cities for internal linking — crawlable by Google
   // Salt Lake & New Town point to /kolkata/[area] (canonical) — richer hyper-local pages
@@ -68,13 +90,13 @@ export default async function Footer() {
                 ))}
               </div>
             </div>
-            {/* Popular Routes */}
+            {/* Popular Routes — top 20 money pages always linked */}
             <div className="col-span-2 sm:col-span-2 lg:col-span-2">
               <p className="text-sm font-bold text-primary mb-3">Popular Routes</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1">
-                {popularRoutes.map(route => (
+                {TOP_ROUTE_LINKS.map(route => (
                   <Link key={route.slug} href={`/routes/${route.slug}`} className="text-gray-400 hover:text-primary transition-colors py-0.5">
-                    {route.fromName} to {route.toName}
+                    {route.from} to {route.to}
                   </Link>
                 ))}
               </div>

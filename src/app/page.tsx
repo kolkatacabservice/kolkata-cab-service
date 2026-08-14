@@ -8,7 +8,7 @@ import HeroBanner from '@/components/HeroBanner';
 import FAQSection from '@/components/FAQSection';
 import { BUSINESS, getAllStates, getServices, getVehicles } from '@/lib/data';
 import { getPopularRoutes } from '@/lib/routeData';
-import { generateFaqSchema, generateReviewSchema, generatePopularRoutesItemListSchema, generateHomePageMetadata, generateSeasonalOfferSchema } from '@/lib/seo';
+import { generateFaqSchema, generateReviewSchema, generatePopularRoutesItemListSchema, generateHomePageMetadata, generateSeasonalOfferSchema, generateTaxiServiceSchema, generateHowToBookSchema, generateSpeakableSchema } from '@/lib/seo';
 
 // Dynamic imports for below-fold components — reduces initial JS bundle by ~25 KiB
 const FareCalculator = nextDynamic(() => import('@/components/FareCalculator'), {
@@ -126,11 +126,14 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Schema */}
+      {/* Schema — homepage-only schemas injected here (not in global layout) */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFaqSchema(faqs)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateReviewSchema(testimonials)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generatePopularRoutesItemListSchema(popularRoutes)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSeasonalOfferSchema()) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateTaxiServiceSchema()) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateHowToBookSchema()) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateSpeakableSchema('')) }} />
 
 
       {/* Hero Section */}
@@ -844,6 +847,52 @@ export default async function HomePage() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Top Routes Section — Internal linking to money pages for Google PageRank equity */}
+      <section className="py-14 lg:py-18 bg-white border-t border-gray-100" aria-label="Top cab routes from Kolkata">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-2xl lg:text-3xl font-extrabold text-secondary text-center mb-2">Top Cab Routes from Kolkata</h2>
+          <p className="text-gray-500 text-center text-sm mb-8">Book outstation cab for these popular routes — one-way &amp; round trip available 24/7</p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+            {[
+              { name: 'Kolkata to Ranchi', href: '/routes/kolkata-to-ranchi', fare: '₹6,100' },
+              { name: 'Kolkata to Jamshedpur', href: '/routes/kolkata-to-jamshedpur', fare: '₹2,400' },
+              { name: 'Kolkata to Puri', href: '/routes/kolkata-to-puri', fare: '₹5,800' },
+              { name: 'Kolkata to Bhubaneswar', href: '/routes/kolkata-to-bhubaneswar', fare: '₹6,200' },
+              { name: 'Kolkata to Darjeeling', href: '/routes/kolkata-to-darjeeling', fare: '₹7,500' },
+              { name: 'Kolkata to Siliguri', href: '/routes/kolkata-to-siliguri', fare: '₹6,800' },
+              { name: 'Kolkata to Digha', href: '/routes/kolkata-to-digha', fare: '₹2,500' },
+              { name: 'Kolkata to Durgapur', href: '/routes/kolkata-to-durgapur', fare: '₹1,800' },
+              { name: 'Kolkata to Balasore', href: '/routes/kolkata-to-balasore', fare: '₹3,500' },
+              { name: 'Kolkata to Asansol', href: '/routes/kolkata-to-asansol', fare: '₹2,200' },
+              { name: 'Kolkata to Dhanbad', href: '/routes/kolkata-to-dhanbad', fare: '₹3,000' },
+              { name: 'Kolkata to Kharagpur', href: '/routes/kolkata-to-kharagpur', fare: '₹1,500' },
+              { name: 'Kolkata to Shantiniketan', href: '/routes/kolkata-to-bolpur-shantiniketan', fare: '₹2,200' },
+              { name: 'Kolkata to Mandarmani', href: '/routes/kolkata-to-mandarmani', fare: '₹2,800' },
+              { name: 'Kolkata to Cuttack', href: '/routes/kolkata-to-cuttack', fare: '₹6,500' },
+              { name: 'Ranchi to Kolkata', href: '/routes/ranchi-to-kolkata', fare: '₹6,100' },
+              { name: 'Jamshedpur to Kolkata', href: '/routes/jamshedpur-to-kolkata', fare: '₹2,400' },
+              { name: 'Puri to Kolkata', href: '/routes/puri-to-kolkata', fare: '₹5,800' },
+              { name: 'Siliguri to Kolkata', href: '/routes/siliguri-to-kolkata', fare: '₹6,800' },
+              { name: 'Bhubaneswar to Kolkata', href: '/routes/bhubaneswar-to-kolkata', fare: '₹6,200' },
+            ].map(route => (
+              <Link
+                key={route.href}
+                href={route.href}
+                className="flex flex-col gap-1 p-3 bg-gray-50 rounded-xl border border-gray-100 hover:border-primary/30 hover:bg-primary/5 hover:shadow-sm transition-all group"
+              >
+                <span className="text-xs font-semibold text-secondary group-hover:text-primary transition-colors leading-snug">{route.name}</span>
+                <span className="text-xs text-primary font-bold">From {route.fare}</span>
+              </Link>
+            ))}
+          </div>
+          <p className="text-center mt-6">
+            <Link href="/fare-chart" className="inline-flex items-center gap-1.5 text-sm text-primary font-semibold hover:underline">
+              View all routes &amp; fare chart <ChevronRight size={14} />
+            </Link>
+          </p>
         </div>
       </section>
 

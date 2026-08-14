@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 import ScrollToTop from '@/components/ScrollToTop';
 import { BUSINESS } from '@/lib/data';
-import { generateLocalBusinessSchema, generateOrganizationSchema, generateWebsiteSchema, generateTaxiServiceSchema, generateHowToBookSchema, generateSpeakableSchema } from '@/lib/seo';
+import { generateLocalBusinessSchema, generateOrganizationSchema, generateWebsiteSchema } from '@/lib/seo';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -80,12 +80,11 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  // Only site-wide identity schemas injected here.
+  // Page-specific schemas (TaxiService, HowTo, WebPage/Speakable) are in page.tsx only.
   const localBusinessSchema = generateLocalBusinessSchema();
   const orgSchema = generateOrganizationSchema();
   const websiteSchema = generateWebsiteSchema();
-  const taxiServiceSchema = generateTaxiServiceSchema();
-  const howToBookSchema = generateHowToBookSchema();
-  const speakableSchema = generateSpeakableSchema();
 
   return (
     <html lang="en-IN" dir="ltr" className={inter.variable} suppressHydrationWarning>
@@ -152,18 +151,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(taxiServiceSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToBookSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
         />
       </head>
       <body className={`${inter.className} antialiased`} suppressHydrationWarning>
