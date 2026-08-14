@@ -65,6 +65,14 @@ export async function generateMetadata({ params }: { params: Promise<{ route: st
   const baseMetadata = generateVehicleRouteMetadata(route.fromName, route.toName, route.distance, vehicleSlug, fare, route.slug);
   return {
     ...baseMetadata,
+    // noindex: vehicle sub-pages are alternative pages — canonical is the parent route page.
+    // This resolves the "Duplicate, Google chose different canonical" GSC issue (1,741 pages).
+    // Google should discover vehicle info from the parent route page only.
+    robots: {
+      index: false,
+      follow: false,
+      googleBot: { index: false, follow: false },
+    },
     keywords: [
       `${vehicle.name} cab ${route.fromName} to ${route.toName}`,
       `${vehicle.name} taxi ${route.fromName} to ${route.toName}`,
@@ -81,6 +89,7 @@ export async function generateMetadata({ params }: { params: Promise<{ route: st
     ],
   };
 }
+
 
 function getVehicleFare(route: { priceSaloon: number; priceSuv: number; priceTempo: number; distance: number }, vehicleSlug: string, pricePerKm: number) {
   if (vehicleSlug === 'sedan') return route.priceSaloon;
