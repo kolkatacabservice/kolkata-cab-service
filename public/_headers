@@ -137,18 +137,10 @@
 /*/wedding-car
   X-Robots-Tag: noindex, follow
 
-# ── Noindex for route pages except vehicle pages ──
-/routes/*
-  X-Robots-Tag: noindex, nofollow
-
-# ── Index for vehicle sub-route pages (/sedan, /suv, /tempo, /luxury, /innova) ──
-/routes/*/sedan
-  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
-/routes/*/suv
-  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
-/routes/*/tempo
-  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
-/routes/*/luxury
-  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
-/routes/*/innova
-  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+# ── Noindex for vehicle sub-route pages (/sedan, /suv, /tempo, /luxury, /innova) ──
+# NOTE: Cloudflare Pages _headers does NOT support mid-path wildcards like /routes/*/sedan.
+# Only trailing wildcards (e.g. /routes/*) are supported.
+# Vehicle sub-page noindex is enforced via:
+#   1. <meta name="robots" content="noindex, nofollow"> in HTML (primary — in [vehicle]/page.tsx)
+#   2. Cloudflare Transform Rule in the dashboard
+# The invalid patterns below have been REMOVED to avoid false confidence they were working.

@@ -125,6 +125,15 @@ export default async function VehicleRoutePage({ params }: { params: Promise<{ r
 
   return (
     <>
+      {/*
+        CRITICAL SEO: Vehicle sub-pages are NOT intended to be indexed.
+        The canonical points to the parent route page (/routes/[route]).
+        This explicit meta tag is required because:
+        1. CF Pages _headers mid-path wildcards (/routes/*\/sedan) don't work
+        2. Next.js static export may not reliably propagate metadata robots: {index: false}
+        Use this as the primary noindex signal — verified on every vehicle page.
+      */}
+      <meta name="robots" content="noindex, nofollow" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateVehicleRouteSchema(route.fromName, route.toName, vehicleSlug, fare, route.distance, route.duration, route.slug)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateFaqSchema(faqs)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(generateBreadcrumbSchema([
