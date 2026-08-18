@@ -114,9 +114,11 @@
 /madhya-pradesh/*
   X-Robots-Tag: noindex, nofollow
 
-# ── Noindex for city service sub-pages (/local, /outstation, /one-way, /round-trip) ──
+# ── Noindex for city service sub-pages (/local, /outstation, /one-way, /round-trip, /airport-transfer, /wedding-car) ──
 # These are thin duplicate content sub-pages. Canonical is the parent city page.
 # CDN header reinforces the HTML <meta robots> noindex tag on these pages.
+# IMPORTANT: Cloudflare applies the LAST matching rule for the same header key.
+# These rules intentionally come after the global X-Robots-Tag: index rule above.
 /*/local
   X-Robots-Tag: noindex, follow
 
@@ -127,6 +129,12 @@
   X-Robots-Tag: noindex, follow
 
 /*/round-trip
+  X-Robots-Tag: noindex, follow
+
+/*/airport-transfer
+  X-Robots-Tag: noindex, follow
+
+/*/wedding-car
   X-Robots-Tag: noindex, follow
 
 # ── Noindex for vehicle sub-route pages (/sedan, /suv, /tempo, /luxury, /innova) ──

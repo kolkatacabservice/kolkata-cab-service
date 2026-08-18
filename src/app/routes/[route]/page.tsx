@@ -37,6 +37,7 @@ import { getAllRouteSlugs } from '@/lib/routeDataStatic';
 import { generateRouteMetadata, generateFaqSchema, generateBreadcrumbSchema, generateEnhancedRouteSchema } from '@/lib/seo';
 import { generateRoutePageContent } from '@/lib/routeContent';
 import { formatBoldText, parseParagraphsWithBold } from '@/lib/textHelper';
+import { shouldIndexRoute } from '@/lib/routeIndexing';
 
 // Pre-build ALL routes (~13,800) as static HTML at build time.
 // This ensures 0ms Worker CPU usage per request and eliminates 503 errors on the CF Free Tier.
@@ -64,6 +65,14 @@ export async function generateMetadata({ params }: { params: Promise<{ route: st
     toCity?.alternateNames,
     route.priceSuv  // Pass actual priceSuv — prevents meta/body price inconsistency
   );
+
+  // ── Smart noindex for Tier 3 routes ──────────────────────────────────────────
+  // Tier 3 = long-distance, non-hub, non-popular routes (~10,000+ pages).
+  // These are thin near-duplicates — only city names and prices change.
+  // Google was treating them as duplicate content and choosing its own canonical.
+  // noindex, follow = stop indexing this page but keep following internal links.
+  const indexThisRoute = shouldIndexRoute(route);
+
   return {
     ...baseMetadata,
     keywords: [
@@ -91,6 +100,10 @@ export async function generateMetadata({ params }: { params: Promise<{ route: st
       ...(fromCity?.alternateNames || []).map((n: string) => `${n} to ${route.toName} cab`),
       ...(toCity?.alternateNames || []).map((n: string) => `${route.fromName} to ${n} cab`),
     ],
+    // Override robots for thin routes — noindex but keep following links
+    robots: indexThisRoute
+      ? { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 } }
+      : { index: false, follow: true, googleBot: { index: false, follow: true } },
   };
 }
 

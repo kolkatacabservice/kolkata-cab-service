@@ -108,9 +108,54 @@ function getBookingSteps(fromName: string, toName: string): { step: number; titl
 function getSlugHash(slug: string): number {
   let hash = 0;
   for (let i = 0; i < slug.length; i++) {
-    hash += slug.charCodeAt(i);
+    // Weighted hash for better distribution across 8 templates
+    hash = (hash * 31 + slug.charCodeAt(i)) >>> 0;
   }
   return hash;
+}
+
+// ─── Highway-specific content lookup ───────────────────────────────────────────
+// Makes route pages with the same highway genuinely unique from each other.
+const HIGHWAY_NOTES: Record<string, string> = {
+  'NH-16': 'NH-16 (the Kolkata–Bhubaneswar National Highway) is a 6-lane expressway with well-maintained toll plazas at Kolaghat, Kharagpur, and Bhubaneswar. It\'s one of the busiest freight and passenger corridors in Eastern India.',
+  'NH-12': 'NH-12 connects West Bengal with Bihar through a mix of 2-lane and 4-lane stretches. The highway passes through lush paddy fields and riverside towns, making it a scenic though sometimes slow route.',
+  'NH-19': 'NH-19 (the Grand Trunk Road) is one of India\'s oldest highways, connecting Kolkata with Delhi via Patna, Varanasi, and Agra. The route is well-maintained with regular toll plazas and fuel stations.',
+  'NH-33': 'NH-33 (Jamshedpur–Ranchi National Highway) is a key arterial route through Jharkhand\'s industrial heartland. The 2-lane highway passes through forested terrain and has been undergoing widening in recent years.',
+  'NH-49': 'NH-49 connects Ranchi with Kolkata through the Jharkhand plateau. The route features steep ghats and tribal villages, making it picturesque but requiring experienced drivers familiar with ghat road conditions.',
+  'NH-6': 'NH-6 (now renumbered as part of NH-16/NH-27) was the historic Mumbai–Kolkata highway. The Kolkata–Dhanbad stretch via this corridor features 4-lane divided roads with regular rest stops.',
+  'NH-75': 'NH-75 connects Ranchi with Deoghar through the scenic Jharkhand interior. The highway passes through tribal regions with unique cultural landscapes.',
+  'NH-53': 'NH-53 (the Sambalpur–Jagdalpur corridor) connects Odisha\'s interior with national routes. It features varied terrain including hills and river crossings.',
+  'NH-5': 'NH-5 is a key route in Odisha, connecting Bhubaneswar with Berhampur and the southern coast. The highway follows the Eastern Ghats coastline with beautiful sea views near Puri.',
+};
+
+// Get highway-specific note for a route's via array
+function getHighwayNote(via: string[]): string | null {
+  if (!via || via.length === 0) return null;
+  for (const point of via) {
+    if (point.startsWith('NH-') || point.startsWith('NH ')) {
+      const key = point.trim().replace(/\s+/g, '-');
+      if (HIGHWAY_NOTES[key]) return HIGHWAY_NOTES[key];
+    }
+  }
+  return null;
+}
+
+// State-crossing specific content for inter-state routes
+function getStateCrossingNote(fromState: string, toState: string, fromName: string, toName: string): string | null {
+  if (!fromState || !toState || fromState === toState) return null;
+
+  const pair = [fromState, toState].sort().join('|');
+  const notes: Record<string, string> = {
+    'jharkhand|west-bengal': `The ${fromName}–${toName} route crosses the West Bengal–Jharkhand state border. This is one of the most heavily-traveled inter-state corridors in Eastern India, with thousands of commuters and business travelers making this journey daily. Toll charges for the border stretch are included in our upfront quote.`,
+    'odisha|west-bengal': `The ${fromName}–${toName} route crosses the Odisha–West Bengal state border along the NH-16 (Kolkata–Bhubaneswar) corridor. This is a well-maintained 4-6 lane expressway with multiple toll booths. Our fare quote includes all toll estimates for this inter-state crossing.`,
+    'bihar|west-bengal': `The ${fromName}–${toName} journey crosses the Bihar–West Bengal state boundary. The highway connects the Gangetic plains of Bihar with West Bengal's river delta region — a scenic route through agricultural landscapes. Our drivers are experienced with inter-state documentation requirements.`,
+    'bihar|jharkhand': `The ${fromName} to ${toName} route crosses the Bihar–Jharkhand border through forested and hilly terrain. Jharkhand was carved out of Bihar in 2000, and this inter-state corridor connects the Jharkhand plateau with the Bihar plains.`,
+    'jharkhand|odisha': `The ${fromName}–${toName} route connects Jharkhand's tribal highlands with Odisha. This inter-state corridor passes through some of India's richest mineral regions and forested landscapes.`,
+    'odisha|uttar-pradesh': `The ${fromName} to ${toName} journey is a long inter-state route crossing Odisha, Jharkhand or Chhattisgarh, and into Uttar Pradesh. Our Innova Crysta or SUV is the recommended vehicle for this multi-state, multi-day journey.`,
+    'uttar-pradesh|west-bengal': `The ${fromName}–${toName} route is a major inter-state connection between Eastern UP and West Bengal. This historic Grand Trunk Road corridor passes through several state capitals and major cities.`,
+  };
+
+  return notes[pair] || `The ${fromName} to ${toName} route is an inter-state journey connecting ${fromState.replace(/-/g, ' ')} with ${toState.replace(/-/g, ' ')}. Our drivers are experienced with the inter-state highway network and can handle all routing, toll, and documentation requirements.`;
 }
 
 /**
@@ -172,6 +217,26 @@ function getRouteAboutContent(input: RouteContentInput): string[] {
     p2 = `Whether booking a sedan for a business trip or an SUV for family vacation from ${route.fromName} to ${route.toName}, we have you covered. Our Dzire sedan starts from ₹${route.priceSaloon}, Ertiga and Innova Crysta SUVs start at ₹${route.priceSuv}, and 12-15 seater Tempo Travellers start at ₹${route.priceTempo}. Fares are all-inclusive of fuel and driver fees with flat-rate guarantee.`;
   }
   paragraphs.push(p2);
+
+  // Paragraph 2.5: Highway-specific note (unique per highway)
+  // This is a key differentiator — routes via the same highway get the same note,
+  // but routes via different highways get genuinely different highway descriptions.
+  const highwayNote = getHighwayNote(route.via);
+  if (highwayNote) {
+    paragraphs.push(`**About this route's highway:** ${highwayNote} ${route.via.filter(v => !v.startsWith('NH')).length > 0 ? `The route also passes through ${route.via.filter(v => !v.startsWith('NH')).join(', ')}.` : ''}`);
+  }
+
+  // Paragraph 2.6: State-crossing note (unique per state pair)
+  // Inter-state routes get context about crossing state borders — genuinely unique content
+  const stateCrossingNote = getStateCrossingNote(
+    route.fromState || '',
+    route.toState || '',
+    route.fromName,
+    route.toName
+  );
+  if (stateCrossingNote) {
+    paragraphs.push(stateCrossingNote);
+  }
 
   // Paragraph 3 & 4: City content — Fix #2 & #9
   // Forward routes: lead with destination (you're going TO it — tourist appeal)

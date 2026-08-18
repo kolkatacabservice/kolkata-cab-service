@@ -35,9 +35,58 @@ const KOLKATA_AREAS = [
 function getCityHash(name: string): number {
   let hash = 0;
   for (let i = 0; i < name.length; i++) {
-    hash += name.charCodeAt(i);
+    // Weighted hash for better distribution across 6 templates
+    hash = (hash * 31 + name.charCodeAt(i)) >>> 0;
   }
   return hash;
+}
+
+// ─── City-specific best time + unique travel notes ───
+// These create genuinely differentiated content that can't be templated away
+const CITY_TRAVEL_NOTES: Record<string, { bestTime: string; specialty: string; travelNote: string }> = {
+  'darjeeling':   { bestTime: 'March–May and September–November', specialty: 'Darjeeling tea, Tiger Hill sunrise, Toy Train heritage ride', travelNote: 'Night drives to Tiger Hill for sunrise are a popular request — our drivers are experienced with this high-altitude route.' },
+  'digha':        { bestTime: 'October–March (avoid monsoon waves)', specialty: 'Sea beach, seafood, Digha Science Centre', travelNote: 'Weekend and Puja holiday traffic to Digha is heavy — book 2 days in advance for guaranteed availability.' },
+  'puri':         { bestTime: 'October–February, avoid Rath Yatra rush', specialty: 'Jagannath Temple darshan, Puri beach, Konark day trip', travelNote: 'Rath Yatra month sees 10× cab demand — our Bhubaneswar–Puri route cabs are pre-booked 3 weeks ahead.' },
+  'mandarmani':   { bestTime: 'October–March', specialty: 'Longest driveable beach, red crabs, sunsets', travelNote: 'Mandarmani is just 4 hours from Kolkata via NH-116 — a popular weekend escape, especially for young travelers.' },
+  'gangasagar':   { bestTime: 'December–January for Makar Sankranti Mela', specialty: 'Kapil Muni Ashram, Sagar Island', travelNote: 'Makar Sankranti sees millions of pilgrims — pre-book your cab to Gangasagar at least 2 weeks in advance during that period.' },
+  'mayapur':      { bestTime: 'October–March, Gaura Purnima in March is special', specialty: 'ISKCON Chandrodaya Mandir, Triveni Ghat', travelNote: 'Mayapur is just 3.5 hours from Kolkata via NH-12 — ideal for a one-day spiritual trip.' },
+  'bishnupur':    { bestTime: 'October\u2013February', specialty: 'Terracotta temples, Bishnupur Gharana music, Dashavatara Rath', travelNote: 'Bishnupur terracotta temples are UNESCO tentative list sites \u2014 our drivers know all temple locations for efficient sightseeing.' },
+  'konark':       { bestTime: 'November–February, Konark Dance Festival in November', specialty: 'Sun Temple (UNESCO World Heritage), Chandrabhaga beach', travelNote: 'Konark is 65km from Bhubaneswar and 36km from Puri — easily combined as a triangle day trip with our cab service.' },
+  'deoghar':      { bestTime: 'Shravan month (July–August) and Shivratri', specialty: 'Baidyanath Jyotirlinga, 22 temples of Deoghar', travelNote: 'Shravan month sees massive devotee traffic to Baidyanath Dham — book Ranchi–Deoghar cabs 3–4 weeks ahead during this period.' },
+  'hazaribagh':   { bestTime: 'October–March', specialty: 'Hazaribagh Wildlife Sanctuary, Rajrappa Temple, Canary Hill', travelNote: 'Hazaribagh offers a scenic 2-hour drive from Ranchi through forested hills — popular for weekend getaways.' },
+  'netarhat':     { bestTime: 'October–February for sunrise/sunset views', specialty: 'Sunrise Point, Lodh Falls, Netarhat forests', travelNote: 'Netarhat is 154km from Ranchi via a scenic ghat road — our drivers know the safest route for this mountain road.' },
+  'bodh-gaya':    { bestTime: 'October–March', specialty: 'Mahabodhi Temple (UNESCO), Bodhi Tree, Thai Monastery', travelNote: 'Bodh Gaya sees Buddhist pilgrims from 80+ countries — our drivers are familiar with all monasteries and pilgrimage sites.' },
+  'varanasi':     { bestTime: 'October–March, Ganga Aarti is best at sunset', specialty: 'Kashi Vishwanath Temple, Ganga Aarti, Sarnath', travelNote: 'Varanasi is 678km from Kolkata — we recommend our Innova Crysta or SUV for this long-distance pilgrimage route.' },
+  'siliguri':     { bestTime: 'October–April (avoid heavy monsoon)', specialty: 'Gateway to Northeast India, Hong Kong Market, NJP Railway', travelNote: 'Siliguri is the transit hub for Darjeeling, Gangtok, Sikkim and Bhutan — our cabs connect you to all these hill destinations.' },
+  'kharagpur':    { bestTime: 'October–March', specialty: 'IIT Kharagpur campus, Hijli Detention Camp, railway junction', travelNote: 'Kharagpur is 2.5 hours from Kolkata via NH-16 — popular for IIT campus visits and Odisha road trips via Bhubaneswar.' },
+  'durgapur':     { bestTime: 'October–March', specialty: 'Durgapur Steel Plant, Durgapur Barrage, Deul Park', travelNote: 'Durgapur is one of the largest planned industrial cities in India — our corporate cab service is heavily used here.' },
+  'bolpur-shantiniketan': { bestTime: 'Basanta Utsav (Holi, February–March), Poush Mela in December', specialty: 'Visva-Bharati University, Rabindranath Tagore Museum, Khoai area', travelNote: 'Poush Mela in December draws thousands of visitors — book your Kolkata–Shantiniketan cab 2 weeks in advance for that period.' },
+  'haldia':       { bestTime: 'October–February', specialty: 'Haldia Port, Petrochemical Complex, Rasikpur beach', travelNote: 'Haldia is the major port city of West Bengal — our corporate car service is popular with port authority staff and executives.' },
+  'cuttack':      { bestTime: 'October–March', specialty: 'Barabati Fort, Cuttack Chandi Temple, Silver Filigree Bazaar', travelNote: 'Cuttack is just 30km from Bhubaneswar — easily combined in a same-day trip with our Bhubaneswar cab service.' },
+  'rourkela':     { bestTime: 'October–March', specialty: 'Steel plant township, Vedvyas Temple, Biju Patnaik Park', travelNote: 'Rourkela is 380km from Bhubaneswar via NH-55 — our Innova Crysta is the preferred vehicle for this route.' },
+  'asansol':      { bestTime: 'October–March', specialty: 'Asansol coal belt, Maithon Dam, Panchet Dam', travelNote: 'Maithon Dam is a popular half-day trip from Asansol — our local packages work well for dam visits and back.' },
+};
+
+// ─── Generate a city-specific unique introductory sentence ───
+function getUniqueCityIntro(city: City, stateName: string): string {
+  const note = CITY_TRAVEL_NOTES[city.slug];
+  if (note) {
+    return `Planning a trip to ${city.name}? Here's what you should know: ${note.travelNote}`;
+  }
+  if (city.landmarks && city.landmarks.length >= 3) {
+    return `${city.name} is home to notable landmarks like ${city.landmarks.slice(0, 3).join(', ')} — our cab service gives you direct access to each of these.`;
+  }
+  return `${city.name} is an important city in ${stateName} with growing cab travel demand for business and personal trips.`;
+}
+
+// ─── Get best time to visit for tourism cities ───
+function getBestTimeToVisit(citySlug: string): string | null {
+  return CITY_TRAVEL_NOTES[citySlug]?.bestTime ?? null;
+}
+
+// ─── Get local specialty description ───
+function getLocalSpecialty(citySlug: string): string | null {
+  return CITY_TRAVEL_NOTES[citySlug]?.specialty ?? null;
 }
 
 // ─── Generate detailed "About Cab Service" content ───
@@ -57,37 +106,42 @@ function getAboutCityContent(input: CityContentInput): string[] {
     );
   } else if (city.type === 'hub') {
     const altText = city.alternateNames && city.alternateNames.length > 0 ? ` Also known as ${city.alternateNames.join(', ')}.` : '';
-    if (templateIndex === 0) {
-      paragraphs.push(
-        `Book the leading cab service in ${city.name}, ${stateName} — ${BUSINESS.name} provides premier taxi service in ${city.name} starting from just ${displayRate}.${altText} As a major transportation and business hub, we specialize in daily outstation cabs, corporate rentals with GST invoicing, and airport drops. If you are searching for a taxi in ${city.name}, outstation cab from ${city.name}, or cab booking near me in ${city.name}, our professional services with verified drivers are available 24/7. Call ${BUSINESS.phone} for instant bookings.`
-      );
-    } else {
-      paragraphs.push(
-        `Need a reliable car hire in the hub city of ${city.name}, ${stateName}? At ${BUSINESS.name}, we offer the best taxi booking in ${city.name} from ${displayRate}.${altText} Our hub network connects ${city.name} to all surrounding cities with flat rates. Whether you need local hourly packages or long-distance one-way trips, we guarantee premium comfort with no surge pricing. Contact us at ${BUSINESS.phone} to reserve your sedan or SUV.`
-      );
-    }
+    // 6 unique templates for hub cities — reduces duplicate rate from 50% to ~17%
+    const hubTemplates = [
+      `Book the leading cab service in ${city.name}, ${stateName} — ${BUSINESS.name} provides premier taxi service in ${city.name} starting from just ${displayRate}.${altText} As a major transportation and business hub, we specialize in daily outstation cabs, corporate rentals with GST invoicing, and airport drops. If you are searching for a taxi in ${city.name}, outstation cab from ${city.name}, or cab booking near me in ${city.name}, our professional services with verified drivers are available 24/7. Call ${BUSINESS.phone} for instant bookings.`,
+      `Need a reliable car hire in the hub city of ${city.name}, ${stateName}? At ${BUSINESS.name}, we offer the best taxi booking in ${city.name} from ${displayRate}.${altText} Our hub network connects ${city.name} to all surrounding cities with flat rates. Whether you need local hourly packages or long-distance one-way trips, we guarantee premium comfort with no surge pricing. Contact us at ${BUSINESS.phone} to reserve your sedan or SUV.`,
+      `${city.name}, ${stateName} is one of the most important cab booking destinations in Eastern India — and ${BUSINESS.name} is at the forefront of this demand.${altText} From ${displayRate} for outstation routes, we provide verified-driver cabs across all localities of ${city.name} 24 hours a day. Whether it's a business commute, intercity trip, or airport drop, our flat-rate fares with zero surge pricing make us the first choice in ${city.name}. Dial ${BUSINESS.phone} anytime.`,
+      `Searching for the most affordable taxi in ${city.name}, ${stateName}? ${BUSINESS.name} delivers reliable, AC cab service from ${displayRate} — no surge pricing, no hidden fees.${altText} We serve all major localities, railway stations, and airports in and around ${city.name}. Our corporate clients get GST-compliant invoices and dedicated account support. Individual travelers enjoy instant confirmations on WhatsApp within 2 minutes. Call ${BUSINESS.phone}.`,
+      `${BUSINESS.name} has been the go-to cab service in ${city.name}, ${stateName} for outstation and local travel since ${BUSINESS.foundYear}.${altText} Starting at ${displayRate}, our fleet of Sedans, Ertiga SUVs, and Innova Crystas connect you to over 100 cities from ${city.name}. Every booking comes with a verified driver, real-time tracking, and a transparent fare breakdown. No surprise charges. Book now at ${BUSINESS.phone}.`,
+      `When it comes to trusted cab booking in ${city.name}, ${stateName}, ${BUSINESS.name} stands apart with our commitment to fixed-rate fares from ${displayRate}.${altText} Our drivers hold commercial licenses and are familiar with both the city's internal routes and the long-distance highways heading out of ${city.name}. We take advance bookings up to 7 days in advance and also handle same-hour urgent requests. Reach us at ${BUSINESS.phone}.`,
+    ];
+    paragraphs.push(hubTemplates[hash % 6]);
   } else if (city.tourist) {
     const altText = city.alternateNames && city.alternateNames.length > 0 ? ` Also known as ${city.alternateNames.join(', ')}.` : '';
-    if (templateIndex === 0) {
-      paragraphs.push(
-        `Explore the scenic beauty and attractions of ${city.name} with ${BUSINESS.name}'s dedicated tourist taxi service in ${city.name} starting at just ${displayRate}.${altText} We offer custom travel packages, temple darshan visits, and local sightseeing tours in ${city.name}. If you are looking for local cab service in ${city.name}, outstation car rental, or a reliable taxi near me in ${city.name}, we have clean, sanitised AC cars ready. Book instantly by calling ${BUSINESS.phone}.`
-      );
-    } else {
-      paragraphs.push(
-        `Make your trip to ${city.name}, ${stateName} memorable with our highly-rated tourist cab booking in ${city.name}.${altText} Starting from just ${displayRate}, we provide comfortable sightseeing rides, railway station pickups, and outstation tours. Our drivers are local tour guides who know the best routes and tourist spots. For safe and budget-friendly sightseeing in ${city.name}, call ${BUSINESS.phone} or book via WhatsApp.`
-      );
-    }
+    const specialty = getLocalSpecialty(city.slug);
+    const bestTime = getBestTimeToVisit(city.slug);
+    // 6 unique templates for tourist cities
+    const touristTemplates = [
+      `Explore the scenic beauty and attractions of ${city.name} with ${BUSINESS.name}'s dedicated tourist taxi service in ${city.name} starting at just ${displayRate}.${altText} We offer custom travel packages, temple darshan visits, and local sightseeing tours in ${city.name}. If you are looking for local cab service in ${city.name}, outstation car rental, or a reliable taxi near me in ${city.name}, we have clean, sanitised AC cars ready. Book instantly by calling ${BUSINESS.phone}.`,
+      `Make your trip to ${city.name}, ${stateName} memorable with our highly-rated tourist cab booking in ${city.name}.${altText} Starting from just ${displayRate}, we provide comfortable sightseeing rides, railway station pickups, and outstation tours. Our drivers are local tour guides who know the best routes and tourist spots. For safe and budget-friendly sightseeing in ${city.name}, call ${BUSINESS.phone} or book via WhatsApp.`,
+      `${city.name} in ${stateName} is famous for ${specialty || city.landmarks?.slice(0, 2).join(' and ') || 'its unique attractions'} — and the best way to explore it is with a private cab.${altText} ${BUSINESS.name} offers dedicated sightseeing packages starting from ${displayRate}. ${bestTime ? `Best time to visit ${city.name}: ${bestTime}.` : ''} Our air-conditioned vehicles are ready for day trips and multi-day outstation tours from ${city.name}. Call ${BUSINESS.phone}.`,
+      `Planning a visit to ${city.name}, ${stateName}? Our ${city.name} cab service ensures you reach every attraction comfortably, starting at just ${displayRate}.${altText} ${bestTime ? `The best time to visit ${city.name} is ${bestTime}.` : ''} We specialize in full-day sightseeing packages, temple circuit visits, and outstation tours from ${city.name} to nearby cities. All cars are AC and driven by experienced local drivers. Contact ${BUSINESS.phone}.`,
+      `The ideal way to explore ${city.name}'s most iconic sites — ${specialty || city.landmarks?.join(', ') || 'its famous landmarks'} — is with a private cab from ${BUSINESS.name}.${altText} We offer tourist-friendly packages from ${displayRate} including driver-guided sightseeing. ${bestTime ? `The ideal visiting period is ${bestTime}.` : ''} Call ${BUSINESS.phone} or book via WhatsApp for instant confirmation.`,
+      `${BUSINESS.name} offers premium taxi service in ${city.name}, ${stateName} to ensure your travel experience is seamless and enjoyable.${altText} Whether you're visiting ${city.name} for tourism, pilgrimage, or leisure, our reliable cab service starts from ${displayRate}. ${specialty ? `The city is known for its ${specialty}.` : ''} We provide pickups from railway stations, bus stands, and hotels across ${city.name}. Dial ${BUSINESS.phone} for availability.`,
+    ];
+    paragraphs.push(touristTemplates[hash % 6]);
   } else {
     const altText = city.alternateNames && city.alternateNames.length > 0 ? ` Also known as ${city.alternateNames.join(', ')}.` : '';
-    if (templateIndex === 0) {
-      paragraphs.push(
-        `Enjoy safe and reliable commuting with ${BUSINESS.name}, the top cab service in ${city.name}, ${stateName}.${altText} Starting at a flat rate of ${displayRate}, we provide city-wide local drops, outstation cabs, and one-way drop taxis. If you need an AC cab in ${city.name}, a taxi service near me, or quick car rental in ${city.name}, we offer instant bookings with verified drivers. Call ${BUSINESS.phone} to secure your ride.`
-      );
-    } else {
-      paragraphs.push(
-        `For the best taxi booking experience in ${city.name}, trust ${BUSINESS.name} for flat-rate fares starting from ${displayRate}.${altText} We offer prompt doorstep pickups for local, outstation, airport, and station transfers across ${city.name}. Our commercial fleet is clean, air-conditioned, and driven by experienced local chauffeurs. Call us at ${BUSINESS.phone} to book your ride instantly with no advance payment.`
-      );
-    }
+    // 6 unique templates for regular cities
+    const regularTemplates = [
+      `Enjoy safe and reliable commuting with ${BUSINESS.name}, the top cab service in ${city.name}, ${stateName}.${altText} Starting at a flat rate of ${displayRate}, we provide city-wide local drops, outstation cabs, and one-way drop taxis. If you need an AC cab in ${city.name}, a taxi service near me, or quick car rental in ${city.name}, we offer instant bookings with verified drivers. Call ${BUSINESS.phone} to secure your ride.`,
+      `For the best taxi booking experience in ${city.name}, trust ${BUSINESS.name} for flat-rate fares starting from ${displayRate}.${altText} We offer prompt doorstep pickups for local, outstation, airport, and station transfers across ${city.name}. Our commercial fleet is clean, air-conditioned, and driven by experienced local chauffeurs. Call us at ${BUSINESS.phone} to book your ride instantly with no advance payment.`,
+      `${BUSINESS.name} provides affordable and dependable cab service in ${city.name}, ${stateName} from just ${displayRate}.${altText} Our vehicles operate round the clock — covering all localities in ${city.name} for local errands, outstation one-way drops, and highway trips. Verified drivers. No surge pricing. Instant WhatsApp confirmations. Call ${BUSINESS.phone}.`,
+      `Trust ${BUSINESS.name} for your next cab booking in ${city.name}, ${stateName}.${altText} We connect you to all major cities across Eastern India at flat rates starting from ${displayRate}. Our fleet includes compact Sedans for solo travelers, SUVs for families, and Tempo Travellers for groups. 24/7 availability with no extra fees for night trips. Book at ${BUSINESS.phone}.`,
+      `Looking for a cab in ${city.name}, ${stateName}? ${BUSINESS.name} offers unmatched outstation and local taxi service from ${displayRate}.${altText} We serve everyone — from daily commuters to long-distance travelers, airport and railway transfers, and holiday tour groups. All our drivers in ${city.name} are background-verified and trained for long drives. WhatsApp or call ${BUSINESS.phone} anytime.`,
+      `${city.name} travelers choose ${BUSINESS.name} for our fixed fares (from ${displayRate}), zero surge pricing, and 24/7 cab availability.${altText} Whether you're booking a last-minute taxi in ${city.name} or planning a well in advance outstation trip, we deliver reliability and comfort. Clean AC vehicles, experienced drivers, and instant booking confirmation via WhatsApp. Call ${BUSINESS.phone}.`,
+    ];
+    paragraphs.push(regularTemplates[hash % 6]);
   }
 
   // Paragraph 2: City description and why it matters
@@ -106,14 +160,25 @@ function getAboutCityContent(input: CityContentInput): string[] {
     );
   }
 
+  // Paragraph 3.5: Unique city intro / travel note
+  const uniqueIntro = getUniqueCityIntro(city, stateName);
+  paragraphs.push(uniqueIntro);
+
   // Paragraph 4: Transport infrastructure
   const transportPoints: string[] = [];
   if (city.airport) transportPoints.push(`${city.airport} — we provide 24/7 airport pickup and drop with flight tracking, meet & greet, and no extra charge for flight delays`);
   if (city.railway) transportPoints.push(`${city.railway} — our drivers are available for station pickup and drop at all hours`);
   if (transportPoints.length > 0) {
-    paragraphs.push(
-      `${city.name} is well-connected by major transport infrastructure. ${transportPoints.join('. ')}. ${BUSINESS.name} provides seamless last-mile connectivity from these transport hubs to any destination within ${city.name} or outstation routes.`
-    );
+    // 2 variations for transport paragraph
+    if (hash % 2 === 0) {
+      paragraphs.push(
+        `${city.name} is well-connected by major transport infrastructure. ${transportPoints.join('. ')}. ${BUSINESS.name} provides seamless last-mile connectivity from these transport hubs to any destination within ${city.name} or outstation routes.`
+      );
+    } else {
+      paragraphs.push(
+        `Getting to and from ${city.name}'s key transport hubs is simple with ${BUSINESS.name}. ${transportPoints.join('. ')}. Whether you need an early morning airport cab or a late-night railway station pickup in ${city.name}, our 24/7 fleet is always ready with no extra surcharge for odd hours.`
+      );
+    }
   }
 
   // Paragraph 5: Landmarks and attractions coverage
@@ -132,16 +197,14 @@ function getAboutCityContent(input: CityContentInput): string[] {
     );
   }
 
-  // Paragraph 7: Booking and contact
-  if (templateIndex === 0) {
-    paragraphs.push(
-      `Booking a taxi in ${city.name} is quick and hassle-free with ${BUSINESS.name}. Just call ${BUSINESS.phone} or send a message on WhatsApp. We confirm bookings in under 2 minutes, sending driver details and vehicle numbers directly to your phone. We accept Cash, UPI (GPay, PhonePe, Paytm), and Card payments. Operating 24/7, 365 days a year, we ensure reliable travel even during peak holidays and night hours. Book your cab in ${city.name} today.`
-    );
-  } else {
-    paragraphs.push(
-      `At ${BUSINESS.name}, we provide round-the-clock cab booking across all localities of ${city.name}. To book, dial ${BUSINESS.phone} or fill the online reservation form on our site. We guarantee transparent billing with no hidden fees and a free cancellation policy. You can pay via UPI, cards, or directly in cash to the driver after your trip. Trust us for safe, comfortable, and punctual taxi services in ${city.name}.`
-    );
-  }
+  // Paragraph 7: Booking and contact — 4 variations
+  const bookingTemplates = [
+    `Booking a taxi in ${city.name} is quick and hassle-free with ${BUSINESS.name}. Just call ${BUSINESS.phone} or send a message on WhatsApp. We confirm bookings in under 2 minutes, sending driver details and vehicle numbers directly to your phone. We accept Cash, UPI (GPay, PhonePe, Paytm), and Card payments. Operating 24/7, 365 days a year, we ensure reliable travel even during peak holidays and night hours. Book your cab in ${city.name} today.`,
+    `At ${BUSINESS.name}, we provide round-the-clock cab booking across all localities of ${city.name}. To book, dial ${BUSINESS.phone} or fill the online reservation form on our site. We guarantee transparent billing with no hidden fees and a free cancellation policy. You can pay via UPI, cards, or directly in cash to the driver after your trip. Trust us for safe, comfortable, and punctual taxi services in ${city.name}.`,
+    `Reserve your cab in ${city.name} with ${BUSINESS.name} in just 2 minutes — call or WhatsApp ${BUSINESS.phone}. Our booking coordinators are available 24/7 to find you the right vehicle at the right time. All payments are flexible: cash, UPI (Google Pay, PhonePe, Paytm), or debit/credit card. Advance bookings are accepted up to 7 days ahead with free modification before the trip.`,
+    `Need a cab in ${city.name} right now or for a planned trip? Contact ${BUSINESS.name} at ${BUSINESS.phone}. We handle urgent same-hour bookings as well as advance scheduled trips. After confirmation, you'll receive the driver's name, vehicle number, and contact number on WhatsApp. We operate all days including national holidays and festival seasons — no extra charges.`,
+  ];
+  paragraphs.push(bookingTemplates[hash % 4]);
 
   return paragraphs;
 }
