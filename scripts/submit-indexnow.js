@@ -8,7 +8,7 @@
  * Bing, Yandex, Seznam, and Naver support IndexNow natively.
  */
 
-const DOMAIN = 'https://www.kolkatacabservice.com';
+const DOMAIN = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.kolkatacabservice.com';
 const INDEXNOW_KEY = 'f63a562479e04845a7090b84784a9e52';
 const INDEXNOW_ENDPOINT = 'https://api.indexnow.org/IndexNow';
 
@@ -172,10 +172,10 @@ async function submitToIndexNow() {
   console.log(`\n🚀 IndexNow Batch Submission`);
   console.log(`📊 Total URLs: ${urls.length}`);
   console.log(`🔑 Key: ${INDEXNOW_KEY}`);
-  console.log(`🌐 Host: www.kolkatacabservice.com\n`);
+  console.log(`🌐 Host: ${new URL(DOMAIN).hostname}\n`);
 
   const payload = {
-    host: 'www.kolkatacabservice.com',
+    host: new URL(DOMAIN).hostname,
     key: INDEXNOW_KEY,
     keyLocation: `${DOMAIN}/${INDEXNOW_KEY}.txt`,
     urlList: urls,

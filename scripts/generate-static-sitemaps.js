@@ -22,7 +22,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://www.kolkatacabservice.com';
+const DOMAIN = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.kolkatacabservice.com';
 // Use the current build date in IST. The date portion is correct for India;
 // we anchor time to midnight UTC to avoid timezone confusion in GSC.
 const TODAY = new Date();

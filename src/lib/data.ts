@@ -204,7 +204,10 @@ export const BUSINESS = {
   tagline: 'Your Trusted Cab Service in Kolkata & East India',
   hours: '24/7, 365 Days',
   payment: 'Cash, UPI, Card, Online Transfer',
-  domain: 'https://www.kolkatacabservice.com',
+  // Single source of truth for the site domain. Override per-deployment via
+  // NEXT_PUBLIC_SITE_URL (Cloudflare Pages env var) — prevents cross-domain
+  // canonical/sitemap leaks when this codebase is deployed elsewhere.
+  domain: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.kolkatacabservice.com',
   foundYear: 2020,
   gbpLink: 'https://g.page/r/CcJ-ldDglNfaEBM/review',
   gbpReviewLink: 'https://g.page/r/CcJ-ldDglNfaEBM/review',

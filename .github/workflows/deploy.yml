@@ -77,7 +77,9 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         # Deploys ./out/ (static HTML) + ./functions/ (Pages Functions for API routes)
-        run: npx wrangler@latest pages deploy out --project-name=kolkata-cab-service --commit-dirty=true
+        # --branch=main is REQUIRED: without it, CI detached HEAD can make the deploy
+        # land as a PREVIEW deployment and production keeps serving a stale build.
+        run: npx wrangler@latest pages deploy out --project-name=kolkata-cab-service --branch=main --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}

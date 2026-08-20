@@ -22,7 +22,7 @@ const ROOT = path.join(__dirname, '..');
 const BLOGS_PATH = path.join(ROOT, 'src/data/blogs.json');
 const PUBLIC_DIR = path.join(ROOT, 'public');
 
-const DOMAIN = 'https://www.kolkatacabservice.com';
+const DOMAIN = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.kolkatacabservice.com';
 const BUSINESS_NAME = 'Kolkata Cab Service';
 const BUSINESS_EMAIL = 'kolkatacabtaxiservices@gmail.com';
 const LAST_BUILD_DATE = 'Wed, 11 Jun 2026 00:00:00 +0000';
@@ -194,7 +194,6 @@ Allow: /
 User-agent: DuckAssistBot
 Allow: /
 
-Sitemap: ${DOMAIN}/sitemap_index.xml
 Sitemap: ${DOMAIN}/sitemap.xml
 `;
 
